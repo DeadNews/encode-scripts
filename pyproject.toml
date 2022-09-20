@@ -21,3 +21,11 @@ ignore = [
   "E402", # Module level import not at top of file.
   "F541", # f-string is missing placeholders.
 ]
+
+[tool.mypy]
+disallow_untyped_defs = true
+follow_imports = "silent"
+ignore_missing_imports = true
+show_column_numbers = true
+show_error_codes = true
+warn_unused_ignores = true

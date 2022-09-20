@@ -37,5 +37,7 @@ dmypy.json
 # encode
 in/
 out/
+in
+out
 *.png
 !mask/*.png
