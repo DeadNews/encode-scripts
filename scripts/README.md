@@ -16,6 +16,9 @@ find . -regextype egrep -iregex ".*\.(py|vpy)$" -exec scripts/replace_maps.py '{
 # Move chapters folder
 find . -type d -exec rename -n 's|(.*)/in/chapters$|$1/chapters|' '{}' +
 
+# Change vpy extensions
+find . -type f -iname '*.vpy' -exec rename '.vpy' '.py' '{}' +
+
 # Move bookmarks
 find . -type f -iname '*.bookmarks' -not -path "*/bookmarks/*" -execdir sh -c "mkdir -p bookmarks && mv '{}' bookmarks" \;
 ```
