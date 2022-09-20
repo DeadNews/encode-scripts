@@ -5,9 +5,6 @@
 ```sh
 # Replace in py via sed script-file
 find . -iname '*.py' -exec sed -i -f scripts/replace.sed '{}' +
-
-# Replace in py via py script
-find . -iname '*.py' -exec scripts/replace_maps.py '{}' +
 ```
 
 ## Rename
