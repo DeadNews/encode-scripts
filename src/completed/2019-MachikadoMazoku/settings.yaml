@@ -1,0 +1,8 @@
+aa:
+  main:
+    desc_h: 937.5
+    desc_str: 0.26
+    kernel: bicubic
+    alpha: 0.115
+    beta: 0.325
+    gamma: 1000.0

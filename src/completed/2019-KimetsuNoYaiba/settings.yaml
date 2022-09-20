@@ -1,0 +1,112 @@
+filt:
+  main:
+    rt_sigma: 0.8
+    # sm_thr: 20
+    # sm_thr: 18
+    sm_thr: 16
+    dn_ttsmooth: true
+    sm_pref_mode: 2
+    dn_pref: true
+    dn_pref_scaling: 5
+    dn_expr: x 600 +
+    cs_mode: 3 # rt_mask_mix
+    cs_val: 0.93
+    #
+    db_thr: 1
+    db_mode: 3
+    # db_det: 60
+    db_det: 55
+    db_grain: 38
+    db_gf_mode: 1
+    db_pref: true
+    db_rt_mode: 2
+    db_saveblack: 2
+    db_expr: x 1600 +
+    db_adaptive:
+      z2:
+        # scaling: 4
+        scaling: 3.5
+        db_thr: 5
+        db_mode: 3
+        #
+    ag_str: 0
+    ag_scaling: 24
+    ag_saveblack: 2
+  grain_op:
+    sm_thr: 20
+    ag_str: 0.50
+    ag_scaling: 1
+    cs_mode: 1
+    db_expr: x 60 +
+  noise_1: &noise
+    sm_thr: 63
+    dn_expr: x 540 +
+    cs_mode: 1
+    db_det: 60
+    db_grain: 48
+    db_expr: x 60 +
+    ag_str: 0.12
+    ag_scaling: 1
+  noise_2:
+    <<: *noise
+    sm_thr: 23
+    db_grain: 38
+    db_expr: x 1600 +
+    ag_str: 0
+  noise_3:
+    <<: *noise
+    sm_thr: 80
+    db_thr: 1.1
+    db_saveblack: 1
+    ag_saveblack: 1
+    ag_scaling: 20
+  noise_4:
+    <<: *noise
+    db_grain: 38
+    db_expr: x 1000 +
+    ag_str: 0
+  noise_op:
+    <<: *noise
+    ag_str: 0.30
+    ag_scaling: 0.1
+  noise_e5:
+    <<: *noise
+    sm_thr: 80
+    db_saveblack: 1
+    ag_saveblack: 1
+    ag_str: 0.30
+  noise_e10:
+    <<: *noise
+    db_saveblack: 1
+    ag_saveblack: 1
+    ag_str: 0.30
+  noise_e13:
+    <<: *noise
+    sm_thr: 56
+    ag_str: 0.30
+  grain_1:
+    sm_thr: 20
+    ag_scaling: 5
+    ag_str: 0.20
+  menu:
+    sm_thr: 20
+    cs_val: 0.3
+
+aa:
+  main:
+    desc_h: 855
+    desc_str: 0.30
+    kernel: bicubic
+    bic_b: 0.20
+    bic_c: 0.40
+    nsize: 4
+    # gamma: 500
+
+dehalo:
+  main:
+    # rx: 1.6
+    # darkstr: 0
+    # brightstr: 0.8
+    rx: 2
+    darkstr: 0
+    brightstr: 1

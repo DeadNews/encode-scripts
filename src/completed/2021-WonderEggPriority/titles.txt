@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+title: Wonder Egg Priority
+_year: 2021
+anidb: https://anidb.net/anime/15772
+
+e1: EP1 «The Domain of Children»
+e2: EP2 «The Terms of Friendship»
+e3: EP3 «A Bare Knife»
+e4: EP4 «Colorful Girls»
+e5: EP5 «The Girl Flautist»
+e6: EP6 «Punch Drunk Day»
+e7: EP7 «After School at 14»
+e8: EP8 «The Happy Friendship Plan»
+e9: EP9 «A Story No One Knows»
+e10: EP10 «Confession»
+e11: EP11 «An Adult Child»
+e12: EP12 «An Unvanquished Warrior»
+
+s1: S1 «My Priority»
+
+op: OP «Sudachi no Uta»
+ed: ED «Life Is Cider»
+pv: PV

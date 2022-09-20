@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+title: NonNonBiyoriS2
+
+pattern: '/run/media/deadnews/data1/releases/ [Non Non Biyori]/[Kawaiika-Raws] (2015) Non Non Biyori Repeat [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Non Non Biyori S2E## [BDRip 1920x1080 HEVC FLAC].mkv'
+# pattern: '/run/media/deadnews/data1/temp/Non Non Biyori S1,S2 [BD x264 10bit 1920x1080 FLAC] [km]/Non Non Biyori Repeat [BD x264 1920x1080 FLAC] [km]/Non Non Biyori Repeat ## [BD x264 1920x1080 FLAC] [km].mkv'
+
+e1: 3842 3963 8002
+e2: 17846 19883
+
+# e1 --offset 24

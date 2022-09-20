@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+title: Miru Tights
+_year: 2019
+anidb: https://anidb.net/anime/14571
+
+e1: EP1 «School Commute Tights»
+e2: EP2 «Cosplay Selfie Tights»
+e3: EP3 «Changing Tights»
+e4: EP4 «Working Tights»
+e5: EP5 «Swimsuit Tights»
+e6: EP6 «Tatami and Tights»
+e7: EP7 «Temptation Tights»
+e8: EP8 «Reflexology Tights»
+e9: EP9 «Tights Under the Kotatsu»
+e10: EP10 «Earpick Tights»
+e11: EP11 «Valentights»
+e12: EP12 «Travel Tights»
+e13: S1 «Cosplay Shooting Tights»
+
+ed1: ED1 «True Days (Ren ver.) (1, 4, 7, 11)»
+ed2: ED2 «True Days (Yua ver.) (2, 6, 8, S1)»
+ed3: ED3 «True Days (Homi ver.) (3, 5, 9-10)»

@@ -1,0 +1,32 @@
+# aa:
+#       desc_h: 720
+#       # desc_h: 864
+#       desc_str: 0.20
+#       kernel: bilinear
+#       gamma: 1000
+
+aa:
+  main:
+    desc_h: 720
+    # desc_str: 0.80
+    desc_str: 0.28
+    kernel: bilinear
+    gamma: 1
+
+dehalo:
+  main:
+    rx: 2.5
+    # darkstr: 0.6
+    darkstr: 0.3
+    # brightstr: 1.5
+    brightstr: 1
+    mode: kirsch
+    max_c: 6
+    min_c: 1
+  2nd:
+    rx: 1.5
+    darkstr: 0
+    brightstr: 1.5
+  3nd:
+    rx: 2.0
+    darkstr: 0

@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+title: Nisemonogatari
+# pattern: '/run/media/deadnews/data1/encode/Nisemonogatari/out/[Kawaiika-Raws] Nisemonogatari (2012) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Nisemonogatari ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/gatari/Nisemonogatari [BDRip] [1080p]/[Yousei-raws] Nisemonogatari ## [BDrip 1920x1080 x264 FLAC].mkv'
+
+pattern: '/run/media/deadnews/data1/encode/+gatari/Nisemonogatari/out/[Kawaiika-Raws] Nisemonogatari (2012) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Nisemonogatari ## [BDRip 1920x1080 HEVC FLAC].mkv'
+
+e1: 248
+e2: 2539 33129
+e3: 17390 14782
+e4: 3120 4800
+e5: 15122 15302
+e6: 11797
+e8: 22477
+e11: 6178 23392

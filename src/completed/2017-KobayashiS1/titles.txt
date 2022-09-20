@@ -1,0 +1,40 @@
+#!/usr/bin/env sh
+
+title: Kobayashi-san Chi no Maidragon
+short: Kobayashi-san (2017)
+_year: 2017
+anidb: https://anidb.net/anime/12091
+
+e1: EP1 «The Strongest Maid in History, Tohru! (Well, She Is a Dragon)»
+e2: EP2 «Second Dragon, Kanna! (We`re Totally Spoiling Here)»
+e3: EP3 «Start of a New Life! (That Doesn`t Go Well, Of Course)»
+e4: EP4 «Kanna Goes to School! (Not That She Needs To)»
+e5: EP5 «Tohru`s Real World Lessons! (She Thinks She Understands It Already)»
+e6: EP6 «Home Visit! (And Homes Not Visited)»
+e7: EP7 «Summer`s Staples! (The Fanservice Episode, Frankly)»
+e8: EP8 «New Dragon, Elma! (She`s Finally Appearing, Huh?)»
+e9: EP9 «Sports Festival! (There`s No Twist or Anything)»
+e10: EP10 «Troupe Dragon, on Stage! (They Had a Troupe Name, Huh)»
+e11: EP11 «Year End, New Year! (No Comiket Bit This Time)»
+e12: EP12 «Tohru and Kobayashi`s Impactful Meeting! (We`re Raising the Bar on Ourselves)»
+e13: EP13 «Emperor of Demise Arrives! (It Was the Final Episode Before We Knew It)»
+e14: EP14 «Valentines and Hot Springs! (Please Don`t Get Your Hopes Up)»
+
+s1: S1 «Band / Mermaid / India / Iceland / New Zealand / Avocado / Do Re Mi Fa So La Si Do / Nude»
+s2: S2 «Animal: Cat / Bear / Sea Otter / Bunny / Dragon / Koala»
+s3: S3 «Uniform: Nurse / High School Girl / Cabin Attendant / Police / Maid»
+s4: S4 «Battle: Western / Ganryuujima / Kung Fu / Role-playing Game / Battlefield»
+s5: S5 «Sports: Football / Volleyball / Swimming / Kendo / Cheerleader»
+s6: S6 «Mystery: Two Hours Suspense Drama / Closed Circle / Locked Room Trick / Time Table Trick / Threatening Letter / Holmes»
+s7: S9 «Wedding: Pure White Dress / Sacrifice / Matryoshka / The Wedding Aisle»
+
+op: OP «Aozora no Rhapsody»
+ed: ED «Ishukan Communication»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6
+m7: M7

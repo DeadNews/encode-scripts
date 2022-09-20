@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: SteinsGate2018-2
+pattern: '/run/media/deadnews/data1/temp/temp/[VCB-Studio] Steins;Gate 0 [Ma10p_1080p]/[VCB-Studio] Steins;Gate 0 [##][Ma10p_1080p][x265_flac].mkv' '/run/media/deadnews/data1/releases/[Kawaiika-Raws] (2018) Steins;Gate 0 [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Steins;Gate 0 - ## [BDRip 1920x1080 HEVC FLAC].mkv'
+
+e1: 129 489 1449 5648 6008 6129 25322 27946 31010 34357
+e2: 700 1180 1780 2633 2753 5020
+e9: 19177 20857 25440 26040
+e24: 6110 8509 9589

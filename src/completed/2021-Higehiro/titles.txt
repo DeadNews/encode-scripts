@@ -1,0 +1,28 @@
+#!/usr/bin/env sh
+
+title: Hige o Soru. Soshite Joshikousei o Hirou.
+short: Higehiro
+_year: 2021
+anidb: https://anidb.net/anime/15332
+
+e1: EP1 «The Teenage Girl Beneath the Lamplight»
+e2: EP2 «Cell Phone»
+e3: EP3 «Living Together»
+e4: EP4 «Part-Time Job»
+e5: EP5 «Reality»
+e6: EP6 «Starry Sky»
+e7: EP7 «Yearning»
+e8: EP8 «Summer Festival»
+e9: EP9 «Past»
+e10: EP10 «Proof»
+e11: EP11 «Resolve»
+e12: EP12 «Mother»
+e13: EP13 «Future»
+
+op: OP «Omoide Shiritori»
+ed: ED «Plastic Smile»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4

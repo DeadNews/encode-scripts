@@ -1,0 +1,35 @@
+#!/usr/bin/env sh
+
+title: Vinland Saga
+_year: 2019
+anidb: https://anidb.net/anime/13945
+
+e1: EP1 «Somewhere Not Here»
+e2: EP2 «Sword»
+e3: EP3 «Troll»
+e4: EP4 «A True Warrior»
+e5: EP5 «The Troll`s Son»
+e6: EP6 «The Journey Begins»
+e7: EP7 «Normanni»
+e8: EP8 «Beyond the Edge of the Sea»
+e9: EP9 «The Battle of London Bridge»
+e10: EP10 «Ragnarok»
+e11: EP11 «A Gamble»
+e12: EP12 «The Land on the Far Bank»
+e13: EP13 «Child of a Hero»
+e14: EP14 «The Light of Dawn»
+e15: EP15 «After Yule»
+e16: EP16 «History of Beasts»
+e17: EP17 «Servant»
+e18: EP18 «Out of the Cradle»
+e19: EP19 «United Front»
+e20: EP20 «Crown»
+e21: EP21 «Reunion»
+e22: EP22 «Lone Wolf»
+e23: EP23 «Miscalculation»
+e24: EP24 «End of the Prologue»
+
+op1: OP1 «Mukanjyo»
+op2: OP2 «Dark Crow»
+ed1: ED1 «Torches»
+ed2: ED2 «Drown»

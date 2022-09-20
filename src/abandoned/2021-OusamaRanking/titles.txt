@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+
+title: Ousama Ranking
+short: Ranking of Kings
+_year: 2021
+anidb: https://anidb.net/anime/15298
+
+e1: EP1 «The Prince`s New Clothes»
+e2: EP2 «The Prince and Kage»
+e3: EP3 «The New King»
+e4: EP4 «His First Journey»
+e5: EP5 «Intertwining Plots»
+e6: EP6 «The King of the Underworld»
+e7: EP7 «The Prince`s Apprenticeship»
+e8: EP8 «The Sacrifice of Dreams»
+e9: EP9 «The Queen and the Shield»
+e10: EP10 «The Prince`s Sword»
+e11: EP11 «Older and Younger Brothers»
+e12: EP12 «The Footsteps of War»
+e13: EP13 «The Kingdom in Turmoil»
+e14: EP14 «The Return of the Prince»
+e15: EP15 «The Order of the Underworld»
+e16: EP16 «Royal Majesty»
+e17: EP17 «The Curse of Immortality»
+
+e18: EP18 «Episode 18»
+e19: EP19 «Episode 19»
+e20: EP20 «Episode 20»
+e21: EP21 «Episode 21»
+e22: EP22 «Episode 22»
+e23: EP23 «Episode 23»
+
+op1: OP1 «Boy»
+op2: OP2 «Hadaka no Yuusha»
+ed1: ED1 «Oz.»
+ed2: ED2 «Flare»

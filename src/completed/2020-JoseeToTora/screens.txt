@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: 2020-Josee-the-Tiger-and-the-Fish
+pattern: '/run/media/deadnews/data1/encode/2020-Josee-the-Tiger-and-the-Fish/out/e1 (2021-09-13 05:20:08).mp4' '/run/media/deadnews/data1/temp/[Beatrice-Raws] Josee to Tora to Sakana-tachi [BDRip 1920x804 HEVC DTSHD]/[Beatrice-Raws] Josee to Tora to Sakana-tachi [BDRip 1920x804 HEVC DTSHD].mkv'
+
+e1:  38391 55758 56370 84510 91165

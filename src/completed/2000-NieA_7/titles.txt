@@ -1,0 +1,29 @@
+#!/usr/bin/env sh
+
+title: NieA Under 7
+short: NieA_7
+_year: 2000
+anidb: https://anidb.net/anime/46
+
+e1: EP1 «Alien & Launching UFO - Bath»
+e2: EP2 «Alien & Violence - Cosmic Bath»
+e3: EP3 «Alien & Radio Noise - Bath»
+e4: EP4 «Alien & Beginner Waitress Bath»
+e5: EP5 «Alien & Dried Up Amusements Bath»
+e6: EP6 «Alien & Rival Hot Spring Bath»
+e7: EP7 «Mothership, Go-Con & Cloudy Skies Bath»
+e8: EP8 «Melancholy & Cast-Off Summer Bath»
+e9: EP9 «Close Encounter & After The Rain Bath»
+e10: EP10 «Glow Of The Firefly And Nocturne Bath»
+e11: EP11 «NieA Under Seven Bath (Former Part)»
+e12: EP12 «NieA Under Seven Bath (Latter Part)»
+e13: EP13 «Time Flows By In Enohana Bath»
+
+# s1: S1
+# s2: S2
+# m1: M
+pv: PV
+
+op1: OP «Koko made Oide»
+ed1: ED1 «Venus to Chiisana Kamisama»
+ed2: ED2 «Ka Moa`e»

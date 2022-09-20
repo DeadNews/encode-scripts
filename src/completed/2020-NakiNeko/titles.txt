@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+title: Nakitai Watashi wa Neko o Kaburu
+short: NakiNeko
+_year: 2020
+anidb: https://anidb.net/anime/15373
+
+e1: «A Whisker Away»

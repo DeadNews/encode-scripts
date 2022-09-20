@@ -1,0 +1,47 @@
+#!/usr/bin/env sh
+
+title: Bakemonogatari
+_year: 2009
+
+e1: EP1 «Hitagi Crab 1/2»
+e2: EP2 «Hitagi Crab 2/2»
+e3: EP3 «Mayoi Snail 1/3»
+e4: EP4 «Mayoi Snail 2/3»
+e5: EP5 «Mayoi Snail 3/3»
+e6: EP6 «Suruga Monkey 1/3»
+e7: EP7 «Suruga Monkey 2/3»
+e8: EP8 «Suruga Monkey 3/3»
+e9: EP9 «Nadeko Snake 1/2»
+e10: EP10 «Nadeko Snake 2/2»
+e11: EP11 «Tsubasa Cat 1/5»
+e12: EP12 «Tsubasa Cat 2/5»
+e13: EP13 «Tsubasa Cat 3/5»
+e14: EP14 «Tsubasa Cat 4/5»
+e15: EP15 «Tsubasa Cat 5/5»
+
+ed1: ED1a «Kimi no Shiranai Monogatari»
+ed2: ED1b «Kimi no Shiranai Monogatari»
+ed3: ED1c «Kimi no Shiranai Monogatari»
+# ed_e5: ED_EP5
+# ed_e8: ED_EP8
+ed_e5: E5_titles
+ed_e8: E8_titles
+
+op2: OP2 «Kaerimichi»
+op3: OP3 «Ambivalent World»
+op4: OP4a «Renai Circulation»
+op5: OP4b «Renai Circulation»
+op6: OP5b «Sugar Sweet Nightmare»
+
+pv1: PV01
+pv2: PV02
+pv3: PV03
+pv4: PV04
+pv5: PV05
+pv6: PV06
+pv7: PV07
+pv8: PV08
+pv9: PV09
+pv10: PV10
+pv11: PV11
+pv12: PV12

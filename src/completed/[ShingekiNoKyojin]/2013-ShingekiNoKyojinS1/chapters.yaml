@@ -1,0 +1,201 @@
+e1:
+  Avant: 0
+  OP: 2949
+  Part_A: 5155
+  Part_B: 18078
+  ED: 34405
+  Next: 36562
+  EOF: 36946
+e2:
+  Avant: 0
+  OP: 1044
+  Part_A: 3237
+  Part_B: 15776
+  ED: 32248
+  Next: 34405
+  T1: 34437
+  T2: 34706
+  EOF: 34789
+e3:
+  OP: 0
+  Part_A: 2206
+  Part_B: 17934
+  ED: 32248
+  Next: 34405
+  T1: 34437
+  T2: 34712
+  EOF: 34789
+e4:
+  Avant: 0
+  OP: 912
+  Part_A: 3117
+  Part_B: 20235
+  ED: 32248
+  Next: 34405
+  EOF: 34789
+e5:
+  Avant: 0
+  OP: 1248
+  Part_A: 3453
+  Part_B: 13954
+  ED: 32175
+  Next: 34332
+  EOF: 34716
+e6:
+  OP: 0
+  Part_A: 2206
+  Part_B: 14770
+  ED: 32177
+  Next: 34334
+  EOF: 34718
+e7:
+  Avant: 0
+  OP: 2722
+  Part_A: 4915
+  Part_B: 19637
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e8:
+  Avant: 0
+  OP: 1440
+  Part_A: 3645
+  Part_B: 15202
+  ED: 32177
+  Next: 34334
+  EOF: 34718
+e9:
+  Avant: 0
+  OP: 803
+  Part_A: 2997
+  Part_B: 18174
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e10:
+  Avant: 0
+  OP: 1176
+  Part_A: 3381
+  Part_B: 14338
+  ED: 32177
+  Next: 34334
+  EOF: 34718
+e11:
+  Avant: 0
+  OP: 1358
+  Part_A: 3549
+  Part_B: 20499
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e12:
+  Avant: 0
+  OP: 2782
+  Part_A: 4987
+  Part_B: 17526
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e13:
+  Avant: 0
+  OP: 4521
+  Part_A: 6714
+  Part_B: 19325
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e14:
+  Avant: 0
+  OP: 1201
+  Part_A: 3357
+  Part_B: 14194
+  ED: 32177
+  Next: 34334
+  EOF: 34718
+e15:
+  Avant: 0
+  OP: 768
+  Part_A: 2925
+  Part_B: 16808
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e16:
+  OP: 0
+  Part_A: 2158
+  Part_B: 15418
+  ED: 32177
+  Next: 34334
+  EOF: 34718
+e17:
+  Avant: 0
+  OP: 1942
+  Part_A: 4101
+  Part_B: 16451
+  ED: 32179
+  Next: 34336
+  EOF: 34720
+e18:
+  Avant: 0
+  OP: 3045
+  Part_A: 5203
+  Part_B: 18246
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e19:
+  Avant: 0
+  OP: 2446
+  Part_A: 4604
+  Part_B: 17478
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e20:
+  Avant: 0
+  OP: 2901
+  Part_A: 5059
+  Part_B: 15202
+  ED: 32177
+  Next: 34334
+  EOF: 34718
+e21:
+  Avant: 0
+  OP: 4603
+  Part_A: 6762
+  Part_B: 19781
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e22:
+  Avant: 0
+  OP: 2398
+  Part_A: 4555
+  Part_B: 17598
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e23:
+  OP: 0
+  Part_A: 2158
+  Part_B: 18414
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e24:
+  Avant: 0
+  OP: 1199
+  Part_A: 3357
+  Part_B: 18438
+  ED: 32176
+  Next: 34333
+  EOF: 34717
+e25:
+  Avant: 0
+  OP: 1582
+  Part_A: 3741
+  Part_B: 21602
+  Part_C: 30672
+  ED: 32296
+  Next: 33807
+  EOF: 34358

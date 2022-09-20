@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+
+title: Detroit Metal City
+_year: 2008
+anidb: https://anidb.net/anime/5587
+
+e1: EP1 «PV / Sick Murderer»
+e2: EP2 «Real Legend / Satan»
+e3: EP3 «Pig / Drug»
+e4: EP4 «Frustration / Good Song»
+e5: EP5 «Masochist / Family»
+e6: EP6 «Punk.1 / Punk.2»
+e7: EP7 «Tower / Confession»
+e8: EP8 «Promise / Alternation»
+e9: EP9 «Cinema.1 / Cinema.2»
+e10: EP10 «Fake / Detroit-Moe-City»
+e11: EP11 «Hip Hop.1 / Hip Hop.2»
+e12: EP12 «Emperor.1 / Emperor.2»
+
+op: OP «Satsugai»

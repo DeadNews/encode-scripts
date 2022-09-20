@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+title: Kaze Tachinu
+_year: 2013
+anidb: https://anidb.net/anime/9514
+
+e1: «The Wind Rises»
+
+m1: M
+ed: ED (eng ver.)

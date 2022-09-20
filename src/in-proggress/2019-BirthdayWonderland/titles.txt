@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: Birthday Wonderland
+_year: 2019
+anidb: https://anidb.net/anime/14589
+
+e1: «The Wonderland»
+
+m1: M1

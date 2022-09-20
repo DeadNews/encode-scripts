@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+
+title: KonoSuba S1
+_year: 2016
+short: KonoSuba
+seasn: 1
+anidb: https://anidb.net/anime/11261
+
+e1: EP1 «This Self-Proclaimed Goddess and Reincarnation in Another World!»
+e2: EP2 «An Explosion for this Chunibyo!»
+e3: EP3 «A Panty Treasure in this Right Hand!»
+e4: EP4 «Explosion Magic for this Formidable Enemy!»
+e5: EP5 «A Price for this Cursed Sword!»
+e6: EP6 «A Conclusion to this Worthless Fight!»
+e7: EP7 «A Second Death in this Freezing Season!»
+e8: EP8 «A Loving Hand for Our Party When We Can`t Make It Through Winter!»
+e9: EP9 «God`s Blessing on this Wonderful Shop!»
+e10: EP10 «Final Flame for this Over-the-Top Fortress!»
+e11: EP11 «God`s blessing on this Wonderful Choker!»
+
+op: OP «Fantastic Dreamer»
+ed: ED «Chiisana Boukensha»
+pv: PV «Program Sponsors»
+
+# rename -v ed1 ed * */* */*/*
+# rename -v op1 op * */* */*/*

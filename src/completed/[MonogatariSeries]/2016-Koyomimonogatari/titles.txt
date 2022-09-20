@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+
+title: Koyomimonogatari
+_year: 2016
+
+e1: EP1 «Koyomi Stone»
+e2: EP2 «Koyomi Flower»
+e3: EP3 «Koyomi Sand»
+e4: EP4 «Koyomi Water»
+e5: EP5 «Koyomi Wind»
+e6: EP6 «Koyomi Tree»
+e7: EP7 «Koyomi Tea»
+e8: EP8 «Koyomi Mountain»
+e9: EP9 «Koyomi Torus»
+e10: EP10 «Koyomi Seed»
+e11: EP11 «Koyomi Nothing»
+e12: EP12 «Koyomi Dead»
+
+ed1: ED «Whiz»

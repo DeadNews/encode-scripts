@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+title: Yoru wa Mijikashi Aruke yo Otome
+_year: 2017
+anidb: https://anidb.net/anime/12647
+
+e1: «The Night Is Short, Walk on Girl»

@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+title: Bokutachi no Remake
+_year: 2021
+anidb: https://anidb.net/anime/15320
+
+e1: EP1 «Nothing Was Working Out»
+e2: EP2 «Ten Years Back in Time»
+e3: EP3 «Just Who Am I?»
+e4: EP4 «Consider What You Can Do»
+e5: EP5 «Reveal Your Feelings»
+e6: EP6 «We`ll Figure It Out»
+e7: EP7 «Tackling Awkward Situations»
+e8: EP8 «Produce Results»
+e9: EP9 «Showing Off»
+e10: EP10 «Learn Lessons»
+e11: EP11 «Be Prepared»
+e12: EP12 «Facing Forward Again»
+
+op: OP «Koko kara Saki wa Uta ni Naranai»
+ed: ED «Kanousei»
+
+m1: M1
+m2: M2

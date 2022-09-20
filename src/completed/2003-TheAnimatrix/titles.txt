@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+title: The Animatrix
+_year: 2003
+anidb: https://anidb.net/anime/517
+
+e1: EP1 «Final Flight of the Osiris»
+e2: EP2 «The Second Renaissance Part 1»
+e3: EP3 «The Second Renaissance Part 2»
+e4: EP4 «Kid`s Story»
+e5: EP5 «Program»
+e6: EP6 «World Record»
+e7: EP7 «Beyond»
+e8: EP8 «A Detective Story»
+e9: EP9 «Matriculated»

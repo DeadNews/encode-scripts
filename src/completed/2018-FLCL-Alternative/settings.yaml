@@ -1,0 +1,45 @@
+filt:
+  main:
+    rt_sigma: 0.8
+    sm_thr: 112
+    dn_pref: true
+    dn_pref_scaling: 4
+    cs_val: 0.83
+    #
+    db_thr: 2.25
+    db_mode: 3
+    db_rt_mode: 3
+    db_grain: 48
+    db_saveblack: 1
+    db_adaptive:
+      z2:
+        scaling: 3
+        db_thr: 7
+        db_mode: 3
+        #
+    ag_str: 0.15
+    ag_scaling: 20
+  #
+  old:
+    rt_sigma: 0.8
+    sm_thr: 86
+    dn_pref: false
+    cs_mode: 99
+    cs_val: 0.52
+    #
+    db_thr: 2.25
+    db_mode: 3
+    db_gf_mode: 1
+    db_rt_mode: 1
+    db_det: 64
+    db_grain: 48
+    db_saveblack: 0
+    db_adaptive: 0
+    ag_str: 0
+
+aa:
+  main:
+    desc_h: 720
+    desc_str: 0.67
+    kernel: bicubic
+    gamma: 1000

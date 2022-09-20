@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+
+title: Somali to Mori no Kamisama
+_year: 2020
+anidb: https://anidb.net/anime/14785
+
+e1: EP1 «Journeying Parent and Child»
+e2: EP2 «Edible Herbs and the Oni`s Dwelling»
+e3: EP3 «The Sea at the Bottom of the Cave»
+e4: EP4 «The Wishing Flower and the Promise Request»
+e5: EP5 «The Wandering Birds»
+e6: EP6 «Dying Flowers Look up at the Birds»
+e7: EP7 «The Footsteps That Stalk the Witches»
+e8: EP8 «Meetings and Bonds Prayed For»
+e9: EP9 «Memories of Minor Days»
+e10: EP10 «The Infant Child and the Green Fortress»
+e11: EP11 «Who Protect and Those Who Threaten»
+e12: EP12 «Father and Child»
+
+ed: ED «Arigatou wa Kocchi no Kotoba»
+op: OP «Kokoro Somali»

@@ -1,0 +1,29 @@
+#!/usr/bin/env sh
+
+title: Himouto! Umaru-chan R
+short: Umaru-chan R
+_year: 2017
+
+e1: EP1 «The Himouto Returns»
+e2: EP2 «Umaru and Alex»
+e3: EP3 «Umaru and Friends»
+e4: EP4 «A Party with the Whole Gang»
+e5: EP5 «Big Brother Departs»
+e6: EP6 «Umaru and Dreams»
+e7: EP7 «Umaru and Amusement Parks»
+e8: EP8 «Umaru and Hikari»
+e9: EP9 «Himouto and Memories»
+e10: EP10 «First Time for Everyone»
+e11: EP11 «Umaru and the Starry Sky»
+e12: EP12 «Everyone and Umaru»
+
+op: OP «Nimensei Uraomote Life!»
+ed: ED «Umarun Taisou»
+
+pv: PV
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6

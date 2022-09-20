@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+title: Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.
+short: Bofuri
+_year: 2020
+anidb: https://anidb.net/anime/14523
+
+e1: EP1 «Defense and First Battle»
+e2: EP2 «Defense and Friends»
+e3: EP3 «Defense and Reaching Second Level»
+e4: EP4 «Defense and Second Event»
+e5: EP5 «Defense and Spoils of War»
+e6: EP6 «Defense and Reinforcements»
+e7: EP7 «Defense and Upgrades»
+e8: EP8 «Defense and Third Event»
+e9: EP9 «Defense and Fourth Event»
+e10: EP10 «Defense and Attack»
+e11: EP11 «Defense and Mighty Foe»
+e12: EP12 «Defense and Bonds»
+
+op: OP «Kyuukyoku Imbalance!»
+ed: ED «Play the World»
+
+pv: PV

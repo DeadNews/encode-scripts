@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+title: Luo Xiao Hei Zhanji
+_year: 2019
+anidb: https://anidb.net/anime/15253
+
+e1: «The Legend of Hei»

@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+title: Nankoko
+pattern:   '/run/media/deadnews/data1/encode/Nankoko/out/[Kawaiika-Raws] Nande Koko ni Sensei ga! (2019) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Nankoko ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Nande Koko ni Sensei ga! [BDRip] [1080p]/[UCCUSS] Nande Koko ni Sensei ga! ## (BD 1920x1080p AVC FLAC).mkv'
+
+e1: 2345 7315 11295
+e2: 4980 7434 7468 15877
+e3: 5220
+e5: 16543
+e6: 6617
+e12: 15153 16113
+e13: 9790

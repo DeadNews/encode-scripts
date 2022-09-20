@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+title: Hanamonogatari
+_year: 2014
+
+e1: EP1 «Suruga Devil 1/5»
+e2: EP2 «Suruga Devil 2/5»
+e3: EP3 «Suruga Devil 3/5»
+e4: EP4 «Suruga Devil 4/5»
+e5: EP5 «Suruga Devil 5/5»
+
+ed1: ED «The Last Day of My Adolescence»
+op1: OP «Hana Ato: Shirushi»

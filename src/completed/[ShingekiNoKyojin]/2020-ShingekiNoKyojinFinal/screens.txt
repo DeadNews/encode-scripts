@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: 2020-ShingekiNoKyojinFinal
+pattern:  '/run/media/deadnews/data1/temp/[ReinForce] Shingeki no Kyojin (BDRip 1920x1080 x264 FLAC)/[ReinForce] Shingeki no Kyojin - 60 (BDRip 1920x1080 x264 FLAC).mkv' '/run/media/deadnews/data1/encode/2020-ShingekiNoKyojinFinal/out/[Kawaiika-Raws] (2020) Shingeki no Kyojin Final [WEBRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Shingeki no Kyojin (2020) 01 [WEBRip 1920x1080 HEVC FLAC].mkv'
+
+e1: 19667 19811 2252 23123 24850 26330 30185 3855

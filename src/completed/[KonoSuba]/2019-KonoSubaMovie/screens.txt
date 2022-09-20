@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: KonoSuba2019
+pattern: '/run/media/deadnews/data1/releases/ [KonoSuba]/[Kawaiika-Raws] (2019) KonoSuba – Kurenai Densetsu [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] KonoSuba – Kurenai Densetsu [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/[Beatrice-Raws] Kono Subarashii Sekai ni Shukufuku wo! Kurenai Densetsu [BDRip 1920x1080 HEVC FLAC]/[Beatrice-Raws] Kono Subarashii Sekai ni Shukufuku wo! Kurenai Densetsu [BDRip 1920x1080 HEVC FLAC] (1).mkv'
+
+e1: 1545 1703 1871 3109 3664 4259

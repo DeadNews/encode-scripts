@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+title: MushishiS19
+pattern:  '/run/media/deadnews/data1/temp/temp/Mushishi Special/[27] Mushishi Special 1 серия.mkv' '/run/media/deadnews/data1/releases/ [Mushishi]/[Kawaiika-Raws] (2014) Mushishi – Hihamu Kage [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Mushishi S2E00 [BDRip 1920x1080 HEVC FLAC].mkv'
+
+# e1: 61663 61783 19283 19403 2416 25521 26666 26786
+
+e1: 61783 25521 26666

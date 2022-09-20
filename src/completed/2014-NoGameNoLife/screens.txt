@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+title: NoGameNoLife2014
+pattern: '/run/media/deadnews/data1/encode/NoGameNoLife2014/out/[Kawaiika-Raws] (2014) No Game No Life [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] No Game No Life ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/No Game No Life [BDRip] [1080p]/[Yousei-raws] No Game No Life ## [BDrip 1920x1080 x264 FLAC].mkv'
+
+e1:  4428 5254 5494 8962 12526 14864 22768 25077 26758 26878 26998 27958 28011 28198 28251 28918 33983 34113
+e2:  11034
+e7:  7308
+e9:  748
+e10: 2544 3120 32902 33190

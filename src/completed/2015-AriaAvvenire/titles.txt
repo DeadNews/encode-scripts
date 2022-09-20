@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: Aria the Avvenire
+_year: 2015
+anidb: https://anidb.net/anime/11059
+
+e1: EP1 «To You, Who I Wanted to Meet...»
+e2: EP2 «That Warm Goodbye...»
+e3: EP3 «To That Far Away Future...»

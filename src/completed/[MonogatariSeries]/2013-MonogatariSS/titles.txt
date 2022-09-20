@@ -1,0 +1,42 @@
+#!/usr/bin/env sh
+
+title: Monogatari Series Second Season
+_year: 2013
+short: Monogatari SS
+
+e1: EP1 «Tsubasa Tiger 1/5»
+e2: EP2 «Tsubasa Tiger 2/5»
+e3: EP3 «Tsubasa Tiger 3/5»
+e4: EP4 «Tsubasa Tiger 4/5»
+e5: EP5 «Tsubasa Tiger 5/5»
+e6: EP6 «Mayoi Jiangshi 1/4»
+e7: EP7 «Mayoi Jiangshi 2/4»
+e8: EP8 «Mayoi Jiangshi 3/4»
+e9: EP9 «Mayoi Jiangshi 4/4»
+e10: EP10 «Nadeko Medusa 1/4»
+e11: EP11 «Nadeko Medusa 2/4»
+e12: EP12 «Nadeko Medusa 3/4»
+e13: EP13 «Nadeko Medusa 4/4»
+e14: EP14 «Shinobu Time 1/4»
+e15: EP15 «Shinobu Time 2/4»
+e16: EP16 «Shinobu Time 3/4»
+e17: EP17 «Shinobu Time 4/4»
+e18: EP18 «Hitagi End 1/6»
+e19: EP19 «Hitagi End 2/6»
+e20: EP20 «Hitagi End 3/6»
+e21: EP21 «Hitagi End 4/6»
+e22: EP22 «Hitagi End 5/6»
+e23: EP23 «Hitagi End 6/6»
+
+ed1: ED1a «Ai o Utae»
+ed2: ED1b «Ai o Utae»
+ed3: ED1c «Ai o Utae»
+ed4: ED2a «Sono Koe o Oboeteru»
+ed5: ED2b «Sono Koe o Oboeteru»
+ed6: ED3 «Snowdrop»
+
+op1: OP1 «Chocolate Insomnia»
+op2: OP2 «Happy Bite»
+op3: OP3 «Mousou Express»
+op4: OP4ab «Kogarashi Sentiment»
+# op5: OP4b «Kogarashi Sentiment»

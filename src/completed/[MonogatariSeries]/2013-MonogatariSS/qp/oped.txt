@@ -1,0 +1,13 @@
+
+op1 e1-5
+op2 not true
+op3 e10-13
+op4 not true
+op5 just a different song
+
+ed1 e1-3,5 (4 scroll)
+ed2 ?
+ed3 e6-8 (9 on epis)
+ed4 e10-13
+ed5 e14-17
+ed6 e18-22 (23 on epis)

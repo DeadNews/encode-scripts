@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: KandagawaJetGirls
+pattern: '/run/media/deadnews/data1/temp/[LowPower-Raws] GIRLS - 01 (BD 1080P x264 FLAC) (1).mkv' '/run/media/deadnews/data1/encode/KandagawaJetGirls/out/[Kawaiika-Raws] (2019) Kandagawa Jet Girls [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Kandagawa Jet Girls 01 [BDRip 1920x1080 HEVC FLAC].mkv'
+
+e1:  6084 7956 9108 10846 11745 13913 14777 17374 25040 25184 25328 25760 26048 26624 30889

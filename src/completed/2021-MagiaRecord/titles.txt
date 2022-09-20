@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+title: Magia Record – Mahou Shoujo Madoka Magica Gaiden S2
+short: Magia Record (2021)
+_year: 2021
+anidb: https://anidb.net/anime/15472
+
+e1: EP1 «I Had a Feeling We Could All Become Magical Girls Together»
+e2: EP2 «You`re Nothing Like Me»
+e3: EP3 «There Were Too Many to Carry»
+e4: EP4 «Are You Okay with That?»
+e5: EP5 «I Won`t Forgive Anybody»
+e6: EP6 «This Is Something Only I Can Do»
+e7: EP7 «You Don`t Know Anything»
+e8: EP8 «You`re Not Strong»
+
+op: OP «Careless»
+ed: ED «Lapis»
+
+m1: M1
+m2: M2
+m3: M3

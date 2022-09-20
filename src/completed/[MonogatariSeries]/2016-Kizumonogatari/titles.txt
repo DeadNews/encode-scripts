@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+title: Kizumonogatari
+_year: 2016
+
+e1: Part 1: Iron-Blooded Arc
+e2: Part 2: Hot-Blooded Arc
+e3: Part 3: Cold-Blooded Arc
+
+m1: M1
+m2: M2
+m3: M3

@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+title: Modao Zushi
+short: Modao Zushi (2019)
+_year: 2019
+anidb: https://anidb.net/anime/14428
+
+e1: EP1 «Join Hands»
+e2: EP2 «Love and Hate»
+e3: EP3 «Puzzle Net»
+e4: EP4 «Uncle»
+e5: EP5 «Arrogant»
+e6: EP6 «Right and Wrong»
+e7: EP7 «Night Rush»
+e8: EP8 «The Truth»
+
+ed: ED «Cold Rain»
+
+op1: OP1 «Shirube»
+op2: OP2 (Chinese ver.)
+
+m1: M1
+m2: M2
+m3: M3

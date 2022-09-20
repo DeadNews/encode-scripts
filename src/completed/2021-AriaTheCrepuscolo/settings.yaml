@@ -1,0 +1,38 @@
+filt:
+  main:
+    rt_sigma: 1
+    sm_thr: 35
+    dn_ttsmooth: true
+    sm_pref_mode: 1
+    dn_pref: false
+    cs_val: 0.65
+    #
+    db_thr: 1.0
+    db_mode: 3
+    db_det: 60
+    db_grain: 48
+    db_saveblack: 2
+    db_adaptive:
+      z2:
+        scaling: 0.1
+        db_thr: 4.0
+        db_mode: 3
+        #
+    ag_str: 0
+    ag_scaling: 50
+    ag_saveblack: 2
+
+aa:
+  main:
+    desc_h: 1080 # eedi
+
+dehalo:
+  main:
+    rx: 0.5
+    brightstr: 2
+  2nd:
+    rx: 2.0
+    brightstr: 0.5
+  2nd_strong:
+    rx: 3.0
+    brightstr: 1

@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+title: SangatsuNoLionS2
+pattern:  '/run/media/deadnews/data1/encode/SangatsuNoLionS2/out/[Kawaiika-Raws] 3-gatsu no Lion (2017) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] 3-gatsu no Lion S2E## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/[VCB-Studio] Sangatsu no Lion [Ma10p_1080p]/[VCB-Studio] Sangatsu no Lion [##][Ma10p_1080p][x265_flac].mkv'
+
+e1:  11268 1557 35536
+e6:  8285 35825
+e12: 9919 14641 12320 14761 16453 16593 19954 20914 23914 21514 23914

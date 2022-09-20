@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+
+title: Kakushigoto
+_year: 2020
+anidb: https://anidb.net/anime/15267
+
+e1: EP1 «Secrets / Wishes»
+e2: EP2 «Beach Sandals and B4 / Don`t Place, Don`t Draw, Don`t Finish Up»
+e3: EP3 «Makeshift Circus / The True State of Manga and Muscles»
+e4: EP4 «Normale Namae / Komawari Sketch»
+e5: EP5 «And Yet Everyone Gets Their Turn in the End / You`re Spending the Night!»
+e6: EP6 «School Rucksack»
+e7: EP7 «Inuhoshiki: Dog Wanted / The One Who Connects Mother and Child»
+e8: EP8 «Our Rough Draft / Unfortunate Memories Club»
+e9: EP9 «Your Lie in December»
+e10: EP10 «I"S (Izu)»
+e11: EP11 «Saishukai: The Last Chapter Doesn`t Bother Her»
+e12: EP12 «Hidden Truths»
+
+op: OP «Chiisana Hibi (1-12)»
+ed: ED «Kimi wa Tennenshoku (1-11)»
+
+m1: M1
+m2: M2
+m3: M3

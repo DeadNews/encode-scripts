@@ -1,0 +1,89 @@
+e1:
+  Avant: 0
+  OP: 240
+  Part_A: 2155
+  Part_B: 3654
+  Part_C: 14733
+  Part_D: 30312
+  ED: 30553
+  Next: 32476
+e2:
+  Avant: 0
+  OP: 240
+  Part_A: 2155
+  Part_B: 16247
+  Part_C: 30307
+  ED: 30553
+  Next: 32476
+e3:
+  Avant: 0
+  OP: 241
+  Part_A: 2155
+  Part_B: 9720
+  Part_C: 30305
+  ED: 30553
+  Next: 32470
+e4:
+  Avant: 0
+  OP: 240
+  Part_A: 2155
+  Part_B: 16549
+  Part_C: 30305
+  ED: 30552
+  Next: 32470
+e5:
+  Avant: 0
+  OP: 240
+  Part_A: 2156
+  Part_B: 16025
+  Part_C: 30318
+  ED: 30555
+  Next: 32475
+e6:
+  Avant: 0
+  OP: 228
+  Part_A: 2148
+  Part_B: 13892
+  Part_C: 30382
+  ED: 30622
+  Next: 32537
+e7:
+  Avant: 0
+  OP: 226
+  Part_A: 2148
+  Part_B: 18017
+  Part_C: 30311
+  ED: 30551
+  Next: 32483
+e8:
+  Avant: 0
+  OP: 240
+  Part_A: 2155
+  Part_B: 16818
+  Part_C: 30311
+  ED: 30552
+  Next: 32474
+e9:
+  Avant: 0
+  OP: 241
+  Part_A: 2155
+  Part_B: 17392
+  Part_C: 30305
+  ED: 30546
+  Next: 32467
+e10:
+  Avant: 0
+  OP: 241
+  Part_A: 2156
+  Part_B: 13796
+  Part_C: 30322
+  ED: 30560
+  Next: 32480
+e11:
+  Avant: 0
+  OP: 240
+  Part_A: 2156
+  Part_B: 14540
+  Part_C: 30303
+  ED: 30545
+  EDend: 32482

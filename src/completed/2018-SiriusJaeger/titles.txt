@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+
+title: Sirius the Jaeger
+_year: 2018
+anidb: https://anidb.net/anime/13959
+
+e1: EP1 «The Revenant Howls in Darkness»
+e2: EP2 «Deprived Talent»
+e3: EP3 «Indelible Memories»
+e4: EP4 «Beginning of Trickery»
+e5: EP5 «The Frankenstein»
+e6: EP6 «Mokingbird`s Song»
+e7: EP7 «True Confession»
+e8: EP8 «The Sanctuary of Sirius»
+e9: EP9 «Father`s Shadow»
+e10: EP10 «Memories of the Abyss»
+e11: EP11 «Calling in Blood»
+e12: EP12 «The Ark of Sirius»
+
+op: OP «Sirius (2-6, 8-11)»
+ed: ED «Hoshie (2-11)»
+
+pv1: PV1
+pv2: PV2
+pv3: PV3

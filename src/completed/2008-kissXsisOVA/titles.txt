@@ -1,0 +1,28 @@
+#!/usr/bin/env sh
+
+title: Kiss X Sis OVA
+short: Kiss X Sis
+_year: 2008-2015
+anidb: https://anidb.net/anime/6083
+
+e1: EP1 «Start from Scratch»
+e2: EP2 «Under the Same Roof»
+e3: EP3 «Christmas Party»
+e4: EP4 «Practice in Secret»
+e5: EP5 «The Supreme Bliss` Hot Spring Trip»
+e6: EP6 «Engrossed in Bewilderment»
+e7: EP7 «Mmm! Physical Examination»
+e8: EP8 «The Strongest Little Devil - Junior-High Student Runs Amok»
+e9: EP9 «After All!? The Eventful Home Visit»
+e10: EP10 «Going Mad in Youthful Sweat»
+e11: EP11 «In That Field of View, Many Colors»
+e12: EP12 «A Good Relationship Forever»
+
+op1: OP1 «Futari no Honey Boy»
+op2: OP2 «Futari no Honey Boy»
+op3: OP3 «Futari no Honey Boy»
+op4: OP4 «Futari no Honey Boy»
+
+ed1: ED1 «Hoshizora Monogatari»
+ed2: ED2 «Hoshizora Monogatari»
+ed3: ED3 «Hoshizora Monogatari»

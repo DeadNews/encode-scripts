@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+title: Made in Abyss (Movies)
+short: Made in Abyss Movie
+_year: 2019
+anidb: https://anidb.net/anime/13941
+
+e1: Part 1: Journey`s Dawn
+e2: Part 2: Wandering Twilight
+
+m1: M1
+m2: M2

@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: KinoNoTabi2017
+pattern:
+
+e6: /2 35078 39878 42518 44436

@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+title: Nekomonogatari (Kuro)
+_year: 2012
+short: Nekomonogatari
+
+e1: EP1 «Tsubasa Family 1/4»
+e2: EP2 «Tsubasa Family 2/4»
+e3: EP3 «Tsubasa Family 3/4»
+e4: EP4 «Tsubasa Family 4/4»
+
+op1: OP «Perfect Slumbers»
+ed1: EDa «Kieru Daydream»
+ed2: EDb «Kieru Daydream»
+pv: PV

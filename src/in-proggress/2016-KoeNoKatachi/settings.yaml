@@ -1,0 +1,40 @@
+filt:
+  main:
+    rt_sigma: 0.9
+    # sm_thr: 24
+    sm_thr: 30
+    dn_ttsmooth: true
+    # sm_pref_mode: 1
+    sm_pref_mode: 2
+    dn_pref: false
+    cs_val: 0.95
+    #
+    db_thr: 1
+    db_mode: 3
+    db_gf_mode: 1
+    db_det: 60
+    db_grain: 48
+    db_saveblack: 2
+    db_adaptive:
+      z2:
+        scaling: 1
+        db_thr: 5
+        db_mode: 3
+        #
+    ag_str: 0.02
+    ag_scaling: 20
+    ag_saveblack: 2
+  fireworks:
+    ag_str: 0.12
+    ag_scaling: 12
+  sp:
+    cs_val: 0.5
+
+crop:
+  main:
+    top: 22
+    bottom: 22
+# 1 pixel on top
+# edgefix:
+#     main:
+#         top: 1

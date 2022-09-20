@@ -1,0 +1,48 @@
+#!/usr/bin/env sh
+
+title: Shingeki no Kyojin S1
+short: Shingeki no Kyojin (2013)
+_year: 2013
+anidb: https://anidb.net/anime/9541
+
+e1: EP1 «To You, 2000 Years in the Future: The Fall of Zhiganshina (1)»
+e2: EP2 «That Day: The Fall of Zhiganshina (2)»
+e3: EP3 «A Dim Light in the Darkness of Despair: Humanity Rises Again (1)»
+e4: EP4 «Night of the Graduation Ceremony: Humanity Rises Again (2)»
+e5: EP5 «First Battle: Battle of Trost (1)»
+e6: EP6 «The World the Girl Saw: Battle for Trost (2)»
+e7: EP7 «The Small Blade: The Battle for Trost (3)»
+e8: EP8 «Hearing the Heartbeat: The Battle for Trost (4)»
+e9: EP9 «Where the Left Arm Went: The Battle for Trost (5)»
+e10: EP10 «Response: The Battle for Trost (6)»
+e11: EP11 «Icon: The Battle for Trost (7)»
+e12: EP12 «Wound: The Battle for Trost (8)»
+e13: EP13 «Primal Desires: The Battle for Trost (9)»
+e14: EP14 «Still Can`t See: Night Before the Counteroffensive (1)»
+e15: EP15 «Special Ops Squad: Night Before the Counteroffensive (2)»
+e16: EP16 «What Should Be Done: Night Before the Counteroffensive (3)»
+e17: EP17 «Female Titan: 57th Expedition Beyond the Walls (1)»
+e18: EP18 «Forest of Giant Trees: 57th Expedition Beyond the Walls (2)»
+e19: EP19 «Bite: 57th Expedition Beyond the Walls (3)»
+e20: EP20 «Erwin Smith: 57th Expedition Beyond the Walls (4)»
+e21: EP21 «Crushing Blow: 57th Expedition Beyond the Walls (5)»
+e22: EP22 «The Defeated: 57th Expedition Beyond the Walls (6)»
+e23: EP23 «Smile: Raid on Stohess District (1)»
+e24: EP24 «Mercy: Raid on Stohess District (2)»
+e25: EP25 «The Wall: Raid on Stohess District (3)»
+
+s1: S1 «Picture Drama 1»
+s2: S2 «Picture Drama 2»
+s3: S3 «Picture Drama 3»
+s4: S4 «Picture Drama 4»
+s5: S5 «Picture Drama 5»
+s6: S6 «Picture Drama 6»
+s7: S7 «Picture Drama 7»
+s8: S8 «Picture Drama 8»
+s9: S9 «Picture Drama 9»
+
+op1: OP1 «Guren no Yumiya»
+op2: OP2 «Jiyuu no Tsubasa»
+
+ed1: ED1 «Utsukushiki Zankoku na Sekai»
+ed2: ED2 «Great Escape»

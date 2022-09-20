@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+title: Kandagawa Jet Girls
+_year: 2019
+anidb: https://anidb.net/anime/15024
+
+e1: EP1 «The Kandagawa Is Calling»
+e2: EP2 «The Ace`s Pride»
+e3: EP3 «Country Comes to Town»
+e4: EP4 «My Favorite»
+e5: EP5 «Pop Idol Racers»
+e6: EP6 «What They Lack»
+e7: EP7 «Why They Race»
+e8: EP8 «The Great Nyu-Nyu»
+e9: EP9 «The 180 Jetter»
+e10: EP10 «A Summer Gig Receive»
+e11: EP11 «Rin Goes Home»
+e12: EP12 «Our Jet Race»
+
+op: OP «Bullet Mermaid»
+ed: ED «Rivals»
+pv: PV
+
+e13: EP13 «Tokyo Girls Promotion Starts Here»

@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+
+title: Machikado Mazoku
+_year: 2019
+anidb: https://anidb.net/anime/14630
+
+e1: EP1 «Yuko Awakens!! For Family Reasons You`re Now a Demon Girl»
+e2: EP2 «Just How Sporty Are You?! Everything Is Fluctuating»
+e3: EP3 «Nightmare or Forebear?! The Doorstop of Darkness Descends»
+e4: EP4 «Sharpen Your Mind!! The Newly Awakened Powers of the Magical Girl»
+e5: EP5 «A Town Full of Traps?? The Demon on the Brink Awakens a New Ability»
+e6: EP6 «Courage to Face the Future!! The Heavy Roller Won`t Stop»
+e7: EP7 «The Pink Method!! The Wheel of Fate Is a Round Tire!!»
+e8: EP8 «The Cursed Fruit!! Beware the Sour Mikan!!»
+e9: EP9 «Final Exams!! Today I`m One of Those Brainy Demons!!»
+e10: EP10 «The Ancestor Evolves!! A Pair of Glasses Reflect Within a Dark Lab»
+e11: EP11 «Diving into Dreams Once Again!! Break Through the Pink Defense Line»
+e12: EP12 «Feelings to Convey!! A New Leap Forward for Demonkind!!»
+
+op: OP «Machikado Tangent»
+ed: ED «Yoi Machi Cantare»
+
+pv1: PV1
+pv2: PV2
+pv3: PV3
+pv4: PV4
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+
+s1: S1
+s2: S2
+s3: S3
+s4: S4

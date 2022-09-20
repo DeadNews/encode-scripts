@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+title: Owarimonogatari
+_year: 2017
+seasn: 2
+
+e1: EP1 «Mayoi Hell 1/2»
+e2: EP2 «Mayoi Hell 2/2»
+e3: EP3 «Hitagi Rendezvous 1/2»
+e4: EP4 «Hitagi Rendezvous 2/2»
+e5: EP5 «Ougi Dark 1/3»
+e6: EP6 «Ougi Dark 2/3»
+e7: EP7 «Ougi Dark 3/3»
+
+op1: OP1 «Terminal Terminal»
+op2: OP2 «Dreamy Date Drive»
+op3: OP3 «Dark Cherry Mystery»
+ed1: ED1a «Shiori»
+ed2: ED1b «Shiori»
+ed3: ED1c «Shiori»
+
+pv: PV

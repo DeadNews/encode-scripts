@@ -1,0 +1,27 @@
+#!/usr/bin/env sh
+
+title: Koisuru Asteroid
+_year: 2020
+anidb: https://anidb.net/anime/14707
+
+e1: EP1 «Their Promise»
+e2: EP2 «The Riverside Milky Way»
+e3: EP3 «Memories Are Treasures»
+e4: EP4 «Exciting! Summer Camp!»
+e5: EP5 «Everyone`s Summer Break»
+e6: EP6 «Hoshizaki Festival!»
+e7: EP7 «The Starry Sky Is a Time Machine»
+e8: EP8 «Winter Diamond»
+e9: EP9 «True Feelings»
+e10: EP10 «Rain with Occasional Fortune-Telling»
+e11: EP11 «Shining Star Challenge!»
+e12: EP12 «Connected Cosmos»
+
+op1: OPa «Aruite Ikou!»
+op2: OPb «Aruite Ikou!»
+op3: OPc «Aruite Ikou!»
+ed1: EDa «Yozora»
+ed2: EDb «Yozora»
+ed3: EDc «Yozora»
+
+t1: Timelapse

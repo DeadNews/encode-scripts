@@ -1,0 +1,51 @@
+filt:
+  main:
+    rt_sigma: 1
+    # sm_thr: 70
+    sm_thr: 65
+    # dn_pref: false
+    dn_pref: true
+    cs_val: 0.4
+    #
+    db_thr: 1.1
+    db_mode: 1
+    db_rt_mode: 2
+    db_grain: 68
+    db_saveblack: 1
+    db_adaptive:
+      z2:
+        scaling: 0.1
+        db_thr: 2.8
+        db_mode: 1
+        #
+    # ag_str: 0.3
+    ag_str: 0.42
+    ag_scaling: 4
+    ag_saveblack: 1
+  menu:
+    ag_str: 0
+
+repair:
+  main:
+    edgclr_args: { strength: 10, rmode: 13, smode: 1 }
+    dering_args: { mrad: 2, mthr: 70, thr: 12, darkthr: 3 }
+
+dehalo:
+  main:
+    rx: 1.5
+    darkstr: 0
+    # brightstr: 2.1
+    brightstr: 1.6
+  menu:
+    rx: 1.5
+    darkstr: 0
+    brightstr: 1
+
+linedark:
+  main:
+    linedark_args: { strength: 15, protection: 3, luma_cap: 191, threshold: 2, thinning: 15 }
+
+edgefix:
+  main:
+    left: 2
+    right: 2

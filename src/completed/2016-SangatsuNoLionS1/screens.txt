@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: SangatsuNoLionS1
+pattern: '/run/media/deadnews/data1/encode/SangatsuNoLionS1/out/[Kawaiika-Raws] 3-gatsu no Lion (2016) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] 3-gatsu no Lion S1E## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/3-gatsu no Lion (BDRip 1920x1080 x264 FLAC)/[ReinForce] 3-gatsu no Lion - ## (BDRip 1920x1080 x264 FLAC).mkv'
+
+e1: 2482 6465 6466 8938 10799 11941 13561 14066 14079 14702 17103 17134 19723 12001

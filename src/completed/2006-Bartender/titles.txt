@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+title: Bartender
+_year: 2006
+anidb: https://anidb.net/anime/4681
+
+e1: EP1 «Bartender»
+e2: EP2 «Heart of a Menu»
+e3: EP3 «Glass of Regret»
+e4: EP4 «Dreams of Amber»
+e5: EP5 «The Bar`s Forgotten»
+e6: EP6 «The Story Inside the Glass»
+e7: EP7 «Bar Holiday»
+e8: EP8 «A Counter`s Lie»
+e9: EP9 «Face of a Bar»
+e10: EP10 «Christmas Miracle»
+e11: EP11 «Water of Life»
+
+op: OP
+ed: ED
+
+m: M

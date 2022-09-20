@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+title: Mushoku Tensei — Isekai Ittara Honki Dasu, Part 1
+short: Mushoku Tensei - Part 1 -
+_year: 2021
+anidb: https://anidb.net/anime/14758
+
+e1: EP1 «Jobless Reincarnation»
+e2: EP2 «Master»
+e3: EP3 «A Friend»
+e4: EP4 «Emergency Family Meeting»
+e5: EP5 «A Young Lady and Violence»
+e6: EP6 «A Day Off in Roa»
+e7: EP7 «What Lies Beyond Effort»
+e8: EP8 «Turning Point 1»
+e9: EP9 «A Chance Encounter»
+e10: EP10 «The Value of a Life and the First Job»
+e11: EP11 «Children and Warriors»
+
+ed: ED «Only»
+
+m1: M1
+m2: M2
+pv: PV

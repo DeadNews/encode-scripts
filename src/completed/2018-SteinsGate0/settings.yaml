@@ -1,0 +1,12 @@
+aa:
+  main:
+    desc_h: 720
+    desc_str: 0.7
+    kernel: bilinear # 559.11
+    gamma: 1000
+
+edgefix:
+  top: 1
+  bottom: 1
+  left: 1
+  right: 1

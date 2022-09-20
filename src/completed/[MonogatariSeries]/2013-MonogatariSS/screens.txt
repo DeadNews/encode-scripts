@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+title: MonogatariSS
+pattern: '/run/media/deadnews/data1/encode/MonogatariSS/out/[Kawaiika-Raws] Monogatari Series Second Season (2013) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Monogatari SS ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/gatari/Monogatari Series - Second Season [BDRip] [1080p]/[Yousei-raws] Monogatari Series - Second Season ## [BDrip 1920x1080 x264 FLAC].mkv'
+
+e1: 3429
+e2: 3241
+e4: 2361
+e5: 22519 33018
+e6: 18930
+e7: 19041
+e9: 23437
+e12: 6120 18030
+e15: 13956
+e17: 16126 31432
+e18: 1441 3122

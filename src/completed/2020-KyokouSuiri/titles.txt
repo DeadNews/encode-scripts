@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+title: Kyokou Suiri
+_year: 2020
+anidb: https://anidb.net/anime/14602
+
+e1: EP1 «One Eye, One Leg»
+e2: EP2 «What the Guardian Serpent Heard»
+e3: EP3 «The Rumors of the Steel Lady»
+e4: EP4 «Idol Dies by Steel Beam»
+e5: EP5 «A Monster of the Imagination»
+e6: EP6 «Logical Fiction»
+e7: EP7 «Preparing to Conquer the Steel Lady»
+e8: EP8 «She Who Spins Fiction»
+e9: EP9 «The Committee to Conquer Steel Lady Nanase»
+e10: EP10 «Dueling Fictions»
+e11: EP11 «The Ultimate Fiction»
+e12: EP12 «She Who Defends Order»
+
+op: OP «Mononoke in the Fiction»
+ed: ED «Last Dance»
+
+pv: PV

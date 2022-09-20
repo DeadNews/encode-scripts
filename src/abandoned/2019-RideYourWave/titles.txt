@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+title: Kimi to, Nami ni Noretara
+_year: 2019
+anidb: https://anidb.net/anime/14465
+
+e1: «Ride Your Wave»
+
+m1: M1
+m2: M2

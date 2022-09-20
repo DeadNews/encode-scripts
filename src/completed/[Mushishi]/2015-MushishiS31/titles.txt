@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+title: Mushishi Zoku Shou – Suzu no Shizuku
+short: Mushishi
+_year: 2015
+seasn: 3
+
+e1: EP11 «Drops of Bells»

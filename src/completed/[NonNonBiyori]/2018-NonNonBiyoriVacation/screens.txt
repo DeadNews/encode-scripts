@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+
+title='NonNonBiyoriVacation'
+
+pattern1="'/run/media/deadnews/data1/releases/ [Non Non Biyori]/[Kawaiika-Raws] (2018) Non Non Biyori Vacation [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Non Non Biyori Vacation [BDRip 1920x1080 HEVC FLAC].mkv'"
+pattern2="'/run/media/deadnews/data1/temp/[FFF-Vivid] Non Non Biyori Vacation [BD 1080p AAC] [3D65299C].mkv'"
+offset='504'
+
+frames='81772 35007 35606 35648 35670 35728 35745 35766 35776 35839 35843 37888 39935 40895 41495 41615 41735 42216 42336 42938 43179 43181 49182'
+
+echo "${HOME}/my/scripts/python/vpy-screens.py ${pattern1} -f ${frames} -t ${title} -o ${offset}"
+echo "${HOME}/my/scripts/python/vpy-screens.py ${pattern2} -f ${frames} -t ${title}"
+
+# ~/my/scripts/python/vpy-screens.py ${pattern1} -f ${frames} -t ${title} -o ${offset}
+
+# ~/my/scripts/python/vpy-screens.py ${pattern2} -f ${frames} -t ${title}
+
+ ~/my/scripts/python/vpy-screens.py '/run/media/deadnews/data1/releases/ [Non Non Biyori]/[Kawaiika-Raws] (2018) Non Non Biyori Vacation [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Non Non Biyori Vacation [BDRip 1920x1080 HEVC FLAC].mkv' -f 35745 35776 42336 42938 68065 -t NonNonBiyoriVacation -o 504
+
+~/my/scripts/python/vpy-screens.py '/run/media/deadnews/data1/temp/[FFF-Vivid] Non Non Biyori Vacation [BD 1080p AAC] [3D65299C].mkv' -f 35745 35776 42336 42938 68065 -t NonNonBiyoriVacation

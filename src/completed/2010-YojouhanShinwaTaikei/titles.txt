@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+
+title: Yojouhan Shinwa Taikei
+_year: 2010
+
+e1: EP1 «Tennis Circle Cupid»
+e2: EP2 «Movie Circle Misogi»
+e3: EP3 «Cycling Club Soleil»
+e4: EP4 «Disciples Wanted»
+e5: EP5 «Softball Circle Honwaka»
+e6: EP6 «English Conversation Circle»
+e7: EP7 «Hero Show Association»
+e8: EP8 «Reading Circle Sea»
+e9: EP9 «Secret Society Lucky Cat Chinese Restaurant»
+e10: EP10 «The 4.5 Tatami Ideologue»
+e11: EP11 «The End of the 4.5 Tatami Age»
+
+s1: S1 «Land Submarine, to the South Pole»
+s2: S2 «Land Submarine, to the Women`s Bath: The Bedroom Research Group`s Pink Quest»
+s3: S3 «Land Submarine of Love and Fishing»
+
+ed1: EDa «Kamisama no Iu Toori»
+ed2: EDb «Kamisama no Iu Toori»
+
+op1: OP «Maigo Inu to Ame no Beat»

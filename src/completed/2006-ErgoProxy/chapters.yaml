@@ -1,0 +1,160 @@
+e1:
+  Avant: 0
+  Part_A: 7020
+  Part_B: 20980
+  ED: 34527
+  Next: 36684
+e2:
+  Avant: 0
+  Part_A: 4945
+  Part_B: 17863
+  ED: 34527
+  Next: 36683
+e3:
+  Avant: 0
+  OP: 4245
+  Part_A: 6763
+  Part_B: 16064
+  ED: 34527
+  Next: 36683
+e4:
+  Avant: 0
+  OP: 2758
+  Part_A: 5276
+  Part_B: 19301
+  ED: 34527
+  Next: 36683
+e5:
+  Avant: 0
+  OP: 1462
+  Part_A: 3980
+  Part_B: 17670
+  ED: 34527
+  Next: 36683
+e6:
+  Avant: 0
+  OP: 2158
+  Part_A: 4677
+  Part_B: 19373
+  ED: 34527
+  Next: 36683
+e7:
+  Avant: 0
+  OP: 2374
+  Part_A: 4894
+  Part_B: 19853
+  ED: 34527
+  Next: 36683
+e8:
+  Avant: 0
+  OP: 2734
+  Part_A: 5252
+  Part_B: 16832
+  ED: 34527
+  Next: 36683
+e9:
+  Avant: 0
+  OP: 2326
+  Part_A: 4844
+  Part_B: 17598
+  ED: 34527
+  Next: 36683
+e10:
+  Avant: 0
+  OP: 3045
+  Part_A: 5563
+  Part_B: 18438
+  ED: 34527
+  Next: 36683
+e11:
+  Avant: 0
+  OP: 2206
+  Part_A: 4712
+  Part_B: 18558
+  ED: 34527
+  Next: 36683
+e12:
+  Avant: 0
+  OP: 1320
+  Part_A: 3824
+  Part_B: 18318
+  ED: 34527
+  Next: 36683
+e13:
+  Avant: 0
+  OP: 1606
+  Part_A: 4124
+  Part_B: 16304
+  ED: 34527
+  Next: 36683
+e14:
+  Avant: 0
+  OP: 1582
+  Part_A: 4100
+  Part_B: 17310
+  ED: 34527
+  Next: 36683
+e15:
+  Avant: 0
+  OP: 1822
+  Part_A: 4340
+  Part_B: 18031
+  ED: 34527
+  Next: 36683
+e16:
+  Avant: 0
+  OP: 2662
+  Part_A: 5180
+  Part_B: 18174
+  ED: 34527
+  Next: 36683
+e17:
+  Avant: 0
+  OP: 2182
+  Part_A: 4701
+  Part_B: 19685
+  ED: 34527
+  Next: 36683
+e18:
+  Avant: 0
+  OP: 2901
+  Part_A: 5420
+  Part_B: 19853
+  ED: 34527
+  Next: 36683
+e19:
+  Avant: 0
+  OP: 1702
+  Part_A: 4220
+  Part_B: 16904
+  ED: 34527
+  Next: 36683
+e20:
+  Avant: 0
+  OP: 1486
+  Part_A: 4005
+  Part_B: 16472
+  ED: 34527
+  Next: 36683
+e21:
+  Avant: 0
+  OP: 2494
+  Part_A: 5000
+  Part_B: 18773
+  ED: 34527
+  Next: 36683
+e22:
+  Avant: 0
+  OP: 1966
+  Part_A: 4472
+  Part_B: 15730
+  ED: 34527
+  Next: 36683
+e23:
+  Avant: 0
+  OP: 3141
+  Part_A: 5649
+  Part_B: 22946
+  Part_C: 28394
+  ED: 40239
+  EDend: 42443

@@ -1,0 +1,6 @@
+CHAPTER01=00:00:00.000
+CHAPTER01NAME=«Clip The real world - 13th Floor Elevator / Smile Back Version»
+CHAPTER02=00:04:01.241
+CHAPTER02NAME=«Clip The invisible bridge - 13th Floor Elevator / Be Funny To.... Version»
+CHAPTER03=00:08:01.481
+CHAPTER03NAME=«Clip The wired world - 13th Floor Elevator / Laugh Out Version»

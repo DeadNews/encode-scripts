@@ -1,0 +1,29 @@
+#!/usr/bin/env sh
+
+title: Ishuzoku Reviewers
+_year: 2020
+anidb: https://anidb.net/anime/14969
+
+e1: EP1 «A Hot `n Heavy Debate About Elf and Human MILFS, an Angel Ascends at Meow Meow Paradise, Can`t Get Enough of That Sensitive Birdmaid Cloaca!»
+e2: EP2 «Fairies Have Limits on What They Can Take, Demons Aren`t Very Popular, Minotaur Girls Are Big, Bountiful, and Boobylicious!»
+e3: EP3 «Gender-Swap Sex Means Less Succu-Girl Choices, and It Kinda Hurts, but You Learn Just What Girls Feel, So You Should Give It a Try!»
+e4: EP4 «Salamander Girls Have Such Hot Bods, Hearts, Sals, and Manders, That You Can`t Help But Get Fired Up About `Em!»
+e5: EP5 «I Wanna Drown in a Cyclops Girl`s Pretty Eye, but It`s Pretty Hard? Speaking of Hard, Let the Pros Pick Out the Perfect Mushroom Girl for a Slimy, Sticky Good Time!»
+e6: EP6 «You Can Build the Perfect Golem Girl, but Don`t Let the Girl You Base Her Off of Find Out. Cum to the Land of Dreams on the Light of the Will o` the Wisps.»
+e7: EP7 «The Gang Gets Laid at the Egg-stravagant Egg-Laying Show, Miss Meidri`s Deep, Dark Secret Uncovered, and the Succu-Girl Popularity Ranking Is Unveiled!»
+e8: EP8 «Succu-girl Roleplay Will Get You Going All Night, the Angel`s Holy Lance Is Great at Lancing Holes, the Succubus Tower Lasts Forever, but You (and Your Mayo) Won`t!»
+e9: EP9 «A Deep, Dark Something Lies Between the Living and the Dead, the Darling Angel`s Lotion Explosion, and the Uncouth, Unsanctioned Reviewer Rivals Are in Their Scene!»
+e10: EP10 «Let Your Eyes Behold the Glory and Mystery of the Brothel with a Perfect Score! Take a Newlywed of a Horny Tutor or a Little Piggie as Your Lover! They`ll Squeeze, Squeeze, Squeeze It Outta Ya! Infinite Pleasure over a Satisfying Three-Day Excursion! True Happiness Awaits!!!»
+e11: EP11 «The Frighteningly Faultless Philanthropist Sexually Satisfies Several Succubi, Drunken Fools and Their Money Are, Of Course, Soon Parted, and Mitsue`s Room Comes to a Close!»
+e12: EP12 «Farewell, Beloved Fans of Our Beloved Reviewers... Worry Not; As Long As Succu-girls Keep Working Hard, So Too Will Our Reviewers. When You Think of Our Heroes, Remember This: When You Help Other (Get Their Fuck On), You`re Only Helping Yourself (Get Your Fuck On)...»
+
+op: OP «Ikouze Paradise»
+ed: ED «Hanabira Ondo»
+
+ed_e12: ED_E12
+
+m1: M1
+m2: M2
+m3: M3
+
+op_decensor: op_decensor

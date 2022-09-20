@@ -1,0 +1,27 @@
+#!/usr/bin/env sh
+
+title: Nisemonogatari
+_year: 2012
+
+e1: EP1 «Karen Bee 1/7»
+e2: EP2 «Karen Bee 2/7»
+e3: EP3 «Karen Bee 3/7»
+e4: EP4 «Karen Bee 4/7»
+e5: EP5 «Karen Bee 5/7»
+e6: EP6 «Karen Bee 6/7»
+e7: EP7 «Karen Bee 7/7»
+e8: EP8 «Tsukihi Phoenix 1/4»
+e9: EP9 «Tsukihi Phoenix 2/4»
+e10: EP10 «Tsukihi Phoenix 3/4»
+e11: EP11 «Tsukihi Phoenix 4/4»
+
+ed1: ED1b «Naisho no Hanashi»
+ed2: ED1a «Naisho no Hanashi»
+ed3: ED1c «Naisho no Hanashi»
+
+op1: OP2 «Marshmallow Justice»
+op2: OP1a «Futakotome»
+op3: OP1b «Futakotome»
+op4: OP3 «Platinum Disco»
+
+pv: PV

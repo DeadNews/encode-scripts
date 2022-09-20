@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: Hanamonogatari
+pattern: '/run/media/deadnews/data1/encode/Hanamonogatari/out/[Kawaiika-Raws] Hanamonogatari (2014) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Hanamonogatari ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/gatari/Hanamonogatari [BDRip] [1080p]/[Yousei-raws] Hanamonogatari # [BDrip 1920x1080 x264 FLAC].mkv'
+# pattern: '/run/media/deadnews/data1/encode/Hanamonogatari/in/e#.mkv'
+
+e1: 9382 10722 29371
+e2: 34535 15615 12995 3253 3121 12794
+e3: 11282
