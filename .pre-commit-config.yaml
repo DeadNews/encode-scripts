@@ -39,10 +39,7 @@ repos:
     rev: v1.6.0
     hooks:
       - id: autoflake
-        args:
-          - --in-place
-          - --remove-all-unused-imports
-          - --remove-duplicate-keys
+        args: [--in-place, --remove-all-unused-imports]
 
   - repo: https://github.com/PyCQA/isort
     rev: 5.10.1
