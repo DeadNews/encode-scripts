@@ -58,7 +58,7 @@ mrgc = epis
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="fireworks")
 
-F1 = dn.rfs(F1, F2, maps=(136223, 145099))
+F1 = dn.rfs(F1, F2, [(136223, 145099)])
 # ------------ #
 
 # ----out----- #
