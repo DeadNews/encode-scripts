@@ -11,23 +11,23 @@ prepare
 make_log 'start'
 
 if [[ ${part} == 'test' ]]; then
-    # ${vsx} --unlinkMode e1.vpy
-    #     ${vsx} --rcloneUpload --staticName --L e1.vpy
-    #     ${vsx} --rcloneUpload --E --fast_mode e1.vpy
-    ${vsx} --rcloneUpload --E --fast_mode op.vpy ed.vpy e1.vpy
+    # ${vsx} --unlinkMode e1.py
+    #     ${vsx} --rcloneUpload --staticName --L e1.py
+    #     ${vsx} --rcloneUpload --E --fast_mode e1.py
+    ${vsx} --rcloneUpload --E --fast_mode op.py ed.py e1.py
 
 elif [[ ${part} == '1' ]]; then
-    ${vsx} --rcloneUpload --E e{1..3}.vpy
+    ${vsx} --rcloneUpload --E e{1..3}.py
 
 elif [[ ${part} == '2' ]]; then
-    ${vsx} --rcloneUpload --E --keyint 350 --aq-strength 0.95 s{1..3}.vpy
-    ${vsx} --rcloneUpload --E e{4..5}.vpy
+    ${vsx} --rcloneUpload --E --keyint 350 --aq-strength 0.95 s{1..3}.py
+    ${vsx} --rcloneUpload --E e{4..5}.py
 
 elif [[ ${part} == '3' ]]; then
-    ${vsx} --rcloneUpload --E e{6..7}.vpy op.vpy ed.vpy
+    ${vsx} --rcloneUpload --E e{6..7}.py op.py ed.py
 
 elif [[ ${part} == '4' ]]; then
-    ${vsx} --rcloneUpload --E e{8..10}.vpy
+    ${vsx} --rcloneUpload --E e{8..10}.py
 
 elif [[ ${part} == 'all' ]]; then
     echo "part: ${part}, nothing to do"

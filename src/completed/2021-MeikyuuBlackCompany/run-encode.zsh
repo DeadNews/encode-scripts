@@ -11,21 +11,21 @@ prepare
 make_log 'start'
 
 if [[ ${part} == 'test' ]]; then
-    # ${vsx} --unlinkMode e1.vpy
-    ${vsx} --rcloneUpload --E --fast_mode op.vpy ed1.vpy ed2.vpy e1.vpy
-    ${vsx} --rcloneUpload --E --fast_mode --zones '0,2208,b=0.90' op.vpy ed1.vpy ed2.vpy
+    # ${vsx} --unlinkMode e1.py
+    ${vsx} --rcloneUpload --E --fast_mode op.py ed1.py ed2.py e1.py
+    ${vsx} --rcloneUpload --E --fast_mode --zones '0,2208,b=0.90' op.py ed1.py ed2.py
 
 elif [[ ${part} == '1' ]]; then
-    ${vsx} --rcloneUpload --E e{1..3}.vpy op.vpy ed1.vpy ed2.vpy
+    ${vsx} --rcloneUpload --E e{1..3}.py op.py ed1.py ed2.py
 
 elif [[ ${part} == '2' ]]; then
-    ${vsx} --rcloneUpload --E e{4..6}.vpy
+    ${vsx} --rcloneUpload --E e{4..6}.py
 
 elif [[ ${part} == '3' ]]; then
-    ${vsx} --rcloneUpload --E e{7..9}.vpy
+    ${vsx} --rcloneUpload --E e{7..9}.py
 
 elif [[ ${part} == '4' ]]; then
-    ${vsx} --rcloneUpload --E e{10..12}.vpy
+    ${vsx} --rcloneUpload --E e{10..12}.py
 
 elif [[ ${part} == 'all' ]]; then
     echo "part: ${part}, nothing to do"

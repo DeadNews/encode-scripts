@@ -9,6 +9,6 @@ chmod u+x run-vspipe-x265.zsh
 if [ -f "./run-encode-override.zsh" ]; then
     chmod u+x run-encode-override.zsh && ./run-encode-override.zsh
 else
-    ./vspipe-x264-lossless.zsh --depth 8 op2_aa.vpy
-    ./run-vspipe-x265.zsh --rcloneUpload ed1.vpy op2.vpy e{1..12}.vpy
+    ./vspipe-x264-lossless.zsh --depth 8 op2_aa.py
+    ./run-vspipe-x265.zsh --rcloneUpload ed1.py op2.py e{1..12}.py
 fi

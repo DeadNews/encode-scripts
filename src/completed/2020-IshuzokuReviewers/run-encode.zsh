@@ -9,25 +9,25 @@ chmod u+x ${vsx}
 
 # encode
 encodeAll() {
-    # ${vsx} --staticName --L {op,ed}_aa.vpy
-    # ${vsx} --rcloneUpload --EVL {op,ed}.vpy e{1..12}.vpy
+    # ${vsx} --staticName --L {op,ed}_aa.py
+    # ${vsx} --rcloneUpload --EVL {op,ed}.py e{1..12}.py
 }
 if [[ ${part} == 'test' ]]; then
-    ${vsx} --unlinkMode e1.vpy
-    ${vsx} --rcloneUpload --staticName --L e1.vpy
-    ${vsx} --rcloneUpload --E e1.vpy
+    ${vsx} --unlinkMode e1.py
+    ${vsx} --rcloneUpload --staticName --L e1.py
+    ${vsx} --rcloneUpload --E e1.py
 
 elif [[ ${part} == '1' ]]; then
-    ${vsx} --rcloneUpload --EVL op.vpy e{1..3}.vpy
+    ${vsx} --rcloneUpload --EVL op.py e{1..3}.py
 
 elif [[ ${part} == '2' ]]; then
-    ${vsx} --rcloneUpload --EVL ed.vpy e{4..6}.vpy
+    ${vsx} --rcloneUpload --EVL ed.py e{4..6}.py
 
 elif [[ ${part} == '3' ]]; then
-    ${vsx} --rcloneUpload --EVL m{1..3}.vpy e{7..9}.vpy
+    ${vsx} --rcloneUpload --EVL m{1..3}.py e{7..9}.py
 
 elif [[ ${part} == '4' ]]; then
-    ${vsx} --rcloneUpload --EVL ed_e12.vpy e{10..12}.vpy
+    ${vsx} --rcloneUpload --EVL ed_e12.py e{10..12}.py
 
 else
     encodeAll

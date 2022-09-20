@@ -11,31 +11,31 @@ prepare
 make_log 'start'
 
 if [[ ${part} == 'test' ]]; then
-    ${vsx} --unlinkMode e1.vpy
-    ${vsx} --rcloneUpload --staticName --L e1.vpy
-    ${vsx} --rcloneUpload --E --fast_mode e1.vpy
+    ${vsx} --unlinkMode e1.py
+    ${vsx} --rcloneUpload --staticName --L e1.py
+    ${vsx} --rcloneUpload --E --fast_mode e1.py
 
 elif [[ ${part} == 'test2' ]]; then
-    # ${vsx} --unlinkMode e4.vpy
-    ${vsx} --rcloneUpload --staticName --L e4.vpy
-    ${vsx} --rcloneUpload --E --fast_mode e4.vpy
+    # ${vsx} --unlinkMode e4.py
+    ${vsx} --rcloneUpload --staticName --L e4.py
+    ${vsx} --rcloneUpload --E --fast_mode e4.py
 
 elif [[ ${part} == '1' ]]; then
     rclone_copy ${part}
-    ${vsx} --unlinkMode e1.vpy
-    ${vsx} --rcloneUpload --EVL op.vpy e{1..3}.vpy
+    ${vsx} --unlinkMode e1.py
+    ${vsx} --rcloneUpload --EVL op.py e{1..3}.py
 
 elif [[ ${part} == '2' ]]; then
     rclone_copy ${part}
-    ${vsx} --rcloneUpload --EVL ed.vpy e{4..6}.vpy
+    ${vsx} --rcloneUpload --EVL ed.py e{4..6}.py
 
 elif [[ ${part} == '3' ]]; then
     rclone_copy ${part}
-    ${vsx} --rcloneUpload --EVL m{1..2}.vpy e{7..9}.vpy
+    ${vsx} --rcloneUpload --EVL m{1..2}.py e{7..9}.py
 
 elif [[ ${part} == '4' ]]; then
     rclone_copy ${part}
-    ${vsx} --rcloneUpload --EVL pv.vpy e{10..12}.vpy
+    ${vsx} --rcloneUpload --EVL pv.py e{10..12}.py
 
 elif [[ ${part} == 'all' ]]; then
     echo "part: ${part}, nothing to do"

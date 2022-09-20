@@ -11,7 +11,7 @@ prepare
 make_log 'start'
 
 if [[ ${part} == 'all' ]]; then
-    ${vsx} --rcloneUpload --EVL e{1..3}.vpy
+    ${vsx} --rcloneUpload --EVL e{1..3}.py
 
 else
     echo "part: ${part}, nothing to do"

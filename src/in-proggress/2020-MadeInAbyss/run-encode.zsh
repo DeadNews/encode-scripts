@@ -11,14 +11,14 @@ prepare
 make_log 'start'
 
 if [[ ${part} == 'test' ]]; then
-    # ${vsx} --unlinkMode e1.vpy
-    # ${vsx} --rcloneUpload --staticName --L e1.vpy s{1..4}.vpy m.vpy pv.vpy
-    # ${vsx} --rcloneUpload --E --fast_mode e1.vpy s{1..4}.vpy m.vpy pv.vpy
-    ${vsx} --rcloneUpload --E --fast_mode e1.vpy
+    # ${vsx} --unlinkMode e1.py
+    # ${vsx} --rcloneUpload --staticName --L e1.py s{1..4}.py m.py pv.py
+    # ${vsx} --rcloneUpload --E --fast_mode e1.py s{1..4}.py m.py pv.py
+    ${vsx} --rcloneUpload --E --fast_mode e1.py
 
 elif [[ ${part} == 'all' ]]; then
-    ${vsx} --rcloneUpload --E e1.vpy s{1..4}.vpy
-    ${vsx} --rcloneUpload --E --keyint 600 --psy-rdoq 1 --aq-strength 0.85 m.vpy pv.vpy
+    ${vsx} --rcloneUpload --E e1.py s{1..4}.py
+    ${vsx} --rcloneUpload --E --keyint 600 --psy-rdoq 1 --aq-strength 0.85 m.py pv.py
 
 else
     echo "part: ${part}, nothing to do"

@@ -3,11 +3,11 @@
 ## Replace
 
 ```sh
-# Replace in py|vpy via sed script-file
-find . -regextype egrep -iregex ".*\.(py|vpy)$" -exec sed -i -f scripts/replace.sed '{}' +
+# Replace in py via sed script-file
+find . -iname '*.py' -exec sed -i -f scripts/replace.sed '{}' +
 
-# Replace in py|vpy via py script
-find . -regextype egrep -iregex ".*\.(py|vpy)$" -exec scripts/replace_maps.py '{}' +
+# Replace in py via py script
+find . -iname '*.py' -exec scripts/replace_maps.py '{}' +
 ```
 
 ## Rename
@@ -17,10 +17,10 @@ find . -regextype egrep -iregex ".*\.(py|vpy)$" -exec scripts/replace_maps.py '{
 find . -type d -exec rename -n 's|(.*)/in/chapters$|$1/chapters|' '{}' +
 
 # Change vpy extensions
-find . -type f -iname '*.vpy' -exec rename '.vpy' '.py' '{}' +
+find . -iname '*.vpy' -exec rename '.vpy' '.py' '{}' +
 
 # Move bookmarks
-find . -type f -iname '*.bookmarks' -not -path "*/bookmarks/*" -execdir sh -c "mkdir -p bookmarks && mv '{}' bookmarks" \;
+find . -iname '*.bookmarks' -not -path "*/bookmarks/*" -execdir sh -c "mkdir -p bookmarks && mv '{}' bookmarks" \;
 ```
 
 ## Find
@@ -33,8 +33,8 @@ find . -type f -empty
 find . -iname '*.png' -not -path "*/mask/*"
 
 # Find test/old stuff
-find . -iname '*pw.vpy'
-find . -iname '*test.vpy'
+find . -iname '*pw.py'
+find . -iname '*test.py'
 find . -type d -iname '*old'
 
 # Find cyrillic symbols

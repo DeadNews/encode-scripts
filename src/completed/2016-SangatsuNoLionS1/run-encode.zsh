@@ -9,21 +9,21 @@ chmod u+x ${vsx}
 
 # encode
 encodeAll() {
-    ${vsx} --staticName --L {op,ed}1_aa.vpy op2_aa.vpy
-    ${vsx} --rcloneUpload --EVL e{1..22}.vpy {op,ed}1.vpy {op,ed}2.vpy ed3.vpy m{1..8}.vpy
+    ${vsx} --staticName --L {op,ed}1_aa.py op2_aa.py
+    ${vsx} --rcloneUpload --EVL e{1..22}.py {op,ed}1.py {op,ed}2.py ed3.py m{1..8}.py
 }
 if [[ ${part} == '1' ]]; then
-    ${vsx} --staticName --L {op,ed}1_aa.vpy
-    ${vsx} --rcloneUpload --EVL e{1..11}.vpy {op,ed}1.vpy m{1..8}.vpy
+    ${vsx} --staticName --L {op,ed}1_aa.py
+    ${vsx} --rcloneUpload --EVL e{1..11}.py {op,ed}1.py m{1..8}.py
 
 elif [[ ${part} == '2' ]]; then
-    ${vsx} --staticName --L op2_aa.vpy
-    ${vsx} --rcloneUpload --EVL e{12..22}.vpy {op,ed}2.vpy ed3.vpy
+    ${vsx} --staticName --L op2_aa.py
+    ${vsx} --rcloneUpload --EVL e{12..22}.py {op,ed}2.py ed3.py
 
 elif [[ ${part} == 'test' ]]; then
-    # ${vsx} --unlinkMode e1.vpy
-    ${vsx} --rcloneUpload --staticName --L e1.vpy
-    ${vsx} --rcloneUpload --E e1.vpy
+    # ${vsx} --unlinkMode e1.py
+    ${vsx} --rcloneUpload --staticName --L e1.py
+    ${vsx} --rcloneUpload --E e1.py
 
 else
     encodeAll
