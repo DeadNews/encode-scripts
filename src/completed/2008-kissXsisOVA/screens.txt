@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: kissXsisOVA
+pattern: '/run/media/deadnews/data1/encode/kissXsisOVA/out/[Kawaiika-Raws] (2008-2015) Kiss X Sis OVA [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Kiss X Sis 01 [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Kiss x Sis OVA BDRip/Kiss x Sis OVA 00 серия.mkv'
+
+e1:  1528 16421 16662 17862 30608  32408 32528  5971 4650

@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+
+title: Shingeki no Kyojin S3, Part 2
+short: Shingeki no Kyojin (2019)
+_year: 2019
+anidb: https://anidb.net/anime/14444
+
+e1: EP1 «The Town Where Everything Began»
+e2: EP2 «Thunder Spears»
+e3: EP3 «Descent»
+e4: EP4 «Perfect Game»
+e5: EP5 «Hero»
+e6: EP6 «Midnight Sun»
+e7: EP7 «The Basement»
+e8: EP8 «That Day»
+e9: EP9 «Attack Titan»
+e10: EP10 «The Other Side of the Wall»
+
+s1: S1 «Chimi Chara Theater 1»
+s2: S2 «Chimi Chara Theater 2»
+s3: S3 «Chimi Chara Theater 3»
+
+ed: ED «Name of Love»
+op: OP «Doukei to Shikabane no Michi»
+
+pv: PV

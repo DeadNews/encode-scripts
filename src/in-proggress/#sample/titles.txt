@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+title: Kakushigoto
+_year: 2021
+anidb: https://anidb.net/anime/15267
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6

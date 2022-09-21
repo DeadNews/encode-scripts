@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+title: Nekomonogatari
+pattern: '/run/media/deadnews/data1/encode/Nekomonogatari/out/[Kawaiika-Raws] Nekomonogatari (Kuro) (2012) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Nekomonogatari ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/gatari/Nekomonogatari (Kuro) [BDRip] [1080p]/[Yousei-raws] Nekomonogatari (Kuro) # [BDrip 1920x1080 x264 FLAC].mkv'
+
+e1: 120
+e2: 2520 2880 18990
+e3: 7360 24400 9504 11665 14504 17513 18114 19435 28947 30627 16233

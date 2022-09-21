@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+
+title: Akudama Drive
+_year: 2020
+anidb: https://anidb.net/anime/15437
+
+e1: EP1 «Se7en»
+e2: EP2 «Reservoir Dogs»
+e3: EP3 «Mission: Impossible»
+e4: EP4 «Speed»
+e5: EP5 «Dead Man Walking»
+e6: EP6 «Brother»
+e7: EP7 «The City of Lost Children»
+e8: EP8 «Black Rain»
+e9: EP9 «The Shining»
+e10: EP10 «Babel»
+e11: EP11 «War Games»
+e12: EP12 «Akudama Drive» (Extend Ver.)
+
+e12_v0: EP12 «Akudama Drive» (On Air Ver.)
+
+op: OP «Steal!»
+ed: ED «Ready»
+
+#[Moozzi2] Akudama Drive - 12 END [ Extend Ver. ] (BD 1920x1080 x265-10Bit FLACx2).mkv (2.1 GiB)
+#[Moozzi2] Akudama Drive - 12 END [ On Air Ver. ] (BD 1920x1080 x265-10Bit Flac).mkv (1.1 GiB)

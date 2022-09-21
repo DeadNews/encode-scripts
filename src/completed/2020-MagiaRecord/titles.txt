@@ -1,0 +1,34 @@
+#!/usr/bin/env sh
+
+title: Magia Record – Mahou Shoujo Madoka Magica Gaiden
+short: Magia Record
+_year: 2020
+anidb: https://anidb.net/anime/14360
+
+e1: EP1 «Have You Heard? That Rumor About the Magical Girls.»
+e2: EP2 «It`s Proof of the End of a Friendship»
+e3: EP3 «Sorry for Making You My Friend»
+e4: EP4 «This Isn`t the Past»
+e5: EP5 «There`s No Place for You Here»
+e6: EP6 «I`ll Do Anything»
+e7: EP7 «I Want to Go Home with You»
+e8: EP8 «You Definitely Shouldn`t Respond»
+e9: EP9 «A World with Just Me»
+e10: EP10 «My Name»
+e11: EP11 «Memory Museum at 3:00 PM»
+e12: EP12 «Why Is This So Unbearable?»
+e13: EP13 «A Faint Hope»
+
+op1: OPa «Gomakashi»
+op2: OPb «Gomakashi»
+ed: ED «Alicia»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+
+pv1: PV1
+pv2: PV2
+pv3: PV3

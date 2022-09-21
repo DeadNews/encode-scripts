@@ -1,0 +1,49 @@
+e1:
+  Avant: 0
+  Part_A: 5204
+  Part_B: 17768
+  ED: 31388
+  EDend: 33568
+e2:
+  Avant: 0
+  OP: 1785
+  Part_A: 3972
+  Part_B: 12601
+  Part_C: 18620
+  Part_D: 26356
+  ED: 34376
+  EDend: 36560
+e3:
+  Avant: 0
+  Part_A: 2208
+  Part_B: 16524
+  ED: 32288
+  EDend: 34473
+e4:
+  Avant: 0
+  OP: 3456
+  Part_A: 5616
+  Part_B: 18972
+  ED: 32044
+  Next: 34200
+e5:
+  Avant: 0
+  Part_A: 2157
+  Part_B: 22404
+  ED: 40980
+e6:
+  Avant: 0
+  Part_A: 2232
+  Part_B: 16568
+  ED: 32248
+e7:
+  Avant: 0
+  Part_A: 2916
+  Part_B: 19661
+  ED: 32248
+e8:
+  Avant: 0
+  Part_A: 6276
+  Part_B: 18176
+  ED: 32240
+  EDend: 34432

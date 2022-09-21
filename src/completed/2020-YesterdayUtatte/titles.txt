@@ -1,0 +1,40 @@
+#!/usr/bin/env sh
+
+title: Yesterday o Utatte
+_year: 2020
+anidb: https://anidb.net/anime/14822
+
+e1: EP1 «A Misfit`s Attempt at Self-Reform»
+e2: EP2 «Cul-de-sac»
+e3: EP3 «What Is Love?»
+e4: EP4 «As the River Flows, Shinako Returns Home»
+e5: EP5 «The Man Named Minato»
+e6: EP6 «The Woman Named Yuzuhara»
+e7: EP7 «Premonition of a Couple»
+e8: EP8 «Innocent Blue»
+e9: EP9 «Christmas Carol»
+e10: EP10 «A New Year of Beginnings»
+e11: EP11 «A Spring Storm»
+e12: EP12 «The Long Way»
+
+s1: S1 «E1 Extra Scene»
+s2: S2 «E2 Extra Scene»
+s3: S3 «E3 Extra Scene»
+s4: S4 «E4 Extra Scene»
+s5: S5 «E9 Extra Scene»
+s6: S6 «E12 Extra Scene»
+
+ed1: ED1 «Kago no Naka ni Tori (1)»
+ed2: ED2 «Kago no Naka ni Tori (2)»
+ed3: ED3 «Kago no Naka ni Tori (3)»
+ed4: ED4 «Kago no Naka ni Tori (4)»
+ed5: ED5 «Kago no Naka ni Tori (5)»
+ed6: ED6 «Kago no Naka ni Tori (6)»
+ed7: ED7 «Aoi Bashi (7-9)»
+ed8: ED8 «Yesterday o Utatte (10)»
+ed9: ED9 «Yesterday o Utatte (11)»
+
+mv: MV
+m1: M1
+m2: M2
+m3: M3

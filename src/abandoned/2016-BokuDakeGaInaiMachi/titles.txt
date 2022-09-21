@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+title: Boku dake ga Inai Machi
+_year: 2016
+anidb: https://anidb.net/anime/11292
+
+e1: EP1 «Flashing Before My Eyes»
+e2: EP2 «Palm of the Hand»
+e3: EP3 «Birthmark»
+e4: EP4 «Accomplishment»
+e5: EP5 «Getaway»
+e6: EP6 «Grim Reaper»
+e7: EP7 «Out of Control»
+e8: EP8 «Spiral»
+e9: EP9 «Closure»
+e10: EP10 «Joy»
+e11: EP11 «Future»
+e12: EP12 «Treasure»
+
+op1: OP «Re:Re:»
+op2: OP_e11 «Re:Re:»
+op3: OP_e12 «Re:Re:»
+ed: ED «Sore wa Chiisana Hikari no You na»

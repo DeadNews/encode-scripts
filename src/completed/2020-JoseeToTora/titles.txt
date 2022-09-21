@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+title: Josee to Tora to Sakana-tachi
+_year: 2020
+anidb: https://anidb.net/anime/15287
+
+e1: «Josee, the Tiger and the Fish»
+
+m1: M
+ed: ED

@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: Non Non Biyori Vacation
+_year: 2018
+
+e1: Non Non Biyori: Vacation

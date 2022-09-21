@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+title: AriaAvvenire
+pattern:  '/run/media/deadnews/data1/encode/AriaAvvenire/out/[Kawaiika-Raws] Aria the Avvenire (2015) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Aria the Avvenire ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/[SallySubs] Aria the Avvenire [BD 1080p FLAC]/[SallySubs] Aria the Avvenire - ## [BD 1080p FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Aria the Avvenire OVA [BDRip 1080p]/[UCCUSS] Aria the Avvenire OVA Capitolo # (BD 1920x1080p AVC FLAC).mkv'
+
+e1:  2831 22786
+e2:  709 20022
+e3:  12034 4590

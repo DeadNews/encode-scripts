@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: Sarusuberi
+pattern: '/run/media/deadnews/data1/encode/Sarusuberi/out/[Kawaiika-Raws] Sarusuberi – Miss Hokusai (2015) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Sarusuberi [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Sarusuberi/Sarusuberi-Miss_HOKUSAI_(BD 1920x1080p AVC FLAC)_[UCCUSS].mkv'
+
+e1: 69600 84069 95036 103000 127653 41232

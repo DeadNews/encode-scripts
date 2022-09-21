@@ -1,0 +1,68 @@
+e1:
+  OP: 0
+  Part_A: 2158
+  Part_B: 18414
+  Part_C: 29211
+  Next: 33902
+  EOF: 34022
+e2:
+  Avant: 0
+  OP: 2014
+  Part_A: 4173
+  Part_B: 15395
+  ED: 31746
+  Next: 33904
+  EOF: 34024
+e3:
+  Avant: 0
+  OP: 1296
+  Part_A: 3453
+  Part_B: 18391
+  ED: 27494
+  Part_C: 29652
+  Next: 33903
+  EOF: 34023
+e4:
+  Avant: 0
+  OP: 912
+  Part_A: 3069
+  Part_B: 19925
+  ED: 28576
+  Part_C: 30734
+  Next: 33902
+  EOF: 34022
+e5:
+  Avant: 0
+  OP: 1440
+  Part_A: 3597
+  Part_B: 11868
+  ED: 26685
+  Part_C: 28842
+  Next: 33901
+  EOF: 34021
+e6:
+  Avant: 0
+  OP: 672
+  Part_A: 2830
+  Part_B: 17576
+  ED: 27503
+  Part_C: 29661
+  Next: 33904
+  EOF: 34024
+e7:
+  Avant: 0
+  OP: 960
+  Part_A: 3117
+  Part_B: 16040
+  ED: 30617
+  Part_C: 32752
+  Next: 33902
+  EOF: 34022
+e8:
+  Avant: 0
+  OP: 792
+  Part_A: 2949
+  Part_B: 15274
+  ED: 31745
+  Next: 33903
+  EOF: 34023

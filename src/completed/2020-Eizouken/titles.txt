@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+
+title: Eizouken ni wa Te o Dasuna!
+short: Eizouken
+_year: 2020
+anidb: https://anidb.net/anime/14907
+
+e1: EP1 «The Greatest World!»
+e2: EP2 «The Eizouken Takes the Stage!»
+e3: EP3 «Let`s Accomplish Something!»
+e4: EP4 «Hold That Machete Tight!»
+e5: EP5 «An Iron Giant Appears!»
+e6: EP6 «Let`s Do Better Than Last Time!»
+e7: EP7 «I Have to Do It for Myself!»
+e8: EP8 «The Grand Shibahama Festival!»
+e9: EP9 «Aim for Comet A!»
+e10: EP10 «Against Our Independent World!»
+e11: EP11 «Each Other`s Existence!»
+e12: EP12 «Shibahama UFO Wars!»
+
+op: OP «Easy Breezy»
+ed: ED «Namae no Nai Ao»
+
+m1: M1
+m2: M2
+pv: PV

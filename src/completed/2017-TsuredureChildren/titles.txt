@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+title: Tsuredure Children
+_year: 2017
+
+e1: EP1 «Confession / She`s a Slacker / The Student President`s Woes / Spica»
+e2: EP2 «My Brother`s Girlfriend / Spring / Contact / Rain»
+e3: EP3 «Point-Blank Relationship / I`ll Kill Senpai / Love Is Derpy / Cleanup Duty»
+e4: EP4 «Romantic Comedy / Let`s Find Out / The Answer / You`re Beautiful»
+e5: EP5 «Re: / Childhood Friend / Watching You from Afar»
+e6: EP6 «Authority / X-File / We Don`t Need Girls / Dating Master»
+e7: EP7 «Trap / Tell Me / Advice / It`s All the Fever`s Fault»
+e8: EP8 «Wanting More / Shoot / Boobs / Bruised-Up Angel»
+e9: EP9 «Gaze / Square One / Once More / Like»
+e10: EP10 «Leave Behind My Corpse / Jealousy / Lovers / Bubbles»
+e11: EP11 «Tuning / Water Under the Bridge / Exam»
+e12: EP12 «Sports Day / Summer Begins»

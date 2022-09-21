@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+title: Sakasama no Patema
+_year: 2013
+anidb: https://anidb.net/anime/8857
+
+e1: «Sakasama no Patema»

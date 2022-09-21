@@ -1,0 +1,31 @@
+#!/usr/bin/env sh
+
+title: Shadows House
+_year: 2021
+anidb: https://anidb.net/anime/15779
+
+e1: EP1 «The Shadow and Her Doll»
+e2: EP2 «Outside the Room»
+e3: EP3 «The Soot Sickness»
+e4: EP4 «Watchers in the Night»
+e5: EP5 «The Debut»
+e6: EP6 «The Garden Labyrinth»
+e7: EP7 «An Incomplete Map»
+e8: EP8 «In the Palm of His Hand»
+e9: EP9 «A Bird Cage and Flowers»
+e10: EP10 «The Final Pair»
+e11: EP11 «The Dark Drink»
+e12: EP12 «To Lord Grandfather`s Wing»
+e13: EP13 «For the Sake of the Shadows Family»
+
+op: OP «A Hollow Shadow»
+ed: ED «Nai Nai»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6
+
+pv: PV

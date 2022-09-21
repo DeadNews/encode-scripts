@@ -1,0 +1,44 @@
+#!/usr/bin/env sh
+
+title: 3-gatsu no Lion
+_year: 2016
+seasn: 1
+
+e1: EP1 «Rei Kiriyama / The Town Along the River»
+e2: EP2 «Akari / Beyond the Bridge»
+e3: EP3 «Harunobu / Beyond the Night Sky»
+e4: EP4 «Hina / V.S.»
+e5: EP5 «Agreement / Over the Cuckoo`s Nest»
+e6: EP6 «Child of God (Part 1) / Child of God (Part 2) / Child of God (Part 3)»
+e7: EP7 «Child of God (Part 3, Continued) / Important Things. Important Matters. / Teach Me How to Play Shogi»
+e8: EP8 «Teach Me How to Play Shogi (Continued) / Image / Distant Thunder (Part 1)»
+e9: EP9 «Distant Thunder (Part 2) / Distant Thunder (Part 3)»
+e10: EP10 «Something Given (Part 1) / Something Given (Part 2)»
+e11: EP11 «The Old Year / The New Year»
+e12: EP12 «What Lies on the Opposite Shore / Black River (Part 1)»
+e13: EP13 «Black River (Part 2) / Beyond the Door»
+e14: EP14 «Blinding Darkness / Just a Little Water»
+e15: EP15 «Moonlight / Lump of Ego»
+e16: EP16 «Running Through the Night / Middle of the Slope»
+e17: EP17 «Silver Thread / Water`s Surface / Base of the Blue Night»
+e18: EP18 «Torrent / Passing Time»
+e19: EP19 «Passing the Night / Kyoto (Part 1)»
+e20: EP20 «Kyoto (Part 2) / Kyoto (Part 3)»
+e21: EP21 «When the Cherry Blossoms Bloom / Small Murmur»
+e22: EP22 «New School Term / Fighter»
+
+ed1: ED1 «Fighter»
+ed2: ED2 «Nyaa Shougi Ondo»
+ed3: ED3 «Orion»
+
+op1: OP1 «Answer»
+op2: OP2 «Sayonara Bystander»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6
+m7: M7
+m8: M8

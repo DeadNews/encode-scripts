@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+title: Quanzhi Gaoshou
+_year: 2020
+anidb: https://anidb.net/anime/14978
+
+e1: EP1 «The First Step to Return to the Professional World»
+e2: EP2 «Happy New Year»
+e3: EP3 «God`s Realm»
+e4: EP4 «Unspecialized Strikes»
+e5: EP5 «Professional Scrap-Picker»
+e6: EP6 «Negative Example»
+e7: EP7 «Boss of Excellent Era»
+e8: EP8 «Ancient Gods»
+e9: EP9 «Material Problem»
+e10: EP10 «Champion Heart»
+e11: EP11 «Little Cold Hands»
+e12: EP12 «Team Happy»

@@ -1,0 +1,66 @@
+e1:
+  OP: 4795
+  OPend: 6951
+  Part_B: 13512
+  ED: 30714
+  EDend: 32880
+e2:
+  OP: 1933
+  OPend: 4089
+  Part_B: 14087
+  ED: 30703
+  EDend: 32895
+e3:
+  OP: 2182
+  OPend: 4338
+  Part_B: 10138
+  ED: 30710
+  EDend: 32880
+e4:
+  OP: 3152
+  OPend: 5308
+  Part_B: 14176
+  ED: 30700
+  EDend: 32876
+e5:
+  OP: 1779
+  OPend: 3935
+  Part_B: 14461
+  ED: 30693
+  EDend: 32894
+e6:
+  OP: 1296
+  OPend: 3450
+  Part_B: 19921
+  ED: 30712
+  EDend: 32880
+e7:
+  OP: 1189
+  OPend: 3343
+  Part_B: 15066
+  ED: 30698
+  EDend: 32879
+e8:
+  OP: 1942
+  OPend: 4098
+  Part_B: 16877
+  ED: 30688
+  EDend: 32891
+e9:
+  OP: 2470
+  OPend: 4625
+  Part_B: 18194
+  ED: 30709
+  EDend: 32890
+e10:
+  OP: 2158
+  OPend: 4314
+  Part_B: 18435
+  ED: 30688
+  EDend: 32858
+e11:
+  ED: 1019
+  EDend: 3173
+  Part_B: 13890
+  OP: 30697
+  OPend: 32890

@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: FLCL-Progressive
+pattern: '/run/media/deadnews/data1/encode/FLCL-Progressive/out/[Kawaiika-Raws] (2018) FLCL Progressive [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] FLCL Progressive [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/[VCB-Studio] FLCL/[VCB-Studio] FLCL Progressive.mkv'
+
+e1: 1975 2622 3996 4033 19612 20876 20964 21204 21301 21564 22381 22927 22981 23581 23739 23941 24301 24836 32206 35692 43669 43789 44269 44629 47029 47433 47749 48709 54588 54828 67256 75955 79046 92126 96722 110407 113171 115851 140067 176015 189362

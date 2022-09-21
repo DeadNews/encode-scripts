@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+title: Koyomimonogatari
+pattern: '/run/media/deadnews/data1/encode/Koyomimonogatari/out/[Kawaiika-Raws] Koyomimonogatari (2016) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Koyomimonogatari ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/gatari/[Beatrice-Raws] Koyomimonogatari [BDRip 1920x1080 x264 FLAC]/[Beatrice-Raws] Koyomimonogatari ## [BDRip 1920x1080 x264 FLAC].mkv'
+
+e1: 12809 3956
+e3: 10373
+e4: 1256
+e5: 7622 14340
+e7: 7661 3579
+e9: 846

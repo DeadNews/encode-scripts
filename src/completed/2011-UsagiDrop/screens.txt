@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: UsagiDrop
+pattern: '/run/media/deadnews/data1/encode/UsagiDrop/out/[Kawaiika-Raws] Usagi Drop (2011) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Usagi Drop ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Usagi Drop [BDRip][1080p]/[Yousei-raws] Usagi Drop ## [BDrip 1920x1080 x264 FLAC].mkv'
+
+e1: 15241 18245 23709 23860 24923 27564 6427 13988

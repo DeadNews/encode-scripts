@@ -1,0 +1,40 @@
+#!/usr/bin/env sh
+
+title: Hakumei to Mikochi
+_year: 2018
+
+e1: EP1 «Yesterday`s Dark Red / Marketplace Shanty»
+e2: EP2 «The Two Songstresses / The Glass Lamp / A Cup of Coffee»
+e3: EP3 «Starlit Sky and Ponkan / Work Day»
+e4: EP4 «Work Day 2 / Horned Owls and Old Tales»
+e5: EP5 «The Association`s Work Site / Large Stones and Joint Stones»
+e6: EP6 «The Egg Beautician / A Day Off / The Egg Beautician: Day 2»
+e7: EP7 «A Ladder in the Tree / The Metropolitan Lifestyle / Photo of a Smile»
+e8: EP8 «A Long Day»
+e9: EP9 «Rhythm of the River Bottom / Dyed Goods of the Stubborn»
+e10: EP10 «Hot Bamboo Bath / Daikon and Pipes»
+e11: EP11 «Overnight Train / Rain and Tenkara»
+e12: EP12 «Memory of Dark Red Hair»
+e13: EP13 «Screws, Beds, Fireplaces, and Gambling»
+
+op1: OPa «Urar»
+op2: OPb «Urar»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+
+ed1: ED01 «Harvest Moon Night»
+ed2: ED02 «Harvest Moon Night»
+ed3: ED03 «Harvest Moon Night»
+ed4: ED04 «Harvest Moon Night»
+ed5: ED05 «Harvest Moon Night»
+ed6: ED06 «Harvest Moon Night»
+ed7: ED07 «Harvest Moon Night»
+ed8: ED08 «Harvest Moon Night»
+ed9: ED09 «Harvest Moon Night»
+ed10: ED10 «Harvest Moon Night»
+ed11: ED11 «Harvest Moon Night»
+ed12: ED12 «Harvest Moon Night»
+ed13: ED13 «Harvest Moon Night»

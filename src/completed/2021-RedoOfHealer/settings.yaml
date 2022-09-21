@@ -1,0 +1,41 @@
+filt:
+  main:
+    rt_sigma: 0.9
+    sm_thr: 25
+    dn_ttsmooth: true
+    sm_pref_mode: 1
+    dn_pref: false
+    cs_val: 0.94
+    #
+    db_thr: 1.0
+    db_mode: 3
+    db_det: 60
+    db_grain: 48
+    db_saveblack: 2
+    db_adaptive:
+      z2:
+        scaling: 0.1
+        db_thr: 4.0
+        db_mode: 3
+        #
+    ag_str: 0.12
+    ag_scaling: 50
+    ag_saveblack: 2
+
+aa:
+  main:
+    desc_h: 837
+    desc_str: 0.28
+    # desc_str: 0.4
+    kernel: bicubic
+    bic_b: 1
+    bic_c: 0
+    #
+    resc_mthr: 35
+    resc_bc: true
+
+dehalo:
+  main:
+    rx: 1.6
+    darkstr: 0.5
+    brightstr: 1.0

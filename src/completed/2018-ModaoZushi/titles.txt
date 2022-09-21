@@ -1,0 +1,32 @@
+#!/usr/bin/env sh
+
+title: Modao Zushi
+short: Modao Zushi (2018)
+_year: 2018
+anidb: https://anidb.net/anime/14162
+
+e1: EP1 «Banishing Evil (Part 1)»
+e2: EP2 «Banishing Evil (Part 2)»
+e3: EP3 «Pursuing Studies»
+e4: EP4 «Water Ghouls»
+e5: EP5 «Heretic Path»
+e6: EP6 «Returning Home»
+e7: EP7 «The Champion»
+e8: EP8 «The Indoctrination»
+e9: EP9 «Same Boat»
+e10: EP10 «Disaster Arises»
+e11: EP11 «Mountain Collapse»
+e12: EP12 «Loyal Heart»
+e13: EP13 «Fatal Position»
+e14: EP14 «Obscured Sun»
+e15: EP15 «Beautiful Tranquility»
+
+ed: ED
+
+op1: OP1
+op2: OP2 (Chinese ver.)
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4

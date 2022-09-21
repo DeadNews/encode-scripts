@@ -1,0 +1,28 @@
+#!/usr/bin/env sh
+
+title: Senpai ga Uzai Kouhai no Hanashi
+_year: 2021
+anidb: https://anidb.net/anime/15621
+
+e1: EP1 «Each Other`s Stride»
+e2: EP2 «Udon with the Occasional Full Moon»
+e3: EP3 «And Then, It`s Christmas»
+e4: EP4 «Someone Who`ll Be by Your Side»
+e5: EP5 «Valentine Symphony»
+e6: EP6 «Grandpa Hearts Futaba»
+e7: EP7 «Here and Now»
+e8: EP8 «Everyone`s Holidays»
+e9: EP9 «A Light-Hearted Summer Vacation»
+e10: EP10 «Autumn, or Ordinary Days»
+e11: EP11 «The Seasons Come and Go»
+e12: EP12 «My Senpai Is Annoying»
+
+op: OP «Annoying! Sunsun Week!»
+ed: ED «Niji ga Kakaru Made no Hanashi»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6

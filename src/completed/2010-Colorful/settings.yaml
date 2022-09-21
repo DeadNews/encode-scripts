@@ -1,0 +1,66 @@
+filt:
+  main:
+    rt_sigma: 1
+    sm_thr: 50
+    dn_pref: true
+    dn_pref_scaling: 4
+    cs_val: 0.5
+    #
+    db_thr: 2.1
+    db_mode: 1
+    db_rt_mode: 2
+    db_grain: 40
+    db_saveblack: 2
+    db_adaptive:
+      z2:
+        scaling: 4
+        db_thr: 4
+        db_mode: 1
+        #
+    ag_str: 0
+    ag_scaling: 4
+    ag_saveblack: 2
+  rain:
+    rt_sigma: 0.8
+    sm_thr: 40
+    dn_pref: false
+    cs_mode: 3
+    db_gf_mode: 4
+    db_mode: 2
+  avant:
+    rt_sigma: 0.8
+    sm_thr: 40
+    dn_pref: false
+    cs_mode: 3
+    db_thr: 1.1
+    db_mode: 3
+    db_gf_mode: 4
+    ag_str: 0.2
+    ag_scaling: 0
+  noise_1:
+    rt_sigma: 2
+    sm_thr: 150
+    cs_mode: 0
+    ag_str: 0.3
+    ag_scaling: 0
+  noise_2:
+    rt_sigma: 2
+    ag_str: 0.3
+    ag_scaling: 0
+
+aa:
+  main:
+    desc_h: 900
+    desc_str: 0.70
+    # desc_str: 0.30
+    kernel: bilinear # 9406.85 23753.38
+    gamma: 400
+
+dehalo:
+  main:
+    rx: 2
+    darkstr: 0
+    brightstr: 1.2
+    mode: kirsch
+    max_c: 3
+    min_c: 1

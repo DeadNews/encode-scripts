@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: Colorful
+_year: 2010
+anidb: https://anidb.net/anime/7409
+
+e1: «Colorful»
+
+m1: M

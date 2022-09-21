@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: Kizumonogatari
+pattern: '/run/media/deadnews/data1/encode/Kizumonogatari/out/[Kawaiika-Raws] Kizumonogatari (2016) [BDRip 1920x816 HEVC FLAC]/[Kawaiika-Raws] Kizumonogatari ## [BDRip 1920x816 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/gatari/[Beatrice-Raws] Kizumonogatari [BDRip 1920x816 x264 FLAC]/[Beatrice-Raws] Kizumonogatari # [BDRip 1920x816 x264 FLAC].mkv'
+
+# pattern: /run/media/deadnews/data1/encode/Kizumonogatari/in/m#.mkv
+
+e1: 43390 64720 73626 75786 75426 37178 14494 76626 58151 13560
+e2: 55802

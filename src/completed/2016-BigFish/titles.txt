@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: Big Fish & Begonia
+_year: 2016
+anidb: https://anidb.net/anime/8156
+
+e1: «Big Fish & Begonia»
+
+m1: Menu

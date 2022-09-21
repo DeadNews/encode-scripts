@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: MachikadoMazoku
+pattern:  '/run/media/deadnews/data1/encode/MachikadoMazoku/out/[Kawaiika-Raws] Machikado Mazoku (2019) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Machikado Mazoku ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/[ReinForce] Machikado Mazoku [BDRip 1080p x264 FLAC]/[ReinForce] Machikado Mazoku - ## [BDRip 1080p x264 FLAC].mkv'
+
+e1:  5630 20655 318
+e3:  8411 4332
+e5:  26790
+e9:  24035 34154

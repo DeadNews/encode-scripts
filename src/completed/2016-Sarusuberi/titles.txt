@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+title: Sarusuberi – Miss Hokusai
+short: Sarusuberi
+_year: 2015
+
+e1: «Sarusuberi: Miss Hokusai»

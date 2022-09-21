@@ -1,0 +1,167 @@
+e1:
+  Avant: 0
+  Part_A: 5347
+  Part_B: 15249
+  ED: 31741
+  Next: 34046
+e2:
+  Avant: 0
+  OP: 4245
+  Part_A: 6402
+  Part_B: 21340
+  ED: 31889
+  Next: 34047
+e3:
+  Avant: 0
+  OP: 2182
+  Part_A: 4339
+  Part_B: 15537
+  ED: 31888
+  Next: 34046
+e4:
+  Avant: 0
+  OP: 2806
+  Part_A: 4963
+  Part_B: 20931
+  ED: 31888
+  Next: 34046
+e5:
+  Avant: 0
+  OP: 792
+  Part_A: 2949
+  Part_B: 15776
+  ED: 31888
+  Next: 34046
+e6:
+  Avant: 0
+  OP: 3213
+  Part_A: 5371
+  Part_B: 13523
+  ED: 31888
+  Next: 34046
+e7:
+  Avant: 0
+  OP: 1416
+  Part_A: 3573
+  Part_B: 16784
+  ED: 30617
+  Part_C: 32776
+  Next: 34046
+e8:
+  Avant: 0
+  OP: 1200
+  Part_A: 3357
+  Part_B: 13980
+  ED: 30703
+  Next: 34047
+e9:
+  Avant: 0
+  OP: 1248
+  Part_A: 3405
+  Part_B: 15250
+  ED: 31889
+  Next: 34047
+e10:
+  Avant: 0
+  OP: 2782
+  Part_A: 4939
+  Part_B: 19060
+  ED: 31887
+  Next: 34045
+e11:
+  Avant: 0
+  OP: 1942
+  Part_A: 4101
+  Part_B: 18368
+  ED: 31890
+  Next: 34048
+e12:
+  Avant: 0
+  OP: 3477
+  Part_A: 5635
+  Part_B: 16833
+  ED: 30908
+  Part_C: 32967
+  Next: 34047
+e13:
+  Avant: 0
+  OP: 1918
+  Part_A: 4077
+  Part_B: 15752
+  ED: 30888
+  Part_C: 33053
+  Next: 34046
+e14:
+  Avant: 0
+  OP: 2782
+  Part_A: 4939
+  Part_B: 20907
+  ED: 31888
+  Next: 34046
+e15:
+  Avant: 0
+  OP: 2302
+  Part_A: 4459
+  Part_B: 17046
+  ED: 31888
+  Next: 34046
+e16:
+  Avant: 0
+  OP: 1462
+  Part_A: 3621
+  Part_B: 17383
+  ED: 31889
+  Next: 34047
+e17:
+  Avant: 0
+  OP: 2758
+  Part_A: 4915
+  Part_B: 18438
+  ED: 31888
+  Next: 34046
+e18:
+  Avant: 0
+  OP: 816
+  Part_A: 2973
+  Part_B: 15586
+  ED: 29326
+  Next: 34047
+e19:
+  Avant: 0
+  OP: 720
+  Part_A: 2878
+  Part_B: 19686
+  ED: 31649
+  Next: 34047
+e20:
+  Avant: 0
+  Part_A: 2710
+  Part_B: 17432
+  ED: 31890
+  Next: 34048
+e21:
+  Avant: 0
+  Part_A: 4363
+  Part_B: 19516
+  ED: 31094
+  Next: 34045
+e22:
+  Avant: 0
+  Part_A: 600
+  Part_B: 17695
+  ED: 30372
+  Next: 34047
+e23:
+  Avant: 0
+  Part_A: 4053
+  Part_B: 14866
+  ED: 28493
+  Part_C: 32548
+  Next: 34527
+e24:
+  Avant: 0
+  OP: 1942
+  Part_A: 4101
+  Part_B: 17240
+  ED: 30235
+  Epilog: 32394

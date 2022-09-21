@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+
+title: Megami-ryou no Ryoubo-kun.
+_year: 2021
+anidb: https://anidb.net/anime/15522
+
+e1: EP1 «Koushi Becomes a Dorm Mother / The Problem with Mineru and Frey»
+e2: EP2 «The Problem with Kiriya and Serene / Atena Awakens»
+e3: EP3 «Koushi, at a Loss / Koushi Goes Back to School»
+e4: EP4 «A Childhood Friend Visits the Dorm / Koushi Goes Undercover at a Women`s College»
+e5: EP5 «Serene the Shut-in / The Goddess Dormitory Goes on Vacation»
+e6: EP6 «Sutea Ponders About the Sea / Koushi Makes His Cosplay Debut»
+e7: EP7 «The School Festival at Seikan Women`s University»
+e8: EP8 «Kiriya Wishes Upon a Christmas»
+e9: EP9 «Sutea Reflects on the Kotatsu / Koushi Tackles Spring Cleaning»
+e10: EP10 «The Goddesses of the Goddess Dormitory»
+
+op: OP «Naughty Love»
+ed: ED «Zettai! Kimi Sengen»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6

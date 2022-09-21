@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+title: Shingeki no Kyojin OAD
+_year: 2013-2018
+anidb: https://anidb.net/anime/9826
+
+e1: EP1 «Ilse`s Notebook: Memoirs of a Recon Corps Member»
+e2: EP2 «The Sudden Visitor: The Torturous Curse of Youth»
+e3: EP3 «Distress»
+e4: EP4 «A Choice with No Regrets (Part 1)»
+e5: EP5 «A Choice with No Regrets (Part 2)»
+e6: EP6 «Wall Sina, Goodbye (Part 1)»
+e7: EP7 «Wall Sina, Goodbye (Part 2)»
+e8: EP8 «Lost in the Cruel World»

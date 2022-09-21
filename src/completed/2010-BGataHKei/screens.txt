@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: 2010-BGataHKei
+pattern: /run/media/deadnews/data1/temp/1/e1.mkv '/run/media/deadnews/data1/releases/[Kawaiika-Raws] (2010) B Gata H Kei [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] B Gata H Kei 01 [BDRip 1920x1080 HEVC FLAC].mkv'
+
+e1: 8443 13140

@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+
+title: Serial Experiments Lain
+_year: 1998
+anidb: https://anidb.net/anime/99/
+
+e1: EP1 «Weird»
+e2: EP2 «Girls»
+e3: EP3 «Psyche»
+e4: EP4 «Religion»
+e5: EP5 «Distortion»
+e6: EP6 «Kids»
+e7: EP7 «Society»
+e8: EP8 «Rumors»
+e9: EP9 «Protocol»
+e10: EP10 «Love»
+e11: EP11 «Infornography»
+e12: EP12 «Landscape»
+e13: EP13 «Ego»
+
+s1: «LPR-309»
+s2: «Devices»
+
+op1: OP «Duvet»
+ed1: EDa «Tooi Sakebi»
+ed2: EDb «Tooi Sakebi»

@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+title: Mushishi Zoku Shou (S2)
+short: Mushishi
+_year: 2014
+seasn: 2
+
+e1: EP1 «Banquet at the Forest`s Edge»
+e2: EP2 «The Warbling Seashell»
+e3: EP3 «Beneath the Snow»
+e4: EP4 «The Hand That Caresses the Night»
+e5: EP5 «Mirror Lake»
+e6: EP6 «Floral Delusion»
+e7: EP7 «Cloudless Rain»
+e8: EP8 «Wind Raiser»
+e9: EP9 «Valley of the Welling Tides»
+e10: EP10 «Depths of Winter»
+e11: EP11 «Path of Thorns»

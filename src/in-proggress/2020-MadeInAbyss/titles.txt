@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+title: Made in Abyss
+_year: 2020
+anidb: https://anidb.net/anime/13612
+
+e1: Part 3: Dawn of the Deep Soul
+
+s1: S1 «Marulk-chan`s Everyday #1: Request»
+s2: S2 «Marulk-chan`s Everyday #2: Errands»
+s3: S3 «Marulk-chan`s Everyday #3: Cleaning»
+s4: S4 «Marulk-chan`s Everyday #4: Memories»
+
+m: M
+pv: PV

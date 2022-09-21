@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+title: MadokaMagica
+pattern:
+
+e1: 90989 169580 23840 25626 34376
+e3: 18711 19191 21231 21351 22671
+
+~/my/scripts/python/vpy-screens.py '/run/media/deadnews/data1/encode/MadokaMagica/out/e1 (2019-09-07 22:18:39).mp4'  '/run/media/deadnews/data1/temp/Mahou Shoujo Madoka Magika Gekijouban/[ReinForce] Gekijouban Mahou Shoujo Madoka Magika - Part 1 (BDRip 1920x1080 x264 FLAC).mp4'  -t MadokaMagica1     -f 90989 169580 23840 25626 34376
+
+~/my/scripts/python/vpy-screens.py  '/run/media/deadnews/data1/encode/MadokaMagica/out/e3 (2019-09-07 16:35:08).mp4'                -t MadokaMagica3     -f  18711 19191 21231 21351 22671
+~/my/scripts/python/vpy-screens.py   '/run/media/deadnews/data1/temp/Mahou Shoujo Madoka Magica/Mahou Shoujo Madoka Magica Movie 3.mp4' -t MadokaMagica3     -f  18711 19191 21231 21351 22671

@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: FLCL Progressive
+_year: 2018
+anidb: https://anidb.net/anime/12023
+
+e1: «FLCL Progressive»
+
+m1: M

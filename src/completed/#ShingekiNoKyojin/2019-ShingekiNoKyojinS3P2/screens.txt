@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: ShingekiNoKyojin-2019
+pattern: '/run/media/deadnews/data1/encode/ShingekiNoKyojin-2019/out/[Kawaiika-Raws] Shingeki no Kyojin (2019) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Shingeki no Kyojin (2019) 01 [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/[ReinForce] Shingeki no Kyojin S3 Vol 5 (BDRip 1920x1080 x264 FLAC)dd/[ReinForce] Shingeki no Kyojin - 50 (BDRip 1920x1080 x264 FLAC).mkv'
+
+e1: 5384 5864 9102 18359 21960

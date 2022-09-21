@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: YojouhanShinwaTaikei
+pattern: '/run/media/deadnews/data1/temp/temp/Yojouhan Shinwa Taikei/[Yousei-raws] Yojouhan Shinwa Taikei ## [BDrip 1920x1080 x264 FLAC].mkv' '/run/media/deadnews/data1/encode/YojouhanShinwaTaikei/out/[Kawaiika-Raws] Yojouhan Shinwa Taikei (2010) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Yojouhan Shinwa Taikei ## [BDRip 1920x1080 HEVC FLAC].mkv'
+
+e1: 6660 12786 13626 14226 26113 26654 9540 11340 3136 22767

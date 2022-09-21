@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+
+title: Jahy-sama wa Kujikenai
+_year: 2021
+anidb: https://anidb.net/anime/16256
+
+e1: EP1 «The Great Jahy Can`t Go Back!»
+e2: EP2 «Druj Asks No Questions!»
+e3: EP3 «The Great Jahy Can`t Brag...»
+e4: EP4 «Saurva Never Slips Up?»
+e5: EP5 «The Great Jahy Isn`t Suspicious?!»
+e6: EP6 «The Great Jahy Doesn`t Seem to Stand a Chance...»
+e7: EP7 «The Great Jahy Doesn`t Play!»
+e8: EP8 «The Great Jahy Can`t Bathe!»
+e9: EP9 «Saurva Can`t Catch a Break...»
+e10: EP10 «The Magical Girl Will Not Lose!»
+e11: EP11 «The Landlord Can`t Come Home...»
+e12: EP12 «Kokoro-chan Will Not Betray?»
+e13: EP13 «Druj Is Not Happy!»
+e14: EP14 «The Magical Girl Will Not Fight!»
+e15: EP15 «The Boss Cannot Decide!»
+e16: EP16 «The Dark Lord Doesn`t Hold Back!»
+e17: EP17 «The Great Jahy Can`t Sleep...»
+e18: EP18 «Saurva Will Not Lose!»
+e19: EP19 «The Demon Lord Is Relentless?!»
+e20: EP20 «The Great Jahy Will Not Be Defeated!»
+
+op: OP «Fightin Pose (1-10)»
+ed: ED «Tsumari wa Itsumo Kujikenai! (1-10)»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6

@@ -1,0 +1,100 @@
+filt:
+  main:
+    rt_sigma: 1
+    dn_ttsmooth: true
+    dn_mode: bm3d
+    bm_sigma: 3
+    sm_thr: 17
+    sm_pref_mode: 2
+    dn_pref: true
+    dn_expr: x 2500 +
+    cs_val: 0.8
+    #
+    db_thr: 1.0
+    db_mode: 3
+    db_det: 60
+    db_grain: 48
+    db_expr: x 1600 +
+    db_gf_mode: 1
+    db_rt_mode: 3
+    db_saveblack: 2
+    db_adaptive:
+      z2:
+        scaling: 60
+        db_thr: 1.1
+        db_mode: 3
+        #
+    ag_str: 0.4
+    ag_scaling: 50
+    ag_saveblack: 2
+  op:
+    sm_thr: 65
+    ag_str: 0
+  ed: &noise
+    sm_thr: 200
+    db_thr: 3.0
+    db_mode: 1
+    db_pref: true
+    cs_val: 0.30
+    ag_str: 0
+  ed_grain:
+    <<: *noise
+    ag_str: 0.5
+    ag_scaling: 0
+  lite:
+    sm_thr: 10
+    db_thr: 1.1
+    db_pref: false
+    ag_str: 0
+  hard:
+    sm_thr: 100
+    cs_val: 0.1
+    ag_scaling: 10
+  menu:
+    sm_thr: 65
+    cs_val: 0.01
+    ag_str: 0
+  new:
+    dn_mode: bm3d
+    bm_sigma: 3
+    sm_thr: 17
+    dn_pref: true
+    # dn_pref: false
+    # dn_pref_scaling: 10
+    dn_expr: x 2500 +
+    cs_val: 0.80
+    #
+    db_thr: 1.0
+    db_expr: x 1600 +
+    db_gf_mode: 1
+    db_rt_mode: 3
+    db_adaptive:
+      z2:
+        scaling: 60
+        db_thr: 1.1
+        db_mode: 3
+    ag_str: 0.4
+
+aa:
+  main:
+    desc_h: 857
+    desc_str: 0.28
+    kernel: bicubic
+    bic_b: 0.5
+    bic_c: 0.5
+  eedi3:
+    desc_h: 1080
+  # resc:
+  #     desc_h: 850
+  #     resc_mthr: 18
+  #     resc_bc: true
+
+dehalo:
+  main:
+    rx: 1.6
+    brightstr: 0.5
+
+repair:
+  main:
+    max_c: 6
+    dering_args: { mrad: 2, mthr: 70, thr: 12, darkthr: 3 }

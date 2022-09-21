@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: Colorful
+pattern: '/run/media/deadnews/data1/releases/[Kawaiika-Raws] (2010) Colorful [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Colorful [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/[RG Genshiken & Dreamers Team] Colorful (BDRip 1920x1080 x264 DTS-HD MA RU JP) (1).mkv' '/run/media/deadnews/data1/temp/temp/[Yousei-raws] Colorful [BDrip 1920x1080 x264 FLAC]/[Yousei-raws] Colorful [BDrip 1920x1080 x264 FLAC].mkv'
+
+e1: 1240 7079 27414 65032 65608 73058 74692 75124 79343 79889   81617 81950 83000

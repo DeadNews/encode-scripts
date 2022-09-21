@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+title: Shingeki no Kyojin S2
+short: Shingeki no Kyojin (2017)
+_year: 2017
+anidb: https://anidb.net/anime/10944
+
+e1: EP1 «Beast Titan»
+e2: EP2 «I`m Home»
+e3: EP3 «Southwestward»
+e4: EP4 «Soldier»
+e5: EP5 «Historia»
+e6: EP6 «Warrior»
+e7: EP7 «Close Combat»
+e8: EP8 «The Hunters»
+e9: EP9 «Opening»
+e10: EP10 «Children»
+e11: EP11 «Charge»
+e12: EP12 «Scream»
+
+op: OP «Shinzou o Sasageyo!»
+ed: ED «Yuugure no Tori»

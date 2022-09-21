@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+title: Non Non Biyori
+_year: 2013
+anidb: https://anidb.net/anime/9722
+
+e1: EP1 «The Transfer Student Came»
+e2: EP2 «We Went to the Candy Store»
+e3: EP3 «I Ran Away from Home with My Sister»
+e4: EP4 «Summer Vacation Started»
+e5: EP5 «I Pretended I Forgot My Swimsuit»
+e6: EP6 «I Became a Ghost and Tried Hard»
+e7: EP7 «My Rice Crackers Turned Into Curry»
+e8: EP8 «We Cooked Rice at School»
+e9: EP9 «We Tried Having a Cultural Festival»
+e10: EP10 «We Watched the First Sunrise of the Year»
+e11: EP11 «We Made a Snow House»
+e12: EP12 «Spring Came Again»
+e13: EP13 «We're going to Okinawa!»
+
+op1: OP «Nanairo Biyori»
+ed1: EDa «Non Non Biyori»
+ed2: EDb «Non Non Biyori»

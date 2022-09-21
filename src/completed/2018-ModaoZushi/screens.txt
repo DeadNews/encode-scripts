@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+title: 2018-ModaoZushi
+pattern: '/run/media/deadnews/data1/releases/[Kawaiika-Raws] (2018) Modao Zushi [BDRip 1920x806 HEVC FLAC]/[Kawaiika-Raws] Modao Zushi (2018) ## [BDRip 1920x806 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/[SanKyuu] Grandmaster of Demonic Cultivation [Ma10p_1080p]/[SanKyuu] Grandmaster of Demonic Cultivation (MDZS) - ## [BDRip 1920x806 HEVC FLACx2].mkv'
+
+# e1: 36961 37105
+# e4: 3033 3541 27397
+
+e1: 36961
+e4: 3033

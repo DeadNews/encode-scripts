@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: ShingekiNoKyojinOAD
+pattern: '/run/media/deadnews/data1/encode/ShingekiNoKyojinOAD/out/[Kawaiika-Raws] (2013-2018) Shingeki no Kyojin OAD [DVDRip 1024x576 HEVC FLAC]/[Kawaiika-Raws] Shingeki no Kyojin OAD ## [DVDRip 1024x576 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/[SOFCJ-Raws] Shingeki no Kyojin - OAD 1-5 (DVD 1024x576 x264 10bit FLAC) [Batch]/[SOFCJ-Raws] Shingeki no Kyojin - OAD # (DVD 1024x576 x264 10bit FLAC).mkv'
+
+e1:  1058 1678 1957 1994

@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: Owarimonogatari2_0
+pattern: '/run/media/deadnews/data1/temp/gatari/[Nekomoe kissaten&VCB-Studio] Owarimonogatari S2 [Ma10p_1080p]/[Nekomoe kissaten&VCB-Studio] Owarimonogatari S2 [##][Ma10p_1080p][x265_2flac].mkv' '/run/media/deadnews/data1/encode/Owarimonogatari2/out/[Kawaiika-Raws] Owarimonogatari (2017) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Owarimonogatari S2E## [BDRip 1920x1080 HEVC FLAC].mkv'
+
+e2: 20520
+e4: 9245 3773 16973
+e5: 3674 6195
+e6: 9359

@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: Gekijouban Kimetsu no Yaiba: Mugen Ressha Hen
+_year: 2020
+anidb: https://anidb.net/anime/15113
+
+e1: «Demon Slayer the Movie: Mugen Train»
+
+m1: M1

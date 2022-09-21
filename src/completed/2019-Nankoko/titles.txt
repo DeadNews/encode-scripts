@@ -1,0 +1,30 @@
+#!/usr/bin/env sh
+
+title: Nande Koko ni Sensei ga!
+short: Nankoko
+_year: 2019
+
+e1: EP1 «Golden Times / Sweaty Bottom Izumi»
+e2: EP2 «Getting Wet with Sensei / Pineapple Juice»
+e3: EP3 «Drunkard / Becoming an Adult»
+e4: EP4 «Promise»
+e5: EP5 «Holy Cow(tits) / A Close Commute»
+e6: EP6 «A Buoyant Rainy Day / Piggy Back Ride»
+e7: EP7 «Mission Improperible / Lovey-Dovey Shopping»
+e8: EP8 «You Think We`re Lost? / Kisstone»
+e9: EP9 «Sikin` / Own Your Ship»
+e10: EP10 «EmotionIce / ChamPanties»
+e11: EP11 «Sea Craving / Insertion Cavity»
+e12: EP12 «Bitter & Sweet / Happy Event»
+e13: EP13 «Why the Hell Are You Here, Teachers!?»
+
+op1: OPa «Bon Kyuu Bon wa Kare no Mono»
+op2: OPb «Bon Kyuu Bon wa Kare no Mono»
+op3: OPc «Bon Kyuu Bon wa Kare no Mono»
+op4: OPd «Bon Kyuu Bon wa Kare no Mono»
+
+ed1: ED1 «Ringo-iro Memories»
+ed2: ED2 «Ringo-iro Memories»
+ed3: ED3 «Ringo-iro Memories»
+ed4: ED4 «Ringo-iro Memories»
+ed5: ED5 «Ringo-iro Memories»

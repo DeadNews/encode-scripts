@@ -1,0 +1,52 @@
+filt:
+  main:
+    rt_sigma: 1
+    sm_thr: 150
+    dn_pref: false
+    cs_val: 0.5
+    #
+    db_thr: 2.2
+    db_mode: 1
+    db_rt_mode: 2
+    db_grain: 54
+    db_saveblack: 1
+    db_adaptive:
+      z2:
+        scaling: 0.1
+        db_thr: 2.8
+        db_mode: 1
+        #
+    ag_str: 0.12
+    ag_scaling: 12
+    ag_saveblack: 1
+  next:
+    db_saveblack: 2
+    db_saveblack_tolerance: 4
+    ag_saveblack: 2
+    ag_saveblack_tolerance: 4
+  op:
+    sm_thr: 80
+  ed:
+    sm_thr: 200
+    dn_pref: true
+    ag_str: 0.2
+
+aa:
+  main:
+    desc_h: 540
+    # desc_str: 0.80
+    desc_str: 0.50
+    kernel: bilinear
+    alpha: 0.2
+    beta: 0.25
+    gamma: 1.0
+
+dehalo:
+  main:
+    rx: 2.5
+    darkstr: 0
+    brightstr: 1.5
+
+linedark:
+  main:
+    linedark_args: { strength: 48, protection: 3, luma_cap: 191, threshold: 4, thinning: 48 }

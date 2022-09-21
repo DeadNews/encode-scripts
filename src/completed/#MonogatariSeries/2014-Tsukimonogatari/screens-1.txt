@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: Tsukimonogatari
+pattern: '/run/media/deadnews/data1/encode/Tsukimonogatari/out/[Kawaiika-Raws] Tsukimonogatari (2014) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Tsukimonogatari ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/gatari/Tsukimonogatari [BDRip] [1080p]/[Yousei-raws] Tsukimonogatari # [BDrip 1920x1080 x264 FLAC].mkv'
+
+e1: 18405 3123 18993
+e2: 18598
+e3: 9314  9792
+e4: 11336 22861 28142 46382

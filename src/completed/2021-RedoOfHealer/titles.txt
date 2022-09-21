@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+
+title: Redo of Healer
+_year: 2021
+anidb: https://anidb.net/anime/15277
+
+e1: EP1 «The Healer Starts Over!»
+e2: EP2 «The Healer Ruins Princess Flare!»
+e3: EP3 «The Healer Buys a Slave!»
+e4: EP4 «The Healer Acquires Setsuna!»
+e5: EP5 «The Healer Finds a New Toy!»
+e6: EP6 «The Healer Sheds Blood and Tears!»
+e7: EP7 «The Healer Executes Justice!»
+e8: EP8 «The Healer Meets the Demon Lord!»
+e9: EP9 «The Healer Takes Revenge for a Meal!»
+e10: EP10 «The Healer Becomes a Single, Lovely Flower!»
+e11: EP11 «The Healer Is Troubled by Norn`s Brutality!»
+e12: EP12 «The Healer Starts a New Journey!»
+
+op: OP «Zankoku na Yume to Nemure»
+ed: ED «Yume de Sekai o Kaeru Nara»

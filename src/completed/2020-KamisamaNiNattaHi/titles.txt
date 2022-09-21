@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+
+title: Kamisama ni Natta Hi
+_year: 2020
+anidb: https://anidb.net/anime/15559
+
+e1: EP1 «The Day a God Descended»
+e2: EP2 «The Day of the Melody»
+e3: EP3 «The Day the Angel Falls»
+e4: EP4 «The Day of Battling Tiles»
+e5: EP5 «The Day of Grand Magic»
+e6: EP6 «The Day of the Festival»
+e7: EP7 «The Day of Filming»
+e8: EP8 «The Day of the Trip to the Beach»
+e9: EP9 «The Day of the Deicide»
+e10: EP10 «Days That Pass By»
+e11: EP11 «Days of Play»
+e12: EP12 «The Day You Choose»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6

@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+title: MushishiS30
+pattern:  '/run/media/deadnews/data1/releases/ [Mushishi]/[Kawaiika-Raws] (2014) Mushishi Zoku Shou (S3) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Mushishi S3E## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Mushishi TV 3/##.mkv'
+
+# e1:  5583 978 15640 16840 3170 33652 4250
+# e5:  5250 5370 6216 7536 8136 9096 11136 32170 3570 3690 3810 3930
+# e7:  5483 1043 1664 24578 2603 26378 30208 32008 3203 32608
+# e10: 19852 20332 22672 23032 23152 24117 24357
+
+e1:  33652
+e5:  3570 3690 3930 8136
+e7:  1043 1664
+e10: 20332 23032 24357

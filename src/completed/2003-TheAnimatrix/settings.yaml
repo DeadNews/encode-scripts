@@ -1,0 +1,66 @@
+filt:
+  main:
+    rt_sigma: 1
+    sm_thr: 36
+    dn_ttsmooth: true
+    sm_pref_mode: 2
+    dn_pref: true
+    cs_val: 0.4
+    #
+    db_thr: 1.0
+    db_mode: 3
+    db_det: 60
+    db_grain: 48
+    db_saveblack: 2
+    db_adaptive:
+      z2:
+        scaling: 3
+        db_thr: 5
+        db_mode: 3
+        #
+    ag_str: 0.20
+    ag_scaling: 30
+    ag_saveblack: 2
+  e5:
+    rt_sigma: 1.3
+    sm_thr: 60
+  e6:
+    db_thr: 1.1
+    ag_scaling: 15
+  e8:
+    rt_sigma: 1.3
+    sm_thr: 80
+    ag_str: 0.40
+    ag_scaling: 4
+
+aa:
+  main:
+    nrad: 3
+  strong:
+    gamma: 1
+
+crop:
+  main:
+    top: 138
+    bottom: 140
+    right: 2
+    left: 4
+  e1:
+    top: 142
+    bottom: 140
+    right: 0
+    left: 0
+
+edgefix:
+  main:
+    right: [1, 0, 0]
+    left: [2, 1, 1]
+    bottom: [0, 1, 1]
+    radius: 1
+  e1:
+    crop_args: { left: 1 }
+    top: 1
+    bottom: 1
+    right: 1
+    left: 4
+    radius:

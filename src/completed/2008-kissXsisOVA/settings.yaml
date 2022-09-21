@@ -1,0 +1,54 @@
+filt:
+  main:
+    rt_sigma: 1
+    sm_thr: 200
+    dn_pref: false
+    cs_val: 0.55
+    #
+    db_thr: 2.1
+    db_mode: 2
+    db_rt_mode: 2
+    db_grain: 58
+    db_saveblack: 2
+    db_adaptive:
+      z2:
+        scaling: 0.1
+        db_thr: 4.0
+        db_mode: 2
+        #
+    ag_str: 0
+
+aa:
+  main:
+    desc_h: 720
+    desc_str: 0.90
+    kernel: bilinear
+  low:
+    desc_h: 540
+    desc_str: 0.56
+    gamma: 100.0
+  hi:
+    desc_str: 0.45
+
+dehalo:
+  main:
+    rx: 2.0
+    darkstr: 0.1
+    brightstr: 1.0
+    mode: kirsch
+    max_c: 3
+    min_c: 1
+  low:
+    rx: 2.2
+    darkstr: 0.4
+    max_c: 4
+  logo:
+    darkstr: 1.0
+    brightstr: 0.9
+    max_c: 4
+
+edgefix:
+  top: 2
+  bottom: 3
+  left: 6
+  right: 7

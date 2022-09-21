@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+
+title: Elfen Lied
+_year: 2004
+anidb: https://anidb.net/anime/1544
+
+e1: EP1 «A Chance Encounter: Begegnung»
+e2: EP2 «Annihilation: Vernichtung»
+e3: EP3 «Deep Feelings: Im Innersten»
+e4: EP4 «Attack: Aufeinandertreffen»
+e5: EP5 «Receipt: Empfang»
+e6: EP6 «Innermost Feelings: Herzenswaerme»
+e7: EP7 «Confrontation: Zufaellige Begegnung»
+e8: EP8 «The Beginning: Beginn»
+e9: EP9 «Reminiscence: Schoene Erinnerung»
+e10: EP10 «Infant: Saeugling»
+e11: EP11 «Complication: Vermischung»
+e12: EP12 «Quagmire: Taumeln»
+e13: EP13 «No Return: Erleuchtung»
+
+s1: EP10.5 «In Passing Showers: Or, "Just How Did the Young Girl Arrive at Those Feelings?" - Regenschauer»
+
+op: OP «Lilium»
+ed: ED «Be Your Girl»
+
+m1: M

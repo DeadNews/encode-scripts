@@ -1,0 +1,48 @@
+e1:
+  Avant: 0
+  OP: 1409
+  Part_A: 3573
+  Part_B: 22298
+  ED: 31793
+  Next: 33951
+  EOF: 34095
+e2:
+  Avant: 0
+  OP: 3356
+  Part_A: 5515
+  Part_B: 13691
+  ED: 31792
+  Next: 33950
+  EOF: 34094
+e3:
+  Avant: 0
+  OP: 2038
+  Part_A: 4173
+  Part_B: 14843
+  ED: 31794
+  Next: 33952
+  EOF: 34096
+e4:
+  Avant: 0
+  OP: 2019
+  Part_A: 4149
+  Part_B: 14819
+  ED: 31794
+  Next: 33952
+  EOF: 34096
+e5:
+  Avant: 0
+  OP: 2660
+  Part_A: 4747
+  Part_B: 16495
+  ED: 31791
+  Next: 33949
+  EOF: 34093
+e6:
+  Avant: 0
+  OP: 1556
+  Part_A: 4843
+  Part_B: 14171
+  ED: 30865
+  Next: 33950
+  EOF: 34094

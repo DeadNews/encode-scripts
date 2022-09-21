@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+title: Eiga Koe no Katachi
+_year: 2016
+anidb: https://anidb.net/anime/10937
+
+e1: «A Silent Voice»
+
+s1: S1 «What I Fell in Love With»
+s2: S2 «Speed of Youth»
+s3: S3 «Film Location Video»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4

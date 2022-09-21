@@ -1,0 +1,40 @@
+#!/usr/bin/env sh
+
+title: Ergo Proxy
+_year: 2006
+anidb: https://anidb.net/anime/3302
+
+e1: EP1 «The Pulse of Awakening: Awakening»
+e2: EP2 «Confession of a Fellow Citizen: Confession»
+e3: EP3 «Leap into the Void: Mazecity»
+e4: EP4 «Signs of Future, Hades of Future: Futu-Risk»
+e5: EP5 «Recall: Tasogare»
+e6: EP6 «Return Home: Domecoming»
+e7: EP7 «Re-l 124C41+: Re-l124C41+»
+e8: EP8 «Light Beam: Shining Sign»
+e9: EP9 «Shards of Brilliance: Angel`s Share»
+e10: EP10 «Existence: Cytotropism»
+e11: EP11 «In the White Darkness: Anamnesis»
+e12: EP12 «When You`re Smiling: Hideout»
+e13: EP13 «Conceptual Blind Spot: Wrong Way Home»
+e14: EP14 «Someone Like You: Ophelia»
+e15: EP15 «Nightmare Quiz Show! Who Wants to Be in Jeopardy!»
+e16: EP16 «Dead Calm: Busy Doing Nothing»
+e17: EP17 «Never-Ending Battle: Terra Incognita»
+e18: EP18 «Sign of the End: Life After God»
+e19: EP19 «The Girl with a Smile: Eternal Smile»
+e20: EP20 «Sacred Eye of the Void: Goodbye Vincent»
+e21: EP21 «Planet at the End of Time: Shampoo Planet»
+e22: EP22 «Bind: Bilbul»
+e23: EP23 «Proxy: Deus Ex Machina»
+
+op: OP «Kiri (3-23)»
+
+pv1: PV1
+pv2: PV2
+pv3: PV3
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4

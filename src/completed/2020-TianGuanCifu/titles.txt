@@ -1,0 +1,30 @@
+#!/usr/bin/env sh
+
+title: Tian Guan Cifu
+_year: 2020
+anidb: https://anidb.net/anime/15648
+
+e1: EP1 «The Bride Prince»
+e2: EP2 «Mountain-Locked Ming Guang»
+e3: EP3 «Confidant`s Past Grudge»
+e4: EP4 «Ghost King of Hua Cheng»
+e5: EP5 «Daily Life at Chestnut Temple»
+e6: EP6 «Lost Crescentian»
+e7: EP7 «Scorpion-Tailed Snake Shadow»
+e8: EP8 «Foreboding Wind in the Ancient Country»
+e9: EP9 «Evil Taoist Scourge»
+e10: EP10 «Bygone Banyue Days»
+e11: EP11 «Right and Wrong, Buried in the Sand»
+e12: S1 «Special»
+
+pv1: PV1
+pv2: PV2
+pv3: PV3
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+
+ed: ED
+op: OP

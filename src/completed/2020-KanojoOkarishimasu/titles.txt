@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+title: Kanojo, Okarishimasu
+_year: 2020
+anidb: https://anidb.net/anime/15299
+
+e1: EP1 «Rent-a-Girlfriend»
+e2: EP2 «Ex-Girlfriend and Girlfriend»
+e3: EP3 «Beach and Girlfriend»
+e4: EP4 «Friend and Girlfriend»
+e5: EP5 «Hot Springs and Girlfriend»
+e6: EP6 «Girlfriend and Girlfriend»
+e7: EP7 «Provisional Girlfriend and Girlfriend»
+e8: EP8 «Christmas and Girlfriend»
+e9: EP9 «Lies and Girlfriend»
+e10: EP10 «Friend`s Girlfriend»
+e11: EP11 «Truth and Girlfriend»
+e12: EP12 «Confession and Girlfriend»

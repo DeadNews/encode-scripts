@@ -1,0 +1,81 @@
+filt:
+  main:
+    rt_sigma: 1
+    # sm_thr: 36
+    # sm_thr: 22
+    sm_thr: 26
+    dn_ttsmooth: true
+    sm_pref_mode: 2
+    dn_pref: true
+    dn_expr: x 1500 +
+    cs_mode: 4
+    cs_val: 0.90
+    #
+    db_thr: 1
+    db_mode: 3
+    db_det: 50
+    db_grain: 44
+    db_gf_mode: 1
+    db_saveblack: 1
+    db_adaptive:
+      z2:
+        scaling: 0.4
+        db_thr: 4.0
+        db_mode: 3
+        #
+    ag_str: 0.12
+    ag_scaling: 18
+    ag_saveblack: 1
+  op: &op
+    sm_thr: 40
+    dn_expr: x 1000 +
+    cs_val: 0.65
+    #
+    db_det: 60
+    db_grain: 48
+    #
+    ag_str: 0.2
+  ed:
+    <<: *op
+    cs_val: 0.1
+    ag_str: 0.4
+    ag_scaling: 4
+  hard:
+    <<: *op
+    cs_val: 0.2
+    ag_str: 0.4
+    ag_scaling: 4
+  ti:
+    <<: *op
+    dn_expr: x 1 +
+    cs_val: 0.01
+    ag_str: 0.5
+    ag_scaling: 1
+  sp:
+    sm_thr: 46
+    dn_expr: x 500 +
+
+aa:
+  main:
+    # desc_h: 857
+    desc_h: 858
+    desc_str: 0.32
+    kernel: bicubic
+    bic_b: 0.2
+    bic_c: 0.5
+    gamma: 1000
+    #
+    resc_mthr: 65
+
+  e1e2:
+    desc_h: 828
+
+# Episodes 1 & 2 near 824)
+# Episode 3 & Beyond 857
+# After 3 episodes become 857, it remains so until the end.
+# aaep = aa(epis, zone='e1e2')
+
+repair:
+  main:
+    max_c: 6
+    dering_args: { mrad: 2, mthr: 70, thr: 30, darkthr: 7 }

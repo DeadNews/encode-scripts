@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+title: ErgoProxy
+pattern: '/run/media/deadnews/data1/releases/[Kawaiika-Raws] (2006) Ergo Proxy [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Ergo Proxy 01 [BDRip 1920x1080 HEVC FLAC].mkv'  '/run/media/deadnews/data1/temp/Ergo Proxy [BDRip 1920x1080 x264 FLAC] [Golo]/[Golo] Ergo Proxy 01 [BDRip 1920x1080 x264 FLAC].mkv'
+
+e1: 1759 2191 6427 8011 10171 11806 11950 12670 12958 13391 13535 23530 23818 23962 24433 28754 29906 30637 33518 35917
+
+# e7: 14114 17282 17858 18290 18434 19586 33520 33808
+
+ ~/my/scripts/python/vpy-screens.py  '/run/media/deadnews/data1/temp/Ergo Proxy [BDRip 1920x1080 x264 FLAC] [Golo]/[Golo] Ergo Proxy 07 [BDRip 1920x1080 x264 FLAC].mkv' -f 14114 17282 17858 18290 18434 19586 33520 33808  -t ErgoProxy -o 1
+
+ ~/my/scripts/python/vpy-screens.py  '/run/media/deadnews/data1/releases/[Kawaiika-Raws] (2006) Ergo Proxy [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Ergo Proxy 07 [BDRip 1920x1080 HEVC FLAC].mkv'  -f 14114 17282 17858 18290 18434 19586 33520 33808  -t ErgoProxy

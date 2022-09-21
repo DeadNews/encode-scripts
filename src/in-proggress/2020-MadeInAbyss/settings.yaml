@@ -1,0 +1,63 @@
+filt:
+  main:
+    rt_sigma: 0.8
+    sm_thr: 20
+    dn_ttsmooth: true
+    sm_pref_mode: 1
+    dn_pref: false
+    dn_expr: x 1500 +
+    cs_val: 0.7
+    #
+    db_thr: 1
+    db_mode: 3
+    db_gf_mode: 1
+    db_det: 60
+    db_grain: 48
+    db_saveblack: 2
+    db_adaptive:
+      z2:
+        scaling: 10
+        db_thr: 5
+        db_mode: 3
+        #
+    ag_str: 0.12
+    ag_scaling: 10
+    ag_saveblack: 2
+  old:
+    rt_sigma: 1
+    sm_thr: 50
+    dn_ttsmooth: true
+    # cs_val: 0.74
+    cs_val: 0.7
+    #
+    db_thr: 1
+    db_mode: 3
+    # db_gf_mode: 2
+    db_gf_mode: 1
+    db_rt_mode: 2
+    db_det: 60
+    db_grain: 46
+    db_range: 10
+    db_saveblack: 2
+    db_adaptive:
+      z2:
+        scaling: 1
+        db_thr: 4.0
+        db_mode: 3
+        #
+    ag_str: 0
+    ag_scaling: 12
+
+aa: # sp
+  main:
+    desc_h: 1080
+    nrad: 3
+    alpha: 0.2
+    beta: 0.25
+    gamma: 1
+
+dehalo: # sp
+  main:
+    rx: 1.6
+    brightstr: 0.5
+    max_c: 1

@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+title: Eiga Daisuki Pompo-san
+_year: 2021
+anidb: https://anidb.net/anime/13405
+
+e1: «Eiga Daisuki Pompo-san»

@@ -1,0 +1,12 @@
+aa:
+  main:
+    desc_h: 720
+    desc_str: 1.00
+    kernel: bicubic
+    bic_b: 0.00
+    bic_c: 1.00
+  resc_fix:
+    desc_h: 720
+    kernel: bicubic
+    bic_b: 0.00
+    bic_c: 0.00 # fix  # need check

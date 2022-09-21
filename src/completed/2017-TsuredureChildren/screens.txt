@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+title: TsuredureChildren
+pattern: '/run/media/deadnews/data1/releases/[Kawaiika-Raws] Tsuredure Children (2017) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Tsuredure Children ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/[UCCUSS] Tsuredure Children (BD 1920x1080p AVC THD SUP)/[UCCUSS] Tsuredure Children ## (BD 1920x1080p AVC THD SUP).mkv'
+
+e1: 13757 14958
+e2: 13924
+e6: 5325 6045 17506

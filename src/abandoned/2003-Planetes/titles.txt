@@ -1,0 +1,52 @@
+#!/usr/bin/env sh
+
+title: Planetes
+_year: 2003
+anidb: https://anidb.net/anime/895
+
+e1: EP1 «Outside the Atmosphere»
+e2: EP2 «Like a Dream»
+e3: EP3 «Return Trajectory»
+e4: EP4 «Part of the Job»
+e5: EP5 «Fly Me to the Moon»
+e6: EP6 «The Lunar Flying Squirrels»
+e7: EP7 «Extraterrestrial Girl»
+e8: EP8 «A Place to Cling to»
+e9: EP9 «Regrets»
+e10: EP10 «A Sky of Stardust»
+e11: EP11 «Boundary Line»
+e12: EP12 «A Modest Request»
+e13: EP13 «Scenery with a Rocket»
+e14: EP14 «Turning Point»
+e15: EP15 «In Her Case»
+e16: EP16 «Ignition»
+e17: EP17 «His Reasons»
+e18: EP18 «Debris Section, The Last Day»
+e19: EP19 «Endings Are Always...»
+e20: EP20 «Faltering Victory»
+e21: EP21 «Tandem Mirror»
+e22: EP22 «Exposure»
+e23: EP23 «Debris Cluster»
+e24: EP24 «Love»
+e25: EP25 «The Lost»
+e26: EP26 «And the Days We Chance Upon...»
+
+op1: OP1a «Dive in the Sky (1-26)»
+op1: OP1b «Dive in the Sky (1-26)»
+op1: OP1c «Dive in the Sky (1-26)»
+op1: OP1d «Dive in the Sky (1-26)»
+op1: OP1e «Dive in the Sky (1-26)»
+op1: OP1f «Dive in the Sky (1-26)»
+op1: OP1g «Dive in the Sky (1-26)»
+op1: OP1h «Dive in the Sky (1-26)»
+op1: OP1i «Dive in the Sky (1-26)»
+op1: OP1j «Dive in the Sky (1-26)»
+op1: OP1k «Dive in the Sky (1-26)»
+ed: ED «Wonderful Life (1-25)»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6

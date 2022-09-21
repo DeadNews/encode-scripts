@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: FLCL-Alternative
+pattern: '/run/media/deadnews/data1/encode/FLCL-Alternative/out/[Kawaiika-Raws] (2018) FLCL Alternative [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] FLCL Alternative [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/[VCB-Studio] FLCL/[VCB-Studio] FLCL Alternative.mkv'
+
+e1: 795 53605 60679 63141 82609 87260 88580 108349 117226 144648 146327

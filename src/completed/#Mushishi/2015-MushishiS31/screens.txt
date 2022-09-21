@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+title: MushishiS31
+pattern:  '/run/media/deadnews/data1/releases/ [Mushishi]/[Kawaiika-Raws] (2015) Mushishi Zoku Shou – Suzu no Shizuku [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Mushishi S3E11 [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Mushishi Movie/[49] Mushishi Movie.mkv'
+
+# e1:    51164 52290 63129 65469 10116 17973 18333 2356 25054 25654 49543 49548
+
+e1:    25654 49543 65469

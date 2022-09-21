@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+
+title: Madoka Magica the Movie
+_year: 2012-2013
+# Mahou Shoujo Madoka Magica the Movie
+
+e1: Part 1: Beginnings
+e2: Part 2: Eternal
+e3: Part 3: Rebellion
+
+ed1: ED1 «Magia[quattro]»
+ed3: ED2 «Kimi no Gin no Niwa»
+op1: OP1 «Luminous»
+op3: OP2 «Colourful»
+
+m1: M1
+m2: M2
+m31: M3-1
+m32: M3-2

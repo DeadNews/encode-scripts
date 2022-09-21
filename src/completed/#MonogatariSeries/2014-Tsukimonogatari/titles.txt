@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+title: Tsukimonogatari
+_year: 2014
+
+e1: EP1 «Yotsugi Doll 1/4»
+e2: EP2 «Yotsugi Doll 2/4»
+e3: EP3 «Yotsugi Doll 3/4»
+e4: EP4 «Yotsugi Doll 4/4»
+
+ed1: ED «Border»
+op1: OP «Orange Mint»
+
+pv1: PV1
+pv2: PV2

@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+title: Mushishi Zoku Shou (S3)
+short: Mushishi
+_year: 2014
+seasn: 3
+
+e1: EP1 «Cushion of Grass»
+e2: EP2 «The Fragrant Darkness»
+e3: EP3 «Lingering Crimson»
+e4: EP4 «Hidden Cove»
+e5: EP5 «Thread of Light»
+e6: EP6 «Sea of Otherworldly Stars»
+e7: EP7 «Azure Waters»
+e8: EP8 «Lightning`s End»
+e9: EP9 «Mud Grass»
+e10: EP10 «Tree of Eternity»

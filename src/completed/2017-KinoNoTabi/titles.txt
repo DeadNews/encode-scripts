@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+
+title: Kino no Tabi
+_year: 2017
+short: Kino no Tabi (2017)
+
+e1: EP1 «A Country Where People Can Kill Others»
+e2: EP2 «Colosseum»
+e3: EP3 «Bothersome Country»
+e4: EP4 «Ship Country»
+e5: EP5 «Country of Liars»
+e6: EP6 «In the Clouds»
+e7: EP7 «Historic Country»
+e8: EP8 «Country of Radio Waves»
+e9: EP9 «Various Countries»
+e10: EP10 «Kind Country»
+e11: EP11 «Country of Adults»
+e12: EP12 «Fields of Sheep»
+
+ed1: ED «Satoudama no Tsuki»
+op2: OP «Here and There»

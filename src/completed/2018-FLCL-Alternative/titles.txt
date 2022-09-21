@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: FLCL Alternative
+_year: 2018
+anidb: https://anidb.net/anime/13258
+
+e1: «FLCL Alternative»
+
+m1: M

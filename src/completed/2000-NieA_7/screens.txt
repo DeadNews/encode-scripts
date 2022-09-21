@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: NieA_7
+pattern: '/run/media/deadnews/data1/encode/NieA_7/out/[Kawaiika-Raws] (2000) NieA Under 7 [BDRip 960x720 HEVC FLAC]/[Kawaiika-Raws] NieA_7 01 [BDRip 960x720 HEVC FLAC].mkv'
+
+e1: 18234 29332 12323 9612 4286 18532 4579 11848

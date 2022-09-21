@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+title: NonNonBiyoriS1
+pattern: '/run/media/deadnews/data1/temp/Non Non Biyori [BDRip] [1080p]/[Yousei-raws] Non Non Biyori ## [BDrip 1920x1080 x264 FLAC].mkv' '/run/media/deadnews/data1/releases/ [Non Non Biyori]/[Kawaiika-Raws] (2013) Non Non Biyori [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Non Non Biyori S1E## [BDRip 1920x1080 HEVC FLAC].mkv'
+
+e3:  32690 9636
+e11: 15929 25897 3439

@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+title: 2016-BigFish
+
+# pattern: '/run/media/deadnews/data1/encode/2016-BigFish/out/e1 (2021-09-19 20:07:35).mp4'
+
+pattern: '/run/media/deadnews/data1/temp/Big Fish & Begonia (2016, AVC BDRip-1080p, RUS ENG CHI+SUB)/Big.Fish.and.Begonia.2016.BluRay.1080p.x264.DTS-HD.MA.5.1-HDChina.mkv'
+
+e1:  17693 27000 54318 122000 130000

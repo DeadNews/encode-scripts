@@ -1,0 +1,13 @@
+3 audio will not mux itself
+https://github.com/IFeelBloated/Fix-Telecined-Fades
+
+high bitrate:
+    e2 (00:03:22.869) 02.png
+    e2 (00:03:55.068) 01.png
+    e2 (00:04:23.346) 03.png
+    e2 (00:10:31.965) 01.png
+    e7 (00:04:11.460) 01.png
+    e8 (00:09:22.270) 04.png
+    e9 (00:02:41.745) 05.png
+    e9 (00:05:53.186) 06.png
+    e9 (00:16:46.297) 07.png

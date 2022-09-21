@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+title: Mushishi – Hihamu Kage
+short: Mushishi
+_year: 2014
+seasn: 2
+
+e1: EP0 «The Shadow that Devours the Sun»

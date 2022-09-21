@@ -1,0 +1,7 @@
+aa:
+  main:
+    desc_h: 810
+    desc_str: 0.33
+    kernel: bicubic
+    # bic_b: 1/3
+    # bic_c: 1/3

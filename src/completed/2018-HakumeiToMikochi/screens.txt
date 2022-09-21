@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+title: HakumeiToMikochi
+pattern: '/run/media/deadnews/data1/encode/HakumeiToMikochi/out/[Kawaiika-Raws] Hakumei to Mikochi (2018) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Hakumei to Mikochi ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Hakumej.i.Mikoti.2018.S01.P.BDRip.1080p.Deadmauvlad/Hakumej.i.Mikoti.2018.S01.P.BDRip.1080p.Deadmauvlad.EP.##.mkv'
+
+e1: 4223 9237 11974 14010 15097 15731 26177 26783 27863 30499 30831

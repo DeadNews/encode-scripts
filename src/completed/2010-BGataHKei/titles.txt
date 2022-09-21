@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+
+title: B Gata H Kei
+_year: 2010
+anidb: https://anidb.net/anime/7286
+
+e1: EP1 «Boy Meets Girl. Let Me Have Your "First Time"! - Big Gambit After School! Why Don`t We Start With a Kiss?»
+e2: EP2 «Oh, Yeah! Let`s Go to a Pool! You Wanna See Me in a Swimsuit, Right?! - Here Comes the Rival! Who`s That F-Cup Girl?!»
+e3: EP3 «Suddenly So Close in the Darkroom! Kinda Dangerous Club Activities?! - Passionate School Festival! I, Yamada, Will Be the School`s Queen!»
+e4: EP4 «Romantic Christmas Eve! What Does the First Kiss Taste Like? - I Can`t Go Back Empty-Handed! Let`s Go to the Make-Out Park!»
+e5: EP5 «Yamada`s Level Increased! She Learned How to Deep Kiss! - Work on Your Naughty Power! I`ve Never Felt a Sensation Like This Before...»
+e6: EP6 «Kanejo Is Coming! I Can`t Stand That Sparkle! - Behind That Rosy Smile Is... Kanejo`s Dark Secret!»
+e7: EP7 «Major Duel in School Swimsuits! I`m Not Gonna Lose Against You! - Memories of a Summer Day... Yamada Returns to the Wild!»
+e8: EP8 «Yay! It`s a School Trip! No Chance to Be Alone... - I Have to Tell You That I L... The Trip Causes a Great Fuss!»
+e9: EP9 «Oh No! In Front of Everyone... I Never Said I Don`t Like You... Autumn. - Put Your Hopes in Field Day! Suit Yourself... Autumn.»
+e10: EP10 «The Kanejo Family! Richy Brother`s Sparkling Secret! - On My Way to Love? Don`t Hit on My Kosuda!»
+e11: EP11 «Year 2 Class H`s Christmas Eve! Take Me to Bed! - Kanejo Is Watching?! A "Live" Broadcast That Pushes the Limits!»
+e12: EP12 «The World Revolves for Us! Goodbye... B Gata H Kei! - Yamada Turns Into an Angel! Farewell! B Gata H Kei!»
+
+op: OP «Oshiete A to Z»
+ed: ED «Hadashi no Princess»

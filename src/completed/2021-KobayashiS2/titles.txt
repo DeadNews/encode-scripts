@@ -1,0 +1,89 @@
+#!/usr/bin/env sh
+
+title: Kobayashi-san Chi no Maidragon S
+# short: Kobayashi-san (2021)
+# short: Mini Dragon EX (2021)
+short: Mini Dragon (2021)
+_year: 2021
+anidb: https://anidb.net/anime/14678
+
+e1: EP1 «New Dragon, Ilulu! (Please Be Nice to Her Again)»
+e2: EP2 «Hot Guy Kobayashi! (In Many Ways)»
+e3: EP3 «Extracurricular Activities (Of Course They`re Not Normal)»
+e4: EP4 «When in Rome, Do as the Romans Do (It`s Hard to Match Others)»
+e5: EP5 «Together with You (Well, If We Get Along)»
+e6: EP6 «Uncanny Relationships (One Side Is a Dragon)»
+e7: EP7 «Common Sense (It`s Different for Everyone)»
+e8: EP8 «The World`s Only (Insert Phrase You Like Here)»
+e9: EP9 «There Are Various Reasons Behind It (It`s Full of Elma)»
+e10: EP10 «Kanna`s Summer Break (Broadcast in Two Languages!?)»
+e11: EP11 «Premium Seat (No Extra Charge)»
+e12: EP12 «Life Is Constant Change (But It`s Okay to Stop and Appreciate It)»
+e13: EP13 «Japanese Hospitality (Attendance Is a Dragon)»
+
+# Mini Dragon
+i1: EP1 «Typical Morning (Every Day Is Everyday)»
+i2: EP2 «Relaxation (What Is Comfort...?)»
+i3: EP3 «Seeking a Place of Rest (And It Was Already There)»
+i4: EP4 «Freedom of Expression (The Apple of My Eye)»
+i5: EP5 «State of Emergency (I Have an Uninterruptible Power Supply)»
+i6: EP6 «True Identity Revealed (I Wish I Never Saw It)»
+i7: EP7 «Squish (Squish Squish Squish)»
+i8: EP8 «Time Signal (It`s Convenient in a Sense)»
+i9: EP9 «9: Makeover (You`re Kewt, Miss Kobayashi)»
+i10: EP10 «10: Gen Ed (Humans Are So Difficult)»
+i11: EP11 «11: Saikawa-Paisen (An Unlikely Pairing)»
+i12: EP12 «12: Customer Satisfaction (This Is How It Should Be)»
+i13: EP13 «13: Honeymoon (Of Course That`s How It Ends)»
+i14: S1 «Feigned Maneuver (I`ll Allow It Since It`s Cute)»
+i15: S2 «Unconditional Love (It`s Warm, Even When Wet)»
+i16: S3 «Written as "Powerful Enemy" (And Read as "Friend")»
+
+#
+s1: EP1 «Mini Dragon EX1»
+s2: EP2 «Mini Dragon EX2»
+s3: EP3 «Mini Dragon EX3»
+s4: EP4 «Mini Dragon EX4»
+s5: EP5 «Mini Dragon EX5»
+
+op: OP «Ai no Supreme! (1-11)»
+ed: ED «Maid with Dragons (1-2, 4-11)»
+ed_e3: ED_E3 «Ishukan Relationship (3)»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+
+pv1: PV1
+pv2: PV2
+pv3: PV3
+pv4: PV4
+
+f1: F01
+f2: F02
+f3: F03
+f4: F04
+f5: F05
+f6: F06
+f7: F07
+f8: F08
+f9: F09
+f10: F10
+f11: F11
+f12: F12
+f13: F13
+f14: F14
+f15: F15
+f16: F16
+f17: F17
+f18: F18
+f19: F19
+f20: F20
+f21: F21
+f22: F22
+f23: F23
+f24: F24
+f25: F25
+f26: F26

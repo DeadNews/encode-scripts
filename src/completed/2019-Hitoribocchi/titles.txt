@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+title: Hitoribocchi no Marumaru Seikatsu
+_year: 2019
+short: HitoriBocchi
+
+e1: EP1 «My First Confession»
+e2: EP2 «Actually, Thank You»
+e3: EP3 «Getting It Across by Spinning Your Wheels»
+e4: EP4 «I`ll Be Your Apprentice»
+e5: EP5 «Happens All the Time»
+e6: EP6 «Summer Comes in 5-7-5»
+e7: EP7 «Gentle Tears»
+e8: EP8 «Welcome Back from Elsewhere»
+e9: EP9 «Perfect Curry Pancakes»
+e10: EP10 «No One Said That Before»
+e11: EP11 «From Tap-Tap to Print-Print»
+e12: EP12 «Maybe I Just Might»
+
+ed3: ED1 «Ne, Issho ni Kaero»
+ed4: ED2 «Bakushou Bocchi Juku Kouka»
+op: OP «Hitoribocchi no Monologue»
+
+pv: PV

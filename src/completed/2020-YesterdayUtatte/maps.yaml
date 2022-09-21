@@ -1,0 +1,14 @@
+EDs:
+  e1: ed1
+  e2: ed2
+  e3: ed3
+  e4: ed4
+  e5: ed5
+  e6: ed6
+  e7: ed7
+  e8: ed7
+  e9: ed7
+  e10: ed8
+  e11: ed9
+  e12:
+# ed_num = dn.load_map(epname, 'EDs')

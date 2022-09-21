@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+title: KonoSuba – Kurenai Densetsu
+_year: 2019
+short: KonoSuba – Kurenai Densetsu
+anidb: https://anidb.net/anime/13310
+
+e1: «Legend of Crimson»
+
+pv1: PV

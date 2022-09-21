@@ -1,0 +1,89 @@
+e1:
+  Avant: 0
+  OP: 3573
+  Part_A: 5730
+  Part_B: 16831
+  ED: 29372
+  Epilog: 31529
+e2:
+  Avant: 0
+  OP: 1200
+  Part_A: 3357
+  Part_B: 16280
+  ED: 29539
+  Epilog: 31696
+e3:
+  Avant: 0
+  OP: 1032
+  Part_A: 3189
+  Part_B: 16184
+  ED: 29849
+  Epilog: 32007
+e4:
+  Avant: 0
+  OP: 3093
+  Part_A: 5252
+  Part_B: 15467
+  ED: 29948
+  Epilog: 32110
+e5:
+  Avant: 0
+  OP: 1080
+  Part_A: 3237
+  Part_B: 17406
+  ED: 28987
+  Epilog: 31145
+e6:
+  Avant: 0
+  OP: 1320
+  Part_A: 3477
+  Part_B: 16520
+  ED: 28819
+  Epilog: 30980
+e7:
+  Avant: 0
+  OP: 1343
+  Part_A: 3501
+  Part_B: 15154
+  ED: 29754
+  Epilog: 31912
+e8:
+  Avant: 0
+  OP: 1511
+  Part_A: 3669
+  Part_B: 18343
+  ED: 28894
+  Epilog: 31056
+e9:
+  Avant: 0
+  OP: 2135
+  Part_A: 4292
+  Part_B: 17647
+  ED: 29444
+  Epilog: 31620
+e10:
+  Avant: 0
+  OP: 927
+  Part_A: 3084
+  Part_B: 14616
+  ED: 29936
+  Epilog: 32097
+e11:
+  Avant: 0
+  OP: 2272
+  Part_A: 4429
+  Part_B: 17376
+  ED: 30348
+  Epilog: 32508
+s1:
+  Start: 0
+  ED: 6127
+s2:
+  Start: 0
+  ED: 7792
+s3:
+  Start: 0
+  ED: 6618
+s4:
+  Start: 0
+  ED: 5868

@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+title: Kimi no Suizou o Tabetai
+_year: 2018
+anidb: https://anidb.net/anime/13363
+
+e1: «I Want to Eat Your Pancreas»
+
+op: OP
+m1: M1

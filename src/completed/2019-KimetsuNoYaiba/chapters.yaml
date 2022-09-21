@@ -1,0 +1,179 @@
+e1:
+  Part_A: 0
+  OP: 30450
+  ED: 32607
+  EDend: 34072
+e2:
+  Avant: 0
+  OP: 1368
+  Part_A: 3525
+  Part_B: 13332
+  ED: 30930
+  Next: 33087
+e3:
+  Avant: 0
+  OP: 816
+  Part_A: 2973
+  Part_B: 19565
+  ED: 30929
+  Next: 33086
+e4:
+  Avant: 0
+  OP: 1416
+  Part_A: 3573
+  Part_B: 19109
+  ED: 30929
+  Next: 33086
+e5:
+  Avant: 0
+  OP: 1080
+  Part_A: 3237
+  Part_B: 19037
+  ED: 30929
+  Next: 33086
+e6:
+  Avant: 0
+  OP: 816
+  Part_A: 2973
+  Part_B: 21986
+  ED: 30930
+  Next: 33087
+e7:
+  Avant: 0
+  OP: 1105
+  Part_A: 3261
+  Part_B: 15562
+  ED: 30930
+  Next: 33087
+e8:
+  Avant: 0
+  OP: 528
+  Part_A: 2686
+  Part_B: 13957
+  ED: 30931
+  Next: 33088
+e9:
+  Avant: 0
+  OP: 1296
+  Part_A: 3453
+  Part_B: 17287
+  ED: 30450
+  Next: 32609
+e10:
+  Avant: 0
+  OP: 1032
+  Part_A: 3189
+  Part_B: 15418
+  ED: 30930
+  Next: 33087
+e11:
+  Avant: 0
+  OP: 1080
+  Part_A: 3237
+  Part_B: 17575
+  ED: 30450
+  Next: 32609
+e12:
+  Avant: 0
+  OP: 648
+  Part_A: 2806
+  Part_B: 9998
+  ED: 30930
+  Next: 33087
+e13:
+  Avant: 0
+  OP: 768
+  Part_A: 2925
+  Part_B: 17887
+  ED: 30930
+  Next: 33087
+e14:
+  Avant: 0
+  OP: 768
+  Part_A: 2925
+  Part_B: 11484
+  ED: 30928
+  Next: 33085
+e15:
+  Avant: 0
+  OP: 710
+  Part_A: 2854
+  Part_B: 20285
+  ED: 30931
+  Next: 33088
+e16:
+  Avant: 0
+  OP: 1272
+  Part_A: 3429
+  Part_B: 14818
+  ED: 30450
+  Next: 32609
+e17:
+  Avant: 0
+  OP: 3117
+  Part_A: 5275
+  Part_B: 9996
+  ED: 30928
+  Next: 33085
+e18:
+  Avant: 0
+  OP: 2110
+  Part_A: 4269
+  Part_B: 17744
+  ED: 30931
+  Next: 33088
+e19:
+  Avant: 0
+  OP: 648
+  Part_A: 2806
+  Part_B: 15801
+  ED: 30864
+  Next: 33087
+e20:
+  Avant: 0
+  OP: 600
+  Part_A: 2758
+  Part_B: 12061
+  ED: 30930
+  Next: 33086
+e21:
+  Avant: 0
+  OP: 1248
+  Part_A: 3405
+  Part_B: 16472
+  ED: 30929
+  Next: 33086
+e22:
+  Avant: 0
+  OP: 2350
+  Part_A: 4507
+  Part_B: 17430
+  ED: 30929
+  Next: 33086
+e23:
+  Avant: 0
+  OP: 576
+  Part_A: 2734
+  Part_B: 14101
+  ED: 30931
+  Next: 33088
+e24:
+  Avant: 0
+  OP: 1368
+  Part_A: 3525
+  Part_B: 18605
+  ED: 30929
+  Next: 33086
+e25:
+  Avant: 0
+  OP: 984
+  Part_A: 3141
+  Part_B: 14386
+  ED: 30931
+  Next: 33087
+e26:
+  Avant: 0
+  Part_A: 1104
+  Part_B: 14554
+  ED: 31868
+  EDend: 34072

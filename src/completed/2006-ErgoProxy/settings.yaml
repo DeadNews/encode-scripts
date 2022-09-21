@@ -1,0 +1,75 @@
+filt:
+  main:
+    rt_sigma: 1
+    sm_thr: 38
+    dn_ttsmooth: true
+    sm_pref_mode: 2
+    dn_pref: true
+    dn_expr: x 1000 +
+    # cs_val: 0.7
+    cs_val: 0.88
+    #
+    db_thr: 1
+    db_mode: 3
+    db_det: 64
+    db_grain: 48
+    db_gf_mode: 1
+    db_rt_mode: 3
+    db_saveblack: 1
+    db_adaptive:
+      z2:
+        scaling: 1
+        db_thr: 4
+        db_mode: 3
+        #
+    ag_str: 0.20
+    ag_scaling: 4
+    ag_saveblack: 1
+  op:
+    ag_str: 0.40
+    db_saveblack: 2
+    ag_saveblack: 2
+  ed:
+    sm_thr: 50
+    dn_expr: false
+    cs_val: 0.40
+  e15:
+    sm_thr: 40
+    db_thr: 1.1
+    dn_expr: false
+  men:
+    sm_thr: 100
+    db_thr: 1.1
+    dn_expr: false
+    ag_str: 0
+  noise:
+    sm_thr: 50
+    cs_val: 0.38
+  noise2:
+    sm_thr: 40
+    cs_val: 0.38
+  fix_black:
+    sm_thr: 18
+
+aa:
+  main:
+    desc_h: 720
+    desc_str: 0.60
+    kernel: bicubic
+    bic_b: 0.5
+    bic_c: 0.5
+    gamma: 300
+
+# check op+ ed-
+# check UV, old: Y/2
+edgefix:
+  crop_args: { bottom: 1 }
+  top: 3
+  bottom: 3
+  left: 3
+  right: 3
+
+repair:
+  main:
+    max_c: 6
+    dering_args: { mrad: 2, mthr: 70, thr: 30, darkthr: 7 }

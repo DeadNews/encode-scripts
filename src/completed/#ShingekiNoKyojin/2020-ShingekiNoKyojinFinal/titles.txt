@@ -1,0 +1,29 @@
+#!/usr/bin/env sh
+
+title: Shingeki no Kyojin Final, Part 1
+short: Shingeki no Kyojin (2020)
+_year: 2020
+anidb: https://anidb.net/anime/14977
+
+e1: EP1 «The Other Side of the Sea»
+e2: EP2 «Midnight Train»
+e3: EP3 «The Door of Hope»
+e4: EP4 «From One Hand to Another»
+e5: EP5 «Declaration of War»
+e6: EP6 «The War Hammer Titan»
+e7: EP7 «Assault»
+e8: EP8 «Assassin`s Bullet»
+e9: EP9 «Brave Volunteers»
+e10: EP10 «A Sound Argument»
+e11: EP11 «Deceiver»
+e12: EP12 «Guides»
+e13: EP13 «Children of the Forest»
+e14: EP14 «Savagery»
+e15: EP15 «Sole Salvation»
+e16: EP16 «Above and Below»
+
+op: OP «Boku no Sensou»
+ed: ED «Shougeki»
+
+s1: S1
+s2: S2

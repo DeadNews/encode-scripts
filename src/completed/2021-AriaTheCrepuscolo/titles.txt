@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+title: Aria the Crepuscolo
+_year: 2021
+anidb: https://anidb.net/anime/15499
+
+e1: «Aria the Crepuscolo»

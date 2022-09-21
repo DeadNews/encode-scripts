@@ -1,0 +1,27 @@
+#!/usr/bin/env sh
+
+title: Owarimonogatari
+_year: 2015
+seasn: 1
+
+e1: EP1 «Ougi Formula 1/2»
+e2: EP2 «Ougi Formula 2/2»
+e3: EP3 «Sodachi Riddle 1/2»
+e4: EP4 «Sodachi Riddle 2/2»
+e5: EP5 «Sodachi Lost 1/3»
+e6: EP6 «Sodachi Lost 2/3»
+e7: EP7 «Sodachi Lost 3/3»
+e8: EP8 «Shinobu Mail 1/6»
+e9: EP9 «Shinobu Mail 2/6»
+e10: EP10 «Shinobu Mail 3/6»
+e11: EP11 «Shinobu Mail 4/6»
+e12: EP12 «Shinobu Mail 5/6»
+e13: EP13 «Shinobu Mail 6/6»
+
+ed1: ED1a «Sayonara no Yukue»
+ed2: ED1b «Sayonara no Yukue»
+
+op1: OP1 «Decent Black»
+op2: OP2 «Mathemagics»
+op3: OP3 «Yuudachi Houteishiki»
+op4: OP4 «Mein Schatz»

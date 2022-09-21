@@ -1,0 +1,39 @@
+#!/usr/bin/env sh
+
+title: Usagi Drop
+_year: 2011
+anidb: https://anidb.net/anime/8211
+
+e1: EP1 «The Bellflower Girl»
+e2: EP2 «Pinky Promise»
+e3: EP3 «Daikichi`s Decision»
+e4: EP4 «Letter»
+e5: EP5 «Daikichi is my Daikichi»
+e6: EP6 «My Tree»
+e7: EP7 «Secretly Running Away From Home»
+e8: EP8 «Grandpa`s Precious Thing»
+e9: EP9 «A Typhoon Came!»
+e10: EP10 «Stomach Flu»
+e11: EP11 «The First Step»
+
+s1: E02.5 «Leaf Aquarium»
+s2: E03.5 «To Santa»
+s3: E06.5 «Full Bloom in the Sky»
+s4: E08.5 «The Way Back Home»
+
+op1: OPa «Sweet Drops»
+op2: OPb «Sweet Drops»
+op3: OPc «Sweet Drops»
+op4: OPd «Sweet Drops»
+
+ed1: ED01 «High High High»
+ed2: ED02 «High High High»
+ed3: ED03 «High High High»
+ed4: ED04 «High High High»
+ed5: ED05 «High High High»
+ed6: ED06 «High High High»
+ed7: ED07 «High High High»
+ed8: ED08 «High High High»
+ed9: ED09 «High High High»
+ed10: ED10 «High High High»
+ed11: ED11 «High High High»

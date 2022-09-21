@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+title: Non Non Biyori Repeat
+_year: 2015
+anidb: https://anidb.net/anime/10587
+
+e1: EP1 «I Became a First Grader»
+e2: EP2 «We Went to Look at the Stars»
+e3: EP3 «We Got Motivated During the Holiday Break»
+e4: EP4 «I Made a Teru-teru Bouzu»
+e5: EP5 «We Ate Okonomiyaki»
+e6: EP6 «We Made Friends with Fireflies»
+e7: EP7 «We Bravely Dove In»
+e8: EP8 «I Took Lunch Duty»
+e9: EP9 «We Looked at the Moon Together»
+e10: EP10 «I Practiced Really Hard»
+e11: EP11 «I Became a Pampered Child»
+e12: EP12 «A Year Passed»
+e13: EP13 «Hotaru Had Fun»
+
+op1: OP «Kodama Kotodama»
+ed1: EDa «Okaeri»
+ed2: EDb «Okaeri»

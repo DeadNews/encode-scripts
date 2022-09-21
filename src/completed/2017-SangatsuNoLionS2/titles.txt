@@ -1,0 +1,44 @@
+#!/usr/bin/env sh
+
+title: 3-gatsu no Lion
+_year: 2017
+seasn: 2
+
+e1: EP1 «Setting Sun / Ramune»
+e2: EP2 «Chaos / Kumakura»
+e3: EP3 «June / Ladybug Bush (Part 1)»
+e4: EP4 «Ladybug Bush (Part 2) / Ladybug Bush (Part 3) / Feelings»
+e5: EP5 «Feelings (Continued) / Confession»
+e6: EP6 «Small World / Letter»
+e7: EP7 «Start of the Rainy Season / Hachiya»
+e8: EP8 «Midday Moon / Adventurers»
+e9: EP9 «Kingdom (Part 1) / Kingdom (Part 2)»
+e10: EP10 «Silver Wings / River Scenery»
+e11: EP11 «Where the Sun Shines / Small World»
+e12: EP12 «Black Mist / Light»
+e13: EP13 «Small Palm / In the Sun»
+e14: EP14 «Flowing Away / White Storm (Part 1)»
+e15: EP15 «White Storm (Part 2) / White Storm (Part 3) / White Storm (Part 4)»
+e16: EP16 «White Storm (Part 4, Continued) / White Storm (Part 5) / Restart»
+e17: EP17 «Burnt Field (Part 1) / Burnt Field (Part 2)»
+e18: EP18 «Burnt Field (Part 3) / Burnt Field (Part 4)»
+e19: EP19 «Being Here / Summer Vacation (Part 1)»
+e20: EP20 «Summer Vacation (Part 2) / New Year»
+e21: EP21 «Passing Time / Spring Comes»
+e22: EP22 «The Other House / Child of March Town»
+
+ed1: ED1b «Cafune»
+ed2: ED1a «Cafune»
+ed3: ED2 «I Am Standing»
+
+op1: OP1 «Flag o Tatero)»
+op2: OP2 «Haru ga Kite Bokura»
+
+m1: M1
+m2: M2
+m3: M3
+m4: M4
+m5: M5
+m6: M6
+m7: M7
+m8: M8

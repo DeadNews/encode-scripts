@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+title: KazeTachinu
+pattern:  '/run/media/deadnews/data1/releases/[Kawaiika-Raws] (2013) Kaze Tachinu [BDRip 1920x1040 HEVC FLAC]/[Kawaiika-Raws] Kaze Tachinu [BDRip 1920x1040 HEVC FLAC].mkv'
+# pattern:  '/run/media/deadnews/data1/temp/[Project_2501] Kaze Tachinu/[Project_2501] Kaze Tachinu (BDRip 1920x1080 x264 FLAC).mkv'
+
+e1:  25872 26016 28510 28798 43961 44681 45113 45257 45977 45977 46697 47129 49001 50297 51593 53321 117517 117805
