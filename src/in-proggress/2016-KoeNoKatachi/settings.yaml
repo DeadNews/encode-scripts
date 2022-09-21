@@ -34,7 +34,6 @@ crop:
   main:
     top: 22
     bottom: 22
-
 # 1 pixel on top
 # edgefix:
 #     main:
