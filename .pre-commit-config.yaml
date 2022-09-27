@@ -30,13 +30,13 @@ repos:
           - pep8-naming
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.38.0
+    rev: v2.38.2
     hooks:
       - id: pyupgrade
         args: [--py310-plus]
 
   - repo: https://github.com/PyCQA/autoflake
-    rev: v1.6.0
+    rev: v1.6.1
     hooks:
       - id: autoflake
         args: [--in-place, --remove-all-unused-imports]
