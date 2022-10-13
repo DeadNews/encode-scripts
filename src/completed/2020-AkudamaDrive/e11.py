@@ -16,7 +16,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 
 # ----mask---- #
 mrgc = dn.rfs_dehalo(epis)
-mrgc = dn.rfs(mrgc, epis, maps=(OP, OPend - 1))
+mrgc = dn.rfs(mrgc, epis, maps=[(OP, OPend - 1)])
 # ------------ #
 
 # ----filt---- #

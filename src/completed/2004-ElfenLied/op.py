@@ -15,7 +15,7 @@ epis = dn.rfs(epis, epis_back, (1206, 1244))
 mrgc = dn.aa(epis)
 
 # fox op
-mrgc = dn.rfs_qtgmc(mrgc, mrgc, maps=(110, 672))
+mrgc = dn.rfs_qtgmc(mrgc, mrgc, maps=[(110, 672)])
 # ------------ #
 
 # ----filt---- #

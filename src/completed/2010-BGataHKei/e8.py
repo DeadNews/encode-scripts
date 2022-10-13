@@ -20,7 +20,7 @@ mrgc = dn.rfs_dehalo(mrgc, zone="2nd")
 # ------------ #
 
 # ----mrgc---- #
-mrgc = dn.rfs_qtgmc(mrgc, mrgc, maps=(9473, 9612))
+mrgc = dn.rfs_qtgmc(mrgc, mrgc, maps=[(9473, 9612)])
 # ------------ #
 
 # ----mask---- #

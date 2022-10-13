@@ -43,7 +43,7 @@ mrgc = dn.rfs(
 )
 
 # fix op
-mrgc = dn.rfs_qtgmc(mrgc, mrgc, maps=(86, 648))
+mrgc = dn.rfs_qtgmc(mrgc, mrgc, maps=[(86, 648)])
 # ------------ #
 
 # ----filt---- #

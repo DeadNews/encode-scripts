@@ -18,8 +18,8 @@ mrgc = dn.rfs_dehalo(mrgc)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, zone="resc1", maps=(Part_B - 88, Part_B - 1))
-mrgc = dn.rfs_resc(mrgc, epis, zone="resc2", maps=(ED, EDend - 1))
+mrgc = dn.rfs_resc(mrgc, epis, zone="resc1", maps=[(Part_B - 88, Part_B - 1)])
+mrgc = dn.rfs_resc(mrgc, epis, zone="resc2", maps=[(ED, EDend - 1)])
 # ------------ #
 
 # ----filt---- #
