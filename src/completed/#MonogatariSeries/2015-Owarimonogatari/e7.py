@@ -38,7 +38,7 @@ mrgc = dn.rfs_hard(
     mthr=85,
     maps=[(10211, 10243), (31650, 31679), (32418, 32459), (34641, 34766), (34148, 34424)],
 )
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps=" [33156 33272] [34563 34640] [18075 18197]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps=[(33156, 33272), (34563, 34640), (18075, 18197)])
 
 hard_def = dn.hard(mrgc, mthr=20)
 mrgc = dn.rfs_image(mrgc, hard_def, "e7 8773", [(8773, 8901)])

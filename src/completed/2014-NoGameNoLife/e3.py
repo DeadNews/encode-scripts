@@ -31,7 +31,7 @@ mrgc = (
 
 # ----mask---- #
 maps = [(Next, Nextend - 1)]  # next
-maps += f" [{Nextend} {epis.num_frames-1}]"  # promo2
+maps += [(Nextend, epis.num_frames - 1)]  # promo2
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
 # ------------ #

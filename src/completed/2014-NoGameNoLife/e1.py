@@ -22,8 +22,8 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 
 # ----mask---- #
 maps = [(Next, Nextend - 1)]  # next
-maps += f" [34105 {Next-1}]"  # before next
-maps += f" [29221 {OP-1}]"  # before ed(op)
+maps += [(34105, Next - 1)]  # before next
+maps += [(29221, OP - 1)]  # before ed(op)
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
 # ------------ #

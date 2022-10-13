@@ -20,9 +20,9 @@ mrgc = aaep
 mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=1, maps=[(30300, 30368)])
 
 maps = [(Promo_2 - 74, Promo_2 - 1)]  # logo
-maps += f" [0 331]"  # titles on epis
-maps += f" [1450 1895]"  # titles on epis
-maps += f" [30747 32418]"  # titles on epis
+maps += [(0, 331)]  # titles on epis
+maps += [(1450, 1895)]  # titles on epis
+maps += [(30747, 32418)]  # titles on epis
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
 # ------------ #

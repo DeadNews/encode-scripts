@@ -20,7 +20,7 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 
 # ----mask---- #
 maps = [(Next, epis.num_frames - 1)]  # next
-maps += " [234 2709]"  # op on epis
+maps += [(234, 2709)]  # op on epis
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=maps)
 # ------------ #

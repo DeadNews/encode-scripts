@@ -16,8 +16,8 @@ mrgc = aaep
 
 # ----mask---- #
 maps = [(ED, epis.num_frames - 1)]  # ed
-maps += " [821 979]"  # title
-maps += f" [{Part_B} {Part_B+71}]"  # title
+maps += [(821, 979)]  # title
+maps += [(Part_B, Part_B + 71)]  # title
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=100, maps=maps, zone="resc")
 

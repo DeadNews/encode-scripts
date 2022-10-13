@@ -23,8 +23,8 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed
 
 maps = [(EDend, epis.num_frames - 1)]  # next
-maps += f" [{OPend} {OPend+189}]"  # title
-maps += f" [{Part_B} {Part_B+71}]"  # title
+maps += [(OPend, OPend + 189)]  # title
+maps += [(Part_B, Part_B + 71)]  # title
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=168, maps=maps, zone="resc")
 # ------------ #

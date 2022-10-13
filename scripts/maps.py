@@ -14,7 +14,12 @@ if __name__ == "__main__":
 
     for m in maps:
         intervals = [
-            i.replace("[", "(").replace("]", ")").replace("  ", " ").replace(" ", ", ").replace("{", "").replace("}", "")
+            i.replace("[", "(")
+            .replace("]", ")")
+            .replace("  ", " ")
+            .replace(" ", ", ")
+            .replace("{", "")
+            .replace("}", "")
             for i in findall(r"\[.+?\]", m)
         ]
         m_new = f"{intervals}".replace("'", "")

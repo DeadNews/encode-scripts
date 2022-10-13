@@ -1,4 +1,4 @@
-import fvsfunc as fvf
+import dnfunc as dn
 import gradfun_amod as gfa
 import kagefunc
 import vapoursynth as vs

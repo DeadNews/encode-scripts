@@ -16,8 +16,8 @@ mrgc = aaep
 
 # ----mask---- #
 maps = [(Next, epis.num_frames - 1)]  # next
-maps += " [0 2107]"  # op on epis
-maps += " [31520 33504]"  # ed on epis
+maps += [(0, 2107)]  # op on epis
+maps += [(31520, 33504)]  # ed on epis
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=maps)
 # ------------ #
