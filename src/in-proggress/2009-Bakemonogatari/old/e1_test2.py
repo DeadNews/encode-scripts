@@ -20,11 +20,11 @@ mrgc = aaep
 
 # ----mask---- #
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, f"[0 2205] [{OP} {OPend-1}]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, 2205), (OP, OPend - 1)])
 
 sw_mask = dn.gradfun_mask(aaep, thr_det=1, db_mode=3).fmtc.bitdepth(bits=8)
 save_wite = core.std.MaskedMerge(mrgc, aaep, db_mode=sw_mask, planes=0)
-mrgc = dn.rfs_image(mrgc, save_wite, "SWfilter", "[0 591]")
+mrgc = dn.rfs_image(mrgc, save_wite, "SWfilter", [(0, 591)])
 # ------------ #
 
 # ----filt---- #

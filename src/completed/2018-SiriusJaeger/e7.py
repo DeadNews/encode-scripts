@@ -10,10 +10,10 @@ EDend = dn.chapt(epname, "Part_C", "Next")
 Next = dn.chapt(epname, "Next")
 End = dn.chapt(epname, "End")
 
-map_ed = f"[{ED} {EDend-1}]"
-map_next = f"[{Next} {End-1}]"
-map_title = f"[{Next-96} {Next-1}]"
-map_mid = f"[{Part_B-48} {Part_B-1}]"
+map_ed = [(ED, EDend - 1)]
+map_next = [(Next, End - 1)]
+map_title = [(Next - 96, Next - 1)]
+map_mid = [(Part_B - 48, Part_B - 1)]
 
 epis = dn.source(f"./in/{epname}.mp4")
 epis, epis_back, edgefixer = dn.edgefix(epis)
@@ -32,7 +32,7 @@ mrgc = dn.rfs(mrgc, epis, map_next)
 mrgc = dn.rfs(mrgc, epis, map_title)
 mrgc = dn.rfs(mrgc, epis, map_mid)
 
-mrgc = dn.rfs_resc(mrgc, epis, mthr=150, maps="[0 2020]", zone="resc_fix")  # avatn
+mrgc = dn.rfs_resc(mrgc, epis, mthr=150, maps=[(0, 2020)], zone="resc_fix")  # avatn
 # ------------ #
 
 # ----filt---- #

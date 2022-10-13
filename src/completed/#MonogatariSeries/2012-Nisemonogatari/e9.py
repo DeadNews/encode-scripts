@@ -21,7 +21,7 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_qtgmc(mrgc, aaep, k=0.77, maps="[410 516] [11291 11362]")
+mrgc = dn.rfs_qtgmc(mrgc, aaep, k=0.77, maps=[(410, 516), (11291, 11362)])
 # ------------ #
 
 # ----filt---- #
@@ -50,10 +50,10 @@ F3 = dn.filt(mrgc, sm_thr=40, db_saveblack=0, db_range=10)
 F4 = dn.filt(mrgc, db_mode=2)
 F5 = dn.filt(mrgc, sm_thr=35, db_thr=1, rt_sigma=0.7)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, "[11219 11251] [13130 13162] [25175 25205]")
-F1 = dn.rfs(F1, F4, "[410 516]")
-F1 = dn.rfs(F1, F5, "[8337 8378] [18610 18654]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(11219, 11251), (13130, 13162), (25175, 25205)])
+F1 = dn.rfs(F1, F4, [(410, 516)])
+F1 = dn.rfs(F1, F5, [(8337, 8378), (18610, 18654)])
 # ------------ #
 
 # ----out----- #

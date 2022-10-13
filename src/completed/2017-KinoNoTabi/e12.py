@@ -31,10 +31,10 @@ mrgc = (
 
 # ----mask---- #
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, mthr=50, maps="[2171 2289] [26620 26707] [30737 30856]"
+    mrgc, epis, desc_h=desc_h, mthr=50, maps=[(2171, 2289), (26620, 26707), (30737, 30856)]
 )
 
-mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=99, maps="[18593 22505]")
+mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=99, maps=[(18593, 22505)])
 # ------------ #
 
 # ----filt---- #
@@ -61,8 +61,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=80, db_mode=3)
 F0 = dn.filt(epis, db_thr=0)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F0, "[33813 34070]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F0, [(33813, 34070)])
 # ------------ #
 
 # ----out----- #

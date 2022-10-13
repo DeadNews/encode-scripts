@@ -20,13 +20,13 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 
 # ----mask---- #
 aa_titles = dn.aa(epis, desc_h=900)
-mrgc = dn.rfs(mrgc, aa_titles, "[33806 34921]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=99, maps="[33806 34921]")
+mrgc = dn.rfs(mrgc, aa_titles, [(33806, 34921)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=99, maps=[(33806, 34921)])
 
 stabilize = dn.qtgmc(aaep)
-mrgc = dn.rfs(mrgc, stabilize, "[3090 3173] [3216 3251] [4623 4781] [6326 6591]")
+mrgc = dn.rfs(mrgc, stabilize, [(3090, 3173), (3216, 3251), (4623, 4781), (6326, 6591)])
 
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=50, maps="[4461 4592] [32483 32542]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=50, maps=[(4461, 4592), (32483, 32542)])
 # ------------ #
 
 # ----filt---- #
@@ -56,10 +56,22 @@ F3 = dn.filt(mrgc, db_mode=1)
 F1 = dn.rfs(
     F1,
     F2,
-    f"[{OP} {OPend-1}] [10355 10390] [14751 14765] [14895 14918] [14933 14962] [14985 15209] [16806 16883] [17133 17270] [28945 29055]",
+    [
+        (OP, OPend - 1),
+        (10355, 10390),
+        (14751, 14765),
+        (14895, 14918),
+        (14933, 14962),
+        (14985, 15209),
+        (16806, 16883),
+        (17133, 17270),
+        (28945, 29055),
+    ],
 )
 F1 = dn.rfs(
-    F1, F3, "[5176 5478] [13911 13934] [10313 10354] [14679 14708] [22207 22293] [28142 28165]"
+    F1,
+    F3,
+    [(5176, 5478), (13911, 13934), (10313, 10354), (14679, 14708), (22207, 22293), (28142, 28165)],
 )
 
 # ----out--- #

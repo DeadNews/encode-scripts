@@ -22,9 +22,9 @@ epis = dn.adaptive_chromashift(epis, fix, pw_mode=False)
 epis = dn.rfs(
     epis,
     epis_back,
-    f"[{ED} {epis.num_frames-1}] [{OP} {OPend-1}] [7325 7635] [14369 15481] [18737 18814]",
+    [(ED, epis.num_frames - 1), (OP, OPend - 1), (7325, 7635), (14369, 15481), (18737, 18814)],
 )
-epis = dn.rfs(epis, fix, "[2533 2650] [15768 15833] [17739 17846] [17847 18067]")
+epis = dn.rfs(epis, fix, [(2533, 2650), (15768, 15833), (17739, 17846), (17847, 18067)])
 # ------------ #
 
 # ----mrgc---- #
@@ -37,7 +37,7 @@ mrgc = dn.rfs_dehalo(mrgc, zone="3nd")
 _mrgc = mrgc
 
 mrgc = dn.qtgmc(_mrgc, k=1.0, sharp=0.0)
-mrgc = dn.rfs_qtgmc(mrgc, _mrgc, k=3, maps="[12965 13051]")
+mrgc = dn.rfs_qtgmc(mrgc, _mrgc, k=3, maps=[(12965, 13051)])
 # ------------ #
 
 # ----filt---- #
@@ -46,9 +46,9 @@ F2 = dn.filt(mrgc, zone="ed")
 F3 = dn.filt(mrgc, zone="next")
 F4 = dn.filt(mrgc, zone="op")
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, f"[{Next} {epis.num_frames-1}]")
-F1 = dn.rfs(F1, F4, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(Next, epis.num_frames - 1)])
+F1 = dn.rfs(F1, F4, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

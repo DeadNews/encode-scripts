@@ -20,9 +20,9 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 
 # ----mask---- #
 hard = dn.hard(mrgc, mthr=20)
-mrgc = dn.rfs_image(mrgc, hard, "e6 3836", "[3836 3961]")
-mrgc = dn.rfs_image(mrgc, hard, "e6 4524", "[4524 4659] [6884 6931]")
-mrgc = dn.rfs_image(mrgc, hard, "e6 4659", "[4659 4861] [5340 5399] [5544 5736]")
+mrgc = dn.rfs_image(mrgc, hard, "e6 3836", [(3836, 3961)])
+mrgc = dn.rfs_image(mrgc, hard, "e6 4524", [(4524, 4659), (6884, 6931)])
+mrgc = dn.rfs_image(mrgc, hard, "e6 4659", [(4659, 4861), (5340, 5399), (5544, 5736)])
 # ------------ #
 
 # -----in----- #
@@ -48,7 +48,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_mode=2)
 
-F1 = dn.rfs(F1, F2, "[7554 7682] [7778 7882]")
+F1 = dn.rfs(F1, F2, [(7554, 7682), (7778, 7882)])
 # ------------ #
 
 # ----out----- #

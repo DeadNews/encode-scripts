@@ -13,15 +13,24 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, sangnomPP=False, yuv=False, maps="[26123 26181]")
-# mrgc = dn.rfs_image(mrgc, epis_ef, maskname="1", maps="[2040 2230]")
+# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, sangnomPP=False, yuv=False, maps=[(26123, 26181)])
+# mrgc = dn.rfs_image(mrgc, epis_ef, maskname="1", maps=[(2040, 2230)])
 mrgc = dn.rfs_resc(
     mrgc,
     epis,
     desc_h=desc_h,
     kernel="bicubic",
     mthr=50,
-    maps="[10001 10050] [10132 10233] [10306 10323] [10448 10493] [10679 10846] [10877 10987] [11183 11362] [11751 11905]",
+    maps=[
+        (10001, 10050),
+        (10132, 10233),
+        (10306, 10323),
+        (10448, 10493),
+        (10679, 10846),
+        (10877, 10987),
+        (11183, 11362),
+        (11751, 11905),
+    ],
 )
 # ------------ #
 
@@ -48,7 +57,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=30, db_thr=1)
 
-F1 = dn.rfs(F1, F2, "[3829 3891]")
+F1 = dn.rfs(F1, F2, [(3829, 3891)])
 # ------------ #
 
 # ----out----- #

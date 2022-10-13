@@ -20,7 +20,7 @@ mrgc = aaep
 
 # ----mask---- #
 ED = 24
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h + 1, mthr=30, maps=f"[{ED+805} {ED+916}]")  # ed1
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h + 1, mthr=30, maps=[(ED + 805, ED + 916)])  # ed1
 # ------------ #
 
 # ----filt---- #

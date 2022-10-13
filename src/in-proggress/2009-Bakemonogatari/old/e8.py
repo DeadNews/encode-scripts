@@ -15,7 +15,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 
 def filt_ncop_aa(ncoped_aa):
     stabilize = dn.qtgmc(ncoped_aa, k=0.77)
-    return dn.rfs(ncoped_aa, stabilize, "[12 221] [1167 1408] [1730 1760] [1783 1901]")
+    return dn.rfs(ncoped_aa, stabilize, [(12, 221), (1167, 1408), (1730, 1760), (1783, 1901)])
 
 
 # ----mrgc---- #
@@ -42,10 +42,10 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[35292 {epis.num_frames-1}]")
+mrgc = dn.rfs(mrgc, epis, [(35292, epis.num_frames - 1)])
 
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, f"[0 {OP-1}]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, OP - 1)])
 
 # возможно наоборот сделать: в серии без титров, а титры отдельно
 # ------------ #

@@ -20,7 +20,7 @@ mrgc = aaep
 
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=2, maps=f"[{Part_C} {ED-1}]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=2, maps=[(Part_C, ED - 1)])
 # ------------ #
 
 # ----filt---- #
@@ -28,8 +28,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="ed")
 F3 = dn.filt(mrgc, zone="op")
 
-F1 = dn.rfs(F1, F2, f"[{Part_C} {epis.num_frames-1}]")
-F1 = dn.rfs(F1, F3, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(Part_C, epis.num_frames - 1)])
+F1 = dn.rfs(F1, F3, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

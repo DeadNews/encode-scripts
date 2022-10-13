@@ -23,12 +23,12 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="ed1")
 F3 = dn.filt(mrgc, zone="ed2")
 
-F1 = dn.rfs(F1, F2, f"[{ED} {ED+875}]")
-F1 = dn.rfs(F1, F3, f"[{ED+876} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, ED + 875)])
+F1 = dn.rfs(F1, F3, [(ED + 876, EDend - 1)])
 # ------------ #
 
 # ----mask---- #
-F1 = dn.rfs_black_crop(F1, top=158, bot=158, maps=f"[{ED+36} {EDend-1}]")
+F1 = dn.rfs_black_crop(F1, top=158, bot=158, maps=[(ED + 36, EDend - 1)])
 # ------------ #
 
 # ----out----- #

@@ -30,7 +30,7 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {Nextend-1}]"  # next
+maps = [(Next, Nextend - 1)]  # next
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
 # ------------ #

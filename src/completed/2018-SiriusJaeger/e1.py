@@ -21,17 +21,17 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-map_ed = f"[{ED} {EDend-1}]"
-map_next = f"[{Next} {End-1}]"
-map_title = f"[{Part_A-96} {Part_A-1}]"
-map_mid = f"[{Part_B-48} {Part_B-1}]"
+map_ed = [(ED, EDend - 1)]
+map_next = [(Next, End - 1)]
+map_title = [(Part_A - 96, Part_A - 1)]
+map_mid = [(Part_B - 48, Part_B - 1)]
 
 mrgc = dn.rfs(mrgc, epis_back, map_ed)  # ed (castom)
 mrgc = dn.rfs(mrgc, epis, map_next)
 mrgc = dn.rfs(mrgc, epis, map_title)
 mrgc = dn.rfs(mrgc, epis, map_mid)
 
-mrgc = dn.rfs_resc(mrgc, epis, mthr=150, maps="[0 3929]", zone="resc_fix")  # avant
+mrgc = dn.rfs_resc(mrgc, epis, mthr=150, maps=[(0, 3929)], zone="resc_fix")  # avant
 # ------------ #
 
 # ----filt---- #

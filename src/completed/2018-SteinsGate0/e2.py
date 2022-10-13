@@ -28,7 +28,7 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {epis.num_frames-1}]"  # next
+maps = [(Next, epis.num_frames - 1)]  # next
 mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=maps)
 # ------------ #
 
@@ -60,9 +60,9 @@ F3 = dn.filt(mrgc, sm_thr=50, db_thr=2.2, cs_val=0.50, db_det=64)  # ed1
 # F4 = dn.filt(mrgc, db_thr=1.0, db_det=64) #avant v1
 F4 = dn.filt(mrgc, db_thr=1.0, db_det=64, ag=True, ag_str=0.01)  # avant v2
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F4, f"[0 {OP-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1)])
+F1 = dn.rfs(F1, F4, [(0, OP - 1)])
 # ------------ #
 
 # ----out----- #

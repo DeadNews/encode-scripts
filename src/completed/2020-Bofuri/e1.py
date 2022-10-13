@@ -20,8 +20,8 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, ED - 1) + ed
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, mthr=148, maps=f"[{OPend+7} {OPend+58}]")  # title
-mrgc = dn.rfs_resc(mrgc, epis, mthr=148, maps="[6911 6939] [9874 9902]")  # signs
+mrgc = dn.rfs_resc(mrgc, epis, mthr=148, maps=[(OPend + 7, OPend + 58)])  # title
+mrgc = dn.rfs_resc(mrgc, epis, mthr=148, maps=[(6911, 6939), (9874, 9902)])  # signs
 # ------------ #
 
 # ----filt---- #

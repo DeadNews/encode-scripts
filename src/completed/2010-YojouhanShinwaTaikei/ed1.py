@@ -46,7 +46,7 @@ F1 = dn.filt(
 )
 F2 = dn.filt(mrgc, sm_thr=30, db_thr=1.5, rt_sigma=0.7, ag_str=0.05)
 
-F1 = dn.rfs(F1, F2, f"[{ED+1353} {ED+1451}] [{ED+1761} {ED+1864}]")
+F1 = dn.rfs(F1, F2, [(ED + 1353, ED + 1451), (ED + 1761, ED + 1864)])
 # ------------ #
 
 # ----out----- #

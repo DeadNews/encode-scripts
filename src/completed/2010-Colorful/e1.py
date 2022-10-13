@@ -16,7 +16,7 @@ epis = epis.edgefixer.Continuity(top=1, bottom=1, left=1, right=1)
 
 aaep = dn.aa(epis)
 aaep = dn.rfs_dehalo(aaep)
-mrgc = dn.rfs(aaep, epis_back, f"[0 265] [{ED} {epis.num_frames-1}]")
+mrgc = dn.rfs(aaep, epis_back, [(0, 265), (ED, epis.num_frames - 1)])
 # ------------ #
 
 # ----filt---- #
@@ -26,10 +26,10 @@ F3 = dn.filt(mrgc, zone="noise_1")
 F4 = dn.filt(mrgc, zone="noise_2")
 F5 = dn.filt(mrgc, zone="avant")
 
-F1 = dn.rfs(F1, F2, f"[{Chapter_11} {Chapter_12-1}]")
-F1 = dn.rfs(F1, F3, "[161625 163451] [163651 164215]")
-F1 = dn.rfs(F1, F4, "[163452 163650] [164216 164982]")
-F1 = dn.rfs(F1, F5, "[540 5117]")
+F1 = dn.rfs(F1, F2, [(Chapter_11, Chapter_12 - 1)])
+F1 = dn.rfs(F1, F3, [(161625, 163451), (163651, 164215)])
+F1 = dn.rfs(F1, F4, [(163452, 163650), (164216, 164982)])
+F1 = dn.rfs(F1, F5, [(540, 5117)])
 # ------------ #
 
 # ----out----- #

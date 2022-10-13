@@ -24,22 +24,34 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=36, maps="[13030 13127] [33831 33949]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=36, maps=[(13030, 13127), (33831, 33949)])
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, mthr=65, maps="[31841 32353] [32561 32929] [33071 33769]"
+    mrgc, epis, desc_h=desc_h, mthr=65, maps=[(31841, 32353), (32561, 32929), (33071, 33769)]
 )
-mrgc = dn.rfs_image(mrgc, epis, "e5 01", "[31628 31711]")
+mrgc = dn.rfs_image(mrgc, epis, "e5 01", [(31628, 31711)])
 
 mrgc = dn.rfs_hard(
     mrgc,
     epis,
     desc_h=desc_h,
     mthr=99,
-    maps="[16318 16902] [17122 17493] [17818 18189] [18463 18954] [19909 20029] [21181 21360] [21565 21660] [21944 22327] [22502 22645] [19513 19722] [19759 19842]",
+    maps=[
+        (16318, 16902),
+        (17122, 17493),
+        (17818, 18189),
+        (18463, 18954),
+        (19909, 20029),
+        (21181, 21360),
+        (21565, 21660),
+        (21944, 22327),
+        (22502, 22645),
+        (19513, 19722),
+        (19759, 19842),
+    ],
 )
 
 stabilize = dn.qtgmc(aaep, k=0.77)
-mrgc = dn.rfs(mrgc, stabilize, "[18028 18189] [17188 17493]")
+mrgc = dn.rfs(mrgc, stabilize, [(18028, 18189), (17188, 17493)])
 # ------------ #
 
 # ----filt---- #
@@ -65,7 +77,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=80, db_mode=3)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

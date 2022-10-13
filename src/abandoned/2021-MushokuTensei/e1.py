@@ -24,7 +24,7 @@ epis = dn.rfs(epis, ef, maps=[(30833, 30904), (31037, 31204)])
 aaep = dn.aa(epis)  # eedi
 mrgc = dn.rfs_resc(aaep, epis, zone="resc")  # all
 
-mrgc = dn.rfs(mrgc, epis, maps=(ED, EDend - 1))  # ed
+mrgc = dn.rfs(mrgc, epis, maps=[(ED, EDend - 1)])  # ed
 # ------------ #
 
 # ----filt---- #

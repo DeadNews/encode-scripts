@@ -20,9 +20,9 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[{OPend} {OPend+83}] [{epis.num_frames-156} {epis.num_frames-1}]")
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend}]")
-mrgc = dn.rfs_image(mrgc, epis, "logo", "[17247 17410]")
+mrgc = dn.rfs(mrgc, epis, [(OPend, OPend + 83), (epis.num_frames - 156, epis.num_frames - 1)])
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend)])
+mrgc = dn.rfs_image(mrgc, epis, "logo", [(17247, 17410)])
 # ------------ #
 
 # ----filt---- #
@@ -48,7 +48,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_thr=2.6)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

@@ -18,10 +18,10 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend}]")
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend)])
 
 hard = dn.hard(mrgc, mthr=50)
-mrgc = dn.rfs_image(mrgc, hard, "ed1", f"[{ED+1656} {ED+1725}]")
+mrgc = dn.rfs_image(mrgc, hard, "ed1", [(ED + 1656, ED + 1725)])
 # ------------ #
 
 # ----filt---- #
@@ -63,12 +63,12 @@ F5 = dn.filt(mrgc, sm_thr=30, db_thr=1.5, rt_sigma=0.7, ag_str=0.05)
 F6 = dn.filt(mrgc, sm_thr=150, db_thr=2.6)
 F7 = dn.filt(mrgc, sm_thr=200, db_thr=3.2, ag_str=0.40, db_cs=False)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-744}]")
-F1 = dn.rfs(F1, F3, f"[{OPend-743} {OPend-1}]")
-F1 = dn.rfs(F1, F4, f"[{ED} {EDend}]")
-F1 = dn.rfs(F1, F5, f"[{ED+1353} {ED+1451}] [{ED+1761} {ED+1864}]")
-F1 = dn.rfs(F1, F6, f"[805 {OP-1}]")
-F1 = dn.rfs(F1, F7, "[0  804]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 744)])
+F1 = dn.rfs(F1, F3, [(OPend - 743, OPend - 1)])
+F1 = dn.rfs(F1, F4, [(ED, EDend)])
+F1 = dn.rfs(F1, F5, [(ED + 1353, ED + 1451), (ED + 1761, ED + 1864)])
+F1 = dn.rfs(F1, F6, [(805, OP - 1)])
+F1 = dn.rfs(F1, F7, [(0, 804)])
 # ------------ #
 
 # ----out----- #

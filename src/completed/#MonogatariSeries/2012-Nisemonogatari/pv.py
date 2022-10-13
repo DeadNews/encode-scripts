@@ -11,7 +11,7 @@ aaep = dn.aa(epis, desc_h=desc_h)
 # mrgc = epis
 
 mrgc = dn.rfs_resc(aaep, epis, desc_h=desc_h, mthr=50)
-mrgc = dn.rfs(mrgc, epis, f"[2566 {epis.num_frames-1}]")
+mrgc = dn.rfs(mrgc, epis, [(2566, epis.num_frames - 1)])
 # ------------ #
 
 # ----filt---- #

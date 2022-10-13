@@ -17,8 +17,8 @@ F1 = dn.filt(mrgc, zone="oped")
 F3 = dn.filt(mrgc, zone="limb")
 F4 = dn.filt(mrgc, zone="noise")
 
-F1 = dn.rfs(F1, F3, "[995 1031]")
-F1 = dn.rfs(F1, F4, "[792 994]")
+F1 = dn.rfs(F1, F3, [(995, 1031)])
+F1 = dn.rfs(F1, F4, [(792, 994)])
 # ------------ #
 
 # ----out----- #

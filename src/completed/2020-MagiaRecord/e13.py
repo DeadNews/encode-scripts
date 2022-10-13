@@ -17,8 +17,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="harder")
 F3 = dn.filt(mrgc, zone="harder_2")
 
-F1 = dn.rfs(F1, F2, "[309 935] [9763 9930]")
-F1 = dn.rfs(F1, F3, f"[{ED+308-24} {ED+448-24}]")
+F1 = dn.rfs(F1, F2, [(309, 935), (9763, 9930)])
+F1 = dn.rfs(F1, F3, [(ED + 308 - 24, ED + 448 - 24)])
 # ------------ #
 
 # ----out----- #

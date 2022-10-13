@@ -17,13 +17,13 @@ mrgc = aaep
 
 # ----mask---- #
 eedi = dn.aa(epis, zone="eedi3")
-mrgc = dn.rfs(mrgc, eedi, f"[{Part_B} {Part_B+71}]")
+mrgc = dn.rfs(mrgc, eedi, [(Part_B, Part_B + 71)])
 
 mrgc = dn.rfs_dehalo(mrgc)
 
-mrgc = dn.rfs_resc(mrgc, epis, maps=f"[{Part_A} {Part_A+143}]")  # title
+mrgc = dn.rfs_resc(mrgc, epis, maps=[(Part_A, Part_A + 143)])  # title
 
-mrgc = dn.rfs_resc(mrgc, epis, mthr=110, maps=f"[29778 {End-1}]")  # ed
+mrgc = dn.rfs_resc(mrgc, epis, mthr=110, maps=[(29778, End - 1)])  # ed
 # ------------ #
 
 # ----filt---- #

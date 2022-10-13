@@ -15,8 +15,8 @@ mrgc = aaep
 mrgc = dn.rfs_dehalo(mrgc)
 
 OP = 0
-mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=f"[{OP+1486} {OP+1508}] [{OP+2084} {OP+2159}]")
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps=f"[{OP+2101} {OP+2159}]")  # op_end
+mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=[(OP + 1486, OP + 1508), (OP + 2084, OP + 2159)])
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps=[(OP + 2101, OP + 2159)])  # op_end
 # ------------ #
 
 # ----filt---- #

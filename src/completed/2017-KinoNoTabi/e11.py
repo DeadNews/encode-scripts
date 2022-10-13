@@ -18,21 +18,40 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=40, maps="[27987 28193]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=66, maps="[770 863]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=17, maps="[880 998]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=58, maps="[28470 30013]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=40, maps=[(27987, 28193)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=66, maps=[(770, 863)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=17, maps=[(880, 998)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=58, maps=[(28470, 30013)])
 
 mrgc = dn.rfs_hard(
     mrgc,
     epis,
     desc_h=desc_h,
     mthr=99,
-    maps="[10301 10469] [11468 11905] [12044 12044] [12290 12418] [13076 13135] [13412 13525] [14015 14278] [14309 14512] [15524 15625] [15767 16051] [23780 23977] [24152 24351] [9242 10124] [8188 8508] [8545 9004] [9182 9241] [10718 10837] [11906 12043]",
+    maps=[
+        (10301, 10469),
+        (11468, 11905),
+        (12044, 12044),
+        (12290, 12418),
+        (13076, 13135),
+        (13412, 13525),
+        (14015, 14278),
+        (14309, 14512),
+        (15524, 15625),
+        (15767, 16051),
+        (23780, 23977),
+        (24152, 24351),
+        (9242, 10124),
+        (8188, 8508),
+        (8545, 9004),
+        (9182, 9241),
+        (10718, 10837),
+        (11906, 12043),
+    ],
 )
 
 stabilize = dn.qtgmc(aaep, k=0.77)
-mrgc = dn.rfs(mrgc, stabilize, "[8545 8652]")
+mrgc = dn.rfs(mrgc, stabilize, [(8545, 8652)])
 # ------------ #
 
 # ----filt---- #
@@ -59,8 +78,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=50, db_mode=3)
 F0 = dn.filt(mrgc, db_thr=0)
 
-F1 = dn.rfs(F1, F2, "[26800 27384]")
-F1 = dn.rfs(F1, F0, "[0 292]")
+F1 = dn.rfs(F1, F2, [(26800, 27384)])
+F1 = dn.rfs(F1, F0, [(0, 292)])
 # ------------ #
 
 # ----out----- #

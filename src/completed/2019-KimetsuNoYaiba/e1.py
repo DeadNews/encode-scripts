@@ -27,8 +27,8 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps=f"[{OP+293} {OP+397}]")
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # custom ed
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps=[(OP + 293, OP + 397)])
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # custom ed
 # ------------ #
 
 # ----filt---- #
@@ -39,14 +39,23 @@ F5 = dn.filt(mrgc, zone="grain_op")
 F6 = dn.filt(mrgc, zone="main")
 F7 = dn.filt(mrgc, zone="noise_2")
 
-F1 = dn.rfs(F1, F2, "[12451 30449]")  # film grain
-F1 = dn.rfs(F1, F4, f"[{OP} {OP+282}]")
-F1 = dn.rfs(F1, F5, f"[{OP+1169} {OP+1398}]")
+F1 = dn.rfs(F1, F2, [(12451, 30449)])  # film grain
+F1 = dn.rfs(F1, F4, [(OP, OP + 282)])
+F1 = dn.rfs(F1, F5, [(OP + 1169, OP + 1398)])
 # back
-F1 = dn.rfs(F1, F6, "[13898 13929] [12605 12700] [13709 13795] [15135 15311]")
+F1 = dn.rfs(F1, F6, [(13898, 13929), (12605, 12700), (13709, 13795), (15135, 15311)])
 # back2
 F1 = dn.rfs(
-    F1, F7, "[17127 17203] [12547 12604] [12857 12976] [13091 13222] [13796 13839] [16143 16250]"
+    F1,
+    F7,
+    [
+        (17127, 17203),
+        (12547, 12604),
+        (12857, 12976),
+        (13091, 13222),
+        (13796, 13839),
+        (16143, 16250),
+    ],
 )
 # ------------ #
 

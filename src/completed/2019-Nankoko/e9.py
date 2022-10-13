@@ -22,9 +22,9 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, ED - 1) + ed
 
 # ----mask---- #
 if PreED == ED:
-    maps = f"[{OPend} {OPend+130}]"
+    maps = [(OPend, OPend + 130)]
 else:
-    maps = f"[{OPend} {OPend+130}] [{PreED} {ED-1}]"
+    maps = [(OPend, OPend + 130), (PreED, ED - 1)]
 
 mrgc = dn.rfs_resc(mrgc, epis, desc_h=873 + 1, b=0.33, c=0.33, mthr=40, maps=maps)
 # ------------ #

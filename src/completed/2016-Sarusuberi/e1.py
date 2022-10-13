@@ -38,9 +38,9 @@ F2 = dn.filt(mrgc, db_saveblack=2, ag_str=0)
 F3 = dn.filt(mrgc, sm_thr=75, rt_sigma=1.1)
 F4 = dn.filt(mrgc, sm_thr=85, rt_sigma=1.1)
 
-F1 = dn.rfs(F1, F2, f"[0 407] [123840 {epis.num_frames-1}]")
-F1 = dn.rfs(F1, F3, "[74577 77483]")  # rain
-F1 = dn.rfs(F1, F4, "[119319 119508] [120153 120296]")
+F1 = dn.rfs(F1, F2, [(0, 407), (123840, epis.num_frames - 1)])
+F1 = dn.rfs(F1, F3, [(74577, 77483)])  # rain
+F1 = dn.rfs(F1, F4, [(119319, 119508), (120153, 120296)])
 # ------------ #
 
 # ----out----- #

@@ -13,7 +13,7 @@ epis = dn.source(f"./in/{epname}.mkv")
 
 
 def filt_ncop_aa(ncoped_aa):
-    return dn.rfs_hard(ncoped_aa, ncoped_aa, mthr=99, maps="[1391 1463] [1608 1635]")
+    return dn.rfs_hard(ncoped_aa, ncoped_aa, mthr=99, maps=[(1391, 1463), (1608, 1635)])
 
 
 # ----mrgc---- #
@@ -24,8 +24,8 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{OP+644} {OP+856}]")
-mrgc = dn.rfs(mrgc, epis, f"[33258 {Next-1}]")
+mrgc = dn.rfs(mrgc, aaep, [(OP + 644, OP + 856)])
+mrgc = dn.rfs(mrgc, epis, [(33258, Next - 1)])
 # ------------ #
 
 # ----filt---- #
@@ -55,14 +55,16 @@ F4 = dn.filt(mrgc, sm_thr=38, db_thr=1, rt_sigma=0.6, db_grain=40)
 F5 = dn.filt(mrgc, sm_thr=14, db_thr=1, rt_sigma=0.4, db_grain=16)
 F6 = dn.filt(mrgc, sm_thr=300, db_thr=6, db_mode=1, rt_sigma=4, db_det=128)
 
-F1 = dn.rfs(F1, F2, "[3927 4034] [22877 22915] [32430 32513] [3837 3927] [29763 29834]")
-F1 = dn.rfs(F1, F3, "[442 483] [4934 5140] [4135 4234] [4322 4369] [17521 17583] [12854 12876]")
-F1 = dn.rfs(F1, F4, "[17023 17067]")
+F1 = dn.rfs(F1, F2, [(3927, 4034), (22877, 22915), (32430, 32513), (3837, 3927), (29763, 29834)])
+F1 = dn.rfs(
+    F1, F3, [(442, 483), (4934, 5140), (4135, 4234), (4322, 4369), (17521, 17583), (12854, 12876)]
+)
+F1 = dn.rfs(F1, F4, [(17023, 17067)])
 
-F1 = dn.rfs_image(F1, F5, "e4 3908", "[3837 3927]")
-F1 = dn.rfs_image(F1, F6, "e4 32718", "[32718 32849]")
-F1 = dn.rfs_image(F1, F6, "e4 23739", "[23739 23948] [24084 24236] [24280 24369]")
-F1 = dn.rfs_image(F1, F6, "e4 30499", "[30499 30564]")
+F1 = dn.rfs_image(F1, F5, "e4 3908", [(3837, 3927)])
+F1 = dn.rfs_image(F1, F6, "e4 32718", [(32718, 32849)])
+F1 = dn.rfs_image(F1, F6, "e4 23739", [(23739, 23948), (24084, 24236), (24280, 24369)])
+F1 = dn.rfs_image(F1, F6, "e4 30499", [(30499, 30564)])
 # ------------ #
 
 # ----out----- #

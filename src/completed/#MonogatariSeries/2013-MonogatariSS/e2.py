@@ -14,7 +14,7 @@ epis = dn.source(f"./in/{epname}.mkv")
 
 
 def filt_ncop_aa(ncoped_aa):
-    return dn.rfs_hard(ncoped_aa, ncoped_aa, mthr=99, maps="[1391 1463] [1608 1635]")
+    return dn.rfs_hard(ncoped_aa, ncoped_aa, mthr=99, maps=[(1391, 1463), (1608, 1635)])
 
 
 # ----mrgc---- #
@@ -32,9 +32,9 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{OP+644} {OP+856}]")
+mrgc = dn.rfs(mrgc, aaep, [(OP + 644, OP + 856)])
 
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=2, maps="[5644 5713] [25103 25143]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=2, maps=[(5644, 5713), (25103, 25143)])
 # ------------ #
 
 # ----filt---- #
@@ -64,12 +64,12 @@ F4 = dn.filt(mrgc, sm_thr=300, db_thr=6, db_mode=1, rt_sigma=4, db_det=128)
 F5 = dn.filt(mrgc, db_mode=2)
 F0 = dn.filt(mrgc, db_thr=0, sm_thr=0)
 
-F1 = dn.rfs(F1, F2, "[16478 17027] [17088 17138]")
-F1 = dn.rfs(F1, F3, "[6710 6799] [7214 7273] [17516 18462]")
-F1 = dn.rfs(F1, F5, "[21030 21071]")
+F1 = dn.rfs(F1, F2, [(16478, 17027), (17088, 17138)])
+F1 = dn.rfs(F1, F3, [(6710, 6799), (7214, 7273), (17516, 18462)])
+F1 = dn.rfs(F1, F5, [(21030, 21071)])
 
-F1 = dn.rfs_image(F1, F4, "e2 2150", "[2150 2177]")
-F1 = dn.rfs_image(F1, F0, "e2 17516", "[17516 18462]")
+F1 = dn.rfs_image(F1, F4, "e2 2150", [(2150, 2177)])
+F1 = dn.rfs_image(F1, F0, "e2 17516", [(17516, 18462)])
 # ------------ #
 
 # ----out----- #

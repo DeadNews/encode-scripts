@@ -34,7 +34,7 @@ def filt_old(
 F1 = dn.filt(mrgc, db_thr=0, cs_mode=0, sm_thr=2000)
 F2 = dn.adaptive_grain(F1, strength=1.5, static=True, luma_ag_scaling=60, show_db_mode=False)
 
-F1 = dn.rfs(F2, F1, "[0 20]")
+F1 = dn.rfs(F2, F1, [(0, 20)])
 # ------------ #
 
 # ----out----- #

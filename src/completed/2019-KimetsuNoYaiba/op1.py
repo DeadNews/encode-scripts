@@ -14,8 +14,8 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps="[293 397]")
-# mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=1, maps="[293 397]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps=[(293, 397)])
+# mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=1, maps=[(293, 397)])
 # ------------ #
 
 # ----filt---- #
@@ -23,8 +23,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="noise_op")
 F3 = dn.filt(mrgc, zone="grain_op")
 
-F1 = dn.rfs(F1, F2, "[0 282]")
-F1 = dn.rfs(F1, F3, "[1169 1398]")
+F1 = dn.rfs(F1, F2, [(0, 282)])
+F1 = dn.rfs(F1, F3, [(1169, 1398)])
 # ------------ #
 
 # ----out----- #

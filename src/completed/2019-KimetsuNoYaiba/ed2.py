@@ -9,7 +9,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 # -----aa----- #
 aaep = dn.aa(epis, epname)
 mrgc = dn.rfs_dehalo(aaep)
-mrgc = dn.rfs(mrgc, epis, "[317 2499]")  # custom ed
+mrgc = dn.rfs(mrgc, epis, [(317, 2499)])  # custom ed
 # ------------ #
 
 # ----filt---- #

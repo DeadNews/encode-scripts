@@ -15,7 +15,7 @@ epis, _crop = dn.crop(epis)
 epis_back, epis, edgefixer = dn.edgefix(epis)
 
 dehalo = dn.rfs_dehalo(epis)
-mrgc = dn.rfs(dehalo, epis, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
+mrgc = dn.rfs(dehalo, epis, [(OP, OPend - 1), (ED, EDend - 1)])
 # ---------- #
 
 # ---filt--- #
@@ -23,8 +23,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="op")
 F3 = dn.filt(mrgc, zone="ed")
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1)])
 # ---------- #
 
 # ---out---- #

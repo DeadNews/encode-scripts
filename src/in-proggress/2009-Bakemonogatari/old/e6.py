@@ -15,7 +15,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 
 def filt_ncop_aa(ncoped_aa):
     stabilize = dn.qtgmc(ncoped_aa, k=0.77)
-    return dn.rfs(ncoped_aa, stabilize, "[12 221] [1167 1408] [1730 1760] [1783 1901]")
+    return dn.rfs(ncoped_aa, stabilize, [(12, 221), (1167, 1408), (1730, 1760), (1783, 1901)])
 
 
 # ----mrgc---- #
@@ -36,7 +36,7 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 
 # ----mask---- #
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, f"[0 {OP-1}] [25063 26383]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, OP - 1), (25063, 26383)])
 # ------------ #
 
 # -----in----- #

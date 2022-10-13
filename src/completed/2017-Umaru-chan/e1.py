@@ -28,10 +28,10 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-signs_map = f"[{OPend} {OPend+118}] [{Part_B-95} {Part_B+92}] [{Next} {epis.num_frames-1}]"
+signs_map = [(OPend, OPend + 118), (Part_B - 95, Part_B + 92), (Next, epis.num_frames - 1)]
 mrgc = dn.rfs_resc(mrgc, epis, mthr=60, maps=signs_map)
 
-mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps="[28454 28717]")
+mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps=[(28454, 28717)])
 # ------------ #
 
 # -----in----- #
@@ -59,7 +59,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_saveblack=2, db_thr=2.5)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

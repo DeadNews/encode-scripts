@@ -19,7 +19,7 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
-mrgc = dn.rfs_resc(mrgc, epis, mthr=168, zone="resc_fix", maps="[0 1980]")  # op
+mrgc = dn.rfs_resc(mrgc, epis, mthr=168, zone="resc_fix", maps=[(0, 1980)])  # op
 # ------------ #
 
 # ----filt---- #

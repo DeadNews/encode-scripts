@@ -19,8 +19,8 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, mthr=168, maps="[32041 32433]")
-mrgc = dn.rfs_resc(mrgc, epis, mthr=68, maps=f"[{ED} {EDend}]")
+mrgc = dn.rfs_resc(mrgc, epis, mthr=168, maps=[(32041, 32433)])
+mrgc = dn.rfs_resc(mrgc, epis, mthr=68, maps=[(ED, EDend)])
 # ------------ #
 
 # ----filt---- #

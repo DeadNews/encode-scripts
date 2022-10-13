@@ -22,16 +22,16 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
 
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed
-mrgc = dn.rfs(mrgc, epis, f"[{epis.num_frames-168} {epis.num_frames-1}]")  # title
-mrgc = dn.rfs(mrgc, epis, f"[{Part_B-120} {Part_B+119}]")  # true card
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed
+mrgc = dn.rfs(mrgc, epis, [(epis.num_frames - 168, epis.num_frames - 1)])  # title
+mrgc = dn.rfs(mrgc, epis, [(Part_B - 120, Part_B + 119)])  # true card
 
 mrgc = dn.rfs_resc(
-    mrgc, epis, mthr=50, maps=f"[{OP+1486} {OP+1508}] [{OP+2084} {OP+2159}]"
+    mrgc, epis, mthr=50, maps=[(OP + 1486, OP + 1508), (OP + 2084, OP + 2159)]
 )  # op cenc
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps=f"[{OP+2101} {OP+2159}]")  # op_end
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps=[(OP + 2101, OP + 2159)])  # op_end
 
-mrgc = dn.rfs_resc(mrgc, epis, mthr=70, maps="[2595 2689] [25069 25133]")  # randon signs
+mrgc = dn.rfs_resc(mrgc, epis, mthr=70, maps=[(2595, 2689), (25069, 25133)])  # randon signs
 # ------------ #
 
 # ----filt---- #
@@ -39,8 +39,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="oped")
 F3 = dn.filt(mrgc, zone="ed_lite")
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED+1066} {ED+1469}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(ED + 1066, ED + 1469)])
 # ------------ #
 
 # ----out----- #

@@ -18,7 +18,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 aaep = dn.aa(epis)
 
 mrgc = dn.rfs_resc(aaep, epis)
-mrgc = dn.rfs(mrgc, epis, maps=(OP, OPend - 1))
+mrgc = dn.rfs(mrgc, epis, maps=[(OP, OPend - 1)])
 # ------------ #
 
 # ----filt---- #

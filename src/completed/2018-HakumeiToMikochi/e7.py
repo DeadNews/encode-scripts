@@ -19,16 +19,18 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=f"[{ED} {EDend-1}]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=[(ED, EDend - 1)])
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=f"[{PartB-72} {PartB-1}]"
+    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=[(PartB - 72, PartB - 1)]
 )
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=f"[{PartC-72} {PartC-1}]"
+    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=[(PartC - 72, PartC - 1)]
 )
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=80, maps="[0 2265]")  # titles
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps="[15670 15787] [31152 31274]"
+    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=80, maps=[(0, 2265)]
+)  # titles
+mrgc = dn.rfs_resc(
+    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=[(15670, 15787), (31152, 31274)]
 )  # e7
 # ------------ #
 
@@ -56,7 +58,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=70, db_thr=4, db_saveblack=2)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

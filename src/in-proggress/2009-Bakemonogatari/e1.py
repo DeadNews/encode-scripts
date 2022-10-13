@@ -17,12 +17,12 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_black_crop(mrgc, top=142, bot=144, maps=f"[0 2205] [{OP} {OPend-1}]")
+mrgc = dn.rfs_black_crop(mrgc, top=142, bot=144, maps=[(0, 2205), (OP, OPend - 1)])
 
 # save timer (e1)
 timer_mask = dn.gradfun_mask(aaep, thr_det=2.1, mode=3).fmtc.bitdepth(bits=8)
 save_timer = dn.masked_merge(mrgc, aaep, db_mode=timer_mask, yuv=True)
-mrgc = dn.rfs_image(mrgc, save_timer, "e1_timer", "[0 591]", yuv=True)
+mrgc = dn.rfs_image(mrgc, save_timer, "e1_timer", [(0, 591)], yuv=True)
 # ------------ #
 
 # ----filt---- #

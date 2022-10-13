@@ -41,8 +41,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=90, db_mode=1)
 F3 = dn.filt(mrgc, sm_thr=180, db_mode=1, db_saveblack=0)
 
-F1 = dn.rfs(F1, F2, f"[{0} {-12+386}] [{-12+451} 2195]")
-F1 = dn.rfs(F1, F3, f"[{-12+387} {-12+450}]")
+F1 = dn.rfs(F1, F2, [(0, -12 + 386), (-12 + 451, 2195)])
+F1 = dn.rfs(F1, F3, [(-12 + 387, -12 + 450)])
 # ------------ #
 
 # ----out----- #

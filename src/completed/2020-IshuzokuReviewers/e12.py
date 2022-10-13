@@ -20,9 +20,9 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
 
-mrgc = dn.rfs(mrgc, epis, f"[{Part_B-120} {Part_B+119}]")  # true card
+mrgc = dn.rfs(mrgc, epis, [(Part_B - 120, Part_B + 119)])  # true card
 
-mrgc = dn.rfs_resc(mrgc, epis, mthr=70, maps="[1991 2116] [15909 16040]")  # randon signs
+mrgc = dn.rfs_resc(mrgc, epis, mthr=70, maps=[(1991, 2116), (15909, 16040)])  # randon signs
 # ------------ #
 
 # ----filt---- #

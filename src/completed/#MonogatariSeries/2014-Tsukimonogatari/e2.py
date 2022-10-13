@@ -20,10 +20,10 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 
 # ----mask---- #
 stabilize = dn.qtgmc(aaep)
-mrgc = dn.rfs_image(mrgc, stabilize, "e2 14876", "[14876 14911]")
+mrgc = dn.rfs_image(mrgc, stabilize, "e2 14876", [(14876, 14911)])
 
 # hard = dn.hard(mrgc, mthr=2)
-# mrgc = dn.rfs_image(mrgc, hard, 'e2 14876', "[14876 14911]")
+# mrgc = dn.rfs_image(mrgc, hard, 'e2 14876', [(14876, 14911)])
 # ------------ #
 
 # ----filt---- #

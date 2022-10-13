@@ -15,7 +15,7 @@ epis = dn.source(source=f"./in/{epname}.mp4")
 # ----mrgc---- #
 aaep = dn.aa(epis)
 aaep_yuv = dn.aa(epis, yuv=True, gamma=1000)
-aaep = dn.rfs(aaep, aaep_yuv, "[5140 5180]")
+aaep = dn.rfs(aaep, aaep_yuv, [(5140, 5180)])
 
 op = dn.oped(epis, name="op2", offset=0, start=OP, end=OPend)
 ed = dn.oped(epis, name="ed2", offset=0, start=ED, end=EDend)
@@ -25,9 +25,9 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, ED - 1) + ed
 
 # ----mask---- #
 if PreED == ED:
-    maps = f"[{OPend} {OPend+130}]"
+    maps = [(OPend, OPend + 130)]
 else:
-    maps = f"[{OPend} {OPend+130}] [{PreED} {ED-1}]"
+    maps = [(OPend, OPend + 130), (PreED, ED - 1)]
 
 mrgc = dn.rfs_resc(mrgc, epis, desc_h=873 + 1, b=0.33, c=0.33, mthr=40, maps=maps)
 # ------------ #
@@ -58,7 +58,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, dn_dn_save_uv=True)
 
-F1 = dn.rfs(F1, F2, "[5140 5180]")
+F1 = dn.rfs(F1, F2, [(5140, 5180)])
 # ------------ #
 
 # ----out----- #

@@ -20,17 +20,28 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_image(mrgc, epis, f"{epname} 587", "[494 625]")
+mrgc = dn.rfs_image(mrgc, epis, f"{epname} 587", [(494, 625)])
 mrgc = dn.rfs_resc(
     mrgc,
     epis,
     desc_h=desc_h,
     mthr=50,
-    maps="[53 146] [626 685] [767 835] [870 1015] [1049 1309] [1488 1596] [1626 1721] [1776 1877] [1925 1965] [2032 2180]",
+    maps=[
+        (53, 146),
+        (626, 685),
+        (767, 835),
+        (870, 1015),
+        (1049, 1309),
+        (1488, 1596),
+        (1626, 1721),
+        (1776, 1877),
+        (1925, 1965),
+        (2032, 2180),
+    ],
 )
 
 hard = dn.hard(mrgc, mthr=20)
-mrgc = dn.rfs_image(mrgc, hard, "e5 6521", "[6521 6574]")
+mrgc = dn.rfs_image(mrgc, hard, "e5 6521", [(6521, 6574)])
 # ------------ #
 
 # ----filt---- #
@@ -58,9 +69,9 @@ F2 = dn.filt(mrgc, sm_thr=120, db_mode=2)
 F3 = dn.filt(mrgc, sm_thr=30, db_thr=1)
 F4 = dn.filt(mrgc, sm_thr=300, db_thr=6, db_mode=1, rt_sigma=4, db_det=128)
 
-F1 = dn.rfs(F1, F2, f"[{Chapter_5} {ED-1}]")
-F1 = dn.rfs(F1, F3, "[7594 7759] [8007 8146] [8465 8686]")
-F1 = dn.rfs_image(F1, F4, "e5 11207", "[2585 2818] [2838 2942]")
+F1 = dn.rfs(F1, F2, [(Chapter_5, ED - 1)])
+F1 = dn.rfs(F1, F3, [(7594, 7759), (8007, 8146), (8465, 8686)])
+F1 = dn.rfs_image(F1, F4, "e5 11207", [(2585, 2818), (2838, 2942)])
 # ------------ #
 
 # ----out----- #

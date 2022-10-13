@@ -21,7 +21,7 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_qtgmc(mrgc, aaep, maps="[6493 6819]")
+mrgc = dn.rfs_qtgmc(mrgc, aaep, maps=[(6493, 6819)])
 # ------------ #
 
 # ----filt---- #
@@ -48,8 +48,8 @@ F1 = dn.filt(mrgc)
 F0 = dn.filt(mrgc, rt_sigma=1)
 F2 = dn.filt(mrgc, sm_thr=45, db_thr=1, rt_sigma=0.8)
 
-F1 = dn.rfs(F1, F2, "[0 370] [28669 29258] [30626 30760]")
-F1 = dn.rfs(F1, F0, f"[{OP} {Title-1}]")
+F1 = dn.rfs(F1, F2, [(0, 370), (28669, 29258), (30626, 30760)])
+F1 = dn.rfs(F1, F0, [(OP, Title - 1)])
 # ------------ #
 
 # ----out----- #

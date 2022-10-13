@@ -40,7 +40,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_mode=1)
 
-F1 = dn.rfs(F1, F2, "[0 122]")
+F1 = dn.rfs(F1, F2, [(0, 122)])
 # ------------ #
 
 # ----out----- #

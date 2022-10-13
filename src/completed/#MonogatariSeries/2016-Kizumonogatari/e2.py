@@ -18,18 +18,18 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_image(mrgc, epis_ef, maskname="1", maps="[2040 2230]")
+mrgc = dn.rfs_image(mrgc, epis_ef, maskname="1", maps=[(2040, 2230)])
 
 stabilize = dn.qtgmc(aaep)
-mrgc = dn.rfs_image(mrgc, stabilize, "e2 51454", "[51244 51454]")
+mrgc = dn.rfs_image(mrgc, stabilize, "e2 51454", [(51244, 51454)])
 
-mrgc = dn.rfs(mrgc, stabilize, "[52673 52780]")
+mrgc = dn.rfs(mrgc, stabilize, [(52673, 52780)])
 hard_1 = dn.hard(mrgc, mthr=3)
-mrgc = dn.rfs_image(mrgc, hard_1, "e2 52762", "[52673 52780]")
+mrgc = dn.rfs_image(mrgc, hard_1, "e2 52762", [(52673, 52780)])
 
-mrgc = dn.rfs(mrgc, stabilize, "[54493 54786]")
+mrgc = dn.rfs(mrgc, stabilize, [(54493, 54786)])
 hard_2 = dn.hard(mrgc, mthr=9)
-mrgc = dn.rfs_image(mrgc, hard_2, "e2 54493v2", "[54493 54786]")
+mrgc = dn.rfs_image(mrgc, hard_2, "e2 54493v2", [(54493, 54786)])
 # ------------ #
 
 # ----filt---- #
@@ -57,7 +57,7 @@ F0 = dn.filt(epis, db_thr=0)
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, mrgc=epis_ef, sm_thr=200, db_thr=3, db_mode=1)
 
-F1 = dn.rfs(F1, F2, "[87997 88125] [88220 97967] [97968 98183]")
+F1 = dn.rfs(F1, F2, [(87997, 88125), (88220, 97967), (97968, 98183)])
 # ------------ #
 
 # ----out----- #

@@ -55,8 +55,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=50, db_thr=2.1, cs_val=0.55, db_det=64)  # op1
 F3 = dn.filt(mrgc, sm_thr=50, db_thr=2.3, cs_val=0.5, db_det=64, db_saveblack=2, rt_sigma=1)  # ed2
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

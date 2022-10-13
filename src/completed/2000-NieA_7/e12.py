@@ -22,9 +22,17 @@ epis = dn.adaptive_chromashift(epis, fix, pw_mode=False)
 epis = dn.rfs(
     epis,
     epis_back,
-    f"[{ED} {epis.num_frames-1}] [{OP} {OPend-1}] [2927 3056] [10779 10866] [11746 12663] [12664 12784] [17758 17918]",
+    [
+        (ED, epis.num_frames - 1),
+        (OP, OPend - 1),
+        (2927, 3056),
+        (10779, 10866),
+        (11746, 12663),
+        (12664, 12784),
+        (17758, 17918),
+    ],
 )
-# epis = dn.rfs(epis, fix, "[]")
+# epis = dn.rfs(epis, fix, [(, )])
 # ------------ #
 
 # ----mrgc---- #
@@ -44,9 +52,9 @@ F2 = dn.filt(mrgc, zone="ed")
 F3 = dn.filt(mrgc, zone="next")
 F4 = dn.filt(mrgc, zone="op")
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, f"[{Next} {epis.num_frames-1}]")
-F1 = dn.rfs(F1, F4, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(Next, epis.num_frames - 1)])
+F1 = dn.rfs(F1, F4, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

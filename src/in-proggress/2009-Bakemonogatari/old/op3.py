@@ -22,7 +22,9 @@ mrgc = aaep
 if Path(f"./temp/{epname}_filt_lossless.mp4").is_file():
     mrgc = dn.source(f"./temp/{epname}_filt_lossless.mp4")
 else:
-    mrgc = dn.rfs_qtgmc(mrgc, aaep, k=0.77, maps="[12 233] [1179 1420] [1742 1772] [1795 1913]")
+    mrgc = dn.rfs_qtgmc(
+        mrgc, aaep, k=0.77, maps=[(12, 233), (1179, 1420), (1742, 1772), (1795, 1913)]
+    )
 # ------------ #
 
 # -----in----- #

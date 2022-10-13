@@ -1,4 +1,4 @@
-import fvsfunc as fvf
+import dnfunc as dn
 import gradfun_amod as gfa
 import kagefunc
 import vapoursynth as vs
@@ -83,10 +83,10 @@ filtered_3 = core.std.MaskedMerge(debanded_3, clip16, ret_mask_3)
 # ------- #
 
 # ---m--- #
-filtered = fvf.dn.rfs(filtered, filtered_3, "[5000 5442]")
-filtered = fvf.dn.rfs(filtered, filtered_2, "[31564 31994]")
-filtered = fvf.dn.rfs(filtered, filtered_2, "[51395 53671]")
-filtered = fvf.dn.rfs(filtered, filtered_2, "[56383 58964]")
+filtered = dn.rfs(filtered, filtered_3, [(5000, 5442)])
+filtered = dn.rfs(filtered, filtered_2, [(31564, 31994)])
+filtered = dn.rfs(filtered, filtered_2, [(51395, 53671)])
+filtered = dn.rfs(filtered, filtered_2, [(56383, 58964)])
 # ------- #
 
 clip = filtered

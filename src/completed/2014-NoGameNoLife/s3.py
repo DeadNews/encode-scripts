@@ -10,7 +10,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 aaep = dn.aa(epis)
 mrgc = aaep
 
-mrgc = dn.rfs(mrgc, epis, f"[3970 {epis.num_frames-1}]")  # ed
+mrgc = dn.rfs(mrgc, epis, [(3970, epis.num_frames - 1)])  # ed
 # ------------ #
 
 # ----filt---- #

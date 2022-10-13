@@ -25,26 +25,31 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=25, maps="[25 143] [254 39] [31672 31767]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=90, maps="[32023 33697]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=25, maps=[(25, 143), (254, 39), (31672, 31767)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=90, maps=[(32023, 33697)])
 
-mrgc = dn.rfs_image(mrgc, epis, "e6 01", "[31777 31896]")
-mrgc = dn.rfs_image(mrgc, epis, "e6 02", "[31941 32016]")
-mrgc = dn.rfs_image(mrgc, epis, "e6 03", "[18311 18406]")
+mrgc = dn.rfs_image(mrgc, epis, "e6 01", [(31777, 31896)])
+mrgc = dn.rfs_image(mrgc, epis, "e6 02", [(31941, 32016)])
+mrgc = dn.rfs_image(mrgc, epis, "e6 03", [(18311, 18406)])
 
 mrgc = dn.rfs_hard(
-    mrgc, epis, desc_h=desc_h, mthr=20, yuv=True, maps="[19025 19036] [19073 19090] [19127 19144]"
+    mrgc,
+    epis,
+    desc_h=desc_h,
+    mthr=20,
+    yuv=True,
+    maps=[(19025, 19036), (19073, 19090), (19127, 19144)],
 )
 mrgc = dn.rfs_hard(
     mrgc,
     epis,
     desc_h=desc_h,
     mthr=80,
-    maps="[22097 22234] [23014 24703] [26337 26432] [26565 26660] [27705 28060]",
+    maps=[(22097, 22234), (23014, 24703), (26337, 26432), (26565, 26660), (27705, 28060)],
 )
 
 hard = dn.hard(epis, desc_h=desc_h, mthr=80)
-mrgc = dn.rfs_image(mrgc, hard, "e6 04", "[26565 26660] [27705 28060]")
+mrgc = dn.rfs_image(mrgc, hard, "e6 04", [(26565, 26660), (27705, 28060)])
 # ------------ #
 
 # ----filt---- #
@@ -70,7 +75,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=80, db_mode=3)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

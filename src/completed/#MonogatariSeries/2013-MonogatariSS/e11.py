@@ -28,16 +28,16 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{OP+339} {OP+486}]")
+mrgc = dn.rfs(mrgc, aaep, [(OP + 339, OP + 486)])
 
 stabilize_1 = dn.qtgmc(aaep, k=0.5)
-mrgc = dn.rfs_image(mrgc, stabilize_1, "e11 32975", "[32975 33142]")
+mrgc = dn.rfs_image(mrgc, stabilize_1, "e11 32975", [(32975, 33142)])
 
 stabilize_2 = dn.qtgmc(aaep)
-mrgc = dn.rfs_image(mrgc, stabilize_2, "e11 11228", "[5613 5683]")
+mrgc = dn.rfs_image(mrgc, stabilize_2, "e11 11228", [(5613, 5683)])
 
 hard = dn.hard(mrgc, mthr=20)
-mrgc = dn.rfs_image(mrgc, hard, "e11 6253", "[6253 6444]")
+mrgc = dn.rfs_image(mrgc, hard, "e11 6253", [(6253, 6444)])
 # ------------ #
 
 # ----filt---- #
@@ -66,10 +66,10 @@ F3 = dn.filt(mrgc, db_mode=1, sm_thr=100)
 F4 = dn.filt(mrgc, db_mode=1, db_saveblack=0)
 F5 = dn.filt(mrgc, sm_thr=34, db_thr=1, rt_sigma=0.6, db_grain=36)
 
-F1 = dn.rfs(F1, F2, "[19014 19407] [22642 22689]")
-F1 = dn.rfs(F1, F3, "[11258 11297]")
-F1 = dn.rfs(F1, F4, "[33449 33487]")
-F1 = dn.rfs(F1, F5, "[7024 7041]")
+F1 = dn.rfs(F1, F2, [(19014, 19407), (22642, 22689)])
+F1 = dn.rfs(F1, F3, [(11258, 11297)])
+F1 = dn.rfs(F1, F4, [(33449, 33487)])
+F1 = dn.rfs(F1, F5, [(7024, 7041)])
 # ------------ #
 
 # ----out----- #

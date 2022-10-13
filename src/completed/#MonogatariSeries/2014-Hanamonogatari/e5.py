@@ -32,11 +32,15 @@ mrgc = dn.rfs_hard(
     mrgc,
     mrgc,
     mthr=30,
-    maps=f"[{OP-12+1341} {OP-12+1372}] [{OP-12+1400} {OP-12+1425}] [{OP-12+1453} {OP-12+1476}]",
+    maps=[
+        (OP - 12 + 1341, OP - 12 + 1372),
+        (OP - 12 + 1400, OP - 12 + 1425),
+        (OP - 12 + 1453, OP - 12 + 1476),
+    ],
 )
 
 stabilize = dn.qtgmc(aaep)
-mrgc = dn.rfs_image(mrgc, stabilize, "op 749", f"[{OP+749} {OP+786}]")
+mrgc = dn.rfs_image(mrgc, stabilize, "op 749", [(OP + 749, OP + 786)])
 # ------------ #
 
 # ----filt---- #
@@ -63,8 +67,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_mode=1)
 F3 = dn.filt(mrgc, rt_sigma=0.8)
 
-F1 = dn.rfs(F1, F2, f"[{OP-12+1510} {OP-12+1546}]")
-F1 = dn.rfs(F1, F3, f"[{OP-12+373} {OP-12+760}]")
+F1 = dn.rfs(F1, F2, [(OP - 12 + 1510, OP - 12 + 1546)])
+F1 = dn.rfs(F1, F3, [(OP - 12 + 373, OP - 12 + 760)])
 # ------------ #
 
 # ----out----- #

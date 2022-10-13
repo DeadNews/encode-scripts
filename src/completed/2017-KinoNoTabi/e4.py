@@ -39,10 +39,10 @@ mrgc = (
 
 # ----mask---- #
 hard = dn.hard(epis, desc_h=desc_h, mthr=2)
-mrgc = dn.rfs_image(mrgc, hard, "e4 03", "[20973 21158]")
+mrgc = dn.rfs_image(mrgc, hard, "e4 03", [(20973, 21158)])
 
-mrgc = dn.rfs_image(mrgc, epis, "e4 01", "[146 235]")
-mrgc = dn.rfs_image(mrgc, epis, "e4 02", "[32383 32438]")
+mrgc = dn.rfs_image(mrgc, epis, "e4 01", [(146, 235)])
+mrgc = dn.rfs_image(mrgc, epis, "e4 02", [(32383, 32438)])
 # ------------ #
 
 # ----filt---- #
@@ -68,7 +68,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=80, db_mode=3)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

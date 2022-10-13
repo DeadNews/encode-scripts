@@ -16,7 +16,7 @@ mrgc = dn.rfs_dehalo(mrgc)
 F1 = dn.filt(mrgc, zone="oped")
 F3 = dn.filt(mrgc, zone="limb")
 
-F1 = dn.rfs(F1, F3, "[1116 1304]")
+F1 = dn.rfs(F1, F3, [(1116, 1304)])
 # ------------ #
 
 # ----out----- #

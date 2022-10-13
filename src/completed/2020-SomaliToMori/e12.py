@@ -15,20 +15,20 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-maps = f"[{ED} {epis.num_frames-1}]"  # ed
-maps += " [821 979]"  # title
-maps += f" [{Part_B} {Part_B+71}]"  # title
+maps = [(ED, epis.num_frames - 1)]  # ed
+maps += [(821, 979)]  # title
+maps += [(Part_B, Part_B + 71)]  # title
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=100, maps=maps, zone="resc")
 
-mrgc = dn.rfs(mrgc, epis, "[32081 33201]")  # ed window
+mrgc = dn.rfs(mrgc, epis, [(32081, 33201)])  # ed window
 # ------------ #
 
 # ----filt---- #
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="ed2")
 
-F1 = dn.rfs(F1, F2, "[32081 33201]")  # ed window
+F1 = dn.rfs(F1, F2, [(32081, 33201)])  # ed window
 # ------------ #
 
 # ----out----- #

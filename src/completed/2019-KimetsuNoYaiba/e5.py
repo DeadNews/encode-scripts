@@ -34,7 +34,7 @@ mrgc = (
 
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps=f"[{OP+293} {OP+397}]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps=[(OP + 293, OP + 397)])
 # ------------ #
 
 # ----filt---- #
@@ -45,11 +45,11 @@ F4 = dn.filt(mrgc, zone="noise_op")
 F5 = dn.filt(mrgc, zone="grain_op")
 F6 = dn.filt(mrgc, zone="noise_e5")
 
-F1 = dn.rfs(F1, F2, f"[{ED} {ED+399}]")
-F1 = dn.rfs(F1, F3, f"[{EDend} {epis.num_frames-1}]")
-F1 = dn.rfs(F1, F4, f"[{OP} {OP+282}]")
-F1 = dn.rfs(F1, F5, f"[{OP+1169} {OP+1398}]")
-F1 = dn.rfs(F1, F6, "[3395 5217] [19529 19728]")  # film grain black=1
+F1 = dn.rfs(F1, F2, [(ED, ED + 399)])
+F1 = dn.rfs(F1, F3, [(EDend, epis.num_frames - 1)])
+F1 = dn.rfs(F1, F4, [(OP, OP + 282)])
+F1 = dn.rfs(F1, F5, [(OP + 1169, OP + 1398)])
+F1 = dn.rfs(F1, F6, [(3395, 5217), (19529, 19728)])  # film grain black=1
 # ------------ #
 
 # ----out----- #

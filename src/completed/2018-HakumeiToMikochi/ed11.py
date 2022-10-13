@@ -20,7 +20,7 @@ mrgc = aaep
 
 # ----mask---- #
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=f"[0 {epis.num_frames-1}]"
+    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=[(0, epis.num_frames - 1)]
 )
 # ------------ #
 

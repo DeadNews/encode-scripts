@@ -28,7 +28,7 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{OP+339} {OP+486}]")
+mrgc = dn.rfs(mrgc, aaep, [(OP + 339, OP + 486)])
 # ------------ #
 
 # ----filt---- #
@@ -56,9 +56,9 @@ F2 = dn.filt(mrgc, sm_thr=45, db_thr=1, rt_sigma=0.8)
 F5 = dn.filt(mrgc, sm_thr=34, db_thr=1, rt_sigma=0.6, db_grain=36)
 F7 = dn.filt(mrgc, db_mode=1, db_thr=2)
 
-F1 = dn.rfs(F1, F2, "[32526 32609]")
-F1 = dn.rfs(F1, F5, "[20071 20169]")
-F1 = dn.rfs(F1, F7, "[12164 12181] [12278 12293] [14842 14895]")
+F1 = dn.rfs(F1, F2, [(32526, 32609)])
+F1 = dn.rfs(F1, F5, [(20071, 20169)])
+F1 = dn.rfs(F1, F7, [(12164, 12181), (12278, 12293), (14842, 14895)])
 # ------------ #
 
 # ----out----- #

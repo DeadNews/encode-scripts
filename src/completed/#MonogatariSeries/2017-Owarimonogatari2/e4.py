@@ -47,7 +47,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_mode=1)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {ED+112}] [29707 32084]")
+F1 = dn.rfs(F1, F2, [(ED, ED + 112), (29707, 32084)])
 # ------------ #
 
 # ----out----- #

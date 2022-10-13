@@ -16,7 +16,7 @@ mrgc = epis
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="harder_2")
 
-F1 = dn.rfs(F1, F2, f"[{ED+308-24} {ED+448-24}]")
+F1 = dn.rfs(F1, F2, [(ED + 308 - 24, ED + 448 - 24)])
 # ------------ #
 
 # ----out----- #

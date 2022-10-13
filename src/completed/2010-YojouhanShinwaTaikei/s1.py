@@ -14,7 +14,7 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=30, maps="[73 160]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=30, maps=[(73, 160)])
 # ------------ #
 
 # ----filt---- #
@@ -43,7 +43,7 @@ def filt_old(
 F1 = dn.filt(mrgc, db_thr=2.8)
 F2 = dn.filt(mrgc, mrgc=epis, db_saveblack=2, ag_str=0)
 
-F1 = dn.rfs(F1, F2, f"[0 23] [{end-139} {end}]")
+F1 = dn.rfs(F1, F2, [(0, 23), (end - 139, end)])
 # ------------ #
 
 # ----out----- #

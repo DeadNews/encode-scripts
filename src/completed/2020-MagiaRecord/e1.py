@@ -14,7 +14,7 @@ mrgc = epis
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="harder")
 
-F1 = dn.rfs(F1, F2, "[8691 10137] [31176 31210]")
+F1 = dn.rfs(F1, F2, [(8691, 10137), (31176, 31210)])
 # ------------ #
 
 # ----out----- #

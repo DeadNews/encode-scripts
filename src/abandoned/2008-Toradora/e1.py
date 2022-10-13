@@ -20,7 +20,7 @@ mrgc = dn.rfs_dehalo(mrgc)
 
 mrgc_back = mrgc
 mrgc = dn.qtgmc(mrgc, k=0.6, sharp=0.1)  # <<<
-mrgc = dn.rfs_qtgmc(mrgc, mrgc_back, k=2, sharp=0.0, maps="[1089 1215]")
+mrgc = dn.rfs_qtgmc(mrgc, mrgc_back, k=2, sharp=0.0, maps=[(1089, 1215)])
 # ------------ #
 
 # ----filt---- #

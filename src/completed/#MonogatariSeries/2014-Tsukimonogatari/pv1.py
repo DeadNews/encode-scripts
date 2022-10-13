@@ -9,7 +9,7 @@ epis = dn.source(f"./in/{epname}.mkv")
 
 # ----mrgc---- #
 aaep = dn.aa(epis, desc_h=desc_h)
-mrgc = dn.rfs(epis, aaep, f"[0 644]")
+mrgc = dn.rfs(epis, aaep, [(0, 644)])
 # ------------ #
 
 # ----filt---- #

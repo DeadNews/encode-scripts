@@ -40,7 +40,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, rt_sigma=0.8, db_saveblack=0)
 
-F1 = dn.rfs(F1, F2, f"[12 {epis.num_frames-1-24}]")
+F1 = dn.rfs(F1, F2, [(12, epis.num_frames - 1 - 24)])
 # ------------ #
 
 # ----out----- #

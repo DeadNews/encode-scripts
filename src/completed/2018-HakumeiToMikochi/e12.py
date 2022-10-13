@@ -18,12 +18,12 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=f"[{ED} {EDend-1}]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=[(ED, EDend - 1)])
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=f"[{PartB-72} {PartB-1}]"
+    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=[(PartB - 72, PartB - 1)]
 )
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps="[75 212] [1950 2049]"
+    mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=[(75, 212), (1950, 2049)]
 )  # e12
 mrgc = dn.rfs_resc(
     mrgc,
@@ -31,7 +31,16 @@ mrgc = dn.rfs_resc(
     desc_h=desc_h,
     planes=[0, 1, 2],
     mthr=50,
-    maps="[30304 30550] [30769 30840] [30961 31032] [31201 31272] [31417 31488] [31657 31728] [31873 31944] [32046 32093]",
+    maps=[
+        (30304, 30550),
+        (30769, 30840),
+        (30961, 31032),
+        (31201, 31272),
+        (31417, 31488),
+        (31657, 31728),
+        (31873, 31944),
+        (32046, 32093),
+    ],
 )  # PreED
 # ------------ #
 
@@ -59,7 +68,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=70, db_thr=4, db_saveblack=2)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

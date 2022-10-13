@@ -24,11 +24,11 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-map_op = f"[{OP} {OPend-1}]"
-map_ed = f"[{ED} {EDend-1}]"
-map_next = f"[{Next} {End-1}]"
-map_title = f"[{ED-60} {ED-1}]"
-map_mid = f"[{Part_B-48} {Part_B-1}]"
+map_op = [(OP, OPend - 1)]
+map_ed = [(ED, EDend - 1)]
+map_next = [(Next, End - 1)]
+map_title = [(ED - 60, ED - 1)]
+map_mid = [(Part_B - 48, Part_B - 1)]
 
 mrgc = dn.rfs(mrgc, epis_back, map_op)
 mrgc = dn.rfs(mrgc, epis, map_next)

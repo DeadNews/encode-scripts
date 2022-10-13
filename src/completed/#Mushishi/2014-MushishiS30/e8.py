@@ -18,8 +18,8 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[{OP} {OPend-1}]")  # op
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed
+mrgc = dn.rfs(mrgc, epis, [(OP, OPend - 1)])  # op
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed
 # ------------ #
 
 # ----filt---- #
@@ -48,7 +48,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=40, db_thr=1.9, cs_mode=0, ag_str=0)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

@@ -19,9 +19,9 @@ mrgc = aaep
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
 
-mrgc = dn.rfs(mrgc, epis, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")  # op ed
+mrgc = dn.rfs(mrgc, epis, [(OP, OPend - 1), (ED, EDend - 1)])  # op ed
 
-mrgc = dn.rfs_repair(mrgc, maps=f"[{ED+724} {ED+2133}]")  # ed repair
+mrgc = dn.rfs_repair(mrgc, maps=[(ED + 724, ED + 2133)])  # ed repair
 # ------------ #
 
 # ----filt---- #
@@ -30,9 +30,9 @@ F2 = dn.filt(mrgc, zone="op")
 F3 = dn.filt(mrgc, zone="ed")
 F4 = dn.filt(mrgc, zone="ed_grain")
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F4, f"[{ED} {ED+251}]  [{ED+724} {ED+1538}]  [{ED+1886} {ED+2133}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1)])
+F1 = dn.rfs(F1, F4, [(ED, ED + 251), (ED + 724, ED + 1538), (ED + 1886, ED + 2133)])
 # ------------ #
 
 # ----out----- #

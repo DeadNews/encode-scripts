@@ -20,8 +20,8 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 
 # ----mask---- #
 stabilize = dn.qtgmc(aaep)
-mrgc = dn.rfs(mrgc, stabilize, "[9012 9212]")
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=22, maps="[9012 9212]")
+mrgc = dn.rfs(mrgc, stabilize, [(9012, 9212)])
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=22, maps=[(9012, 9212)])
 # ------------ #
 
 # -----in----- #

@@ -18,9 +18,9 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend}]")
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend)])
 
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=60, maps=f"[{ED-24+1785} {ED-24+1888}]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=60, maps=[(ED - 24 + 1785, ED - 24 + 1888)])
 # ------------ #
 
 # ----filt---- #
@@ -61,11 +61,15 @@ F4 = dn.filt(
 F5 = dn.filt(mrgc, sm_thr=100, ag_str=0.50)
 F6 = dn.filt(mrgc, sm_thr=30, db_thr=1.3, rt_sigma=0.7, ag_str=0, db_saveblack=2)
 
-F1 = dn.rfs(F1, F2, f"[{OP} 32109]")  # OP
-F1 = dn.rfs(F1, F3, "[32110 32853]")
-F1 = dn.rfs(F1, F4, f"[{ED} {EDend}]")  # ED
-F1 = dn.rfs(F1, F5, f"[{ED-24+552} {ED-24+655}]")
-F1 = dn.rfs(F1, F6, f"[{ED-24+1067} {ED-24+1271}] [{ED-24+1581} {ED-24+1679}] [32854 {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, 32109)])  # OP
+F1 = dn.rfs(F1, F3, [(32110, 32853)])
+F1 = dn.rfs(F1, F4, [(ED, EDend)])  # ED
+F1 = dn.rfs(F1, F5, [(ED - 24 + 552, ED - 24 + 655)])
+F1 = dn.rfs(
+    F1,
+    F6,
+    [(ED - 24 + 1067, ED - 24 + 1271), (ED - 24 + 1581, ED - 24 + 1679), (32854, OPend - 1)],
+)
 # ------------ #
 
 # ----out----- #

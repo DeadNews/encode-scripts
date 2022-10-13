@@ -27,10 +27,10 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{ED} {ED+344-24}]")
-mrgc = dn.rfs(mrgc, epis, f"[29736 {epis.num_frames-1}]")
+mrgc = dn.rfs(mrgc, aaep, [(ED, ED + 344 - 24)])
+mrgc = dn.rfs(mrgc, epis, [(29736, epis.num_frames - 1)])
 
-mrgc = dn.rfs_qtgmc(mrgc, aaep, maps="[26722 26840]")
+mrgc = dn.rfs_qtgmc(mrgc, aaep, maps=[(26722, 26840)])
 # ------------ #
 
 # -----in----- #
@@ -56,7 +56,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_thr=1)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

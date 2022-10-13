@@ -31,11 +31,11 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=35, maps="[2135 2253]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, maps="[31672 31767]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=35, maps=[(2135, 2253)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, maps=[(31672, 31767)])
 
 hard = dn.hard(mrgc, mthr=2)
-mrgc = dn.rfs_image(mrgc, hard, "e7 01", "[22915 23346]")
+mrgc = dn.rfs_image(mrgc, hard, "e7 01", [(22915, 23346)])
 # ------------ #
 
 # ----filt---- #
@@ -63,9 +63,9 @@ F2 = dn.filt(mrgc, sm_thr=80, db_mode=3)
 F3 = dn.filt(mrgc, sm_thr=135, db_thr=2.4, db_mode=1, db_grain=68, rt_sigma=1.1)
 F4 = dn.filt(mrgc, sm_thr=200, db_thr=2.6, db_mode=1, db_grain=68, rt_sigma=1.5)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, "[22224 23532] [23892 26943]")
-F1 = dn.rfs(F1, F4, "[4411 15928] [15953 18109]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(22224, 23532), (23892, 26943)])
+F1 = dn.rfs(F1, F4, [(4411, 15928), (15953, 18109)])
 # ------------ #
 
 # ----out----- #

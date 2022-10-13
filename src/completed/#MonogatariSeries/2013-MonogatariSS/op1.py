@@ -18,7 +18,7 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=95, maps="[1403 1475] [1620 1647]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=95, maps=[(1403, 1475), (1620, 1647)])
 # ------------ #
 
 # ----filt---- #

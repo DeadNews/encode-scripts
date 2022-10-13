@@ -17,17 +17,20 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=85, maps="[4094 4213] [132773 132868]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=85, maps=[(4094, 4213), (132773, 132868)])
 mrgc = dn.rfs_hard(
-    mrgc, mrgc, mthr=99, maps="[2931 3092] [6694 6861] [18375 18440] [20865 20936] [139050 139105]"
+    mrgc,
+    mrgc,
+    mthr=99,
+    maps=[(2931, 3092), (6694, 6861), (18375, 18440), (20865, 20936), (139050, 139105)],
 )
 
 hard = dn.hard(mrgc, mthr=50)
-mrgc = dn.rfs_image(mrgc, hard, "2198", "[2140 2198]")
-mrgc = dn.rfs_image(mrgc, hard, "11489", "[11489 11572] [15189 15284]")
-mrgc = dn.rfs_image(mrgc, hard, "161049", "[161013 161074]")
+mrgc = dn.rfs_image(mrgc, hard, "2198", [(2140, 2198)])
+mrgc = dn.rfs_image(mrgc, hard, "11489", [(11489, 11572), (15189, 15284)])
+mrgc = dn.rfs_image(mrgc, hard, "161049", [(161013, 161074)])
 
-epis_ef = dn.rfs_image(epis_ef, aaep, "4094", "[4094 4213]")
+epis_ef = dn.rfs_image(epis_ef, aaep, "4094", [(4094, 4213)])
 # ------------ #
 
 # ----filt---- #
@@ -60,12 +63,12 @@ F4 = dn.filt(mrgc, db_grain=62)
 F5 = dn.filt(mrgc, db_thr=1.0)
 F6 = dn.filt(mrgc, db_thr=1.0, sm_thr=80)
 
-F1 = dn.rfs(F1, F0, f"[{ED} {epis.num_frames-1}]")
-F1 = dn.rfs(F1, F2, f"[3758 {Chap2-1}]")
-F1 = dn.rfs(F1, F3, "[69527 71363]")
-F1 = dn.rfs(F1, F4, "[71364 74363]")
-F1 = dn.rfs(F1, F5, "[47198 48243]")
-F1 = dn.rfs(F1, F6, "[138870 141104] [141297 141488] [155253 155681]")
+F1 = dn.rfs(F1, F0, [(ED, epis.num_frames - 1)])
+F1 = dn.rfs(F1, F2, [(3758, Chap2 - 1)])
+F1 = dn.rfs(F1, F3, [(69527, 71363)])
+F1 = dn.rfs(F1, F4, [(71364, 74363)])
+F1 = dn.rfs(F1, F5, [(47198, 48243)])
+F1 = dn.rfs(F1, F6, [(138870, 141104), (141297, 141488), (155253, 155681)])
 # ------------ #
 
 # ----out----- #

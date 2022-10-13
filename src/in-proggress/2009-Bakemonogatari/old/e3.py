@@ -19,10 +19,10 @@ mrgc = aaep
 
 # ----mask---- #
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, f"[0 {OP-1}]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, OP - 1)])
 
 fixed_black_2 = mrgc.std.CropRel(top=144, bottom=148).std.AddBorders(top=144, bottom=148)
-mrgc = dn.rfs(mrgc, fixed_black_2, "[1790 1834]")
+mrgc = dn.rfs(mrgc, fixed_black_2, [(1790, 1834)])
 # ------------ #
 
 # -----in----- #
@@ -48,7 +48,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_thr=1)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

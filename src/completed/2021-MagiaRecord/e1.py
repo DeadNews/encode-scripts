@@ -22,7 +22,7 @@ mrgc = epis
 F1 = dn.filt(mrgc)
 F3 = dn.filt(mrgc, zone="harder_e1")
 
-F1 = dn.rfs_image(F1, F3, "e1", maps=(ED, 31423))
+F1 = dn.rfs_image(F1, F3, "e1", maps=[(ED, 31423)])
 # ------------ #
 
 # ----out----- #

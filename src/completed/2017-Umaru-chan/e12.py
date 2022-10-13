@@ -27,7 +27,7 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-signs_map = "[3634 3751] [22419 22561]"
+signs_map = [(3634, 3751), (22419, 22561)]
 mrgc = dn.rfs_resc(mrgc, epis, mthr=60, maps=signs_map)
 # ------------ #
 
@@ -56,7 +56,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_saveblack=2, db_thr=2.5)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

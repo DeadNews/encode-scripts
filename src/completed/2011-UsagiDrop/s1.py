@@ -16,7 +16,7 @@ mrgc = aaep
 
 # ----mask---- #
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, kernel=kernel, mthr=30, maps=f"[{ED} {epis.num_frames-1}]"
+    mrgc, epis, desc_h=desc_h, kernel=kernel, mthr=30, maps=[(ED, epis.num_frames - 1)]
 )
 # ------------ #
 
@@ -44,7 +44,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_saveblack=2)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {epis.num_frames-1}]")
+F1 = dn.rfs(F1, F2, [(ED, epis.num_frames - 1)])
 # ------------ #
 
 # ----out----- #

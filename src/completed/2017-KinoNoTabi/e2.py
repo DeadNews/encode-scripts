@@ -34,16 +34,16 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=50, yuv=True, maps="[19153 19320]")
+mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=50, yuv=True, maps=[(19153, 19320)])
 
 hard = dn.hard(mrgc, mthr=2)
-mrgc = dn.rfs_image(mrgc, hard, "e2 hard", "[31946 31999]")
+mrgc = dn.rfs_image(mrgc, hard, "e2 hard", [(31946, 31999)])
 
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=30, maps="[315 366]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=99, maps="[31124 32608]")
-mrgc = dn.rfs_image(mrgc, epis, "e2 01", "[367 469]")
-mrgc = dn.rfs_image(mrgc, epis, "e2 02", "[30981 31066]")
-mrgc = dn.rfs(mrgc, epis, "[33927 34046]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=30, maps=[(315, 366)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=99, maps=[(31124, 32608)])
+mrgc = dn.rfs_image(mrgc, epis, "e2 01", [(367, 469)])
+mrgc = dn.rfs_image(mrgc, epis, "e2 02", [(30981, 31066)])
+mrgc = dn.rfs(mrgc, epis, [(33927, 34046)])
 # ------------ #
 
 # ----filt---- #
@@ -70,8 +70,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=80, db_mode=3)
 F3 = dn.filt(mrgc, db_thr=2.5)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, "[3885 7313]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(3885, 7313)])
 # ------------ #
 
 # ----out----- #

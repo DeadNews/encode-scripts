@@ -11,14 +11,14 @@ epis = dn.source(f"./in/{epname}.mp4")
 # -----aa----- #
 mrgc = epis
 
-mrgc = dn.rfs_repair(mrgc, maps=f"[{ED+748} {ED+2157}]")  # ed repair
+mrgc = dn.rfs_repair(mrgc, maps=[(ED + 748, ED + 2157)])  # ed repair
 # ------------ #
 
 # ----filt---- #
 F1 = dn.filt(mrgc, zone="ed")
 F2 = dn.filt(mrgc, zone="ed_grain")
 
-F1 = dn.rfs(F1, F2, f"[{ED+24} {ED+275}] [{ED+748} {ED+1562}] [{ED+1910} {ED+2157}]")
+F1 = dn.rfs(F1, F2, [(ED + 24, ED + 275), (ED + 748, ED + 1562), (ED + 1910, ED + 2157)])
 # ------------ #
 
 # ----out----- #

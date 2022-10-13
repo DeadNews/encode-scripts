@@ -16,7 +16,7 @@ mrgc = epis
 crop = mrgc.std.Crop(top=132, bottom=132)
 edgefixe = crop.edgefixer.Continuity(top=1, bottom=1)
 borders = edgefixe.std.AddBorders(top=132, bottom=132)
-mrgc = dn.rfs(mrgc, borders, "[0 2905]")
+mrgc = dn.rfs(mrgc, borders, [(0, 2905)])
 # ------------ #
 
 # ----filt---- #
@@ -24,8 +24,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="harder")
 F3 = dn.filt(mrgc, zone="harder_2")
 
-F1 = dn.rfs(F1, F2, "[21916 23859] [20638 21741]")
-F1 = dn.rfs(F1, F3, f"[{ED+308-24} {ED+448-24}]")
+F1 = dn.rfs(F1, F2, [(21916, 23859), (20638, 21741)])
+F1 = dn.rfs(F1, F3, [(ED + 308 - 24, ED + 448 - 24)])
 # ------------ #
 
 # ----out----- #

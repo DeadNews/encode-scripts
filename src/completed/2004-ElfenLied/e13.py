@@ -39,12 +39,12 @@ aanc = dn.rfs_resc(aanc, epis)
 mrgc = dn.rfs(mrgc, aanc, [(OP, OPend - 1), (EOF - 361, EOF - 1)])
 
 # fix op
-mrgc = dn.rfs_qtgmc(mrgc, mrgc, maps=(86, 648))
+mrgc = dn.rfs_qtgmc(mrgc, mrgc, maps=[(86, 648)])
 
 # ed titles
 epis_dehalo = dn.rfs_dehalo(epis)
 epis_dehalo = dn.rfs_dehalo(epis_dehalo)
-mrgc = dn.rfs_resc(mrgc, epis_dehalo, maps=(ED, EOF - 1))
+mrgc = dn.rfs_resc(mrgc, epis_dehalo, maps=[(ED, EOF - 1)])
 # ------------ #
 
 # ----filt---- #

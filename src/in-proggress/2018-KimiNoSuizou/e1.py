@@ -34,8 +34,8 @@ aaep = dn.aa(epis)
 
 mrgc = dn.rfs_resc(aaep, epis)
 
-mrgc = dn.rfs_resc(mrgc, epis, maps=(4599, 7035), zone="op")  # op
-mrgc = dn.rfs(mrgc, epis_back, (146288, 152769 - 1))  # ed
+mrgc = dn.rfs_resc(mrgc, epis, maps=[(4599, 7035)], zone="op")  # op
+mrgc = dn.rfs(mrgc, epis_back, [(146288, 152769 - 1)])  # ed
 # ------------ #
 
 # ----filt---- #

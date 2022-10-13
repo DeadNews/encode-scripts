@@ -21,9 +21,9 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {Nextend-1}]"  # next
-maps += f" [34105 {Next-1}]"  # before next
-maps += f" [29221 {OP-1}]"  # before ed(op)
+maps = [(Next, Nextend - 1)]  # next
+maps += [(34105, Next - 1)]  # before next
+maps += [(29221, OP - 1)]  # before ed(op)
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
 # ------------ #
@@ -32,7 +32,7 @@ mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="black1")
 
-F1 = dn.rfs(F1, F2, "[7159 10644] [11346 11850]")
+F1 = dn.rfs(F1, F2, [(7159, 10644), (11346, 11850)])
 # ------------ #
 
 # ----out----- #

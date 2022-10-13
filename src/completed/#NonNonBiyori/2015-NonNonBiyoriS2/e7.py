@@ -27,10 +27,10 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[{OPend} {OPend+83}] [{epis.num_frames-156} {epis.num_frames-1}]")
-mrgc = dn.rfs(mrgc, aaep, f"[{ED} {ED+395-24}]")
-mrgc = dn.rfs_image(mrgc, epis, "logo", "[15514 15556]")
-mrgc = dn.rfs_image(mrgc, epis, "logoleft", "[15458 15513]")
+mrgc = dn.rfs(mrgc, epis, [(OPend, OPend + 83), (epis.num_frames - 156, epis.num_frames - 1)])
+mrgc = dn.rfs(mrgc, aaep, [(ED, ED + 395 - 24)])
+mrgc = dn.rfs_image(mrgc, epis, "logo", [(15514, 15556)])
+mrgc = dn.rfs_image(mrgc, epis, "logoleft", [(15458, 15513)])
 # ------------ #
 
 # ----filt---- #
@@ -56,7 +56,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_thr=2.6)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

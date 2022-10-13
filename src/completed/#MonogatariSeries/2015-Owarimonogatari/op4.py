@@ -40,7 +40,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=45, db_thr=1, rt_sigma=0.8, db_grain=42)
 
-F1 = dn.rfs(F1, F2, "[0 1475]")
+F1 = dn.rfs(F1, F2, [(0, 1475)])
 # ------------ #
 
 # ----out----- #

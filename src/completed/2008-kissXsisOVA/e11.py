@@ -16,8 +16,8 @@ epis_back, epis_ef, edgefixer = dn.edgefix(epis)
 # epis_ef_left  = epis.edgefixer.Continuity(top=2, bottom=3, left=3, right=7)
 # epis_ef_right = epis.edgefixer.Continuity(top=2, bottom=3, left=6, right=4)
 #
-# epis_ef = dn.rfs(epis_ef, epis_ef_left,  "[]") #left fix
-# epis_ef = dn.rfs(epis_ef, epis_ef_right, "[]") #right fix
+# epis_ef = dn.rfs(epis_ef, epis_ef_left,  [(, )]) #left fix
+# epis_ef = dn.rfs(epis_ef, epis_ef_right, [(, )]) #right fix
 #
 epis = epis_ef
 # ------------ #
@@ -37,9 +37,9 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-# mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps="[]")
+# mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps=[(, )])
 
-# mrgc = dn.rfs_resc(mrgc, epis, mthr=100, maps="[]")
+# mrgc = dn.rfs_resc(mrgc, epis, mthr=100, maps=[(, )])
 
 mrgc = dn.rfs_dehalo(mrgc)
 # ------------ #

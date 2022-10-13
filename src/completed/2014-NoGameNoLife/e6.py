@@ -30,7 +30,7 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {Nextend-1}]"  # next
+maps = [(Next, Nextend - 1)]  # next
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
 # ------------ #
@@ -39,7 +39,7 @@ mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="soft")
 
-F1 = dn.rfs(F1, F2, "[23907 24236] [24819 25114]")
+F1 = dn.rfs(F1, F2, [(23907, 24236), (24819, 25114)])
 # ------------ #
 
 # ----out----- #

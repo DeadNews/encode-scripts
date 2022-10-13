@@ -19,7 +19,7 @@ mrgc = _crop_rel(mrgc)
 
 # может тут вообще не нужен деинт?
 # с надписями что-то — 7738
-# mrgc = dn.rfs_resc(mrgc, epis_back, desc_h=320, mthr=200, maps="[1934 2009]") #test
+# mrgc = dn.rfs_resc(mrgc, epis_back, desc_h=320, mthr=200, maps=[(1934, 2009)]) #test
 # ---------- #
 
 # ----in---- #

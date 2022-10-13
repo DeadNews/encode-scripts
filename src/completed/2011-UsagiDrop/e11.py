@@ -20,7 +20,7 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, kernel=kernel, mthr=30, maps=f"[{ED} {EDend-1}]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, kernel=kernel, mthr=30, maps=[(ED, EDend - 1)])
 # ------------ #
 
 # ----filt---- #
@@ -48,8 +48,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=150, rt_sigma=0.95, cs_val=0.32)
 F3 = dn.filt(mrgc, sm_thr=100, rt_sigma=0.95, cs_val=0.32)
 
-F1 = dn.rfs(F1, F2, f"[0 {OP-1}]")
-F1 = dn.rfs(F1, F3, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(0, OP - 1)])
+F1 = dn.rfs(F1, F3, [(OP, OPend - 1), (ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

@@ -13,14 +13,14 @@ mrgc = dn.rfs_image(aaep, epis, "ef")  # fix bot
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps="[0 478] [4058 5123]")
+mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=[(0, 478), (4058, 5123)])
 # ------------ #
 
 # ----filt---- #
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="op")
 
-F1 = dn.rfs(F1, F2, "[0 478] [4058 5123]")
+F1 = dn.rfs(F1, F2, [(0, 478), (4058, 5123)])
 # ------------ #
 
 # ----out----- #

@@ -27,8 +27,8 @@ mrgc = (
 
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
-mrgc = dn.rfs_image(mrgc, epis, f"{epname}", "[3764 3858]")
-mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=2, maps=f"[{ED} {ED+179}]")
+mrgc = dn.rfs_image(mrgc, epis, f"{epname}", [(3764, 3858)])
+mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=2, maps=[(ED, ED + 179)])
 # ------------ #
 
 # ----filt---- #
@@ -36,8 +36,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="oped")
 F3 = dn.filt(mrgc, zone="limb")
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, "[22712 25184] [25372 29466]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(22712, 25184), (25372, 29466)])
 # ------------ #
 
 # ----out----- #

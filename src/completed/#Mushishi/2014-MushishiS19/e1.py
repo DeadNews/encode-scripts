@@ -17,9 +17,9 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed
 mrgc = dn.rfs_resc(
-    mrgc, epis, desc_h=desc_h, kernel=kernel, mthr=30, maps=f"[0 {PartA-1}]"
+    mrgc, epis, desc_h=desc_h, kernel=kernel, mthr=30, maps=[(0, PartA - 1)]
 )  # titles
 # ------------ #
 
@@ -49,7 +49,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=40, db_thr=1.9, cs_mode=0, ag_str=0)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

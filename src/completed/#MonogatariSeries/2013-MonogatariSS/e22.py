@@ -50,11 +50,11 @@ F3 = dn.filt(mrgc, sm_thr=44, db_thr=1, rt_sigma=0.7)
 F4 = dn.filt(mrgc, sm_thr=38, db_thr=1, rt_sigma=0.6, db_grain=40)
 F6 = dn.filt(mrgc, sm_thr=300, db_thr=6, db_mode=1, rt_sigma=4, db_det=128)
 
-F1 = dn.rfs(F1, F2, "[168 487] [535 966] [25752 25910] [27784 27819] [28736 28784]")
-F1 = dn.rfs(F1, F0, f"[{OP} {Title-1}]")
-F1 = dn.rfs(F1, F3, "[26534 26685]")
-F1 = dn.rfs(F1, F4, "[32276 32314]")
-F1 = dn.rfs_image(F1, F6, "e22 28343", "[28343 28414]")
+F1 = dn.rfs(F1, F2, [(168, 487), (535, 966), (25752, 25910), (27784, 27819), (28736, 28784)])
+F1 = dn.rfs(F1, F0, [(OP, Title - 1)])
+F1 = dn.rfs(F1, F3, [(26534, 26685)])
+F1 = dn.rfs(F1, F4, [(32276, 32314)])
+F1 = dn.rfs_image(F1, F6, "e22 28343", [(28343, 28414)])
 # ------------ #
 
 # ----out----- #
