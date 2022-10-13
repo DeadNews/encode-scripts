@@ -28,7 +28,7 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, "[665 749]")
+mrgc = dn.rfs(mrgc, aaep, [(665, 749)])
 # ------------ #
 
 # -----in----- #
@@ -55,8 +55,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=90, db_mode=1)
 F3 = dn.filt(mrgc, sm_thr=180, db_mode=1, db_saveblack=0)
 
-F1 = dn.rfs(F1, F2, "[0 362] [451 2183]")
-F1 = dn.rfs(F1, F3, "[363 450]")
+F1 = dn.rfs(F1, F2, [(0, 362), (451, 2183)])
+F1 = dn.rfs(F1, F3, [(363, 450)])
 # ------------ #
 
 # ----out----- #

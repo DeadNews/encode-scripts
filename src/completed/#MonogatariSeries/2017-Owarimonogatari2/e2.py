@@ -54,8 +54,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_mode=1)
 F3 = dn.filt(mrgc, sm_thr=30, db_thr=1, rt_sigma=0.4)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {ED+112}] [26558 26641]")
-F1 = dn.rfs(F1, F3, "[26354 26467]")
+F1 = dn.rfs(F1, F2, [(ED, ED + 112), (26558, 26641)])
+F1 = dn.rfs(F1, F3, [(26354, 26467)])
 # ------------ #
 
 # ----out----- #

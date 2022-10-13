@@ -21,7 +21,7 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {epis.num_frames-1}]"  # next
+maps = [(Next, epis.num_frames - 1)]  # next
 maps += f" [{ED} {EDend-1}]"  # ed
 maps += f" [{EDend} 33115]"
 
@@ -53,7 +53,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=50, db_thr=2.1, cs_val=0.55, db_det=64)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

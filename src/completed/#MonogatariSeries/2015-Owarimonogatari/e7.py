@@ -28,27 +28,27 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_qtgmc(mrgc, aaep, maps="[34148 34424]")
+mrgc = dn.rfs_qtgmc(mrgc, aaep, maps=[(34148, 34424)])
 
-mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=10, maps="[32928 33026]")
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, maps="[34058 34147]")
+mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=10, maps=[(32928, 33026)])
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, maps=[(34058, 34147)])
 mrgc = dn.rfs_hard(
     mrgc,
     mrgc,
     mthr=85,
-    maps="[10211 10243] [31650 31679] [32418 32459] [34641 34766] [34148 34424]",
+    maps=[(10211, 10243), (31650, 31679), (32418, 32459), (34641, 34766), (34148, 34424)],
 )
 mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps=" [33156 33272] [34563 34640] [18075 18197]")
 
 hard_def = dn.hard(mrgc, mthr=20)
-mrgc = dn.rfs_image(mrgc, hard_def, "e7 8773", "[8773 8901]")
-mrgc = dn.rfs_image(mrgc, hard_def, "e7 10510", "[10510 10585]")
-mrgc = dn.rfs_image(mrgc, hard_def, "e7 32127", "[32127 32150]")
-mrgc = dn.rfs_image(mrgc, hard_def, "e7 34425", "[34425 34493]")
-mrgc = dn.rfs_image(mrgc, hard_def, "e7 31929", "[31929 32024] [33834 33917]")
+mrgc = dn.rfs_image(mrgc, hard_def, "e7 8773", [(8773, 8901)])
+mrgc = dn.rfs_image(mrgc, hard_def, "e7 10510", [(10510, 10585)])
+mrgc = dn.rfs_image(mrgc, hard_def, "e7 32127", [(32127, 32150)])
+mrgc = dn.rfs_image(mrgc, hard_def, "e7 34425", [(34425, 34493)])
+mrgc = dn.rfs_image(mrgc, hard_def, "e7 31929", [(31929, 32024), (33834, 33917)])
 
 hard_desc = dn.hard(epis, desc_h=desc_h, mthr=10)
-mrgc = dn.rfs_image(mrgc, hard_desc, "e7 33273", "[33273 33392]")
+mrgc = dn.rfs_image(mrgc, hard_desc, "e7 33273", [(33273, 33392)])
 # ------------ #
 
 # ----filt---- #
@@ -82,19 +82,30 @@ F8 = dn.filt(mrgc, db_mode=1)
 F9 = dn.filt(mrgc, db_mode=2)
 F10 = dn.filt(mrgc, db_saveblack=0)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1-24}]")
-F1 = dn.rfs(F1, F3, f"[{OP+33} {OP+95}]")
-F1 = dn.rfs(F1, F4, f"[{OP+96} {OP+157}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1 - 24)])
+F1 = dn.rfs(F1, F3, [(OP + 33, OP + 95)])
+F1 = dn.rfs(F1, F4, [(OP + 96, OP + 157)])
 F1 = dn.rfs(
-    F1, F5, "[12555 12593] [15040 15075] [23563 23637] [23668 23685] [23746 23783] [18941 19009]"
+    F1,
+    F5,
+    [
+        (12555, 12593),
+        (15040, 15075),
+        (23563, 23637),
+        (23668, 23685),
+        (23746, 23783),
+        (18941, 19009),
+    ],
 )
-F1 = dn.rfs(F1, F6, "[3069 3158] [20968 21047] [21282 21304] [22037 22126] [31263 31358]")
-F1 = dn.rfs(F1, F7, "[10686 10709] [12002 12054]")
+F1 = dn.rfs(F1, F6, [(3069, 3158), (20968, 21047), (21282, 21304), (22037, 22126), (31263, 31358)])
+F1 = dn.rfs(F1, F7, [(10686, 10709), (12002, 12054)])
 F1 = dn.rfs(
-    F1, F8, "[1614 1658] [1725 1757] [5923 6033] [14989 15006] [15409 15489] [29835 29888]"
+    F1,
+    F8,
+    [(1614, 1658), (1725, 1757), (5923, 6033), (14989, 15006), (15409, 15489), (29835, 29888)],
 )
-F1 = dn.rfs(F1, F9, "[2241 2291] [7724 7780] [12382 12403]")
-F1 = dn.rfs(F1, F10, "[7856 7906] [9273 9290]")
+F1 = dn.rfs(F1, F9, [(2241, 2291), (7724, 7780), (12382, 12403)])
+F1 = dn.rfs(F1, F10, [(7856, 7906), (9273, 9290)])
 # ------------ #
 
 # ----out----- #

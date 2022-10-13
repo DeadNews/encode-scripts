@@ -27,8 +27,8 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{ED} {ED+344-24}]")
-mrgc = dn.rfs(mrgc, epis, f"[{OP+129} {OP+438}] [{epis.num_frames-179} {epis.num_frames-1}]")
+mrgc = dn.rfs(mrgc, aaep, [(ED, ED + 344 - 24)])
+mrgc = dn.rfs(mrgc, epis, [(OP + 129, OP + 438), (epis.num_frames - 179, epis.num_frames - 1)])
 # ------------ #
 
 # -----in----- #
@@ -55,8 +55,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_thr=1)
 F3 = dn.filt(mrgc, db_thr=2.1)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

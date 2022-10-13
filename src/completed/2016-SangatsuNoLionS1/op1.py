@@ -20,7 +20,7 @@ mrgc = aaep
 
 # ----mask---- #
 OP = 36
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h + 1, mthr=30, maps=f"[{OP+515} {OP+657}]")  # op1
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h + 1, mthr=30, maps=[(OP + 515, OP + 657)])  # op1
 # ------------ #
 
 # ----filt---- #
@@ -48,7 +48,7 @@ def filt_old(
 F1 = dn.filt(mrgc, db_saveblack=0)
 F2 = dn.filt(mrgc, sm_thr=40, db_thr=1.0, rt_sigma=0.6)
 
-F1 = dn.rfs(F1, F2, "[2000 2183]")
+F1 = dn.rfs(F1, F2, [(2000, 2183)])
 # ------------ #
 
 # ----out----- #

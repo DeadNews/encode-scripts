@@ -29,7 +29,7 @@ mrgc = (
 
 # ----mask---- #
 stabilize = dn.qtgmc(aaep)
-mrgc = dn.rfs(mrgc, stabilize, "[1951 2094]")
+mrgc = dn.rfs(mrgc, stabilize, [(1951, 2094)])
 # ------------ #
 
 # ----filt---- #
@@ -55,7 +55,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_mode=1)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {ED+112}]")
+F1 = dn.rfs(F1, F2, [(ED, ED + 112)])
 # ------------ #
 
 # ----out----- #

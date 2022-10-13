@@ -14,7 +14,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 
 # ----mrgc---- #
 epis, epis_back, edgefixer = dn.edgefix(epis)
-epis = dn.rfs(epis, epis_back, f"[31669 {Part_C-1}]")  # ed
+epis = dn.rfs(epis, epis_back, [(31669, Part_C - 1)])  # ed
 
 aaep = dn.aa(epis)
 op = dn.oped(epis_back, name="op", offset=0, start=OP, end=OPend, edgefix=edgefixer)
@@ -23,7 +23,7 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {Nextend-1}]"  # next
+maps = [(Next, Nextend - 1)]  # next
 maps += f" [30822 {Part_C-1}]"  # ed on epis
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)

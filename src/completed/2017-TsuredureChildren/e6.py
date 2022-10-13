@@ -17,10 +17,19 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, mthr=140, maps=f"[{OP} {OPend-1}]")
-mrgc = dn.rfs_resc(mrgc, epis, mthr=130, maps=f"[{ED} {EDend-1}]")
+mrgc = dn.rfs_resc(mrgc, epis, mthr=140, maps=[(OP, OPend - 1)])
+mrgc = dn.rfs_resc(mrgc, epis, mthr=130, maps=[(ED, EDend - 1)])
 
-random_signs = "[1687 1784] [5610 5725] [8620 8657] [9009 9147] [12941 13077] [13642 13669] [14266 14360] [17950 18005]"
+random_signs = [
+    (1687, 1784),
+    (5610, 5725),
+    (8620, 8657),
+    (9009, 9147),
+    (12941, 13077),
+    (13642, 13669),
+    (14266, 14360),
+    (17950, 18005),
+]
 mrgc = dn.rfs_resc(mrgc, epis, mthr=120, maps=random_signs)
 # ------------ #
 

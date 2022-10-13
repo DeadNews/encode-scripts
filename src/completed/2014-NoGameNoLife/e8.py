@@ -18,13 +18,13 @@ epis, epis_back, edgefixer = dn.edgefix(epis)
 
 aaep = dn.aa(epis)
 op = dn.oped(epis_back, name="op", offset=0, start=OP, end=OPend, edgefix=edgefixer)
-epis = dn.rfs(epis, epis_back, f"[{ED} {EDend-1}]")  # ed
+epis = dn.rfs(epis, epis_back, [(ED, EDend - 1)])  # ed
 
 mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {Nextend-1}]"  # next
+maps = [(Next, Nextend - 1)]  # next
 maps += f" [{ED} {EDend-1}]"  # ed on epis
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)

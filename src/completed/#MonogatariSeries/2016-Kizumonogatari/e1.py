@@ -18,16 +18,16 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=50, maps="[25592 25731]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=50, maps=[(25592, 25731)])
 
-mrgc = dn.rfs_qtgmc(mrgc, aaep, k=0.77, maps="[17132 17203] [21080 21235]")
+mrgc = dn.rfs_qtgmc(mrgc, aaep, k=0.77, maps=[(17132, 17203), (21080, 21235)])
 
 stabilize = dn.qtgmc(aaep)
-mrgc = dn.rfs_image(mrgc, stabilize, "e1 83515", "[83234 83515]")
-mrgc = dn.rfs_image(mrgc, stabilize, "e1 84083", "[83844 84083]")
-mrgc = dn.rfs_image(mrgc, stabilize, "e1 56391", "[56391 56816]")
-mrgc = dn.rfs_image(mrgc, stabilize, "e1 57091", "[57091 57208]")
-mrgc = dn.rfs_image(mrgc, stabilize, "e1 51798", "[51798 51911]")
+mrgc = dn.rfs_image(mrgc, stabilize, "e1 83515", [(83234, 83515)])
+mrgc = dn.rfs_image(mrgc, stabilize, "e1 84083", [(83844, 84083)])
+mrgc = dn.rfs_image(mrgc, stabilize, "e1 56391", [(56391, 56816)])
+mrgc = dn.rfs_image(mrgc, stabilize, "e1 57091", [(57091, 57208)])
+mrgc = dn.rfs_image(mrgc, stabilize, "e1 51798", [(51798, 51911)])
 # ------------ #
 
 # ----filt---- #
@@ -56,11 +56,20 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=38, db_thr=1, rt_sigma=0.7, cs_val=0.50)
 F3 = dn.filt(mrgc, db_saveblack=0, db_mode=1)
 
-F1 = dn.rfs(F1, F0, f"[{ED} 90187] [90703 {epis.num_frames-1}]")
+F1 = dn.rfs(F1, F0, [(ED, 90187), (90703, epis.num_frames - 1)])
 F1 = dn.rfs(
-    F1, F2, "[14298 14333] [14469 14534] [14534 14711] [14904 14975] [13554 13631] [37102 37362]"
+    F1,
+    F2,
+    [
+        (14298, 14333),
+        (14469, 14534),
+        (14534, 14711),
+        (14904, 14975),
+        (13554, 13631),
+        (37102, 37362),
+    ],
 )
-F1 = dn.rfs(F1, F3, "[67791 67827] [68558 68590]")
+F1 = dn.rfs(F1, F3, [(67791, 67827), (68558, 68590)])
 # ------------ #
 
 # ----out----- #

@@ -26,13 +26,13 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{OP+1701} {OP+1782}]")  # e16..e25
-mrgc = dn.rfs_image(mrgc, epis, "op_var", f"[{OP+1701} {OP+1742}]")
-mrgc = dn.rfs_resc(mrgc, epis, mthr=99, maps=f"[{OP+1743} {OP+1749}]")
+mrgc = dn.rfs(mrgc, aaep, [(OP + 1701, OP + 1782)])  # e16..e25
+mrgc = dn.rfs_image(mrgc, epis, "op_var", [(OP + 1701, OP + 1742)])
+mrgc = dn.rfs_resc(mrgc, epis, mthr=99, maps=[(OP + 1743, OP + 1749)])
 
 mrgc = dn.rfs_dehalo(mrgc)
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps=f"[{OP+293} {OP+397}]")
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed2
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps=[(OP + 293, OP + 397)])
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed2
 # ------------ #
 
 # ----filt---- #
@@ -42,8 +42,8 @@ F3 = dn.filt(mrgc, zone="noise_4")
 F4 = dn.filt(mrgc, zone="noise_op")
 F5 = dn.filt(mrgc, zone="grain_op")
 
-F1 = dn.rfs(F1, F4, f"[{OP} {OP+282}]")
-F1 = dn.rfs(F1, F5, f"[{OP+1169} {OP+1398}]")
+F1 = dn.rfs(F1, F4, [(OP, OP + 282)])
+F1 = dn.rfs(F1, F5, [(OP + 1169, OP + 1398)])
 # ------------ #
 
 # ----out----- #

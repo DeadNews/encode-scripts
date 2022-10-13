@@ -30,12 +30,25 @@ mrgc = dn.rfs_image(mrgc, aaep, f"title_{epname}", [(_OPend + 2, _OPend + 36)])
 hard_epis = dn.hard(dn.qtgmc(epis), mthr=99)
 mrgc = dn.rfs_image(mrgc, hard_epis, f"circles_{epname}", [(_OPend + 5, _OPend + 33)])
 
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, maps="[1936 1994]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, maps=[(1936, 1994)])
 mrgc = dn.rfs_resc(
     mrgc,
     epis,
     mthr=50,
-    maps="[30093 30171] [30189 30275] [30322 30406] [30479 30562] [30615 30698] [30746 30823] [31144 31217] [31242 31312] [31338 31409] [31611 31694] [31718 31780] [31812 31894]",
+    maps=[
+        (30093, 30171),
+        (30189, 30275),
+        (30322, 30406),
+        (30479, 30562),
+        (30615, 30698),
+        (30746, 30823),
+        (31144, 31217),
+        (31242, 31312),
+        (31338, 31409),
+        (31611, 31694),
+        (31718, 31780),
+        (31812, 31894),
+    ],
 )
 # ------------ #
 

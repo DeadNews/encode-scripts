@@ -29,7 +29,7 @@ mrgc = (
 
 # ----mask---- #
 stabilize = dn.qtgmc(aaep)
-mrgc = dn.rfs(mrgc, stabilize, "[13562 13763] [13794 13831] [14063 14236] [15156 15292]")
+mrgc = dn.rfs(mrgc, stabilize, [(13562, 13763), (13794, 13831), (14063, 14236), (15156, 15292)])
 # ------------ #
 
 # ----filt---- #
@@ -57,9 +57,9 @@ F2 = dn.filt(mrgc, db_mode=1)
 F3 = dn.filt(mrgc, db_mode=2)
 F4 = dn.filt(mrgc, db_mode=1, db_thr=2, db_saveblack=0)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {ED+112}]")
-F1 = dn.rfs(F1, F3, "[28201 28734] [28792 29310] [29658 30396] [30496 30567]")
-F1 = dn.rfs(F1, F4, "[27521 27703]")
+F1 = dn.rfs(F1, F2, [(ED, ED + 112)])
+F1 = dn.rfs(F1, F3, [(28201, 28734), (28792, 29310), (29658, 30396), (30496, 30567)])
+F1 = dn.rfs(F1, F4, [(27521, 27703)])
 # ------------ #
 
 # ----out----- #

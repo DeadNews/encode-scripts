@@ -18,7 +18,7 @@ mrgc = aaep
 
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # custom ed
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # custom ed
 # ------------ #
 
 # ----filt---- #

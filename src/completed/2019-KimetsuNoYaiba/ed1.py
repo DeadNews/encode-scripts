@@ -17,7 +17,7 @@ mrgc = aaep
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="noise_1")
 
-F1 = dn.rfs(F1, F2, "[0 399]")
+F1 = dn.rfs(F1, F2, [(0, 399)])
 # ------------ #
 
 # ----out----- #

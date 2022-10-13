@@ -14,7 +14,7 @@ epis = dn.source(f"./in/{epname}.mkv")
 
 
 def filt_ncop_aa(ncoped_aa):
-    return dn.rfs_hard(ncoped_aa, ncoped_aa, mthr=99, maps="[1391 1463] [1608 1635]")
+    return dn.rfs_hard(ncoped_aa, ncoped_aa, mthr=99, maps=[(1391, 1463), (1608, 1635)])
 
 
 # ----mrgc---- #
@@ -32,7 +32,7 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{OP+644} {OP+856}]")
+mrgc = dn.rfs(mrgc, aaep, [(OP + 644, OP + 856)])
 # ------------ #
 
 # ----filt---- #
@@ -60,10 +60,10 @@ F2 = dn.filt(mrgc, sm_thr=45, db_thr=1, rt_sigma=0.8)
 F3 = dn.filt(mrgc, db_mode=1)
 F4 = dn.filt(mrgc, sm_thr=300, db_thr=6, db_mode=1, rt_sigma=4, db_det=128)
 
-F1 = dn.rfs(F1, F2, "[23441 34767]")
-F1 = dn.rfs(F1, F3, "[31168 31191]")
+F1 = dn.rfs(F1, F2, [(23441, 34767)])
+F1 = dn.rfs(F1, F3, [(31168, 31191)])
 
-F1 = dn.rfs_image(F1, F4, "e3 9120", "[9120 9187]")
+F1 = dn.rfs_image(F1, F4, "e3 9120", [(9120, 9187)])
 # ------------ #
 
 # ----out----- #

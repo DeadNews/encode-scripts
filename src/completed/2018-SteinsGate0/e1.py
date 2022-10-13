@@ -18,12 +18,12 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {epis.num_frames-1}]"  # next
+maps = [(Next, epis.num_frames - 1)]  # next
 maps += " [0 971]"  # titles
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=maps)
-mrgc = dn.rfs_resc(mrgc, epis, mthr=30, maps=f"[{Part_A-113} {Part_A-1}]")  # prePart_A
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed
+mrgc = dn.rfs_resc(mrgc, epis, mthr=30, maps=[(Part_A - 113, Part_A - 1)])  # prePart_A
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed
 # ------------ #
 
 # ----filt---- #
@@ -52,7 +52,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, mrgc=epis_back, db_saveblack=2)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

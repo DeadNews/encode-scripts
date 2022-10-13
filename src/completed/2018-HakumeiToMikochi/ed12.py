@@ -19,7 +19,7 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=f"[0 1895]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, planes=[0, 1, 2], mthr=50, maps=[(0, 1895)])
 # ------------ #
 
 # ----filt---- #
@@ -46,7 +46,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=70, db_thr=4, db_saveblack=2)
 
-F1 = dn.rfs(F1, F2, f"[0 1895]")
+F1 = dn.rfs(F1, F2, [(0, 1895)])
 # ------------ #
 
 # ----out----- #

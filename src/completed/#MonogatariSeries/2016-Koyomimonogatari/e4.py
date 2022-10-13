@@ -15,7 +15,7 @@ EDend = epis.num_frames - 14
 
 def filt_ncop_aa(ncoped_aa):
     stabilize = dn.qtgmc(ncoped_aa, k=0.77)
-    return dn.rfs(ncoped_aa, stabilize, "[12 221] [1167 1408] [1730 1760] [1783 1901]")
+    return dn.rfs(ncoped_aa, stabilize, [(12, 221), (1167, 1408), (1730, 1760), (1783, 1901)])
 
 
 # ----mrgc---- #
@@ -34,15 +34,15 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, "[292 310] [1984 2180]")
-mrgc = dn.rfs_image(mrgc, epis, f"{epname} 2151", "[2103 2180]")
+mrgc = dn.rfs(mrgc, aaep, [(292, 310), (1984, 2180)])
+mrgc = dn.rfs_image(mrgc, epis, f"{epname} 2151", [(2103, 2180)])
 
 stabilize = dn.qtgmc(aaep, ThSAD1=492, ThSAD2=197, ThSCD1=139, ThSCD2=75)
-mrgc = dn.rfs(mrgc, stabilize, "[15467 15883]")
+mrgc = dn.rfs(mrgc, stabilize, [(15467, 15883)])
 
 hard = dn.hard(mrgc, mthr=30)
-mrgc = dn.rfs_image(mrgc, hard, "e4 15467", "[15467 15883]")
-mrgc = dn.rfs_image(mrgc, hard, "e4 8763", "[8763 8822]")
+mrgc = dn.rfs_image(mrgc, hard, "e4 15467", [(15467, 15883)])
+mrgc = dn.rfs_image(mrgc, hard, "e4 8763", [(8763, 8822)])
 # ------------ #
 
 # -----in----- #
@@ -68,7 +68,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_mode=2)
 
-F1 = dn.rfs(F1, F2, "[7667 7729]")
+F1 = dn.rfs(F1, F2, [(7667, 7729)])
 # ------------ #
 
 # ----out----- #

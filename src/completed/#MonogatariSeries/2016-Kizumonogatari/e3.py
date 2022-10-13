@@ -18,9 +18,9 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_image(mrgc, epis_ef, maskname="1", maps="[10695 10840]")
+mrgc = dn.rfs_image(mrgc, epis_ef, maskname="1", maps=[(10695, 10840)])
 
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=False, maps="[55170 55235]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=False, maps=[(55170, 55235)])
 # ------------ #
 
 # ----filt---- #
@@ -47,7 +47,7 @@ F0 = dn.filt(epis, db_thr=0)
 
 F1 = dn.filt(mrgc)
 
-F1 = dn.rfs(F1, F0, f"[{ED} {epis.num_frames-1}]")
+F1 = dn.rfs(F1, F0, [(ED, epis.num_frames - 1)])
 # ------------ #
 
 # ----out----- #

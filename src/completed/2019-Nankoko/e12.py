@@ -18,7 +18,7 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-maps = f"[{OPend} {OPend+130}] [{ED} {EDend-1}]"
+maps = [(OPend, OPend + 130), (ED, EDend - 1)]
 
 mrgc = dn.rfs_resc(mrgc, epis, desc_h=873 + 1, b=0.33, c=0.33, mthr=40, maps=maps)
 # ------------ #

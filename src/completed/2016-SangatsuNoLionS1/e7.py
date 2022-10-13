@@ -28,8 +28,8 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[{Next} {epis.num_frames-1}]")  # next
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h + 1, mthr=30, maps=f"[{OP+515} {OP+657}]")  # op1
+mrgc = dn.rfs(mrgc, epis, [(Next, epis.num_frames - 1)])  # next
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h + 1, mthr=30, maps=[(OP + 515, OP + 657)])  # op1
 # ------------ #
 
 # ----filt---- #
@@ -58,9 +58,9 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_saveblack=0)
 F3 = dn.filt(mrgc, sm_thr=40, db_thr=1.0, rt_sigma=0.6)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, f"[{OPend-177} {OPend-1}]")  # op1
-F1 = dn.rfs(F1, F3, "[1149 1220]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(OPend - 177, OPend - 1)])  # op1
+F1 = dn.rfs(F1, F3, [(1149, 1220)])
 # ------------ #
 
 # ----out----- #

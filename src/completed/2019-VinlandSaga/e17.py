@@ -20,7 +20,7 @@ mrgc = dn.rfs_resc(mrgc, epis, mthr=18, zone="868p")
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
 
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed2
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed2
 # ------------ #-1
 
 # ----filt---- #
@@ -29,9 +29,9 @@ F2 = dn.filt(mrgc, zone="edop")
 F3 = dn.filt(mrgc, zone="ed2")
 F4 = dn.filt(mrgc, zone="soft2")
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F4, f"[{OP+1818} {OP+1973}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1)])
+F1 = dn.rfs(F1, F4, [(OP + 1818, OP + 1973)])
 # ------------ #
 
 # ----out----- #

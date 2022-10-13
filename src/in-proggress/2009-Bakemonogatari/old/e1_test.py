@@ -20,11 +20,11 @@ mrgc = aaep
 
 # ----mask---- #
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, f"[0 2205] [{OP} {OPend-1}]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, 2205), (OP, OPend - 1)])
 
 sw_mask = dn.gradfun_mask(aaep, thr_det=1, db_mode=3).fmtc.bitdepth(bits=8)
 save_wite = core.std.MaskedMerge(mrgc, aaep, db_mode=sw_mask, planes=0)
-mrgc = dn.rfs_image(mrgc, save_wite, "SWfilter", "[0 591]")
+mrgc = dn.rfs_image(mrgc, save_wite, "SWfilter", [(0, 591)])
 # ------------ #
 
 # -----in----- #
@@ -50,8 +50,8 @@ def filt_old(
 F1 = dn.filt(mrgc)
 
 # black_clip = core.std.BlankClip(filtered)
-# F1 = rfs_sb_mask(F1, black_clip, mask_src=mrgc, maps=f"[0 {EDend}]")
-# F1 = rfs_sb_mask(F1, black_clip, mask_src=mrgc, maps="[13805 14023] [14055 14077]")
+# F1 = rfs_sb_mask(F1, black_clip, mask_src=mrgc, maps=[(0, EDend)])
+# F1 = rfs_sb_mask(F1, black_clip, mask_src=mrgc, maps=[(13805, 14023), (14055, 14077)])
 # 4818 28322   38882 44162   49922 55486   106830 125542
 # tolerance=4 — для усиления
 # tolerance=2 — для замены на черное

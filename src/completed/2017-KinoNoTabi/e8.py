@@ -25,12 +25,12 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=32, maps="[24650 24797]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, maps="[26773 26849] [3469 3643]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=70, maps="[31825 33192]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=32, maps=[(24650, 24797)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, maps=[(26773, 26849), (3469, 3643)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=70, maps=[(31825, 33192)])
 
 hard = dn.hard(mrgc, mthr=2)
-mrgc = dn.rfs_image(mrgc, hard, "e8 01", "[17417 17590]")
+mrgc = dn.rfs_image(mrgc, hard, "e8 01", [(17417, 17590)])
 # ------------ #
 
 # ----filt---- #
@@ -56,7 +56,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=80, db_mode=3)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

@@ -17,7 +17,7 @@ mrgc = dn.rfs_dehalo(aaep)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[0 {Part_01}] [{ED} {EDend-1}]")
+mrgc = dn.rfs(mrgc, epis, [(0, Part_01), (ED, EDend - 1)])
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=48)  # all
 # ------------ #
@@ -27,8 +27,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="ed")
 F3 = dn.filt(mrgc, zone="next")
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, f"[{Part_07} {ED-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(Part_07, ED - 1)])
 # ------------ #
 
 # ----out----- #

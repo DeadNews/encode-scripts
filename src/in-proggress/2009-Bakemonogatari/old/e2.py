@@ -18,10 +18,10 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[36708 {epis.num_frames-1}]")
+mrgc = dn.rfs(mrgc, epis, [(36708, epis.num_frames - 1)])
 
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, f"[0 {OPend-1}]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, OPend - 1)])
 # ------------ #
 
 # -----in----- #

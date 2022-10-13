@@ -20,10 +20,10 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[37476 {epis.num_frames-1}]")
+mrgc = dn.rfs(mrgc, epis, [(37476, epis.num_frames - 1)])
 
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, f"[0 {OP-1}]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, OP - 1)])
 
 # возможно наоборот сделать: в серии без титров, а титры отдельно
 # ------------ #
@@ -51,7 +51,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_thr=1)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

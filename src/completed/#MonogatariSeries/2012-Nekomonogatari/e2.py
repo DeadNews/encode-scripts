@@ -28,9 +28,9 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{OP+713} {OP+873}]")
+mrgc = dn.rfs(mrgc, aaep, [(OP + 713, OP + 873)])
 
-# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, maps="[26123 26181]")
+# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, maps=[(26123, 26181)])
 # ------------ #
 
 # ----filt---- #
@@ -61,17 +61,17 @@ F5 = dn.filt(mrgc, sm_thr=30, db_thr=1, rt_sigma=0.7, db_grain=40)
 F6 = dn.filt(mrgc, sm_thr=30, db_thr=1, rt_sigma=0.7, db_grain=40, db_saveblack=0)
 F7 = dn.filt(mrgc, db_saveblack=0, sm_thr=200, db_thr=3.1, db_mode=1, rt_sigma=4, db_grain=58)
 
-F1 = dn.rfs(F1, F2, "[0 1653] [3814 31218]")  # whole epis
-F1 = dn.rfs(F1, F3, "[20009 20220] [20411 20734] [1001 1060] [18830 18851] [22581 22634]")
-F1 = dn.rfs(F1, F5, "[18852 19076]")
-F1 = dn.rfs(F1, F6, "[22497 22532]")
+F1 = dn.rfs(F1, F2, [(0, 1653), (3814, 31218)])  # whole epis
+F1 = dn.rfs(F1, F3, [(20009, 20220), (20411, 20734), (1001, 1060), (18830, 18851), (22581, 22634)])
+F1 = dn.rfs(F1, F5, [(18852, 19076)])
+F1 = dn.rfs(F1, F6, [(22497, 22532)])
 
-F1 = dn.rfs_image(F1, F4, "e2 6032", "[6032 6245]")
-F1 = dn.rfs_image(F1, F4, "e2 11399", "[11399 11492] [11505 11554]")
-F1 = dn.rfs_image(F1, F4, "e2 13920", "[13920 14273] [14415 14486] [14975 15172]")
-F1 = dn.rfs_image(F1, F4, "e2 15377", "[15377 15424]")
+F1 = dn.rfs_image(F1, F4, "e2 6032", [(6032, 6245)])
+F1 = dn.rfs_image(F1, F4, "e2 11399", [(11399, 11492), (11505, 11554)])
+F1 = dn.rfs_image(F1, F4, "e2 13920", [(13920, 14273), (14415, 14486), (14975, 15172)])
+F1 = dn.rfs_image(F1, F4, "e2 15377", [(15377, 15424)])
 
-F1 = dn.rfs_color(F1, F7, mask_src=mrgc, maps="[27909 28136]")
+F1 = dn.rfs_color(F1, F7, mask_src=mrgc, maps=[(27909, 28136)])
 # ------------ #
 
 # ----out----- #

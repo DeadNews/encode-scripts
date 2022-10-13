@@ -22,10 +22,10 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 
 # ----mask---- #
 hard = dn.hard(mrgc, mthr=20)
-mrgc = dn.rfs_image(mrgc, hard, "e12 29047", "[29047 29262] [29374 29550]")
-mrgc = dn.rfs_image(mrgc, hard, "e12 29323", "[29323 29373]")
+mrgc = dn.rfs_image(mrgc, hard, "e12 29047", [(29047, 29262), (29374, 29550)])
+mrgc = dn.rfs_image(mrgc, hard, "e12 29323", [(29323, 29373)])
 
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps="[6825 6849]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps=[(6825, 6849)])
 # ------------ #
 
 # ----filt---- #
@@ -56,13 +56,15 @@ F5 = dn.filt(mrgc, sm_thr=38, db_thr=1, rt_sigma=0.6, db_grain=40)
 F6 = dn.filt(mrgc, sm_thr=300, db_thr=6, db_mode=1, rt_sigma=4, db_det=128)
 F7 = dn.filt(mrgc, db_mode=1)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [13811 28209]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1-24}] [5184 5243]")
-F1 = dn.rfs(F1, F4, "[877 906] [22272 22303] [23752 23847] [26326 26367]")
-F1 = dn.rfs(F1, F5, "[13847 13896] [25434 25467]")
-F1 = dn.rfs(F1, F7, "[5244 5426] [5475 5558]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (13811, 28209)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1 - 24), (5184, 5243)])
+F1 = dn.rfs(F1, F4, [(877, 906), (22272, 22303), (23752, 23847), (26326, 26367)])
+F1 = dn.rfs(F1, F5, [(13847, 13896), (25434, 25467)])
+F1 = dn.rfs(F1, F7, [(5244, 5426), (5475, 5558)])
 
-F1 = dn.rfs_image(F1, F6, "e12 10977", "[10977 11264] [11783 11913] [12047 12274] [12490 12837]")
+F1 = dn.rfs_image(
+    F1, F6, "e12 10977", [(10977, 11264), (11783, 11913), (12047, 12274), (12490, 12837)]
+)
 # ------------ #
 
 # ----out----- #

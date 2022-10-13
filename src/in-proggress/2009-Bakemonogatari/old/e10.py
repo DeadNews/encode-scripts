@@ -20,10 +20,10 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[35342 {epis.num_frames-1}]")
+mrgc = dn.rfs(mrgc, epis, [(35342, epis.num_frames - 1)])
 
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, f"[0 {OP-1}] [11129 14123]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, OP - 1), (11129, 14123)])
 # ------------ #
 
 # -----in----- #

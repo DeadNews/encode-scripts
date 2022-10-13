@@ -15,7 +15,7 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {epis.num_frames-1}]"  # next
+maps = [(Next, epis.num_frames - 1)]  # next
 maps += " [0 2107]"  # op on epis
 maps += " [31520 33504]"  # ed on epis
 

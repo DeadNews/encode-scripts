@@ -14,8 +14,8 @@ epis_back, epis_ef, edgefixer = dn.edgefix(epis)
 epis_ef_left = epis.edgefixer.Continuity(top=2, bottom=3, left=3, right=7)
 epis_ef_right = epis.edgefixer.Continuity(top=2, bottom=3, left=6, right=3)  # right=3
 
-epis_ef = dn.rfs(epis_ef, epis_ef_left, "[23714 24033] [25868 25875]")  # left fix
-epis_ef = dn.rfs(epis_ef, epis_ef_right, "[18255 18327] [14896 14961]")  # right fix
+epis_ef = dn.rfs(epis_ef, epis_ef_left, [(23714, 24033), (25868, 25875)])  # left fix
+epis_ef = dn.rfs(epis_ef, epis_ef_right, [(18255, 18327), (14896, 14961)])  # right fix
 #
 epis = epis_ef
 # ------------ #
@@ -26,11 +26,11 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps="[29774 30033] [22045 22173] [23714 24033]")
+mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps=[(29774, 30033), (22045, 22173), (23714, 24033)])
 
 mrgc = dn.rfs_dehalo(mrgc, zone="low")
 
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed
 # ------------ #
 
 # ----filt---- #

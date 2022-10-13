@@ -21,10 +21,10 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {epis.num_frames-1}]"  # next
+maps = [(Next, epis.num_frames - 1)]  # next
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=maps)
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed
 # ------------ #
 
 # ----filt---- #
@@ -54,9 +54,9 @@ F2 = dn.filt(mrgc, sm_thr=50, db_thr=2.1, cs_val=0.55, db_det=64)
 F3 = dn.filt(mrgc, mrgc=epis_back, db_saveblack=2)
 F4 = dn.filt(mrgc, db_saveblack=2)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1}]")  # ed
-F1 = dn.rfs(F1, F4, "[28608 29180]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1)])  # ed
+F1 = dn.rfs(F1, F4, [(28608, 29180)])
 # ------------ #
 
 # ----out----- #

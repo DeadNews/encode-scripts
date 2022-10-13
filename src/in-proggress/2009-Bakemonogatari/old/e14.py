@@ -19,7 +19,7 @@ mrgc = aaep
 
 # ----mask---- #
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, f"[0 {OPend-1}] [7713 16522] [{EDend} 35113]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, OPend - 1), (7713, 16522), (EDend, 35113)])
 # ------------ #
 
 # -----in----- #

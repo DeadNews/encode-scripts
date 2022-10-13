@@ -15,12 +15,12 @@ epis = dn.source(f"./in/{epname}.mp4")
 # ----mrgc---- #
 aaep = dn.aa(epis, desc_h=desc_h)
 mrgc = aaep
-mrgc = dn.rfs(mrgc, epis, f"[32146 {EDend-1}]")
+mrgc = dn.rfs(mrgc, epis, [(32146, EDend - 1)])
 # ------------ #
 
 # ----mask---- #
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
-mrgc = dn.rfs(mrgc, fixed_black, "[0 34455]")
+mrgc = dn.rfs(mrgc, fixed_black, [(0, 34455)])
 # ------------ #
 
 # ----filt---- #

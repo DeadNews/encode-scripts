@@ -20,9 +20,9 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 
 # ----mask---- #
 hard = dn.hard(mrgc, mthr=10)
-mrgc = dn.rfs_image(mrgc, hard, "e3 14468", "[14468 14497]")
-mrgc = dn.rfs_image(mrgc, hard, "e3 17861", "[17861 17950]")
-mrgc = dn.rfs_image(mrgc, hard, "e3 24265", "[24265 24374]")
+mrgc = dn.rfs_image(mrgc, hard, "e3 14468", [(14468, 14497)])
+mrgc = dn.rfs_image(mrgc, hard, "e3 17861", [(17861, 17950)])
+mrgc = dn.rfs_image(mrgc, hard, "e3 24265", [(24265, 24374)])
 # ------------ #
 
 # ----filt---- #

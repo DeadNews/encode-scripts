@@ -14,7 +14,7 @@ epis = dn.source(f"./in/{epname}.mkv")
 
 
 def filt_ncop_aa(ncoped_aa):
-    return dn.rfs_hard(ncoped_aa, ncoped_aa, mthr=99, maps="[1391 1463] [1608 1635]")
+    return dn.rfs_hard(ncoped_aa, ncoped_aa, mthr=99, maps=[(1391, 1463), (1608, 1635)])
 
 
 # ----mrgc---- #
@@ -32,9 +32,9 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{OP+644} {OP+856}]")
+mrgc = dn.rfs(mrgc, aaep, [(OP + 644, OP + 856)])
 
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=95, maps="[10162 10235] [16887 16928]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=95, maps=[(10162, 10235), (16887, 16928)])
 # ------------ #
 
 # ----filt---- #
@@ -63,16 +63,16 @@ F3 = dn.filt(mrgc, rt_sigma=0.8)
 F4 = dn.filt(mrgc, sm_thr=300, db_thr=6, db_mode=1, rt_sigma=4, db_det=128)
 F5 = dn.filt(mrgc, sm_thr=44, db_thr=1, rt_sigma=0.7)
 
-F1 = dn.rfs(F1, F2, "[16479 16796] [17174 17552] [20935 21405]")
-F1 = dn.rfs(F1, F3, "[17880 18029] [18085 18194] [24375 24482]")
-F1 = dn.rfs(F1, F5, "[23997 24044]")
+F1 = dn.rfs(F1, F2, [(16479, 16796), (17174, 17552), (20935, 21405)])
+F1 = dn.rfs(F1, F3, [(17880, 18029), (18085, 18194), (24375, 24482)])
+F1 = dn.rfs(F1, F5, [(23997, 24044)])
 
-F1 = dn.rfs_image(F1, F4, "e1 14820", "[14820 14855]")
-F1 = dn.rfs_image(F1, F4, "e1 17328", "[17328 17387]")
-F1 = dn.rfs_image(F1, F4, "e1 19829", "[19829 19894]")
-F1 = dn.rfs_image(F1, F4, "e1 20003", "[20003 20356] [20513 20638] [21418 21562]")
-F1 = dn.rfs_image(F1, F4, "e1 20777", "[20777 20902]")
-F1 = dn.rfs_image(F1, F4, "e1 21963", "[21963 22130]")
+F1 = dn.rfs_image(F1, F4, "e1 14820", [(14820, 14855)])
+F1 = dn.rfs_image(F1, F4, "e1 17328", [(17328, 17387)])
+F1 = dn.rfs_image(F1, F4, "e1 19829", [(19829, 19894)])
+F1 = dn.rfs_image(F1, F4, "e1 20003", [(20003, 20356), (20513, 20638), (21418, 21562)])
+F1 = dn.rfs_image(F1, F4, "e1 20777", [(20777, 20902)])
+F1 = dn.rfs_image(F1, F4, "e1 21963", [(21963, 22130)])
 # ------------ #
 
 # ----out----- #

@@ -19,7 +19,7 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, sangnomPP=False, yuv=False, maps="[26123 26181]")
+# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, sangnomPP=False, yuv=False, maps=[(26123, 26181)])
 # ------------ #
 
 # ----filt---- #

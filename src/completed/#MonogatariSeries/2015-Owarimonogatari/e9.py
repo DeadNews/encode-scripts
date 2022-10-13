@@ -21,7 +21,7 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=10, maps="[31637 31678]")
+mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=10, maps=[(31637, 31678)])
 # ------------ #
 
 # ----filt---- #
@@ -50,10 +50,10 @@ F3 = dn.filt(mrgc, rt_sigma=0.8, db_saveblack=0)
 F4 = dn.filt(mrgc, sm_thr=44, db_thr=1, rt_sigma=0.7, db_grain=44)
 F5 = dn.filt(mrgc, sm_thr=34, db_thr=1, rt_sigma=0.6, db_grain=36)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [13937 17596]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1-24}]")
-F1 = dn.rfs(F1, F4, "[17597 24580]")
-F1 = dn.rfs(F1, F5, "[7533 7622]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (13937, 17596)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1 - 24)])
+F1 = dn.rfs(F1, F4, [(17597, 24580)])
+F1 = dn.rfs(F1, F5, [(7533, 7622)])
 # ------------ #
 
 # ----out----- #

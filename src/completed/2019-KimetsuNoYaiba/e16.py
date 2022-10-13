@@ -33,12 +33,12 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, aaep, f"[{OP+1701} {OP+1782}]")  # e16..e25
-mrgc = dn.rfs_image(mrgc, epis, "op_var", f"[{OP+1701} {OP+1742}]")
-mrgc = dn.rfs_resc(mrgc, epis, mthr=99, maps=f"[{OP+1743} {OP+1749}]")
+mrgc = dn.rfs(mrgc, aaep, [(OP + 1701, OP + 1782)])  # e16..e25
+mrgc = dn.rfs_image(mrgc, epis, "op_var", [(OP + 1701, OP + 1742)])
+mrgc = dn.rfs_resc(mrgc, epis, mthr=99, maps=[(OP + 1743, OP + 1749)])
 
 mrgc = dn.rfs_dehalo(mrgc)
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps=f"[{OP+293} {OP+397}]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, yuv=True, maps=[(OP + 293, OP + 397)])
 # ------------ #
 
 # ----filt---- #
@@ -49,10 +49,10 @@ F4 = dn.filt(mrgc, zone="noise_op")
 F5 = dn.filt(mrgc, zone="grain_op")
 F6 = dn.filt(mrgc, zone="noise_3")
 
-F1 = dn.rfs(F1, F2, f"[{ED} {ED+399}]")
-F1 = dn.rfs(F1, F3, f"[{EDend} {epis.num_frames-1}]")
-F1 = dn.rfs(F1, F4, f"[{OP} {OP+282}]")
-F1 = dn.rfs(F1, F5, f"[{OP+1169} {OP+1398}]")
+F1 = dn.rfs(F1, F2, [(ED, ED + 399)])
+F1 = dn.rfs(F1, F3, [(EDend, epis.num_frames - 1)])
+F1 = dn.rfs(F1, F4, [(OP, OP + 282)])
+F1 = dn.rfs(F1, F5, [(OP + 1169, OP + 1398)])
 F1 = dn.rfs(F1, F6, "[28920 29545] ")  # black=1
 # ------------ #
 

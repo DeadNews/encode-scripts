@@ -48,9 +48,9 @@ F0 = dn.filt(mrgc, rt_sigma=1)
 F2 = dn.filt(mrgc, sm_thr=45, db_thr=1, rt_sigma=0.8)
 F5 = dn.filt(mrgc, sm_thr=34, db_thr=1, rt_sigma=0.6, db_grain=36)
 
-F1 = dn.rfs(F1, F2, "[20156 20449]")
-F1 = dn.rfs(F1, F0, f"[{OP} {Title-1}]")
-F1 = dn.rfs(F1, F5, "[20087 20155]")
+F1 = dn.rfs(F1, F2, [(20156, 20449)])
+F1 = dn.rfs(F1, F0, [(OP, Title - 1)])
+F1 = dn.rfs(F1, F5, [(20087, 20155)])
 # ------------ #
 
 # ----out----- #

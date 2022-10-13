@@ -23,7 +23,7 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {Nextend-1}]"  # next
+maps = [(Next, Nextend - 1)]  # next
 maps += f" [{OP} {OPend-1}]"  # op castom
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
@@ -33,7 +33,7 @@ mrgc = dn.rfs_resc(mrgc, epis, mthr=75, maps=maps)
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="soft")
 
-F1 = dn.rfs(F1, F2, "[16183 16307]")
+F1 = dn.rfs(F1, F2, [(16183, 16307)])
 # ------------ #
 
 # ----out----- #

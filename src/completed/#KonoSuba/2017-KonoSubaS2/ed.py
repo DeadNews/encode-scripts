@@ -11,7 +11,7 @@ aaep = dn.aa(epis, epname)
 mrgc = aaep
 mrgc = dn.rfs_dehalo(mrgc)
 
-mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=2, maps="[50 227]")
+mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=2, maps=[(50, 227)])
 # ------------ #
 
 # ----filt---- #

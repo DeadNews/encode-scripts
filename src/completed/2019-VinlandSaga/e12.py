@@ -19,18 +19,18 @@ mrgc = op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, mthr=18, zone="868p", maps=f"[{OPend} {ED-1}]")
+mrgc = dn.rfs_resc(mrgc, epis, mthr=18, zone="868p", maps=[(OPend, ED - 1)])
 
 mrgc = dn.rfs_dehalo(mrgc)
 
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed1
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed1
 # ------------ #-1
 
 # ----filt---- #
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="edop")
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

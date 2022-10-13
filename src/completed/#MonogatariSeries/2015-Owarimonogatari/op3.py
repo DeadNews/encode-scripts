@@ -43,8 +43,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_mode=1, db_saveblack=0)
 F3 = dn.filt(mrgc, db_mode=2, db_saveblack=0)
 
-F1 = dn.rfs(F1, F2, f"[{OP+33} {OP+95}]")
-F1 = dn.rfs(F1, F3, f"[{OP+96} {OP+157}]")
+F1 = dn.rfs(F1, F2, [(OP + 33, OP + 95)])
+F1 = dn.rfs(F1, F3, [(OP + 96, OP + 157)])
 # ------------ #
 
 # ----out----- #

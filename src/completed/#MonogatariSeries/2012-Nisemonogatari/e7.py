@@ -12,12 +12,12 @@ epis = dn.source(f"./in/{epname}.mkv")
 # ----mrgc---- #
 aaep = dn.aa(epis, desc_h=desc_h)
 
-mrgc = dn.rfs(aaep, epis, "[36058 36887]")
+mrgc = dn.rfs(aaep, epis, [(36058, 36887)])
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_qtgmc(mrgc, aaep, maps="[15701 16513]")
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps="[15701 16513]")
+mrgc = dn.rfs_qtgmc(mrgc, aaep, maps=[(15701, 16513)])
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=99, maps=[(15701, 16513)])
 # ------------ #
 
 # ----filt---- #
@@ -45,9 +45,9 @@ F2 = dn.filt(mrgc, db_mode=1)
 F3 = dn.filt(mrgc, db_mode=2, db_range=20)
 F4 = dn.filt(mrgc, db_mode=1, db_range=20)
 
-F1 = dn.rfs(F1, F2, "[9604 9675] [12853 13170]")
-F1 = dn.rfs(F1, F3, "[29219 29242] [29285 29335] [30080 30205]")
-F1 = dn.rfs(F1, F4, "[28865 29047]")
+F1 = dn.rfs(F1, F2, [(9604, 9675), (12853, 13170)])
+F1 = dn.rfs(F1, F3, [(29219, 29242), (29285, 29335), (30080, 30205)])
+F1 = dn.rfs(F1, F4, [(28865, 29047)])
 # ------------ #
 
 # ----out----- #

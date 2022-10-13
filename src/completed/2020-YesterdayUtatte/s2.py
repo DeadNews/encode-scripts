@@ -15,7 +15,7 @@ mrgc = aaep
 mrgc = dn.rfs_dehalo(mrgc)
 
 End = epis.num_frames
-mrgc = dn.rfs_resc(mrgc, epis, maps=f"[{End-144} {End-1}]")  # title
+mrgc = dn.rfs_resc(mrgc, epis, maps=[(End - 144, End - 1)])  # title
 # ------------ #
 
 # ----filt---- #

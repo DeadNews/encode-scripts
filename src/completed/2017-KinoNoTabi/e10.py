@@ -18,9 +18,9 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=70, maps="[75 1590]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, maps="[1703 1821] [33812 33925]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=85, maps="[32141 33780]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=70, maps=[(75, 1590)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, maps=[(1703, 1821), (33812, 33925)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=85, maps=[(32141, 33780)])
 # ------------ #
 
 # ----filt---- #

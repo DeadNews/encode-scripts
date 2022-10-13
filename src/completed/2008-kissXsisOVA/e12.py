@@ -17,9 +17,9 @@ epis_back, epis_ef, edgefixer = dn.edgefix(epis)
 # epis_ef_right = epis.edgefixer.Continuity(top=2, bottom=3, left=6, right=4)
 epis_ef_bottom = epis.edgefixer.Continuity(top=2, bottom=1, left=6, right=7)
 #
-# epis_ef = dn.rfs(epis_ef, epis_ef_left,  "[]") #left fix
-# epis_ef = dn.rfs(epis_ef, epis_ef_right, "[]") #right fix
-epis_ef = dn.rfs(epis_ef, epis_ef_bottom, "[6729 6864]")  # bottom fix
+# epis_ef = dn.rfs(epis_ef, epis_ef_left,  [(, )]) #left fix
+# epis_ef = dn.rfs(epis_ef, epis_ef_right, [(, )]) #right fix
+epis_ef = dn.rfs(epis_ef, epis_ef_bottom, [(6729, 6864)])  # bottom fix
 #
 epis = epis_ef
 # ------------ #
@@ -39,9 +39,9 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-# mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps="[]")
+# mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps=[(, )])
 
-# mrgc = dn.rfs_resc(mrgc, epis, mthr=100, maps="[]")
+# mrgc = dn.rfs_resc(mrgc, epis, mthr=100, maps=[(, )])
 
 mrgc = dn.rfs_dehalo(mrgc)
 # ------------ #
@@ -50,7 +50,7 @@ mrgc = dn.rfs_dehalo(mrgc)
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=140, dn_pref=1, db_adaptive=False)  # ed
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

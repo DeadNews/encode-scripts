@@ -17,7 +17,7 @@ mrgc = aaep
 # ----mask---- #
 mrgc = dn.rfs_resc(mrgc, epis, mthr=58)
 mrgc = dn.rfs_dehalo(mrgc)
-mrgc = dn.rfs_resc(mrgc, epis, mthr=25, maps=f"[{ED} {EDend-1}]")
+mrgc = dn.rfs_resc(mrgc, epis, mthr=25, maps=[(ED, EDend - 1)])
 # ------------ #
 
 # ----filt---- #

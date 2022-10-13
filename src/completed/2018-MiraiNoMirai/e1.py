@@ -26,7 +26,7 @@ mrgc = epis_ef
 # ------------ #
 
 # ----mask---- #
-# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, maps="[26123 26181]")
+# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, maps=[(26123, 26181)])
 # ------------ #
 
 # -----in----- #
@@ -56,11 +56,11 @@ F3 = dn.filt(mrgc, cs_val=0.75, db_thr=2.7, db_mode=2)
 F4 = dn.filt(mrgc, cs_val=0.55, db_thr=2.4, db_mode=2, sm_thr=70)
 F5 = dn.filt(mrgc, cs_val=0.75, db_thr=1.6, db_mode=2, sm_thr=90, rt_sigma=0.9)
 
-F1 = dn.rfs(F1, F0, f"[0 {OPend-1}] [75561 75633] [{ED} {epis.num_frames-1}]")
-F1 = dn.rfs(F1, F2, "[74446 75562]")
-F1 = dn.rfs(F1, F3, "[84372 86005] [87558 87607] [87960 88087]")
-F1 = dn.rfs(F1, F4, "[107945 113687]")
-F1 = dn.rfs(F1, F5, "[113688 119373]")
+F1 = dn.rfs(F1, F0, [(0, OPend - 1), (75561, 75633), (ED, epis.num_frames - 1)])
+F1 = dn.rfs(F1, F2, [(74446, 75562)])
+F1 = dn.rfs(F1, F3, [(84372, 86005), (87558, 87607), (87960, 88087)])
+F1 = dn.rfs(F1, F4, [(107945, 113687)])
+F1 = dn.rfs(F1, F5, [(113688, 119373)])
 # ------------ #
 
 # ----out----- #

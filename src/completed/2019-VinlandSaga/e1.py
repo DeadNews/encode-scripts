@@ -21,12 +21,12 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
 
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed1
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed1
 
 maps = dn.load_map(epname, "signs")
 mrgc = dn.rfs_resc(mrgc, epis, mthr=68, maps=maps)
 
-mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=0.6, maps="[24233 24539]")
+mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=0.6, maps=[(24233, 24539)])
 # ------------ #
 
 # ----filt---- #
@@ -34,8 +34,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="edop")
 F3 = dn.filt(mrgc, zone="soft")
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, "[869 5070]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(869, 5070)])
 # ------------ #
 
 # ----out----- #

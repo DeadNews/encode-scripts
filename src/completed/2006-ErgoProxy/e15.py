@@ -21,12 +21,12 @@ mrgc = dn.rfs_image(aaep, epis, "ef")  # fix bot
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis_back, f"[{ED} {EDend-1}]")  # ed
-mrgc = dn.rfs_repair(mrgc, maps=f"[{ED} {EDend-1}]")  # ed repair
+mrgc = dn.rfs(mrgc, epis_back, [(ED, EDend - 1)])  # ed
+mrgc = dn.rfs_repair(mrgc, maps=[(ED, EDend - 1)])  # ed repair
 
 # FIX
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, maps="[31610 31687] [33662 33715] [34424 34526]")
-mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=0.77, maps="[15356 15465] [17616 17729] [22191 22292]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, maps=[(31610, 31687), (33662, 33715), (34424, 34526)])
+mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=0.77, maps=[(15356, 15465), (17616, 17729), (22191, 22292)])
 # ------------ #
 
 # ----filt---- #
@@ -35,9 +35,11 @@ F2 = dn.filt(mrgc, zone="op")
 F3 = dn.filt(mrgc, zone="ed")
 F4 = dn.filt(mrgc)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F4, "[17934 19748] [20277 21260] [23052 23645] [24321 24470] [25041 25154]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1)])
+F1 = dn.rfs(
+    F1, F4, [(17934, 19748), (20277, 21260), (23052, 23645), (24321, 24470), (25041, 25154)]
+)
 # ------------ #
 
 # ----out----- #

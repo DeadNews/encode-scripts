@@ -31,14 +31,14 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=70, maps="[31256 31794]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=88, maps="[22837 22929]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, maps="[25836 25932] [90 203]")
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=65, maps="[7077 7169]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=70, maps=[(31256, 31794)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=88, maps=[(22837, 22929)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, maps=[(25836, 25932), (90, 203)])
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=65, maps=[(7077, 7169)])
 
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=45, yuv=True, maps="[20254 2038]")
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=95, maps="[7386 7559]")
-mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=95, maps="[17558 17832]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=45, yuv=True, maps=[(20254, 2038)])
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=95, maps=[(7386, 7559)])
+mrgc = dn.rfs_hard(mrgc, epis, desc_h=desc_h, mthr=95, maps=[(17558, 17832)])
 # ------------ #
 
 # ----filt---- #
@@ -64,7 +64,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=80, db_mode=3)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [29486 29896]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (29486, 29896)])
 # ------------ #
 
 # ----out----- #

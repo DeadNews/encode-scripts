@@ -22,7 +22,7 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 
 # ----mask---- #
 stabilize = dn.qtgmc(mrgc)
-mrgc = dn.rfs_image(mrgc, stabilize, "e20 29855", "[29855 29905]")
+mrgc = dn.rfs_image(mrgc, stabilize, "e20 29855", [(29855, 29905)])
 # ------------ #
 
 # ----filt---- #
@@ -51,10 +51,10 @@ F2 = dn.filt(mrgc, sm_thr=45, db_thr=1, rt_sigma=0.8)
 F3 = dn.filt(mrgc, sm_thr=44, db_thr=1, rt_sigma=0.7)
 F4 = dn.filt(mrgc, sm_thr=38, db_thr=1, rt_sigma=0.6, db_grain=40)
 
-F1 = dn.rfs(F1, F2, "[18616 18680]")
-F1 = dn.rfs(F1, F0, f"[{OP} {Title-1}]")
-F1 = dn.rfs(F1, F3, "[0 1391] [7208 7255]")
-F1 = dn.rfs(F1, F4, "[30911 30976]")
+F1 = dn.rfs(F1, F2, [(18616, 18680)])
+F1 = dn.rfs(F1, F0, [(OP, Title - 1)])
+F1 = dn.rfs(F1, F3, [(0, 1391), (7208, 7255)])
+F1 = dn.rfs(F1, F4, [(30911, 30976)])
 # ------------ #
 
 # ----out----- #

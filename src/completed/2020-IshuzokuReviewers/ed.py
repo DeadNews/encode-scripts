@@ -16,7 +16,7 @@ mrgc = epis
 F1 = dn.filt(mrgc, zone="oped")
 F2 = dn.filt(mrgc, zone="ed_lite")
 
-F1 = dn.rfs(F1, F2, f"[{ED+1066} {ED+1469}]")
+F1 = dn.rfs(F1, F2, [(ED + 1066, ED + 1469)])
 # ------------ #
 
 # ----out----- #

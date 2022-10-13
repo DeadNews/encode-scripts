@@ -20,11 +20,11 @@ mrgc = aaep.std.Trim(0, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_frames - 1)
 
 # ----mask---- #
 stabilize = dn.qtgmc(aaep, ThSAD1=640 * 2, ThSAD2=256 * 2, ThSCD1=180 * 6, ThSCD2=98 * 6)
-mrgc = dn.rfs_image(mrgc, stabilize, "e4 17928", "[17928 18113]")
+mrgc = dn.rfs_image(mrgc, stabilize, "e4 17928", [(17928, 18113)])
 
 hard = dn.hard(mrgc, mthr=40)
-mrgc = dn.rfs_image(mrgc, hard, "e4 10937", "[10937 10960]")
-mrgc = dn.rfs_image(mrgc, hard, "e4 40913", "[40913 41050]")
+mrgc = dn.rfs_image(mrgc, hard, "e4 10937", [(10937, 10960)])
+mrgc = dn.rfs_image(mrgc, hard, "e4 40913", [(40913, 41050)])
 # ------------ #
 
 # ----filt---- #
@@ -52,9 +52,9 @@ F2 = dn.filt(mrgc, db_mode=1)
 F3 = dn.filt(mrgc, db_saveblack=0)
 F4 = dn.filt(mrgc, sm_thr=30, db_thr=1, rt_sigma=0.8)
 
-F1 = dn.rfs(F1, F2, "[18951 19133] [20352 20531] [40913 41050] [41333 41533]")
-F1 = dn.rfs(F1, F3, "[35014 35042]")
-F1 = dn.rfs(F1, F4, "[31444 31503]")
+F1 = dn.rfs(F1, F2, [(18951, 19133), (20352, 20531), (40913, 41050), (41333, 41533)])
+F1 = dn.rfs(F1, F3, [(35014, 35042)])
+F1 = dn.rfs(F1, F4, [(31444, 31503)])
 # ------------ #
 
 # ----out----- #

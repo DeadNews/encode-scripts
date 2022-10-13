@@ -11,7 +11,7 @@ mrgc = epis
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=60, maps="[1785 1888]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=60, maps=[(1785, 1888)])
 # ------------ #
 
 # ----filt---- #
@@ -49,8 +49,8 @@ F1 = dn.filt(
 F2 = dn.filt(mrgc, sm_thr=100, ag_str=0.50)
 F3 = dn.filt(mrgc, sm_thr=30, db_thr=1.3, rt_sigma=0.7, ag_str=0, db_saveblack=2)
 
-F1 = dn.rfs(F1, F2, "[552 655]")
-F1 = dn.rfs(F1, F3, "[1067 1271] [1581 1679]")
+F1 = dn.rfs(F1, F2, [(552, 655)])
+F1 = dn.rfs(F1, F3, [(1067, 1271), (1581, 1679)])
 # ------------ #
 
 # ----out----- #

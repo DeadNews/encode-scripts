@@ -18,9 +18,9 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis, f"[{OP} {OPend-1}]")  # op
-mrgc = dn.rfs(mrgc, epis, f"[{ED} {EDend-1}]")  # ed
-mrgc = dn.rfs(mrgc, epis, "[0 445] [67608 67799]")  # promos
+mrgc = dn.rfs(mrgc, epis, [(OP, OPend - 1)])  # op
+mrgc = dn.rfs(mrgc, epis, [(ED, EDend - 1)])  # ed
+mrgc = dn.rfs(mrgc, epis, [(0, 445), (67608, 67799)])  # promos
 # ------------ #
 
 # ----filt---- #
@@ -51,9 +51,9 @@ F2 = dn.filt(mrgc, sm_thr=40, db_thr=1.9, cs_mode=0, ag_str=0)
 F3 = dn.filt(mrgc, db_thr=3.9, db_saveblack=2, ag_str=0)
 F4 = dn.filt(mrgc, db_thr=1.1, ag_str=0.18)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, "[0 445] [67608 67799]")
-F1 = dn.rfs(F1, F4, "[48564 55223] [55675 56635]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(0, 445), (67608, 67799)])
+F1 = dn.rfs(F1, F4, [(48564, 55223), (55675, 56635)])
 # ------------ #
 
 # ----out----- #

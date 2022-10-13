@@ -12,14 +12,14 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, mthr=168, maps="[22340 23831] [31808 33469]")  # op ed
+mrgc = dn.rfs_resc(mrgc, epis, mthr=168, maps=[(22340, 23831), (31808, 33469)])  # op ed
 # ------------ #
 
 # ----filt---- #
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="noise")
 
-F1 = dn.rfs(F1, F2, "[30510 30629] [31016 31111]")
+F1 = dn.rfs(F1, F2, [(30510, 30629), (31016, 31111)])
 # ------------ #
 
 # ----out----- #

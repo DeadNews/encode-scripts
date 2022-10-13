@@ -8,10 +8,10 @@ Part_B = dn.chapt(epname, "Part_B")
 ED = dn.chapt(epname, "ED")
 End = dn.chapt(epname, "End")
 
-map_ed = f"[{ED+376} {End-1}]"
-map_title = f"[{Part_A-96} {Part_A-1}]"
-map_mid = f"[{Part_B-48} {Part_B-1}]"
-map_avant = f"[0 {Part_A-97}]"
+map_ed = [(ED + 376, End - 1)]
+map_title = [(Part_A - 96, Part_A - 1)]
+map_mid = [(Part_B - 48, Part_B - 1)]
+map_avant = [(0, Part_A - 97)]
 
 epis = dn.source(f"./in/{epname}.mp4")
 epis, epis_back, edgefixer = dn.edgefix(epis)

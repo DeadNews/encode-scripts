@@ -32,14 +32,14 @@ mrgc = (
 
 # ----mask---- #
 hard = dn.hard(epis, desc_h=desc_h, mthr=20, yuv=True)
-mrgc = dn.rfs_image(mrgc, hard, "e3 02", "[2252 2421]")
-mrgc = dn.rfs_image(mrgc, hard, "e3 03", "[26395 26455]")
-mrgc = dn.rfs_image(mrgc, hard, "e3 16550", "[16549 16857]")
+mrgc = dn.rfs_image(mrgc, hard, "e3 02", [(2252, 2421)])
+mrgc = dn.rfs_image(mrgc, hard, "e3 03", [(26395, 26455)])
+mrgc = dn.rfs_image(mrgc, hard, "e3 16550", [(16549, 16857)])
 
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=35, maps="[14977 15048]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=35, maps=[(14977, 15048)])
 
-mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=55, maps="[28879 28892]")
-mrgc = dn.rfs_image(mrgc, epis, "e3 01", "[28893 29018]")
+mrgc = dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=55, maps=[(28879, 28892)])
+mrgc = dn.rfs_image(mrgc, epis, "e3 01", [(28893, 29018)])
 # ------------ #
 
 # ----filt---- #
@@ -65,7 +65,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=80, db_mode=3)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

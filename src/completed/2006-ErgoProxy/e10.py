@@ -21,8 +21,8 @@ mrgc = dn.rfs_image(aaep, epis, "ef")  # fix bot
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis_back, f"[{ED} {EDend-1}]")  # ed
-mrgc = dn.rfs_repair(mrgc, maps=f"[{ED} {EDend-1}]")  # ed repair
+mrgc = dn.rfs(mrgc, epis_back, [(ED, EDend - 1)])  # ed
+mrgc = dn.rfs_repair(mrgc, maps=[(ED, EDend - 1)])  # ed repair
 # ------------ #
 
 # ----filt---- #
@@ -32,10 +32,10 @@ F3 = dn.filt(mrgc, zone="ed")
 F4 = dn.filt(mrgc, zone="noise2")
 F5 = dn.filt(mrgc, zone="fix_black")
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F4, "[27726 27880] [27989 28130]")
-F1 = dn.rfs(F1, F5, "[27580 27601]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1)])
+F1 = dn.rfs(F1, F4, [(27726, 27880), (27989, 28130)])
+F1 = dn.rfs(F1, F5, [(27580, 27601)])
 # ------------ #
 
 # ----out----- #

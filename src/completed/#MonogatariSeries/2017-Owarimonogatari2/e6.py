@@ -22,11 +22,11 @@ mrgc = op + aaep.std.Trim(OPend, ED - 1) + ed + aaep.std.Trim(EDend, epis.num_fr
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=80, maps="[15895 15959] [16103 16162] [16325 16372]")
-mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, maps="[16217 16252] [16758 16793]")
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=80, maps=[(15895, 15959), (16103, 16162), (16325, 16372)])
+mrgc = dn.rfs_hard(mrgc, mrgc, mthr=20, maps=[(16217, 16252), (16758, 16793)])
 
 hard = dn.hard(mrgc, mthr=20)
-mrgc = dn.rfs_image(mrgc, hard, "e6 9332", "[9332 9367]")
+mrgc = dn.rfs_image(mrgc, hard, "e6 9332", [(9332, 9367)])
 # ------------ #
 
 # ----filt---- #
@@ -53,8 +53,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_mode=1)
 F3 = dn.filt(mrgc, db_mode=2)
 
-F1 = dn.rfs(F1, F2, f"[{ED} {ED+112}] [10416 10565]")
-F1 = dn.rfs(F1, F3, f"[{OP} {OPend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, ED + 112), (10416, 10565)])
+F1 = dn.rfs(F1, F3, [(OP, OPend - 1)])
 # ------------ #
 
 # ----out----- #

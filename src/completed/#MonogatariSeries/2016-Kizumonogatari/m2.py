@@ -16,8 +16,8 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, sangnomPP=False, maps="[26123 26181]")
-# mrgc = dn.rfs_image(mrgc, epis_ef, maskname="1", maps="[10695 10840]")
+# mrgc = dn.rfs_hard(mrgc, epis, mthr=99, sangnomPP=False, maps=[(26123, 26181)])
+# mrgc = dn.rfs_image(mrgc, epis_ef, maskname="1", maps=[(10695, 10840)])
 # ------------ #
 
 # ----filt---- #

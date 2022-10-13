@@ -28,7 +28,7 @@ mrgc = (
 # ------------ #
 
 # ----mask---- #
-signs_map = f"[3543 3660] [{Part_B-95} {Part_B+71}] [{Next} {epis.num_frames-1}]"
+signs_map = [(3543, 3660), (Part_B - 95, Part_B + 71), (Next, epis.num_frames - 1)]
 mrgc = dn.rfs_resc(mrgc, epis, mthr=60, maps=signs_map)
 # ------------ #
 
@@ -58,8 +58,8 @@ F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_saveblack=2, db_thr=2.5)
 F3 = dn.filt(mrgc, sm_thr=56, db_thr=2.0, cs_val=0.6, rt_sigma=0.9)
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F3, "[12002 12424]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
+F1 = dn.rfs(F1, F3, [(12002, 12424)])
 # ------------ #
 
 # ----out----- #

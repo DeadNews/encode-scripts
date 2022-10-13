@@ -34,7 +34,7 @@ mrgc = dn.rfs_dehalo(mrgc)
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="noise")
 
-F1 = dn.rfs(F1, F2, "[21690 21959]")
+F1 = dn.rfs(F1, F2, [(21690, 21959)])
 # ------------ #
 
 # ----out----- #

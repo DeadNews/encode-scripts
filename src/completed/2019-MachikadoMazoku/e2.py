@@ -7,7 +7,7 @@ OP = dn.chapt(epname, "OP")
 OPend = dn.chapt(epname, "Part_A")
 ED = dn.chapt(epname, "ED")
 EDend = dn.chapt(epname, "Next")
-oped_maps = f"[{OP} {OPend-1}] [{ED} {EDend-1}]"
+oped_maps = [(OP, OPend - 1), (ED, EDend - 1)]
 
 epis = dn.source(f"./in/{epname}.mp4")
 # ------------ #

@@ -16,8 +16,8 @@ epis_back, epis_ef, edgefixer = dn.edgefix(epis)
 # epis_ef_left  = epis.edgefixer.Continuity(top=2, bottom=3, left=3, right=7)
 # epis_ef_right = epis.edgefixer.Continuity(top=2, bottom=3, left=6, right=4)
 #
-# epis_ef = dn.rfs(epis_ef, epis_ef_left,  "[]") #left fix
-# epis_ef = dn.rfs(epis_ef, epis_ef_right, "[]") #right fix
+# epis_ef = dn.rfs(epis_ef, epis_ef_left,  [(, )]) #left fix
+# epis_ef = dn.rfs(epis_ef, epis_ef_right, [(, )]) #right fix
 #
 epis = epis_ef
 # ------------ #
@@ -31,13 +31,13 @@ mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, ED - 1) + ed
 # ------------ #
 
 # ----mask---- #
-# mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps="[]")
+# mrgc = dn.rfs_qtgmc(mrgc, aaep, k=1, maps=[(, )])
 
 mrgc = dn.rfs_dehalo(mrgc)
 
 aaep_yuv = dn.aa(epis, yuv=True)
 aaep_yuv = dn.rfs_dehalo(aaep_yuv, zone="logo")
-mrgc = dn.rfs(mrgc, aaep_yuv, "[14866 15105]")  # mid_logo
+mrgc = dn.rfs(mrgc, aaep_yuv, [(14866, 15105)])  # mid_logo
 # ------------ #
 
 # ----filt---- #

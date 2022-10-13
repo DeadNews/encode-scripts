@@ -9,14 +9,14 @@ epis = dn.source(f"./in/{epname}.mp4")
 # ----mrgc---- #
 aaep = dn.aa(epis)
 aaep = dn.rfs_dehalo(aaep)
-mrgc = dn.rfs(aaep, epis, f"[0 792]")
+mrgc = dn.rfs(aaep, epis, [(0, 792)])
 # ------------ #
 
 # ----filt---- #
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_saveblack=2, ag_str=0)
 
-F1 = dn.rfs(F1, F2, "[0 792] [138814 142175]")
+F1 = dn.rfs(F1, F2, [(0, 792), (138814, 142175)])
 # ------------ #
 
 # ----out----- #

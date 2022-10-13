@@ -19,7 +19,7 @@ mrgc = dn.rfs_dehalo(mrgc)
 F1 = dn.filt(mrgc, zone="ed2")
 F2 = dn.filt(mrgc, zone="soft2")
 
-F1 = dn.rfs(F1, F2, "[1866 2021]")
+F1 = dn.rfs(F1, F2, [(1866, 2021)])
 # ------------ #
 
 # ----out----- #

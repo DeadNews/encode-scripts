@@ -19,17 +19,17 @@ mrgc = dn.rfs_image(aaep, epis, "ef")  # fix bot
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs(mrgc, epis_back, f"[{ED} {EDend-1}]")  # ed
-mrgc = dn.rfs_repair(mrgc, maps=f"[{ED} {EDend-1}]")  # ed repair
+mrgc = dn.rfs(mrgc, epis_back, [(ED, EDend - 1)])  # ed
+mrgc = dn.rfs_repair(mrgc, maps=[(ED, EDend - 1)])  # ed repair
 
-mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps="[41 1363]")  # op titles (1-2)
+mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=[(41, 1363)])  # op titles (1-2)
 # ------------ #
 
 # ----filt---- #
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, zone="ed")
 
-F1 = dn.rfs(F1, F2, f"[{ED} {EDend-1}]")
+F1 = dn.rfs(F1, F2, [(ED, EDend - 1)])
 # ------------ #
 
 # ----out----- #

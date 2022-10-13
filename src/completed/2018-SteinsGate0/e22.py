@@ -15,12 +15,12 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-maps = f"[{Next} {epis.num_frames-1}]"  # next
+maps = [(Next, epis.num_frames - 1)]  # next
 maps += " [671 2304]"  # op on epis
 maps += " [30479 31600] [33916 34046]"  # ed on epis
 
 mrgc = dn.rfs_resc(mrgc, epis, mthr=50, maps=maps)
-mrgc = dn.rfs(mrgc, epis, "[32686 33915]")  # ed black
+mrgc = dn.rfs(mrgc, epis, [(32686, 33915)])  # ed black
 # ------------ #
 
 # ----filt---- #
@@ -48,7 +48,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F3 = dn.filt(mrgc, db_saveblack=2)
 
-F1 = dn.rfs(F1, F3, "[32686 34046]")  # ed black
+F1 = dn.rfs(F1, F3, [(32686, 34046)])  # ed black
 # ------------ #
 
 # ----out----- #

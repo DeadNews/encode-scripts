@@ -19,9 +19,9 @@ mrgc = aaep
 # ----mask---- #
 mrgc = dn.rfs_dehalo(mrgc)
 
-mrgc = dn.rfs(mrgc, epis, f"[{OP} {OPend-1}] [{ED} {EDend-1}]")  # op ed
+mrgc = dn.rfs(mrgc, epis, [(OP, OPend - 1), (ED, EDend - 1)])  # op ed
 
-mrgc = dn.rfs_repair(mrgc, maps=f"[{ED+724} {ED+2133}]")  # ed repair
+mrgc = dn.rfs_repair(mrgc, maps=[(ED + 724, ED + 2133)])  # ed repair
 # ------------ #
 
 # ----filt---- #
@@ -32,11 +32,11 @@ F4 = dn.filt(mrgc, zone="ed_grain")
 F5 = dn.filt(mrgc, zone="lite")
 F6 = dn.filt(mrgc, zone="hard")
 
-F1 = dn.rfs(F1, F2, f"[{OP} {OPend-1}]")
-F1 = dn.rfs(F1, F3, f"[{ED} {EDend-1}]")
-F1 = dn.rfs(F1, F4, f"[{ED} {ED+251}]  [{ED+724} {ED+1538}]  [{ED+1886} {ED+2133}]")
-F1 = dn.rfs(F1, F5, "[2960 3132] [3171 3266]")
-F1 = dn.rfs(F1, F6, "[11836 12095] [12156 12359] [12500 12691]")
+F1 = dn.rfs(F1, F2, [(OP, OPend - 1)])
+F1 = dn.rfs(F1, F3, [(ED, EDend - 1)])
+F1 = dn.rfs(F1, F4, [(ED, ED + 251), (ED + 724, ED + 1538), (ED + 1886, ED + 2133)])
+F1 = dn.rfs(F1, F5, [(2960, 3132), (3171, 3266)])
+F1 = dn.rfs(F1, F6, [(11836, 12095), (12156, 12359), (12500, 12691)])
 # ------------ #
 
 # ----out----- #

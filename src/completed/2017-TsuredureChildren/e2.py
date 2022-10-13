@@ -17,10 +17,19 @@ mrgc = aaep
 # ------------ #
 
 # ----mask---- #
-mrgc = dn.rfs_resc(mrgc, epis, mthr=140, maps=f"[{OP} {OPend-1}]")
-mrgc = dn.rfs_resc(mrgc, epis, mthr=130, maps=f"[{ED} {EDend-1}]")
+mrgc = dn.rfs_resc(mrgc, epis, mthr=140, maps=[(OP, OPend - 1)])
+mrgc = dn.rfs_resc(mrgc, epis, mthr=130, maps=[(ED, EDend - 1)])
 
-random_signs = "[1677 1770] [5546 5603] [9834 9898] [10193 10323] [14935 14958] [15259 15302] [16678 16690] [19386 19444]"
+random_signs = [
+    (1677, 1770),
+    (5546, 5603),
+    (9834, 9898),
+    (10193, 10323),
+    (14935, 14958),
+    (15259, 15302),
+    (16678, 16690),
+    (19386, 19444),
+]
 mrgc = dn.rfs_resc(mrgc, epis, mthr=120, maps=random_signs)
 # ------------ #
 
@@ -49,7 +58,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=60, db_thr=2.66, cs_val=0.60, db_cs=0, rt_sigma=0.8)
 
-F1 = dn.rfs(F1, F2, "[14967 19324]")
+F1 = dn.rfs(F1, F2, [(14967, 19324)])
 # ------------ #
 
 # ----out----- #

@@ -44,7 +44,7 @@ def filt_old(
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, sm_thr=30, db_thr=1)
 
-F1 = dn.rfs(F1, F2, "[10234 10394]")
+F1 = dn.rfs(F1, F2, [(10234, 10394)])
 # ------------ #
 
 # ----out----- #
