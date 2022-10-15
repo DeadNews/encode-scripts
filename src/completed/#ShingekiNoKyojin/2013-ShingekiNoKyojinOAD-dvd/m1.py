@@ -11,7 +11,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 mrgc = epis
 mrgc = dn.rfs_dehalo(mrgc, zone="menu")
 
-mrgc = dn._rescale(mrgc, mode="insaneAA", width=1920, height=1080)
+mrgc = dn.rescale_(mrgc, mode="insane_aa", width=1920, height=1080)
 # ------------ #
 
 # ----filt---- #

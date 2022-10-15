@@ -14,7 +14,7 @@ mrgc = dn.rfs_dehalo(mrgc)
 mrgc = dn.rfs_linedark(mrgc)
 
 mrgc_back = mrgc
-mrgc = dn._rescale(mrgc, mode="insaneAA", width=1920, height=1080)
+mrgc = dn.rescale_(mrgc, mode="insane_aa", width=1920, height=1080)
 
 mrgc = dn.rfs_qtgmc(mrgc, mrgc, k=0.6, maps=[(0, 63)])
 # ------------ #
