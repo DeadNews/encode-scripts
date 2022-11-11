@@ -19,7 +19,6 @@ ignore = [
   "W503",   # Line break occurred before a binary operator.
   # Temp:
   "E402", # Module level import not at top of file.
-  "F541", # f-string is missing placeholders.
 ]
 
 [tool.mypy]

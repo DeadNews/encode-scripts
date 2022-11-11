@@ -17,7 +17,7 @@ desc_h = 720
 # ------------ #
 
 # -----aa----- #
-epis = dn.source(f"./in/e5.mp4")
+epis = dn.source("./in/e5.mp4")
 
 ED = 33986
 EDend = 36564
