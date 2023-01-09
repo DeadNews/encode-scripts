@@ -72,3 +72,9 @@ repos:
     rev: v3.0.0-alpha.4
     hooks:
       - id: prettier
+
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.20.0
+    hooks:
+      - id: check-dependabot
+      - id: check-github-workflows
