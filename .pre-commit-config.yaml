@@ -42,7 +42,7 @@ repos:
         args: [--in-place, --remove-all-unused-imports]
 
   - repo: https://github.com/PyCQA/isort
-    rev: 5.11.4
+    rev: 5.12.0
     hooks:
       - id: isort
 
@@ -74,7 +74,7 @@ repos:
       - id: prettier
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.20.0
+    rev: 0.21.0
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
