@@ -8,7 +8,6 @@ chdir(path.dirname(__file__))
 
 # ----diff---- #
 for epname in argv[1:]:
-
     OP = dn.chapt(epname, "OP")
     OPend = dn.chapt(epname, "Part_A")
     Part_B = dn.chapt(epname, "Part_B")
