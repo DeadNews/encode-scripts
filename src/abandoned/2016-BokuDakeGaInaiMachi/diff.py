@@ -8,7 +8,6 @@ chdir(path.dirname(__file__))
 
 # ----diff---- #
 for epname in argv[1:]:
-
     try:
         src1 = dn.source(f"./in/{epname}.mp4")
         # src1 = dn.source(f"./in/{epname}.mp4")[:1940]

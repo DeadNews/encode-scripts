@@ -8,7 +8,6 @@ if __name__ == "__main__":
     chapters = Path(Path(__file__).parent, "chapters.yaml").read_text()
 
     for epname in safe_load(chapters):
-
         try:
             # PreED = dn.chapt(epname, 'ED')
             # ED = dn.chapt(epname, 'realED', 'ED')
