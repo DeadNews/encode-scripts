@@ -1,30 +1,28 @@
 [tool.black]
 line-length = 99
 
-[tool.isort]
-line_length = 99
-profile = "black"
-
-[tool.flake8]
-max-line-length = 99
-max-complexity = 18
-show-source = true
-# statistics = true
+[tool.ruff]
+line-length = 99
+select = ["ALL"]
 ignore = [
-  "C408",   # Unnecessary dict call.
-  "E203",   # Whitespace before ':'.
-  "E501",   # Line too long.
-  "PIE786", # Use precise exception handlers.
-  "PIE803", # Use lazy % formatting in logging functions.
-  "W503",   # Line break occurred before a binary operator.
-  # Temp:
-  "E402", # Module level import not at top of file.
+  "ANN",    # flake8-annotations
+  "BLE001", # Do not catch blind exception: `Exception`
+  "COM812", # Trailing comma missing
+  "D100",   # Missing docstring in public module
+  "D103",   # Missing docstring in public function
+  "D203",   # 1 blank line required before class docstring
+  "D212",   # Multi-line docstring summary should start at the first line
+  "E402",   # Module level import not at top of file
+  "E501",   # Line too long
+  "ERA001", # Found commented-out code
+  "EXE001", # Shebang is present but file is not executable
+  "INP001", # File {filename} is part of an implicit namespace package. Add an __init__.py.
+  "RUF003", # Comment contains ambiguous unicode character
+  "T201",   # `print` found
 ]
 
-[tool.mypy]
-disallow_untyped_defs = true
-follow_imports = "silent"
-ignore_missing_imports = true
-show_column_numbers = true
-show_error_codes = true
-warn_unused_ignores = true
+[tool.ruff.flake8-comprehensions]
+allow-dict-calls-with-keyword-arguments = false
+
+[tool.ruff.flake8-tidy-imports]
+ban-relative-imports = "all"

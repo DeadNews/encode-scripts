@@ -1,10 +1,11 @@
 #!/usr/bin/env python
-from os import chdir, path
+from os import chdir
+from pathlib import Path
 from sys import argv
 
 import dnfunc as dn
 
-chdir(path.dirname(__file__))
+chdir(Path(__file__).parent)
 
 # ----diff---- #
 for epname in argv[1:]:

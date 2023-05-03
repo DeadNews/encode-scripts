@@ -4,7 +4,7 @@ import dnfunc as dn
 
 # -----in----- #
 epname = dn.fname(__file__)
-str, kernel, desc_h = 0.5, "bicubic", 720
+aa_str, kernel, desc_h = 0.5, "bicubic", 720
 
 epis = dn.source(f"./in/{epname}.mp4")
 # ------------ #
@@ -13,7 +13,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 if Path(f"./temp/{epname}_aa_lossless.mp4").is_file():
     aaep = dn.source(f"./temp/{epname}_aa_lossless.mp4")
 else:
-    aaep = dn.aa(epis, str=str, kernel=kernel, desc_h=desc_h)
+    aaep = dn.aa(epis, str=aa_str, kernel=kernel, desc_h=desc_h)
 
 mrgc = aaep
 # ------------ #
