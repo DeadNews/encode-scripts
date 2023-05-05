@@ -29,7 +29,6 @@ ignore = [
   "FBT001", # Boolean positional arg in function definition
   "FBT002", # Boolean default value in function definition
   #
-  "ANN",    # flake8-annotations
   "BLE001", # Do not catch blind exception: `Exception`
   "D100",   # Missing docstring in public module
   "D103",   # Missing docstring in public function
@@ -41,3 +40,6 @@ ignore = [
 
 [tool.ruff.flake8-comprehensions]
 allow-dict-calls-with-keyword-arguments = false
+
+[tool.ruff.flake8-annotations]
+ignore-fully-untyped = true
