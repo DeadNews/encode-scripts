@@ -1,3 +1,19 @@
+[tool.poetry]
+name = "encode-scripts"
+version = "0.0.0"
+description = "Vapoursynth scripts"
+authors = ["DeadNews <aurczpbgr@mozmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+vapoursynth = ">=60"
+dnfunc = "^0.0.2"
+pyyaml = "^6.0"
+
+[tool.poetry.group.ci.dependencies]
+black = "^23.3.0"
+ruff = "^0.0.264"
+
 [tool.black]
 line-length = 99
 
@@ -5,24 +21,23 @@ line-length = 99
 line-length = 99
 select = ["ALL"]
 ignore = [
-  "ANN",    # flake8-annotations
-  "BLE001", # Do not catch blind exception: `Exception`
   "COM812", # Trailing comma missing
-  "D100",   # Missing docstring in public module
-  "D103",   # Missing docstring in public function
   "D203",   # 1 blank line required before class docstring
   "D212",   # Multi-line docstring summary should start at the first line
-  "E402",   # Module level import not at top of file
   "E501",   # Line too long
-  "ERA001", # Found commented-out code
   "EXE001", # Shebang is present but file is not executable
+  "FBT001", # Boolean positional arg in function definition
+  "FBT002", # Boolean default value in function definition
+  #
+  "ANN",    # flake8-annotations
+  "BLE001", # Do not catch blind exception: `Exception`
+  "D100",   # Missing docstring in public module
+  "D103",   # Missing docstring in public function
+  "E402",   # Module level import not at top of file
+  "ERA001", # Found commented-out code
   "INP001", # File {filename} is part of an implicit namespace package. Add an __init__.py.
-  "RUF003", # Comment contains ambiguous unicode character
   "T201",   # `print` found
 ]
 
 [tool.ruff.flake8-comprehensions]
 allow-dict-calls-with-keyword-arguments = false
-
-[tool.ruff.flake8-tidy-imports]
-ban-relative-imports = "all"

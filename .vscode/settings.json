@@ -13,9 +13,5 @@
       "source.fixAll": true,
       "source.organizeImports": true
     }
-  },
-  // mypy
-  "python.linting.mypyEnabled": true,
-  // pytest
-  "python.testing.pytestEnabled": true
+  }
 }
