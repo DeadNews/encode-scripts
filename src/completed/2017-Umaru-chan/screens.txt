@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 title: Umaru-chan2017
-pattern: '/run/media/deadnews/data1/encode/Umaru-chan2017/out/[Kawaiika-Raws] Himouto! Umaru-chan R (2017) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Umaru-chan R ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Himouto Umaru-chan TV 2/Himouto Umaru-chan TV 2 ## серия.mkv'
+pattern: '/run/media/deadnews/data1/encode/Umaru-chan2017/out/[Kawaiika-Raws] Himouto! Umaru-chan R (2017) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Umaru-chan R ## [BDRip 1920x1080 HEVC FLAC].mkv' '/run/media/deadnews/data1/temp/temp/Himouto Umaru-chan TV 2/Himouto Umaru-chan TV 2 ##.mkv'
 
 e1:  33 7438
 e4:  14687 14927 15167 15421 15710

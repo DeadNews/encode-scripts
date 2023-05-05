@@ -2,10 +2,10 @@
 720
 Bicubic_b_0.20_c_0.50
 
-нужен кроп + ейджфикс на прошлое
-как детектить такие зоны?
-дифф между серией и серией с вставкой черных полос
-исключить черное
+need crop + edgefix for the `past`
+how to detect such zones?
+diff between series and series with insertion of black bars
+exclude black
 
-# титры
-# не детектит блек после кропа
+# credits
+# does not detect black after crop

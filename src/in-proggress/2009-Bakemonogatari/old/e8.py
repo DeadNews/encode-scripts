@@ -47,7 +47,7 @@ mrgc = dn.rfs(mrgc, epis, [(35292, epis.num_frames - 1)])
 fixed_black = mrgc.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=144)
 mrgc = dn.rfs(mrgc, fixed_black, [(0, OP - 1)])
 
-# возможно наоборот сделать: в серии без титров, а титры отдельно
+# it is possible to do the opposite: in a series without credits, and credits separately
 # ------------ #
 
 # -----in----- #

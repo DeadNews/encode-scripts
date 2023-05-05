@@ -33,7 +33,7 @@ F1 = dn.filt(mrgc)
 clip = dn.out(F1, epname)
 clip.set_output()
 
-# вернуть что не шум по маске на черное
+# return what is not the noise on the mask to black
 # ------------ #
 
 # ----save---- #

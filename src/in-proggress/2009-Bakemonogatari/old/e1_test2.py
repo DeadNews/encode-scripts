@@ -53,7 +53,7 @@ F2 = dn.filt(mrgc, db_saveblack=0, sm_thr=100, db_mode=1, rt_sigma=4)
 # F2 = dn.filt(mrgc, db_saveblack=0, sm_thr=100, db_mode=1, rt_sigma=4, db_grain=58)
 # F2 = dn.filt(mrgc, db_saveblack=0, sm_thr=100, db_thr=2.4, db_mode=3, rt_sigma=2, db_grain=28, db_range=10)
 # F2 = dn.filt(mrgc, db_saveblack=0, sm_thr=100, db_thr=2.4, db_mode=3, rt_sigma=1, db_range=10)
-# можно по маске сделать слабже..
+# can make the mask weaker ..
 
 filtered = dn.rfs_color(mrgc, F1, F2, tolerance=4)
 # 4818 28322   38882 44162   49922 55486   106830 125542
