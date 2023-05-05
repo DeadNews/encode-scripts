@@ -2,7 +2,7 @@ import dnfunc as dn
 
 # -----in----- #
 epname = dn.fname(__file__)
-str, kernel, desc_h = 0.5, "bilinear", 720
+aa_str, kernel, desc_h = 0.5, "bilinear", 720
 
 PartA = dn.chapt(epname, "Part_A")
 ED = dn.chapt(epname, "ED")
@@ -12,7 +12,7 @@ EDend = epis.num_frames
 # ------------ #
 
 # ----mrgc---- #
-aaep = dn.aa(epis, str=str, kernel=kernel, desc_h=desc_h)
+aaep = dn.aa(epis, str=aa_str, kernel=kernel, desc_h=desc_h)
 mrgc = aaep
 # ------------ #
 

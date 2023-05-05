@@ -21,10 +21,11 @@ def get_maps(epname):
         for r in maps[epname]:
             start, end = r
             m.append((start - 6, end + 6))
-        return m
 
     except Exception:
         return None
+    else:
+        return m
 
 
 def ext_nc(epname):
@@ -42,7 +43,7 @@ def ext_nc(epname):
 
         return dn.average([jpn, ita, jpn, ita, jpn, ita, jpn, ita, jpn, ita])
 
-    elif epname == "ed1":
+    if epname == "ed1":
         jpn = dn.source(f"./in/{epname}.mp4")
         ita = dn.source(f"./in/ita/{epname}.mp4")[27:].std.AssumeFPS(fpsnum=24000, fpsden=1001)
         usa = dn.source(f"./in/usa/{epname}.mp4")[24:].std.AssumeFPS(fpsnum=24000, fpsden=1001)

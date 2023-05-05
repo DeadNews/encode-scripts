@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 title: MushishiS20
-pattern:  '/run/media/deadnews/data1/temp/temp/Mushishi TV 2/Mushishi TV 2 ## серия.mkv' '/run/media/deadnews/data1/releases/ [Mushishi]/[Kawaiika-Raws] (2014) Mushishi Zoku Shou (S2) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Mushishi S2E## [BDRip 1920x1080 HEVC FLAC].mkv'
+pattern:  '/run/media/deadnews/data1/temp/temp/Mushishi TV 2/Mushishi TV 2 ##.mkv' '/run/media/deadnews/data1/releases/ [Mushishi]/[Kawaiika-Raws] (2014) Mushishi Zoku Shou (S2) [BDRip 1920x1080 HEVC FLAC]/[Kawaiika-Raws] Mushishi S2E## [BDRip 1920x1080 HEVC FLAC].mkv'
 
 # e1:  5327 6638 7247 7488 8198 9190 9290 9310 9702 9770 9770 9790 11186 11692 12394 13164 13284 14606 1483 1603 26972 26972 32634 3634 3634 3642 3642 3643 3874 3886 3887 3913 3913 3930 4006 4206 4206 4234 4249 4354 4393 4393 4487 4489 4607 4829
 # e2:  6480 7081 7201 8281 8427 9361 10218 11778 15747 21027 24890 24914 26007 26607 26666 27506 27626 31327 31687 4800

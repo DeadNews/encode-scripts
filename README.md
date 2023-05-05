@@ -6,4 +6,4 @@
 
 ## Deps
 
-- https://github.com/DeadNews/dnfunc
+- <https://github.com/DeadNews/dnfunc>

@@ -17,8 +17,8 @@ epis_back = _crop_rel(epis)
 mrgc = core.yadifmod.Yadifmod(epis, edeint=core.nnedi3.nnedi3(epis, 1), order=1, mode=0)
 mrgc = _crop_rel(mrgc)
 
-# может тут вообще не нужен деинт?
-# с надписями что-то — 7738
+# maybe deint is not needed here at all?
+# something with captions — 7738
 # mrgc = dn.rfs_resc(mrgc, epis_back, desc_h=320, mthr=200, maps=[(1934, 2009)]) #test
 # ---------- #
 

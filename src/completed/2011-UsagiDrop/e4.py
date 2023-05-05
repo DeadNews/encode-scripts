@@ -2,7 +2,7 @@ import dnfunc as dn
 
 # -----in----- #
 epname = dn.fname(__file__)
-str, kernel, desc_h = 0.5, "bicubic", 720
+aa_str, kernel, desc_h = 0.5, "bicubic", 720
 
 OP = dn.chapt(epname, "OP")
 OPend = dn.chapt(epname, "Part_A")
@@ -13,7 +13,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 # ------------ #
 
 # ----mrgc---- #
-aaep = dn.aa(epis, str=str, kernel=kernel, desc_h=desc_h)
+aaep = dn.aa(epis, str=aa_str, kernel=kernel, desc_h=desc_h)
 op = dn.oped(epis, name="op2", offset=24, start=OP, end=OPend, desc_h=desc_h)
 
 mrgc = aaep.std.Trim(0, OP - 1) + op + aaep.std.Trim(OPend, epis.num_frames - 1)

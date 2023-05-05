@@ -25,7 +25,7 @@ mrgc = dn.rfs_image(mrgc, hard, "ed1", [(ED + 1656, ED + 1725)])
 # ------------ #
 
 # ----filt---- #
-# db_cs=True убрал, вместо него повысить cs_va до 0.7
+# Removed `db_cs=True`, increase `cs_va` to 0.7 instead
 """
 def filt_old(
     mrgc=mrgc,

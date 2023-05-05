@@ -23,5 +23,5 @@ fi
 
 # 60fps
 # ./vspipe-x264-lossless.zsh --depth 10 --staticName e15.py
-# ./run-vspipe-x265.zsh --rcloneUpload e15.py -- менять in
+# ./run-vspipe-x265.zsh --rcloneUpload e15.py -- change `in`
 # ./run-vspipe-x265.zsh --rcloneUpload --keyint 625 e15_60fps.py

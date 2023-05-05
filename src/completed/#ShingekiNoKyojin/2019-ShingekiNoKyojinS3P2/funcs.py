@@ -80,7 +80,8 @@ def get_maps(epname):
         for r in maps[epname]:
             start, end = r
             m.append((start - 6, end + 6))
-        return m
 
     except Exception:
         return None
+    else:
+        return m

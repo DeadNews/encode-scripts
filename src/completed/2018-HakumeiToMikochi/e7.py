@@ -2,7 +2,7 @@ import dnfunc as dn
 
 # -----in----- #
 epname = dn.fname(__file__)
-str, kernel, desc_h = 0.58, "bicubic", 720
+aa_str, kernel, desc_h = 0.58, "bicubic", 720
 
 PartB = dn.chapt(epname, "Part_B")
 PartC = dn.chapt(epname, "Part_C")
@@ -14,7 +14,7 @@ EDend = epis.num_frames
 # ------------ #
 
 # ----mrgc---- #
-aaep = dn.aa(epis, str=str, kernel=kernel, desc_h=desc_h, yuv=True)
+aaep = dn.aa(epis, str=aa_str, kernel=kernel, desc_h=desc_h, yuv=True)
 mrgc = aaep
 # ------------ #
 

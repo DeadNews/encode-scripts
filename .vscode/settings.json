@@ -7,26 +7,11 @@
     "*.vpy": "python"
   },
   "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
+      "source.fixAll": true,
       "source.organizeImports": true
     }
-  },
-  // black
-  "python.formatting.provider": "black",
-  "python.formatting.blackArgs": [],
-  // isort
-  "python.sortImports.args": [],
-  // mypy
-  "python.linting.mypyEnabled": true,
-  "python.linting.mypyArgs": [],
-  // flake8
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": [],
-  // bandit
-  "python.linting.banditEnabled": true,
-  "python.linting.banditArgs": ["-c", "pyproject.toml"],
-  // pytest
-  "python.testing.pytestEnabled": true,
-  "python.testing.pytestArgs": []
+  }
 }

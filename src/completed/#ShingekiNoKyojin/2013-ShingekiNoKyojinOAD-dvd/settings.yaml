@@ -43,7 +43,8 @@ dehalo:
 
 linedark:
   main:
-    linedark_args: { strength: 15, protection: 3, luma_cap: 191, threshold: 2, thinning: 15 }
+    linedark_args:
+      { strength: 15, protection: 3, luma_cap: 191, threshold: 2, thinning: 15 }
 
 edgefix:
   main:

@@ -53,10 +53,10 @@ F1 = dn.filt(mrgc)
 # F1 = rfs_sb_mask(F1, black_clip, mask_src=mrgc, maps=[(0, EDend)])
 # F1 = rfs_sb_mask(F1, black_clip, mask_src=mrgc, maps=[(13805, 14023), (14055, 14077)])
 # 4818 28322   38882 44162   49922 55486   106830 125542
-# tolerance=4 — для усиления
-# tolerance=2 — для замены на черное
-# хотя в некоторых сценах можно и 4 поставить для замены
-# разность можно между ними посмотреть и вернуть по этой маске дебанд с 4
+# tolerance=4 — to enhance
+# tolerance=2 — to change to black
+# although in some scenes it is possible to put 4 to replace
+# it is possible to see the difference between them and return the deband from 4 using this mask
 
 # sb_mask = core.tcm.TColorMask(mrgc, '$000000', tolerance=2)
 # from vapoursynth import GRAY16

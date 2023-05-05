@@ -49,4 +49,5 @@ dehalo:
 
 linedark:
   main:
-    linedark_args: { strength: 48, protection: 3, luma_cap: 191, threshold: 4, thinning: 48 }
+    linedark_args:
+      { strength: 48, protection: 3, luma_cap: 191, threshold: 4, thinning: 48 }
