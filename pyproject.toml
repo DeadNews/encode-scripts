@@ -12,7 +12,7 @@ pyyaml = "^6.0"
 
 [tool.poetry.group.ci.dependencies]
 black = "^23.3.0"
-ruff = "^0.0.264"
+ruff = "^0.0.265"
 
 [tool.black]
 line-length = 99
