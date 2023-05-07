@@ -7,7 +7,7 @@ authors = ["DeadNews <aurczpbgr@mozmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 vapoursynth = ">=60"
-dnfunc = "^0.0.2"
+dnfunc = "^0.0.3"
 pyyaml = "^6.0"
 
 [tool.poetry.group.ci.dependencies]

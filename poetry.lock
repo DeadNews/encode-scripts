@@ -78,21 +78,22 @@ files = [
 
 [[package]]
 name = "dnfunc"
-version = "0.0.2"
+version = "0.0.3"
 description = "A collection of Vapoursynth functions and wrapperspoetr"
 category = "main"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "dnfunc-0.0.2-py3-none-any.whl", hash = "sha256:e02ccc3be7670d13566f267e344f0fc7aadac6f72d7f844cbbb15a4f3cf10de2"},
-    {file = "dnfunc-0.0.2.tar.gz", hash = "sha256:8e1c400adac49c177367fb96d930cd60ffcf1965b90a5aaa244e1818637cbe58"},
+    {file = "dnfunc-0.0.3-py3-none-any.whl", hash = "sha256:62e984eb4439b911b0d26061707b286b21a5fd434a8897f58de03791dd1e5a0c"},
+    {file = "dnfunc-0.0.3.tar.gz", hash = "sha256:11138e2f406d2820549ea49d4aebba50230b42a74d2cd1fb829d6c4a57e142f7"},
 ]
 
 [package.dependencies]
 havsfunc = ">=33,<34"
+lvsfunc = ">=0.7.1,<0.8.0"
 pyyaml = ">=6.0,<7.0"
-vapoursynth = ">=61,<62"
-vstools = ">=1.6.2,<2.0.0"
+vapoursynth = ">=60"
+vstools = ">=2.1.0,<3.0.0"
 vsutil = ">=0.8.0,<0.9.0"
 
 [[package]]
@@ -109,6 +110,24 @@ files = [
 [package.dependencies]
 VapourSynth = ">=57"
 vsutil = "*"
+
+[[package]]
+name = "lvsfunc"
+version = "0.7.1"
+description = "Light's Vapoursynth Functions."
+category = "main"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "lvsfunc-0.7.1-py3-none-any.whl", hash = "sha256:5e0cb910f7130a1360bf12608d402fbfc22a5c4411e0f94549dc0b04444fd613"},
+    {file = "lvsfunc-0.7.1.tar.gz", hash = "sha256:473ad678fdada99d262f5430d5a0f5c967814199a13175304c24574cd5552b64"},
+]
+
+[package.dependencies]
+VapourSynth = ">=60"
+vskernels = ">=2.3.2"
+vsparsedvd = ">=0.1.0"
+vstools = ">=2.0.5"
 
 [[package]]
 name = "markdown-it-py"
@@ -213,6 +232,18 @@ files = [
 
 [package.extras]
 plugins = ["importlib-metadata"]
+
+[[package]]
+name = "pyparsedvd"
+version = "0.0.3"
+description = "Parse and extract binary data from dvd files"
+category = "main"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "pyparsedvd-0.0.3-py3-none-any.whl", hash = "sha256:70827e834613ecc9143939806a1135eb06f8227b53688b5a473eb39272e25376"},
+    {file = "pyparsedvd-0.0.3.tar.gz", hash = "sha256:b6103869f61f7cd3809c95566135fb35cecbb9b4544919b0871f411a3ec6c843"},
+]
 
 [[package]]
 name = "pyyaml"
@@ -338,20 +369,52 @@ files = [
 ]
 
 [[package]]
+name = "vskernels"
+version = "2.4.0"
+description = "Kernel objects for scaling and format conversion within VapourSynth"
+category = "main"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "vskernels-2.4.0-py3-none-any.whl", hash = "sha256:7d7658fa40723d43378e9bfa2420a899eee94eb61e02ad58d823fd5975366fa1"},
+    {file = "vskernels-2.4.0.tar.gz", hash = "sha256:90c35cd42ef73d7c8aced43c742b334914cdc6b49592dc85b88c4c04d39ae7e7"},
+]
+
+[package.dependencies]
+VapourSynth = ">=60"
+vstools = ">=2.1.0"
+
+[[package]]
+name = "vsparsedvd"
+version = "0.1.0"
+description = "Vapoursynth Wrapper for DVDs stuff"
+category = "main"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "vsparsedvd-0.1.0-py3-none-any.whl", hash = "sha256:490de3f0f3b0d4a64b4200687e5dfe8e7ed0c7a572a3693733d62959dcfc367d"},
+    {file = "vsparsedvd-0.1.0.tar.gz", hash = "sha256:a3cfde05445928d15471e82def9ed7a4a9a95d8ac0b0be03ae07800422b51395"},
+]
+
+[package.dependencies]
+pyparsedvd = ">=0.0.3"
+VapourSynth = ">=59"
+
+[[package]]
 name = "vstools"
-version = "1.6.13"
+version = "2.1.0"
 description = "Functions and utils related to VapourSynth"
 category = "main"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "vstools-1.6.13-py3-none-any.whl", hash = "sha256:e157b259ac027b720afaca78687b4bef06bc8f41b8aa970c841c217ff6f322c8"},
-    {file = "vstools-1.6.13.tar.gz", hash = "sha256:e091aa958ff5b0d81cedf4d163d3d9a75474355fe7cc8c226136bb32175247cd"},
+    {file = "vstools-2.1.0-py3-none-any.whl", hash = "sha256:153413304e2382dab90a5a567659f61c0096aa5cf4acbd4c4329322b74f758b0"},
+    {file = "vstools-2.1.0.tar.gz", hash = "sha256:36571f6ba6abaf389637d8ad0c42247a8491abdbe2d7387d7c7daa8269bac81a"},
 ]
 
 [package.dependencies]
 rich = ">=12.6.0"
-VapourSynth = ">=59"
+VapourSynth = ">=60"
 
 [[package]]
 name = "vsutil"
@@ -371,4 +434,4 @@ vapoursynth = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "e0873788711cc241db8193b7ada44a42d407e24f06c21e3006cc53b3e63ad3d9"
+content-hash = "2834330ac298dd0b4f1e7003d0b6d02b1b8e232c0b715f3bdf6ac7d4310af174"
