@@ -355,17 +355,17 @@ files = [
 
 [[package]]
 name = "vapoursynth"
-version = "61"
+version = "62"
 description = "A frameserver for the 21st century"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "VapourSynth-61-cp310-cp310-win32.whl", hash = "sha256:4f0d74a626f9ac7da79c016eeacbda41d97065462b01ca7d34d794367c278294"},
-    {file = "VapourSynth-61-cp310-cp310-win_amd64.whl", hash = "sha256:6f3b7c668031840c8612c2e3cf40f7aad35f5f04dc34b4ac76bd221dc2abca4e"},
-    {file = "VapourSynth-61-cp38-cp38-win32.whl", hash = "sha256:a1a7465bafd8727a599a4687a836a19bb9712bd91f29155301c196f03a1a8b00"},
-    {file = "VapourSynth-61-cp38-cp38-win_amd64.whl", hash = "sha256:1ff652f070418afddf635c348dc3595ea4db57ceefcea0d53db2701450af7ec2"},
-    {file = "VapourSynth-61.zip", hash = "sha256:9b0f7f53008ab7a7495ca4e3d8402c8049be279d562a4aef3977ce62b191277c"},
+    {file = "VapourSynth-62-cp311-cp311-win32.whl", hash = "sha256:b65f65825d1fb52aaf1e39ef9be4a29bff4c042cb78eb796e624bf712c69f9be"},
+    {file = "VapourSynth-62-cp311-cp311-win_amd64.whl", hash = "sha256:e9fa4c934a9fd26e6604d4f0c1a3e0ae57ff899a6533d633bdbd66c3d4f0bae3"},
+    {file = "VapourSynth-62-cp38-cp38-win32.whl", hash = "sha256:6f0cb1a1d4f108764c807b75ab11545103a75f478b2b627d75dfe75f67175fac"},
+    {file = "VapourSynth-62-cp38-cp38-win_amd64.whl", hash = "sha256:767b7ab60ad092bfb1cc18ada3269af088c79641c2d07292e2299da4e00483f6"},
+    {file = "VapourSynth-62.zip", hash = "sha256:d2b15b75f941041ea345e6018ef14ce63c62ffae3638022cf5eaa20b5c1a8ff4"},
 ]
 
 [[package]]
