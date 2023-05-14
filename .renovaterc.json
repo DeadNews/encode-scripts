@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "automerge": true,
-  "automergeSchedule": ["every weekend"],
   "automergeStrategy": "squash",
   "commitMessageAction": "update",
   "dependencyDashboard": true,
@@ -9,17 +8,16 @@
   "labels": ["deps"],
   "packageRules": [
     {
-      "addLabels": ["main", "major"],
-      "automerge": false,
-      "description": "Disable automerge for major updates in Poetry main dependency group",
-      "matchDepTypes": ["dependencies"],
-      "matchManagers": ["poetry"],
-      "matchUpdateTypes": ["major"]
+      "addLabels": ["pre-commit"],
+      "description": "Group all pre-commit updates together in one PR",
+      "groupName": "pre-commit hooks",
+      "matchManagers": ["pre-commit"]
     }
   ],
   "platformAutomerge": true,
   "pre-commit": {
     "enabled": true
   },
+  "schedule": ["every 1 months on the first day of the month"],
   "semanticCommits": "enabled"
 }

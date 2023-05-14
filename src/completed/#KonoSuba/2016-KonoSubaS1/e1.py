@@ -37,7 +37,7 @@ F3 = dn.filt(mrgc, zone="limb")
 
 F1 = dn.rfs(F1, F2, [(OP, OPend - 1), (ED, EDend - 1)])
 F1 = dn.rfs(F1, F3, [(OP + 1092, OP + 1280)])
-F1 = dn.rfs(F1, F3, [(1871, OP - 1), (OPend, 14682)])  # need chek
+F1 = dn.rfs(F1, F3, [(1871, OP - 1), (OPend, 14682)])  # need check
 # ------------ #
 
 # ----out----- #

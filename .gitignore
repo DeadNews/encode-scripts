@@ -61,9 +61,10 @@ dmypy.json
 .history/
 
 # encode
-in/
-out/
-in
-out
-*.png
 !mask/*.png
+.vspreview
+*.png
+in
+in/
+out
+out/
