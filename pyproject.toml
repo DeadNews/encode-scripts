@@ -14,6 +14,10 @@ pyyaml = "^6.0"
 black = "^23.3.0"
 ruff = "^0.0.267"
 
+[tool.poetry.group.pv.dependencies]
+vspreview = "^0.4.4"
+numpy = "^1.24.3"
+
 [tool.black]
 line-length = 99
 

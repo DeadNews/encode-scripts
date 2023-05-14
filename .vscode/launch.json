@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "args": ["${file}"],
+      "module": "vspreview",
+      "name": "Vapoursynth: Preview",
+      "request": "launch",
+      "type": "python"
+    }
+  ],
+  "version": "0.2.0"
+}
