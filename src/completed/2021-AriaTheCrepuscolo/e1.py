@@ -10,7 +10,7 @@ epis = dn.source(f"./in/{epname}.mp4")
 mrgc = dn.rfs_dehalo(epis)
 
 dehalo = dn.rfs_dehalo(mrgc, zone="2nd")
-dehalo_hard = dn.rfs_dehalo(mrgc, zone="2nd_strong")
+dehalo_hard = dn.rfs_dehalo(mrgc, zone="3nd")
 
 mrgc = dn.rfs(dehalo, dehalo_hard, (82405, 85884))
 

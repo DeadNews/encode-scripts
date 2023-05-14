@@ -23,8 +23,8 @@ mrgc = aaep
 # mrgc         = dn.rfs(mrgc, fixed_black, [(0, 2205), (OP, OPend-1)])
 #
 # sw_mask      = dn.gradfun_mask(aaep, thr_det=1, db_mode=3).fmtc.bitdepth(bits=8)
-# save_wite = core.std.MaskedMerge(mrgc, aaep, db_mode=sw_mask, planes=0)
-# mrgc      = dn.rfs_image(mrgc, save_wite, 'timer', [(0, 591)])
+# save_white = core.std.MaskedMerge(mrgc, aaep, db_mode=sw_mask, planes=0)
+# mrgc      = dn.rfs_image(mrgc, save_white, 'timer', [(0, 591)])
 # ------------ #
 
 
@@ -89,8 +89,8 @@ fix_black = F1.std.CropRel(top=142, bottom=144).std.AddBorders(top=142, bottom=1
 F1 = dn.rfs(F1, fix_black, [(0, 2205), (OP, OPend - 1)])
 
 w_mask = dn.gradfun_mask(aaep, thr_det=1, db_mode=3)
-save_wite = core.std.MaskedMerge(F1, aaep.fmtc.bitdepth(bits=16), db_mode=w_mask, planes=0)
-F1 = dn.rfs_image(F1, save_wite, "timer", [(0, 591)])
+save_white = core.std.MaskedMerge(F1, aaep.fmtc.bitdepth(bits=16), db_mode=w_mask, planes=0)
+F1 = dn.rfs_image(F1, save_white, "timer", [(0, 591)])
 
 # halos = core.std.Expr([mask_outer, mask_inner], 'x y -')
 # ------------ #
