@@ -1,23 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "automerge": true,
-  "automergeStrategy": "squash",
-  "commitMessageAction": "update",
-  "dependencyDashboard": true,
-  "extends": ["config:base"],
-  "labels": ["deps"],
-  "packageRules": [
-    {
-      "addLabels": ["pre-commit"],
-      "description": "Group all pre-commit updates together in one PR",
-      "groupName": "pre-commit hooks",
-      "matchManagers": ["pre-commit"]
-    }
-  ],
-  "platformAutomerge": true,
-  "pre-commit": {
-    "enabled": true
-  },
-  "schedule": ["every 1 months on the first day of the month"],
-  "semanticCommits": "enabled"
+  "extends": ["config:base", "github>DeadNews/renovate-config"],
+  "schedule": ["every 1 months on the first day of the month"]
 }
