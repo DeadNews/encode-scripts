@@ -10,7 +10,7 @@ vapoursynth = ">=60"
 dnfunc = "^0.0.3"
 pyyaml = "^6.0"
 
-[tool.poetry.group.ci.dependencies]
+[tool.poetry.group.lint.dependencies]
 black = "^23.3.0"
 ruff = "^0.0.267"
 

@@ -611,4 +611,4 @@ vapoursynth = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "aee5dfc20469e53550d73f0b322d2adf95cb3d6952e250239fb74dd13603f957"
+content-hash = "6ac7b549dd4e31883c13b02c166a829f5fd536388661fb64e08aff00d1ac54f3"
