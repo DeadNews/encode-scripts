@@ -1,5 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", "github>DeadNews/renovate-config"],
-  "schedule": ["every 1 months on the first day of the month"]
+  "extends": ["config:base", "github>DeadNews/renovate-config"]
 }
