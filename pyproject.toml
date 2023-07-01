@@ -15,7 +15,7 @@ black = "^23.3.0"
 ruff = "^0.0.275"
 
 [tool.poetry.group.pv.dependencies]
-vspreview = "^0.6.0"
+vspreview = "^0.7.0"
 numpy = "^1.24.3"
 
 [tool.black]
