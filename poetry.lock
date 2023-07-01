@@ -1118,14 +1118,14 @@ VapourSynth = ">=59"
 
 [[package]]
 name = "vspreview"
-version = "0.6.0"
+version = "0.7.0"
 description = "Previewer for VapourSynth scripts"
 category = "dev"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "vspreview-0.6.0-py3-none-any.whl", hash = "sha256:aaf0b38138a4d9350268c022be1b5d176f6152ba6845143788340e4f55ca5084"},
-    {file = "vspreview-0.6.0.tar.gz", hash = "sha256:d84cf4fe72841105b54928320a2864eab62ee596b6ddaafbca76a5b74e4462a4"},
+    {file = "vspreview-0.7.0-py3-none-any.whl", hash = "sha256:ef1bb1182bf76f226c1580a1d1cdab76b4ac4599e3945ebfd9236d1dc4d05903"},
+    {file = "vspreview-0.7.0.tar.gz", hash = "sha256:2715af2a0493cce52076507b01d8f9d9ef72532d33eca56ab94098197137e0d6"},
 ]
 
 [package.dependencies]
@@ -1177,4 +1177,4 @@ vapoursynth = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "b73f4a132e268f75d70e052fed1ff81625bc2af153339641a21d2b6e48fb87e2"
+content-hash = "1ad1b9282ba69fb88cdd9ed76ccf480383d4339e9ebfcce20254c525578a39e8"
