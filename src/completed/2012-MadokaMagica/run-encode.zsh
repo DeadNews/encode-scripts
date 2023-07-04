@@ -2,7 +2,7 @@
 
 # default
 if [[ -f './part' ]]; then
-    part=$(<'./part')
+    part=$(< './part')
 fi
 vsx='./run-vspipe-x265.zsh'
 chmod u+x ${vsx}

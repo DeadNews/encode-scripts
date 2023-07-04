@@ -1,0 +1,7 @@
+[*.{sh,zsh}]
+indent_style = space
+indent_size = 4
+
+simplify = true
+binary_next_line = true
+space_redirects = true
