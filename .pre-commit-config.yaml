@@ -27,7 +27,7 @@ repos:
       - id: check-renovate
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.0.275
+    rev: v0.0.276
     hooks:
       - id: ruff
         args: [--fix]
@@ -38,14 +38,14 @@ repos:
       - id: black
 
   - repo: https://github.com/python-poetry/poetry
-    rev: 1.5.1
+    rev: 1.5.0
     hooks:
       - id: poetry-check
       - id: poetry-lock
         args: [--check]
 
   - repo: https://github.com/scop/pre-commit-shfmt
-    rev: v3.6.0-2
+    rev: v3.7.0-1
     hooks:
       - id: shfmt
         args: [-w, -s, -i, "4"]
