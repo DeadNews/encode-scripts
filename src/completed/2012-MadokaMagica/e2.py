@@ -66,7 +66,7 @@ F9 = dn.filt(mrgc, db_thr=2.1, sm_thr=50)
 F11 = dn.filt(mrgc, db_thr=2.1, sm_thr=80)
 F12 = dn.filt(mrgc, db_saveblack=0, db_thr=2.1, sm_thr=50)
 F13 = dn.filt(mrgc, db_thr=0, cs_mode=0, sm_thr=2000)
-F14 = dn.adaptive_grain(F13, strength=0.8, static=True, luma_ag_scaling=60, show_db_mode=False)
+F14 = dn.kg.adaptive_grain(F13, strength=0.8, static=True, luma_ag_scaling=60, show_db_mode=False)
 
 F1 = dn.rfs(
     F1,

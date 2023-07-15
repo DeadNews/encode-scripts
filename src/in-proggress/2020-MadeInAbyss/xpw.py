@@ -13,7 +13,7 @@ ag_scaling = 40
 # ag_scaling = 4
 # ag_scaling = 4
 
-# adaptive_mask = dn.adaptive_grain(epis, luma_ag_scaling=ag_scaling, show_db_mode=True)
+# adaptive_mask = dn.kg.adaptive_grain(epis, luma_ag_scaling=ag_scaling, show_db_mode=True)
 # adaptive_mask.std.Invert().set_output()
 # adaptive_mask.set_output()
 

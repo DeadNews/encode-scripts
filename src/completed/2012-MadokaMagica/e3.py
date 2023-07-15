@@ -79,7 +79,7 @@ def filt_old(
 
 F1 = dn.filt(mrgc)
 F2 = dn.filt(mrgc, db_thr=0, cs_mode=0, sm_thr=2000)
-F6 = dn.adaptive_grain(F2, strength=1.5, luma_ag_scaling=60)
+F6 = dn.kg.adaptive_grain(F2, strength=1.5, luma_ag_scaling=60)
 F3 = dn.filt(mrgc, sm_thr=35, rt_sigma=0.7, db_grain=8, db_range=5)
 F4 = dn.filt(mrgc, db_saveblack=0)
 F5 = dn.filt(mrgc, db_thr=1.1, sm_thr=50)

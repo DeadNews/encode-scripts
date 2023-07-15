@@ -63,7 +63,7 @@ F1 = dn.filt(mrgc)
 # sb_mask = core.resize.Point(sb_mask, format=GRAY16)
 # sb_mask.set_output()
 
-# AD = dn.adaptive_grain(filtered, strength=0.25, static=True, luma_ag_scaling=12, show_db_mode=True)
+# AD = dn.kg.adaptive_grain(filtered, strength=0.25, static=True, luma_ag_scaling=12, show_db_mode=True)
 # AD.set_output()
 
 F1 = dn.filt(mrgc)

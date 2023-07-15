@@ -81,7 +81,7 @@ F1 = dn.rfs_color(mrgc, F1, F3, tolerance=4)
 # 54222 38882 63842
 # 4818 28322   38882 44162   49922 55486   106830 125542   57122
 
-# F1 = dn.adaptive_grain(F1, strength=0.25, static=True, luma_ag_scaling=12, show_db_mode=False)
+# F1 = dn.kg.adaptive_grain(F1, strength=0.25, static=True, luma_ag_scaling=12, show_db_mode=False)
 # ------------ #
 
 # ----mask---- #
