@@ -14,7 +14,7 @@ pyyaml = "^6.0"
 black = "^23.3.0"
 ruff = "^0.0.276"
 
-[tool.poetry.group.pv.dependencies]
+[tool.poetry.group.runtime.dependencies]
 vspreview = "^0.7.0"
 numpy = "^1.24.3"
 
