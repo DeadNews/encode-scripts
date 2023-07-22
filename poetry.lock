@@ -239,18 +239,18 @@ files = [
 
 [[package]]
 name = "dnfunc"
-version = "0.0.3"
-description = "A collection of Vapoursynth functions and wrapperspoetr"
+version = "0.0.4"
+description = "A collection of Vapoursynth functions and wrappers"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "dnfunc-0.0.3-py3-none-any.whl", hash = "sha256:62e984eb4439b911b0d26061707b286b21a5fd434a8897f58de03791dd1e5a0c"},
-    {file = "dnfunc-0.0.3.tar.gz", hash = "sha256:11138e2f406d2820549ea49d4aebba50230b42a74d2cd1fb829d6c4a57e142f7"},
+    {file = "dnfunc-0.0.4-py3-none-any.whl", hash = "sha256:d99d3cdc5e7b8863c20021485eda08acbce91c64bf473be10d46366475a3ab9c"},
+    {file = "dnfunc-0.0.4.tar.gz", hash = "sha256:b61f7f4c68141eb1d4b38e75ba06188a5d7187b5b9202030d5e3f2bb896204e0"},
 ]
 
 [package.dependencies]
 havsfunc = ">=33,<34"
-lvsfunc = ">=0.7.1,<0.8.0"
+lvsfunc = ">=0.8.0,<0.9.0"
 pyyaml = ">=6.0,<7.0"
 vapoursynth = ">=60"
 vstools = ">=2.1.0,<3.0.0"
@@ -417,13 +417,13 @@ files = [
 
 [[package]]
 name = "lvsfunc"
-version = "0.7.1"
+version = "0.8.0"
 description = "Light's Vapoursynth Functions."
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "lvsfunc-0.7.1-py3-none-any.whl", hash = "sha256:5e0cb910f7130a1360bf12608d402fbfc22a5c4411e0f94549dc0b04444fd613"},
-    {file = "lvsfunc-0.7.1.tar.gz", hash = "sha256:473ad678fdada99d262f5430d5a0f5c967814199a13175304c24574cd5552b64"},
+    {file = "lvsfunc-0.8.0-py3-none-any.whl", hash = "sha256:a2f23d5d0b0af05384f13f07b5aca6047931200154377204bc827a560b81e8a0"},
+    {file = "lvsfunc-0.8.0.tar.gz", hash = "sha256:ef7f95e80d4f7a90b2d2a940737a1666c53e811a7d2722100921f515715c1fbe"},
 ]
 
 [package.dependencies]
@@ -620,6 +620,7 @@ files = [
     {file = "Pillow-10.0.0-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:3b08d4cc24f471b2c8ca24ec060abf4bebc6b144cb89cba638c720546b1cf538"},
     {file = "Pillow-10.0.0-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:d737a602fbd82afd892ca746392401b634e278cb65d55c4b7a8f48e9ef8d008d"},
     {file = "Pillow-10.0.0-cp311-cp311-win_amd64.whl", hash = "sha256:3a82c40d706d9aa9734289740ce26460a11aeec2d9c79b7af87bb35f0073c12f"},
+    {file = "Pillow-10.0.0-cp311-cp311-win_arm64.whl", hash = "sha256:bc2ec7c7b5d66b8ec9ce9f720dbb5fa4bace0f545acd34870eff4a369b44bf37"},
     {file = "Pillow-10.0.0-cp312-cp312-macosx_10_10_x86_64.whl", hash = "sha256:d80cf684b541685fccdd84c485b31ce73fc5c9b5d7523bf1394ce134a60c6883"},
     {file = "Pillow-10.0.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:76de421f9c326da8f43d690110f0e79fe3ad1e54be811545d7d91898b4c8493e"},
     {file = "Pillow-10.0.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:81ff539a12457809666fef6624684c008e00ff6bf455b4b89fd00a140eecd640"},
@@ -629,6 +630,7 @@ files = [
     {file = "Pillow-10.0.0-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:d50b6aec14bc737742ca96e85d6d0a5f9bfbded018264b3b70ff9d8c33485551"},
     {file = "Pillow-10.0.0-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:00e65f5e822decd501e374b0650146063fbb30a7264b4d2744bdd7b913e0cab5"},
     {file = "Pillow-10.0.0-cp312-cp312-win_amd64.whl", hash = "sha256:f31f9fdbfecb042d046f9d91270a0ba28368a723302786c0009ee9b9f1f60199"},
+    {file = "Pillow-10.0.0-cp312-cp312-win_arm64.whl", hash = "sha256:1ce91b6ec08d866b14413d3f0bbdea7e24dfdc8e59f562bb77bc3fe60b6144ca"},
     {file = "Pillow-10.0.0-cp38-cp38-macosx_10_10_x86_64.whl", hash = "sha256:349930d6e9c685c089284b013478d6f76e3a534e36ddfa912cde493f235372f3"},
     {file = "Pillow-10.0.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:3a684105f7c32488f7153905a4e3015a3b6c7182e106fe3c37fbb5ef3e6994c3"},
     {file = "Pillow-10.0.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:b4f69b3700201b80bb82c3a97d5e9254084f6dd5fb5b16fc1a7b974260f89f43"},
@@ -1132,4 +1134,4 @@ vapoursynth = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "313be2fc126f1d9c98febde1e2a2655f6e97a734fd469fe7e042fe1a3e3cc433"
+content-hash = "b36a85f9bd99c1426ff4bed7484bc0e369ac4f776e958d5d6454ff843bc1bf2d"
