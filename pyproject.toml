@@ -11,12 +11,12 @@ dnfunc = "^0.0.4"
 pyyaml = "^6.0"
 
 [tool.poetry.group.lint.dependencies]
-black = "^23.3.0"
-ruff = "^0.0.276"
+black = "^23.7.0"
+ruff = "^0.0.286"
 
 [tool.poetry.group.runtime.dependencies]
-vspreview = "^0.7.0"
-numpy = "^1.24.3"
+vspreview = "^0.7.1"
+numpy = "^1.25.2"
 
 [tool.black]
 line-length = 99
