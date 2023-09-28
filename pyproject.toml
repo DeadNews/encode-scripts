@@ -5,24 +5,25 @@ description = "Vapoursynth scripts"
 authors = ["DeadNews <aurczpbgr@mozmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-vapoursynth = ">=60"
+python = ">=3.11,<3.13"
+vapoursynth = "^64"
 dnfunc = "^0.0.4"
-pyyaml = "^6.0"
+pyyaml = "^6.0.1"
 
 [tool.poetry.group.lint.dependencies]
-black = "^23.3.0"
-ruff = "^0.0.276"
+black = "^23.9.1"
+ruff = "^0.0.291"
 
 [tool.poetry.group.runtime.dependencies]
-vspreview = "^0.7.0"
-numpy = "^1.24.3"
+vspreview = "^0.7.1"
+numpy = "^1.26.0"
 
 [tool.black]
 line-length = 99
 
 [tool.ruff]
 line-length = 99
+target-version = "py311" # until poetry v2
 select = ["ALL"]
 ignore = [
   "COM812",  # Trailing comma missing

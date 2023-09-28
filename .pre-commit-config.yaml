@@ -21,10 +21,15 @@ repos:
       - id: prettier
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.26.3
+    rev: 0.27.0
     hooks:
       - id: check-github-workflows
       - id: check-renovate
+
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.6.26
+    hooks:
+      - id: actionlint
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.0.291
@@ -45,7 +50,7 @@ repos:
         args: [--check]
 
   - repo: https://github.com/scop/pre-commit-shfmt
-    rev: v3.6.0-2
+    rev: v3.7.0-1
     hooks:
       - id: shfmt
         exclude_types: [] # enable for zsh
