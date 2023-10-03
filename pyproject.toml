@@ -12,7 +12,7 @@ pyyaml = "^6.0.1"
 
 [tool.poetry.group.lint.dependencies]
 black = "^23.9.1"
-ruff = "^0.0.291"
+ruff = "^0.0.292"
 
 [tool.poetry.group.runtime.dependencies]
 vspreview = "^0.7.1"
