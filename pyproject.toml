@@ -6,24 +6,25 @@ authors = ["DeadNews <aurczpbgr@mozmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
-vapoursynth = "^64"
+vapoursynth = "^65"
 dnfunc = "^0.0.4"
 pyyaml = "^6.0.1"
 
 [tool.poetry.group.lint.dependencies]
-black = "^23.10.0"
-ruff = "^0.1.1"
+ruff = "^0.1.3"
 
 [tool.poetry.group.runtime.dependencies]
 vspreview = "^0.7.1"
 numpy = "^1.26.1"
 
-[tool.black]
-line-length = 99
-
 [tool.ruff]
 line-length = 99
 target-version = "py311" # until poetry v2
+
+[tool.ruff.format]
+line-ending = "lf"
+
+[tool.ruff.lint]
 select = ["ALL"]
 ignore = [
   "COM812",  # Trailing comma missing
@@ -33,7 +34,8 @@ ignore = [
   "EXE001",  # Shebang is present but file is not executable
   "FBT001",  # Boolean positional arg in function definition
   "FBT002",  # Boolean default value in function definition
-  "PERF203", # `try`-`except` within a loop incurs performance overhead
+  "ISC001",  # Checks for implicitly concatenated strings on a single line.
+  "PLR0913", # Too many arguments to function call
   #
   "BLE001", # Do not catch blind exception: `Exception`
   "D100",   # Missing docstring in public module
