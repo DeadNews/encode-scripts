@@ -23,17 +23,6 @@ find . -iname '*.bookmarks' -not -path "*/bookmarks/*" -execdir sh -c "mkdir -p 
 ## Find
 
 ```sh
-# Find empty files
-find . -type f -empty
-
-# Find non-mask png
-find . -iname '*.png' -not -path "*/mask/*"
-
-# Find test/old stuff
-find . -iname '*pw.py'
-find . -iname '*test.py'
-find . -type d -iname '*old'
-
 # Find cyrillic symbols
 find . -type f -exec grep -IPn "[\p{Cyrillic}]" '{}' +
 ```
