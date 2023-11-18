@@ -201,21 +201,21 @@ tests = ["pytest", "pytest-cov", "pytest-xdist"]
 
 [[package]]
 name = "dnfunc"
-version = "0.0.4"
+version = "0.0.5"
 description = "A collection of Vapoursynth functions and wrappers"
 optional = false
-python-versions = ">=3.10,<4.0"
+python-versions = ">=3.11,<4.0"
 files = [
-    {file = "dnfunc-0.0.4-py3-none-any.whl", hash = "sha256:d99d3cdc5e7b8863c20021485eda08acbce91c64bf473be10d46366475a3ab9c"},
-    {file = "dnfunc-0.0.4.tar.gz", hash = "sha256:b61f7f4c68141eb1d4b38e75ba06188a5d7187b5b9202030d5e3f2bb896204e0"},
+    {file = "dnfunc-0.0.5-py3-none-any.whl", hash = "sha256:bb32bf506b8cfc93e501f9245053e2f9dbb402571a540a0e44dcd28b81718cea"},
+    {file = "dnfunc-0.0.5.tar.gz", hash = "sha256:9baa926c22194383f2f137eb6c4d3c9285bf8387f5d752dd733fa918b9c21bb1"},
 ]
 
 [package.dependencies]
 havsfunc = ">=33,<34"
 lvsfunc = ">=0.8.0,<0.9.0"
-pyyaml = ">=6.0,<7.0"
-vapoursynth = ">=60"
-vstools = ">=2.1.0,<3.0.0"
+pyyaml = ">=6.0.1,<7.0.0"
+vapoursynth = ">=65,<66"
+vstools = ">=3.0.1,<4.0.0"
 vsutil = ">=0.8.0,<0.9.0"
 
 [[package]]
@@ -988,6 +988,17 @@ files = [
 ]
 
 [[package]]
+name = "stgpytools"
+version = "1.0.3"
+description = "Collection of stuff that's useful in general python programming"
+optional = false
+python-versions = ">=3.11"
+files = [
+    {file = "stgpytools-1.0.3-py3-none-any.whl", hash = "sha256:c17ca66457bac7e4a0a62abefa93d336b25af77d80db50d2df9947604b73f55b"},
+    {file = "stgpytools-1.0.3.tar.gz", hash = "sha256:3e9dfc43bddd55f31970fa00339d6e8592df5a63dfc8f0d85062614e56ed33ad"},
+]
+
+[[package]]
 name = "typing-extensions"
 version = "4.8.0"
 description = "Backported and Experimental Type Hints for Python 3.8+"
@@ -1088,18 +1099,19 @@ vstools = ">=2.3.0"
 
 [[package]]
 name = "vstools"
-version = "2.3.0"
+version = "3.0.1"
 description = "Functions and utils related to VapourSynth"
 optional = false
-python-versions = ">=3.10"
+python-versions = ">=3.11"
 files = [
-    {file = "vstools-2.3.0-py3-none-any.whl", hash = "sha256:a92ebc140b072e7a324e56bb33a9b18ffcea6c579c6d13ea1c458f7c61914fb4"},
-    {file = "vstools-2.3.0.tar.gz", hash = "sha256:eafbd0d4f5a0538f777f5632a9d20931381193bca389a8893544429324ba3a96"},
+    {file = "vstools-3.0.1-py3-none-any.whl", hash = "sha256:d0cef936b20e88d5359ca054408a2d24d3e5f8367bc82a29e75dff5baef4542f"},
+    {file = "vstools-3.0.1.tar.gz", hash = "sha256:d5b25a694833d7722864fea1828cb5067bd52bc772f27dad1b12c07700af0197"},
 ]
 
 [package.dependencies]
 rich = ">=12.6.0"
-VapourSynth = ">=63"
+stgpytools = ">=1.0.0"
+VapourSynth = ">=65"
 
 [[package]]
 name = "vsutil"
@@ -1118,4 +1130,4 @@ vapoursynth = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.13"
-content-hash = "43fbb8941d6724ccd76dde2e346aaa78dcf9b55050a570e30e9abb60b04f9f8d"
+content-hash = "5b82cd5ec6cd2c7848bf7b34bff5b9bd38e767573913db6e07271ec11f001d82"
