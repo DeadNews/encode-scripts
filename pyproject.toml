@@ -11,7 +11,7 @@ dnfunc = "^0.0.5"
 pyyaml = "^6.0.1"
 
 [tool.poetry.group.lint.dependencies]
-ruff = "^0.1.6"
+ruff = "^0.1.8"
 
 [tool.poetry.group.runtime.dependencies]
 vspreview = "^0.8.1"
