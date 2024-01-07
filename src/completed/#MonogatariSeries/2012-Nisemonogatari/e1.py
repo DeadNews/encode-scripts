@@ -108,7 +108,20 @@ clip.set_output()
 # epis.set_output()
 # clip.std.Trim(0, 773).set_output()
 # clip.std.Trim(1836, 1982).set_output()
-# output = clip[10:95] + clip[1330:1347] + clip[1701:1718] + clip[1836:1982] + clip[2649:2681] + clip[2917:3072] + clip[3835:3864] + clip[4152:4337] + clip[5370:5540] + clip[7408:7431] + clip[7720:7821]; output.set_output()
+# output = (
+#     clip[10:95]
+#     + clip[1330:1347]
+#     + clip[1701:1718]
+#     + clip[1836:1982]
+#     + clip[2649:2681]
+#     + clip[2917:3072]
+#     + clip[3835:3864]
+#     + clip[4152:4337]
+#     + clip[5370:5540]
+#     + clip[7408:7431]
+#     + clip[7720:7821]
+# )
+# output.set_output()
 
 # dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, out_mask=True).set_output()
 # ------------ #

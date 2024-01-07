@@ -133,7 +133,16 @@ clip.set_output()
 # dn.pw4(mrgc, 2, 1, epis, clip).set_output()
 # epis.set_output()
 # clip.std.Trim(27918, 28102).set_output()
-# output = clip[22484:22694] + clip[23834:24112] + clip[24143:24220] + clip[24658:24674] + clip[24846:24908] + clip[26932:26989] + clip[27918:28102]; output.set_output()
+# output = (
+#     clip[22484:22694]
+#     + clip[23834:24112]
+#     + clip[24143:24220]
+#     + clip[24658:24674]
+#     + clip[24846:24908]
+#     + clip[26932:26989]
+#     + clip[27918:28102]
+# )
+# output.set_output()
 
 # dn.rfs_resc(mrgc, epis, desc_h=desc_h, mthr=50, out_mask=True).set_output()
 # ------------ #

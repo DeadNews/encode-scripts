@@ -1,10 +1,32 @@
-find_empty_files:
+.PHONY: test
+
+install-all: install pc-install
+
+install:
+	poetry install --sync
+
+pc-install:
+	pre-commit install
+
+update-latest:
+	poetry up --latest
+
+checks: pc-run
+
+pc-run:
+	pre-commit run -a
+
+find: find-empty find-nonmask find-test find-old
+
+find-empty:
 	find . -type f -empty
 
-find_nonmask_png:
+find-nonmask:
 	find . -iname '*.png' -not -path "*/mask/*"
 
-find_test_or_old:
+find-test:
 	find . -iname '*pw.py'
 	find . -iname '*test.py'
+
+find-old:
 	find . -type d -iname '*old'
