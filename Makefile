@@ -1,4 +1,4 @@
-.PHONY: test
+.PHONY: all clean test checks find
 
 install-all: install pc-install
 
