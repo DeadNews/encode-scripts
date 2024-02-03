@@ -30,11 +30,9 @@ ignore = [
   "COM812",  # Trailing comma missing
   "D203",    # 1 blank line required before class docstring
   "D212",    # Multi-line docstring summary should start at the first line
-  "E501",    # Line too long
-  "EXE001",  # Shebang is present but file is not executable
   "FBT001",  # Boolean positional arg in function definition
   "FBT002",  # Boolean default value in function definition
-  "ISC001",  # Checks for implicitly concatenated strings on a single line.
+  "ISC001",  # Checks for implicitly concatenated strings on a single line
   "PLR0913", # Too many arguments to function call
   #
   "BLE001", # Do not catch blind exception: `Exception`
@@ -46,14 +44,12 @@ ignore = [
   "T201",   # `print` found
 ]
 
-[tool.ruff.flake8-comprehensions]
-allow-dict-calls-with-keyword-arguments = false
-
 [tool.ruff.flake8-annotations]
 ignore-fully-untyped = true
 
-[tool.ruff.pydocstyle]
-convention = "google"
-
-[tool.ruff.pycodestyle]
+[tool.ruff.lint.pycodestyle]
 max-doc-length = 129
+max-line-length = 129
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
