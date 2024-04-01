@@ -16,12 +16,12 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v3.1.0
+    rev: v4.0.0-alpha.8
     hooks:
       - id: prettier
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.28.0
+    rev: 0.28.1
     hooks:
       - id: check-github-workflows
       - id: check-renovate
@@ -37,20 +37,20 @@ repos:
       - id: checkmake
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.3.2
+    rev: v0.3.5
     hooks:
       - id: ruff-format
       - id: ruff
         args: [--fix]
 
   - repo: https://github.com/python-poetry/poetry
-    rev: 1.8.2
+    rev: 1.8.0
     hooks:
       - id: poetry-check
         args: [--lock]
 
   - repo: https://github.com/scop/pre-commit-shfmt
-    rev: v3.7.0-1
+    rev: v3.8.0-1
     hooks:
       - id: shfmt
         exclude_types: [] # enable for zsh
