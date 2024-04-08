@@ -2,7 +2,7 @@
 name = "encode-scripts"
 version = "0.0.0"
 description = "Vapoursynth scripts"
-authors = ["DeadNews <aurczpbgr@mozmail.com>"]
+authors = ["DeadNews <deadnewsgit@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"

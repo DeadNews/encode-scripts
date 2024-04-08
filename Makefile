@@ -1,19 +1,17 @@
-.PHONY: all clean test checks find
+.PHONY: all clean test default checks pc find
 
-install-all: install pc-install
+default: checks
 
 install:
+	pre-commit install
 	poetry install --sync
 
-pc-install:
-	pre-commit install
-
-update-latest:
+update:
 	poetry up --latest
 
-checks: pc-run
+checks: pc
 
-pc-run:
+pc:
 	pre-commit run -a
 
 find: find-empty find-nonmask find-test find-old
