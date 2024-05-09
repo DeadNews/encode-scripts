@@ -1,4 +1,3 @@
-// Workspace settings override user settings.
 {
   "files.associations": {
     "*.bookmarks": "plaintext",
