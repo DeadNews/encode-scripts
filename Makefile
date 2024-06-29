@@ -4,7 +4,7 @@ default: checks
 
 install:
 	pre-commit install
-	poetry install --sync
+	poetry install --sync --no-root
 
 update:
 	poetry up --latest

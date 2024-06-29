@@ -20,7 +20,7 @@ y = (
 )
 u = planes[1].edgefixer.Continuity(top=1.5, bottom=1.5, left=1.5, right=1.5)
 v = planes[2].edgefixer.Continuity(top=1.5, bottom=1.5, left=1.5, right=1.5)
-#
+
 # epis_ef = dn.join([y, u, v])
 
 v.set_output()
