@@ -15,7 +15,7 @@ ruff = "^0.4.7"
 
 [tool.poetry.group.runtime.dependencies]
 vspreview = "^0.8.1"
-numpy = "^1.26.4"
+numpy = "^2.0.0"
 
 [tool.pyright]
 typeCheckingMode = "off"
