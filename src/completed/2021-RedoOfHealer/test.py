@@ -1,12 +1,12 @@
 import dnfunc as dn
 from lvsfunc import render
-from rich import print
+from rich import print as rprint
 
 epname = "e1"
 epis = dn.source(f"./in/{epname}.mp4")
 
 keyframes = render.find_scene_changes(epis)
-print(keyframes)
+rprint(keyframes)
 
 # [
 #     0,
