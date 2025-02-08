@@ -11,11 +11,11 @@ dnfunc = "^0.1.0"
 pyyaml = "^6.0.2"
 
 [tool.poetry.group.lint.dependencies]
-ruff = "^0.9.1"
+ruff = "^0.9.5"
 
 [tool.poetry.group.runtime.dependencies]
 vspreview = "^0.10.1"
-numpy = "^2.2.1"
+numpy = "^2.2.2"
 
 [tool.pyright]
 typeCheckingMode = "off"
