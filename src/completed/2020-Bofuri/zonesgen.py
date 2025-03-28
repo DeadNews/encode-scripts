@@ -14,9 +14,7 @@ if __name__ == "__main__":
             ED = dn.chapt(epname, "ED")
             EDend = dn.chapt(epname, "EDend")
 
-            zone = (
-                f"{epname}: {OP},{OPend-1},b=0.86/{ED},{EDend-1},b=0.86/{ED+166},{ED+288},b=0.45"
-            )
+            zone = f"{epname}: {OP},{OPend - 1},b=0.86/{ED},{EDend - 1},b=0.86/{ED + 166},{ED + 288},b=0.45"
             print(zone)
 
         except (NameError, TypeError):
@@ -24,7 +22,7 @@ if __name__ == "__main__":
                 OP = dn.chapt(epname, "OP")
                 OPend = dn.chapt(epname, "Part_A")
 
-                zone = f"{epname}: {OP},{OPend-1},b=0.86"
+                zone = f"{epname}: {OP},{OPend - 1},b=0.86"
                 print(zone)
 
             except (NameError, TypeError):

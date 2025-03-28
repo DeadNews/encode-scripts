@@ -17,7 +17,7 @@ if __name__ == "__main__":
             Next = dn.chapt(epname, "Next")
             EOF = dn.chapt(epname, "EOF")
 
-            zone = f"{epname}: {OP},{OPend},b=0.85/{OP},{OP+356},b=0.70/{ED},{EDend},b=0.90"
+            zone = f"{epname}: {OP},{OPend},b=0.85/{OP},{OP + 356},b=0.70/{ED},{EDend},b=0.90"
             print(zone)
 
         except (NameError, TypeError):
