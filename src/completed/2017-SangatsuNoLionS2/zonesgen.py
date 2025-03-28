@@ -15,7 +15,7 @@ if __name__ == "__main__":
             EDend = dn.chapt(epname, "EDend", "Next")
 
             # zone=f'{epname}: {OP},{OPend-1},b=0.80/{ED},{EDend-1},b=0.98' #1-11
-            zone = f"{epname}: {ED},{EDend-1},b=0.65"  # 12-22
+            zone = f"{epname}: {ED},{EDend - 1},b=0.65"  # 12-22
 
             print(zone)
 

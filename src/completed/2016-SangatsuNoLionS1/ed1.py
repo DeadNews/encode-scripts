@@ -10,10 +10,11 @@ epis = dn.source(f"./in/{epname}.mp4")
 # ------------ #
 
 # -----aa----- #
-if Path(f"./temp/{epname}_aa_lossless.mp4").is_file():
-    aaep = dn.source(f"./temp/{epname}_aa_lossless.mp4")
-else:
-    aaep = dn.aa(epis, desc_h=desc_h, kernel=kernel)
+aaep = (
+    dn.source(f"./temp/{epname}_aa_lossless.mp4")
+    if Path(f"./temp/{epname}_aa_lossless.mp4").is_file()
+    else dn.aa(epis, desc_h=desc_h, kernel=kernel)
+)
 
 mrgc = aaep
 # ------------ #

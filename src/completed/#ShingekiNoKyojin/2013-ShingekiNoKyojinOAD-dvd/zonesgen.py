@@ -12,7 +12,7 @@ if __name__ == "__main__":
             ED = dn.chapt(epname, "ED")
             EDend = dn.chapt(epname, "EDend")
 
-            zone = f"{epname}: {ED},{EDend-1},b=0.90"
+            zone = f"{epname}: {ED},{EDend - 1},b=0.90"
             print(zone)
 
         except (NameError, TypeError):

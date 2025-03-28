@@ -17,8 +17,8 @@ if __name__ == "__main__":
 
             zone = (
                 f"{epname}:"
-                f" {OP},{OPend-1},b=0.60"
-                f"/{ED},{EDend-1},b=0.80/{ED},{ED+270},b=0.40/{ED+1333},{ED+1876},b=0.49/{Next},{Next+71},b=0.50"
+                f" {OP},{OPend - 1},b=0.60"
+                f"/{ED},{EDend - 1},b=0.80/{ED},{ED + 270},b=0.40/{ED + 1333},{ED + 1876},b=0.49/{Next},{Next + 71},b=0.50"
             )
             print(zone)
 

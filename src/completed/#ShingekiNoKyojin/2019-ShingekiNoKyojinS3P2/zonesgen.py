@@ -21,8 +21,8 @@ if __name__ == "__main__":
 
             zone = (
                 f"{epname}:"
-                f" {OP},{OPend-1},b=0.80/{OPend},{OPend+120},b=0.36"
-                f"/{ED},{EDend-1},b=0.70/{Next},{T1},b=0.36/{T2},{EOF-1},b=0.36"
+                f" {OP},{OPend - 1},b=0.80/{OPend},{OPend + 120},b=0.36"
+                f"/{ED},{EDend - 1},b=0.70/{Next},{T1},b=0.36/{T2},{EOF - 1},b=0.36"
             )
             print(zone)
 
@@ -33,7 +33,5 @@ if __name__ == "__main__":
             ED = dn.chapt(epname, "ED")
             EDend = dn.chapt(epname, "EDend", "Next")
 
-            zone = (
-                f"{epname}: {OP},{OPend-1},b=0.80/{OPend},{OPend+120},b=0.36/{ED},{EDend-1},b=0.70"
-            )
+            zone = f"{epname}: {OP},{OPend - 1},b=0.80/{OPend},{OPend + 120},b=0.36/{ED},{EDend - 1},b=0.70"
             print(zone)

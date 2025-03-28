@@ -11,18 +11,18 @@ dnfunc = "^0.1.0"
 pyyaml = "^6.0.2"
 
 [tool.poetry.group.lint.dependencies]
-ruff = "^0.9.10"
+ruff = "^0.11.2"
 
 [tool.poetry.group.runtime.dependencies]
 vspreview = "^0.11.3"
-numpy = "^2.2.3"
+numpy = "^2.2.4"
 
 [tool.pyright]
 typeCheckingMode = "off"
 
 [tool.ruff]
 line-length = 99
-target-version = "py311" # Until Poetry v2
+target-version = "py312" # Until Poetry v2
 
 [tool.ruff.format]
 line-ending = "lf"
@@ -50,7 +50,7 @@ ignore-fully-untyped = true
 
 [tool.ruff.lint.pycodestyle]
 max-doc-length = 129
-max-line-length = 129
+max-line-length = 149
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
