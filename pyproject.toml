@@ -1,33 +1,26 @@
-[tool.poetry]
-name = "encode-scripts"
-version = "0.0.0"
-description = "Vapoursynth scripts"
-authors = ["DeadNews <deadnewsgit@gmail.com>"]
+[project]
+name            = "encode-scripts"
+description     = "Vapoursynth scripts"
+version         = "0.0.0"
+authors         = [{ name = "deadnews", email = "deadnewsgit@gmail.com" }]
+requires-python = ">=3.13"
 
-[tool.poetry.dependencies]
-python = "^3.12"
-vapoursynth = "^70"
-dnfunc = "^0.1.0"
-pyyaml = "^6.0.2"
+dependencies = ["vapoursynth>=72", "dnfunc>=0.2.0", "pyyaml>=6.0.2"]
 
-[tool.poetry.group.lint.dependencies]
-ruff = "^0.12.1"
-
-[tool.poetry.group.runtime.dependencies]
-vspreview = "^0.13.0"
-numpy = "^2.3.1"
-
-[tool.pyright]
-typeCheckingMode = "off"
+[dependency-groups]
+dev = ["ruff>=0.12.1", "vspreview>=0.13.0", "numpy>=2.3.1"]
 
 [tool.ruff]
-line-length = 99
-target-version = "py312" # Until Poetry v2
-
-[tool.ruff.format]
-line-ending = "lf"
+line-length        = 99
+format.line-ending = "lf"
 
 [tool.ruff.lint]
+flake8-annotations.ignore-fully-untyped  = true
+flake8-tidy-imports.ban-relative-imports = "all"
+pycodestyle.max-doc-length               = 129
+pycodestyle.max-line-length              = 149
+pydocstyle.convention                    = "google"
+
 select = ["ALL"]
 ignore = [
   "COM812",  # Trailing comma missing
@@ -45,12 +38,9 @@ ignore = [
   "T201",   # `print` found
 ]
 
-[tool.ruff.lint.flake8-annotations]
-ignore-fully-untyped = true
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+"tests/*"     = ["ANN", "D", "E501", "PLC1901", "PLR2004", "S"]
 
-[tool.ruff.lint.pycodestyle]
-max-doc-length = 129
-max-line-length = 149
-
-[tool.ruff.lint.pydocstyle]
-convention = "google"
+[tool.pyright]
+typeCheckingMode = "off"

@@ -1,15 +1,14 @@
-.PHONY: all clean test default checks pc find
+.PHONY: all clean default install lock update check pc test docs run
 
-default: checks
+default: check
 
 install:
 	pre-commit install
-	poetry sync --no-root
-
+	uv sync
 update:
-	poetry up --latest
+	uv sync --upgrade
 
-checks: pc
+check: pc
 pc:
 	pre-commit run -a
 
