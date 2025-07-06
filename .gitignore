@@ -65,3 +65,6 @@ in
 in/
 out
 out/
+
+# temp
+.temp.md
